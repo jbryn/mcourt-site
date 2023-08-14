@@ -2,7 +2,7 @@ import styles from "./hero.module.scss";
 
 export default function Hero() {
   return (
-    <section>
+    <section className="overflow-hidden">
       <div className={styles.hero}>
         <h1>Experience Quality and Precision</h1>
         <h2>
