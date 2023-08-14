@@ -1,0 +1,12 @@
+.wrapper {
+  @apply flex items-center justify-between px-[165px] py-[10px];
+  @apply border-b-2;
+
+  .logo {
+    @apply min-w-[160px];
+  }
+
+  .list {
+    @apply flex gap-[50px]  text-[14px];
+  }
+}
