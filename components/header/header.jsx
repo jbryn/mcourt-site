@@ -8,7 +8,7 @@ export default function Header() {
         <Link href="/">
           <img
             className={styles.logo}
-            src="./img/mcourt-logo.svg"
+            src="./img/mcourt-logo.png"
             alt="mcourt-logo"
           ></img>
         </Link>
