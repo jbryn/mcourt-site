@@ -1,12 +1,11 @@
 .hero {
-  @apply ml-[100px] mt-[50px];
+  @apply ml-[100px] mt-[50px] max-w-[450px];
   @apply flex flex-col gap-[40px];
-
   @apply lg:ml-[257px] lg:mt-[100px];
 
   h1,
   h2 {
-    @apply text-white max-w-[450px];
+    @apply text-white;
   }
 
   h1 {
@@ -20,15 +19,24 @@
   h2 {
     @apply text-[14px];
   }
+
+  .cta {
+    @apply px-[35px] py-[10px] rounded-md;
+    @apply text-white text-[14px] max-w-[149px];
+    @apply bg-green;
+  }
+}
+
+.scrollDown {
+  @apply grid place-items-center pt-[37px];
 }
 
 .ball {
-  @apply absolute top-0 right-0;
+  @apply absolute top-0 right-0 -z-10;
 }
 
 .background {
-  @apply absolute top-0 -z-10;
-
+  @apply absolute top-0 -z-20;
   @apply w-full;
 
   filter: brightness(0.3);

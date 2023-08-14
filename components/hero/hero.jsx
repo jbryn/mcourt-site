@@ -9,8 +9,13 @@ export default function Hero() {
           mCourt is a company with over a decade of experience in building and
           maintaining tennis courts.
         </h2>
+        <button className={styles.cta}>Learn More</button>
       </div>
-      <button>Learn More</button>
+
+      <div className={styles.scrollDown}>
+        <img src="./vectors/arrow-scroll-down.svg" alt="scroll-down" />
+      </div>
+
       <img className={styles.ball} src="./vectors/ball.svg" alt="ball" />
 
       <img

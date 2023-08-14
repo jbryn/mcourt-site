@@ -1,12 +1,38 @@
 .wrapper {
-  @apply flex items-center justify-between px-[165px] py-[10px];
+  @apply flex items-center justify-between py-[10px] px-[32px];
   @apply border-b-[1px] border-grey;
+  @apply md:px-[80px];
+  @apply lg:px-[165px];
 
   .logo {
     @apply max-w-[160px];
   }
 
   .list {
-    @apply flex gap-[50px] text-[14px] text-white;
+    @apply gap-[30px] text-[12px] text-white;
+    @apply hidden;
+    @apply md:flex;
+  }
+
+  .hamburger {
+    @apply w-[32px];
+    @apply block;
+    @apply cursor-pointer;
+    @apply md:hidden;
+  }
+}
+
+.menu {
+  @apply absolute top-0 left-0 w-[100vw] h-[100vh] bg-black;
+
+  .list {
+    @apply absolute top-[50%] left-[50%];
+    @apply text-white text-[44px];
+    transform: translate(-50%, -50%);
+  }
+
+  .close {
+    @apply absolute right-5 top-5;
+    @apply cursor-pointer z-10;
   }
 }
