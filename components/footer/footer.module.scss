@@ -1,0 +1,7 @@
+.wrapper {
+  @apply relative w-full h-[336px] px-[58px] bg-black;
+
+  .card {
+    @apply absolute bottom-[151px] rounded-[40px] bg-white;
+  }
+}

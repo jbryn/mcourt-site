@@ -30,7 +30,7 @@ export default function Header() {
           <img src="./icons/hamburger.svg" alt="hamburger" />
         </div>
       </div>
-      <div className={classNames(styles.menu, { ["hidden"]: isMenuOpen })}>
+      <div className={classNames(styles.menu, { ["hidden"]: !isMenuOpen })}>
         <div
           className={styles.close}
           onClick={() => setMenuOpen((prev) => !prev)}
