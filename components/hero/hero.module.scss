@@ -37,7 +37,7 @@
 
 .background {
   @apply absolute top-0 -z-20;
-  @apply min-w-[2000px] h-[721px];
+  @apply w-[100vw] h-[721px];
 
   filter: brightness(0.3);
 }

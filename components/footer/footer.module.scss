@@ -1,7 +1,26 @@
 .wrapper {
-  @apply relative w-full h-[336px] px-[58px] bg-black;
+  @apply bg-black h-[336px];
+  @apply grid place-items-center;
+  @apply relative;
 
   .card {
-    @apply absolute bottom-[151px] rounded-[40px] bg-white;
+    @apply absolute bottom-[159px] max-w-[1316px];
+    @apply bg-white rounded-[40px];
+    @apply grid place-items-center;
+
+    .logo {
+      @apply absolute max-w-[216px];
+    }
+  }
+
+  span {
+    @apply text-white text-[14px];
+  }
+
+  .contact {
+    @apply flex items-center gap-[10px];
+    @apply absolute bottom-0 right-0 py-[29px] px-[58px] bg-green;
+    @apply text-white text-[24px];
+    border-radius: 40px 0px 0px 0px;
   }
 }
