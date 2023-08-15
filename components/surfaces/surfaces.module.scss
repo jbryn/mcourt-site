@@ -1,0 +1,25 @@
+.container {
+  @apply px-[167px] my-[112px];
+
+  h2 {
+    @apply text-[42px] font-semibold;
+  }
+
+  .cards {
+    @apply grid grid-cols-3 grid-rows-2 gap-[29px];
+    @apply pt-[52px];
+
+    div {
+      @apply relative;
+
+      img {
+        @apply rounded-[10px];
+      }
+
+      h3 {
+        @apply absolute bottom-[22px] left-[31px];
+        @apply font-semibold text-[18px] text-white;
+      }
+    }
+  }
+}
