@@ -32,14 +32,12 @@ body {
 .swiper-button-prev {
   position: absolute !important;
   left: 0 !important;
-
   width: 40% !important;
 }
 
 .swiper-button-next {
   position: absolute !important;
   right: 0 !important;
-
   width: 60% !important;
 }
 

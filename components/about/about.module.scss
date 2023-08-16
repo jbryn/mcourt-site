@@ -13,9 +13,7 @@
 }
 
 .image {
-  // @apply absolute right-[167px];
   @apply rounded-[10px] -z-10;
-  // @apply min-h-[623px];
   @apply transform -translate-x-[60px];
 }
 
@@ -54,11 +52,16 @@
   @apply rounded-[10px] min-w-[350px];
   border: 1px solid #7ed957;
 
-  span {
-    @apply text-[69px] font-semibold;
-  }
+  .top {
+    @apply flex justify-between  gap-[52px] pb-[17px] mb-[21px];
+    @apply border-b-[1px] border-green;
 
-  p {
-    @apply text-[18px] text-light-grey;
+    span {
+      @apply text-[69px] font-semibold;
+    }
+
+    p {
+      @apply text-[18px] text-light-grey;
+    }
   }
 }

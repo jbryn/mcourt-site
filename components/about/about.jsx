@@ -36,21 +36,21 @@ export default function About() {
 
       <div className="flex justify-center gap-[30px] pt-[127px]">
         <div className={styles.stat}>
-          <div className="flex gap-[52px] pb-[17px] mb-[21px] border-b-[1px] border-green">
+          <div className={styles.top}>
             <span>200</span>
             <img src="./vectors/stats-circles.svg" alt="stat" />
           </div>
           <p>Zbudowanych kortów</p>
         </div>
         <div className={styles.stat}>
-          <div className="flex gap-[52px] pb-[17px] mb-[21px] border-b-[1px] border-green">
+          <div className={styles.top}>
             <span>10</span>
             <img src="./vectors/stats-circles.svg" alt="stat" />
           </div>
           <p>Lat doświadczenia</p>
         </div>
         <div className={styles.stat}>
-          <div className="flex gap-[52px] pb-[17px] mb-[21px] border-b-[1px] border-green">
+          <div className={styles.top}>
             <span>8</span>
             <img src="./vectors/stats-circles.svg" alt="stat" />
           </div>
