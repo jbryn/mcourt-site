@@ -1,0 +1,53 @@
+.container {
+  @apply mt-[286px] flex relative;
+  @apply px-[167px];
+
+  .background {
+    z-index: -10;
+    position: absolute;
+    left: 0;
+    width: 503px;
+    height: 600px;
+    border-radius: 623px;
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(177, 176, 185, 0.6) 0%,
+      rgba(177, 176, 185, 0) 100%
+    );
+  }
+
+  .card {
+    @apply shadow-2xl;
+    @apply bg-white;
+    @apply flex flex-col gap-[35px];
+    @apply max-h-[600px];
+    @apply rounded-[10px];
+    @apply pt-[54px] pl-[47px] pr-[44px] pb-[54px];
+
+    h2 {
+      @apply text-[42px] font-semibold;
+    }
+
+    p {
+      @apply text-[16px] text-light-grey;
+      @apply max-w-[317px];
+    }
+
+    .bottom {
+      @apply flex gap-[43px];
+
+      .button {
+        @apply text-[14px] text-white py-[10px] px-[29px] rounded-[5px] bg-green;
+      }
+
+      .logo {
+        @apply max-w-[160px];
+      }
+    }
+  }
+
+  .image {
+    @apply rounded-[10px] w-[700px] -z-10;
+    @apply transform -translate-x-20;
+  }
+}

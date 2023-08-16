@@ -1,12 +1,13 @@
 .container {
-  @apply px-[167px] my-[112px];
+  @apply px-[167px] mt-[112px];
 
   h2 {
     @apply text-[42px] font-semibold;
   }
 
   .cards {
-    @apply grid grid-cols-3 grid-rows-2 gap-[29px];
+    @apply grid grid-cols-2 grid-rows-3 gap-[29px];
+    @apply lg:grid-cols-3 lg:grid-rows-2;
     @apply pt-[52px];
 
     div {
