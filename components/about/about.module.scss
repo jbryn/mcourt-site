@@ -1,80 +1,92 @@
-.background {
-  z-index: -10;
-  position: absolute;
-  left: 0;
-  width: 503px;
-  height: 600px;
-  border-radius: 623px;
-  background: radial-gradient(
-    50% 50% at 50% 50%,
-    rgba(177, 176, 185, 0.6) 0%,
-    rgba(177, 176, 185, 0) 100%
-  );
-}
+.container {
+  @apply pt-[286px] pb-[299px];
+  @apply max-[1333px]:pt-[180px];
 
-.image {
-  @apply rounded-[10px] -z-10;
-  @apply transform -translate-x-[60px];
-}
-
-.card {
-  @apply bg-white;
-  @apply flex flex-col gap-[35px];
-  @apply w-[526px] h-[541px];
-  @apply rounded-[10px];
-  @apply pt-[54px] pl-[47px] pr-[44px] pb-[54px];
-  @apply transform translate-x-[60px];
-
-  h2 {
-    @apply text-[42px] font-semibold;
+  .background {
+    @apply -z-10 absolute left-0 w-[503px] h-[600px] rounded-[623px];
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(177, 176, 185, 0.6) 0%,
+      rgba(177, 176, 185, 0) 100%
+    );
   }
 
-  p {
-    @apply text-[16px] text-light-grey;
-    @apply w-[435px];
-  }
+  .cardsWrapper {
+    @apply flex items-center justify-center;
+    @apply max-[400px]:px-[20px];
+    @apply max-[1333px]:flex-col max-[1333px]:gap-[100px];
+    @apply max-[1333px]:px-[60px];
+    @apply max-[400px]:px-[20px];
 
-  .bottom {
-    @apply flex gap-[43px];
+    .card {
+      @apply bg-white shadow-2xl;
+      @apply flex flex-col gap-[35px];
+      @apply max-w-[526px] max-h-[541px];
+      @apply rounded-[10px];
+      @apply pt-[54px] pl-[47px] pr-[44px] pb-[54px];
+      @apply min-[1333px]:transform min-[1333px]:translate-x-[60px];
+      @apply max-[1333px]:max-w-[700px] max-[1333px]:max-h-fit;
 
-    .button {
-      @apply text-[14px] text-white py-[10px] px-[29px] rounded-[5px] bg-green;
-    }
-
-    .logo {
-      @apply max-w-[160px];
-    }
-  }
-}
-
-.statsContainer {
-  @apply flex flex-col justify-center gap-[30px] pt-[127px] px-[20px];
-  @apply md:px-[60px];
-  @apply lg:px-[167px];
-  @apply min-[1110px]:flex-row;
-
-  .stat {
-    @apply pt-[14px] pr-6 pb-7 pl-8;
-    @apply rounded-[10px];
-    @apply sm:min-w-[350px];
-    border: 1px solid #7ed957;
-
-    .top {
-      @apply flex justify-between  pb-[17px] mb-[21px];
-      @apply border-b-[1px] border-green;
-
-      span {
+      h2 {
         @apply text-[42px] font-semibold;
-        @apply min-[400px]:text-[69px];
-      }
-
-      img {
-        @apply w-[75px] h-[75px];
-        @apply min-[400px]:w-[110px] min-[400px]:h-[110px];
       }
 
       p {
-        @apply text-[18px] text-light-grey;
+        @apply text-[14px] text-light-grey;
+        @apply max-w-[435px];
+        @apply max-[1333px]:max-w-[600px];
+        @apply sm:text-[16px];
+      }
+
+      .bottom {
+        @apply flex flex-col gap-[25px];
+        @apply sm:flex-row sm:gap-[43px];
+
+        .button {
+          @apply text-[14px] text-white py-[10px] px-[29px] rounded-[5px] bg-green;
+        }
+
+        .logo {
+          @apply max-w-[160px];
+        }
+      }
+    }
+
+    .image {
+      @apply rounded-[10px] -z-10;
+      @apply min-[1333px]:transform min-[1333px]:-translate-x-[60px];
+    }
+  }
+
+  .statsContainer {
+    @apply flex flex-col justify-center gap-[30px] pt-[127px] px-[20px];
+    @apply md:px-[60px];
+    @apply lg:px-[167px];
+    @apply min-[1110px]:flex-row;
+
+    .stat {
+      @apply pt-[14px] pr-6 pb-7 pl-8;
+      @apply rounded-[10px];
+      @apply sm:min-w-[350px];
+      border: 1px solid #7ed957;
+
+      .top {
+        @apply flex justify-between  pb-[17px] mb-[21px];
+        @apply border-b-[1px] border-green;
+
+        span {
+          @apply text-[42px] font-semibold;
+          @apply min-[400px]:text-[69px];
+        }
+
+        img {
+          @apply w-[75px] h-[75px];
+          @apply min-[400px]:w-[110px] min-[400px]:h-[110px];
+        }
+
+        p {
+          @apply text-[18px] text-light-grey;
+        }
       }
     }
   }
