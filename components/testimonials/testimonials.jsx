@@ -11,6 +11,7 @@ export default function Testimonials() {
   return (
     <section>
       <div className={styles.wrapper}>
+        <div className={styles.decor} />
         <div className={styles.header}>
           <h2>Testimonials</h2>
           <h3>Hear What Our Customers Have to Say</h3>
@@ -22,6 +23,20 @@ export default function Testimonials() {
         </div>
         <Swiper
           slidesPerView={3}
+          breakpoints={{
+            0: {
+              slidesPerView: 1,
+            },
+            880: {
+              slidesPerView: 2,
+            },
+            1275: {
+              slidesPerView: 3,
+            },
+            1600: {
+              slidesPerView: 4,
+            },
+          }}
           spaceBetween={30}
           modules={[Navigation]}
           navigation={{

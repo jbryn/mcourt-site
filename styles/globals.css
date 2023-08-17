@@ -45,3 +45,7 @@ body {
 .swiper-button-next::after {
   display: none;
 }
+
+.swiper-slide-active > div {
+  border: none !important;
+}

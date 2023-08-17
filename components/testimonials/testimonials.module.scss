@@ -1,5 +1,5 @@
 .wrapper {
-  @apply flex pb-[274px] pl-[165px];
+  @apply flex gap-[90px] pb-[274px] pl-[165px];
 
   .header {
     @apply flex flex-col  gap-[47px];
@@ -26,6 +26,8 @@
     @apply flex flex-col items-center;
     @apply pt-[47px] px-[25px] pb-[46px];
     @apply rounded-[10px];
+    @apply max-w-[352px];
+    @apply bg-white;
     border: 1px solid #ececec;
 
     .name {
@@ -49,5 +51,15 @@
       @apply max-w-[308px] text-[14px] font-normal text-light-grey;
       @apply pt-[20px] text-center;
     }
+  }
+
+  .decor {
+    @apply absolute left-[320px];
+    @apply w-[503px] h-[455px] rounded-[503px];
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(177, 176, 185, 0.6) 0%,
+      rgba(177, 176, 185, 0) 100%
+    );
   }
 }

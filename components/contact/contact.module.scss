@@ -1,0 +1,49 @@
+.wrapper {
+  @apply flex gap-[83px] px-[165px];
+
+  .logoWrapper {
+    @apply flex items-center gap-[25px];
+
+    .left {
+      @apply max-h-[496px];
+    }
+
+    .mid {
+      @apply max-w-[168px] max-h-[542px];
+    }
+
+    .right {
+      @apply max-h-[496px];
+    }
+  }
+
+  .formWrapper {
+    @apply flex flex-col gap-[40px];
+
+    h2 {
+      @apply text-[42px] font-semibold;
+    }
+
+    .fieldsWrapper {
+      @apply flex flex-col gap-[12px];
+
+      .inputField {
+        @apply py-[14px] px-[18px];
+        @apply rounded-[5px];
+        border: 1px solid #d9d9d9;
+      }
+
+      .textField {
+        @extend .inputField;
+        @apply pb-[100px];
+      }
+
+      .submitButton {
+        @apply py-[10px] px-[40px] mt-[27px];
+        @apply bg-green rounded-[5px];
+        @apply text-[14px] text-white;
+        @apply max-w-[117px];
+      }
+    }
+  }
+}
