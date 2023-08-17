@@ -15,8 +15,8 @@ export default function Projects() {
       <div className={styles.header}>
         <h2>Nasze projekty</h2>
         <div className={styles.navigation}>
-          <div className="swiper-button-prev" />
-          <div className="swiper-button-next" />
+          <div id="swiper2-prev" className="swiper-button-prev" />
+          <div id="swiper2-next" className="swiper-button-next" />
           <img src="./vectors/nav-arrows.svg" alt="navigation arrows" />
         </div>
       </div>
@@ -38,8 +38,8 @@ export default function Projects() {
         }}
         modules={[Navigation]}
         navigation={{
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
+          nextEl: "#swiper2-next",
+          prevEl: "#swiper2-prev",
         }}
         className="mySwiper"
       >

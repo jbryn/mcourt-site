@@ -14,10 +14,10 @@
 
     .navigation {
       @apply relative;
-      //   @apply grid place-items-center;
+      @apply max-w-[146px];
 
       img {
-        @apply w-[170px] h-[53px];
+        @apply w-[146px] h-[48px];
       }
     }
   }
@@ -26,7 +26,7 @@
     @apply flex flex-col items-center;
     @apply pt-[47px] px-[25px] pb-[46px];
     @apply rounded-[10px];
-    border: 1px solid springgreen;
+    border: 1px solid #ececec;
 
     .name {
       @apply flex flex-col items-center gap-[8px] pb-[8px];
