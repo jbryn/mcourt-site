@@ -22,7 +22,20 @@ export default function Projects() {
       </div>
       <Swiper
         slidesPerView={3}
-        // spaceBetween={10}
+        breakpoints={{
+          0: {
+            slidesPerView: 1,
+          },
+          880: {
+            slidesPerView: 2,
+          },
+          1275: {
+            slidesPerView: 3,
+          },
+          1600: {
+            slidesPerView: 4,
+          },
+        }}
         modules={[Navigation]}
         navigation={{
           nextEl: ".swiper-button-next",

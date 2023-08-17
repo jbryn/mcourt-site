@@ -1,5 +1,8 @@
 .container {
-  @apply px-[167px] mt-[112px];
+  @apply px-[20px] mt-[112px];
+  @apply sm:px-[60px];
+  @apply md:px-[100px];
+  @apply lg:px-[167px];
 
   h2 {
     @apply text-[42px] font-semibold;
@@ -12,14 +15,21 @@
 
     div {
       @apply relative;
+      @apply cursor-pointer;
+      transition: all 0.1s;
 
       img {
         @apply rounded-[10px];
       }
 
       h3 {
-        @apply absolute bottom-[22px] left-[31px];
-        @apply font-semibold text-[18px] text-white;
+        @apply absolute bottom-[22px] left-[31px] max-w-[110px];
+        @apply font-semibold text-[14px] text-white;
+        @apply md:text-[18px];
+      }
+
+      &:hover {
+        transform: scale(1.01);
       }
     }
   }

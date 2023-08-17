@@ -34,7 +34,7 @@ export default function About() {
         </div>
       </div>
 
-      <div className="flex justify-center gap-[30px] pt-[127px]">
+      <div className={styles.statsContainer}>
         <div className={styles.stat}>
           <div className={styles.top}>
             <span>200</span>
