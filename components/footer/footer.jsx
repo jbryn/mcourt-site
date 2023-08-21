@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer>
       <div className={styles.wrapper}>
-        <div className={styles.card}>
+        {/* <div className={styles.card}>
           <img src="./img/mcourt-logo-color.png" alt="logo" />
           <ul className={styles.menu}>
             <li>Home</li>
@@ -19,14 +19,14 @@ export default function Footer() {
             <img src="./icons/twitter.svg" alt="twitter" />
             <img src="./icons/linkedin.svg" alt="linkedin" />
           </div>
-        </div>
+        </div> */}
         <div className={styles.top} />
         <div className={styles.bottom}>
-          <p>Copyright 2023 © MCOURT | All Rights Reserved</p>
-          <button className={styles.contact}>
+          {/* <p>Copyright 2023 © MCOURT | All Rights Reserved</p> */}
+          {/* <button className={styles.contact}>
             <img src="./icons/phone.svg" alt="phone" />
             <span>Call us</span>
-          </button>
+          </button> */}
         </div>
       </div>
     </footer>

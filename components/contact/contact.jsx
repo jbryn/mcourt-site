@@ -1,8 +1,9 @@
 import { Formik, Form, Field } from "formik";
 import { useCallback } from "react";
 import classNames from "classnames";
-import * as yup from "yup";
 import styles from "./contact.module.scss";
+
+import * as yup from "yup";
 
 const phoneRegExp =
   /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/;

@@ -1,12 +1,9 @@
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import { Navigation } from "swiper/modules";
+import styles from "./projects.module.scss";
 import "swiper/css";
 import "swiper/css/navigation";
-
-import { Navigation } from "swiper/modules";
-
-import styles from "./projects.module.scss";
 
 export default function Projects() {
   return (

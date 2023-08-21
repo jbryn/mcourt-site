@@ -1,11 +1,8 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import { Navigation } from "swiper/modules";
+import styles from "./testimonials.module.scss";
 import "swiper/css";
 import "swiper/css/navigation";
-
-import { Navigation } from "swiper/modules";
-
-import styles from "./testimonials.module.scss";
 
 export default function Testimonials() {
   return (
@@ -39,7 +36,7 @@ export default function Testimonials() {
             1024: {
               slidesPerView: 2,
             },
-            // ,
+
             1334: {
               slidesPerView: 3,
             },
