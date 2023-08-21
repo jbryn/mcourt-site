@@ -23,7 +23,8 @@
       @apply flex flex-col gap-[35px];
       @apply max-w-[526px] max-h-[541px];
       @apply rounded-[10px];
-      @apply pt-[54px] pl-[47px] pr-[44px] pb-[54px];
+      @apply pt-[54px] px-[25px] pb-[54px];
+      @apply sm:px-[45px];
       @apply min-[1333px]:transform min-[1333px]:translate-x-[60px];
       @apply max-[1333px]:max-w-[700px] max-[1333px]:max-h-fit;
 

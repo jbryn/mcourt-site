@@ -10,7 +10,7 @@ import styles from "./projects.module.scss";
 
 export default function Projects() {
   return (
-    <section className="pb-[300px] pl-[165px]">
+    <section className="pb-[300px]">
       <div className={styles.decor} />
       <div className={styles.header}>
         <h2>Nasze projekty</h2>
