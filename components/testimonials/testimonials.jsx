@@ -11,7 +11,7 @@ export default function Testimonials() {
   return (
     <section>
       <div className={styles.wrapper}>
-        <div className={styles.decor} />
+        {/* <div className={styles.decor} /> */}
         <div className={styles.header}>
           <span>
             <h2>Testimonials</h2>

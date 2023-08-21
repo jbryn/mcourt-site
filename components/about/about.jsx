@@ -3,7 +3,7 @@ import styles from "./about.module.scss";
 export default function About() {
   return (
     <section className={styles.container}>
-      <div className={styles.background} />
+      {/* <div className={styles.background} /> */}
 
       <div className={styles.cardsWrapper}>
         <div className={styles.card}>
