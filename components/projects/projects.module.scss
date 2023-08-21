@@ -12,7 +12,7 @@
     @apply grid place-items-center;
 
     img {
-      @apply w-[170px] h-[48px];
+      @apply min-w-[146px] min-h-[48px];
     }
   }
 }

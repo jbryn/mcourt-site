@@ -1,15 +1,22 @@
 .wrapper {
-  @apply flex gap-[90px] pb-[274px] pl-[165px];
+  @apply block gap-[20px] pb-[274px] pl-[20px];
+  @apply lg:flex lg:pl-[60px];
+  @apply min-[1440px]:pl-[165px];
 
   .header {
-    @apply flex flex-col  gap-[47px];
+    @apply flex flex-row gap-[47px] px-[60px];
+    @apply max-[512px]:flex-col;
+    @apply lg:flex-col max-[1024px]:items-center max-[1024px]:justify-between;
+    @apply max-[1024px]:pb-[90px];
 
     h2 {
-      @apply text-[42px] font-semibold;
+      @apply text-[36px] font-semibold;
+      @apply sm:text-[42px];
     }
 
     h3 {
-      @apply text-[16px] text-light-grey max-w-[190px];
+      @apply text-[12px] text-light-grey max-w-[190px];
+      @apply sm:text-[16px];
     }
 
     .navigation {
@@ -17,7 +24,7 @@
       @apply max-w-[146px];
 
       img {
-        @apply w-[146px] h-[48px];
+        @apply min-w-[146px] min-h-[48px];
       }
     }
   }
@@ -26,7 +33,7 @@
     @apply flex flex-col items-center;
     @apply pt-[47px] px-[25px] pb-[46px];
     @apply rounded-[10px];
-    @apply max-w-[352px];
+    @apply max-w-[352px] max-h-[367px];
     @apply bg-white;
     border: 1px solid #ececec;
 

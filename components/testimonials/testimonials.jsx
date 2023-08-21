@@ -13,24 +13,34 @@ export default function Testimonials() {
       <div className={styles.wrapper}>
         <div className={styles.decor} />
         <div className={styles.header}>
-          <h2>Testimonials</h2>
-          <h3>Hear What Our Customers Have to Say</h3>
+          <span>
+            <h2>Testimonials</h2>
+            <h3>Hear What Our Customers Have to Say</h3>
+          </span>
           <div className={styles.navigation}>
             <div id="swiper1-prev" className="swiper-button-prev" />
             <div id="swiper1-next" className="swiper-button-next" />
             <img src="./vectors/nav-arrows.svg" alt="navigation arrows" />
           </div>
         </div>
+
         <Swiper
-          slidesPerView={3}
+          slidesPerView={2}
           breakpoints={{
             0: {
               slidesPerView: 1,
             },
-            880: {
+            512: {
               slidesPerView: 2,
             },
-            1275: {
+            812: {
+              slidesPerView: 3,
+            },
+            1024: {
+              slidesPerView: 2,
+            },
+            // ,
+            1334: {
               slidesPerView: 3,
             },
             1600: {

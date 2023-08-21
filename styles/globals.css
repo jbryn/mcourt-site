@@ -49,3 +49,8 @@ body {
 .swiper-slide-active > div {
   border: none !important;
 }
+
+.swiper-slide {
+  display: grid !important;
+  place-items: center;
+}
