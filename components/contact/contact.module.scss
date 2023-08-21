@@ -1,27 +1,13 @@
 .wrapper {
-  @apply flex gap-[83px] px-[165px];
-
-  .logoWrapper {
-    @apply flex items-center gap-[25px];
-
-    .left {
-      @apply max-h-[496px];
-    }
-
-    .mid {
-      @apply max-w-[168px] max-h-[542px];
-    }
-
-    .right {
-      @apply max-h-[496px];
-    }
-  }
+  @apply flex flex-col items-center justify-center gap-[83px] px-[60px];
+  @apply lg:flex-row;
 
   .formWrapper {
     @apply flex flex-col gap-[40px];
 
     h2 {
-      @apply text-[42px] font-semibold;
+      @apply text-[30px] font-semibold;
+      @apply sm:text-[42px];
     }
 
     .fieldsWrapper {
@@ -35,6 +21,7 @@
 
       .textField {
         @extend .inputField;
+        @apply min-h-[100px];
         @apply pb-[100px];
       }
 
@@ -45,5 +32,9 @@
         @apply max-w-[117px];
       }
     }
+  }
+
+  .error {
+    border: 1px solid red !important;
   }
 }

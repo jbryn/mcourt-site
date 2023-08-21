@@ -29,7 +29,8 @@
       @apply max-[1333px]:max-w-[700px] max-[1333px]:max-h-fit;
 
       h2 {
-        @apply text-[42px] font-semibold;
+        @apply text-[30px] font-semibold;
+        @apply sm:text-[42px];
       }
 
       p {

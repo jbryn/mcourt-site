@@ -1,25 +1,39 @@
 import { Formik, Form, Field } from "formik";
 import { useCallback } from "react";
 import classNames from "classnames";
+import * as yup from "yup";
 import styles from "./contact.module.scss";
+
+const phoneRegExp =
+  /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/;
 
 export default function Contact() {
   const onSubmit = useCallback((values) => {
     console.log(values);
   }, []);
 
+  const validationSchema = yup.object().shape({
+    name: yup
+      .string()
+      .min(2, "Too Short!")
+      .max(50, "Too Long!")
+      .required("Required"),
+    email: yup.string().email("Invalid email").required("Required"),
+    phone: yup
+      .string()
+      .matches(phoneRegExp, "Phone number is not valid")
+      .required("Required"),
+    message: yup
+      .string()
+      .min(2, "Too Short!")
+      .max(50, "Too Long!")
+      .required("Required"),
+  });
   return (
     <section className="pb-[232px]">
       <div className={styles.wrapper}>
-        <div className={styles.logoWrapper}>
-          <img className={styles.left} src="./img/left.png" alt="logo-left" />
-          <img className={styles.mid} src="./img/mid.png" alt="logo-mid" />
-          <img
-            className={styles.right}
-            src="./img/right.png"
-            alt="logo-right"
-          />
-        </div>
+        <img src="./img/mcourt-sygnet.png" alt="sygnet" />
+
         <div className={styles.formWrapper}>
           <h2>Skontaktuj się z nami</h2>
           <Formik
@@ -29,14 +43,17 @@ export default function Contact() {
               phone: "",
               message: "",
             }}
+            validationSchema={validationSchema}
             onSubmit={onSubmit}
           >
-            {({ dirty }) => (
+            {({ dirty, errors }) => (
               <Form>
                 <div className={styles.fieldsWrapper}>
                   <Field
                     id="name"
-                    className={styles.inputField}
+                    className={classNames(styles.inputField, {
+                      [styles.error]: errors.name,
+                    })}
                     name="name"
                     placeholder="Imię"
                     as="input"
@@ -44,7 +61,9 @@ export default function Contact() {
 
                   <Field
                     id="email"
-                    className={styles.inputField}
+                    className={classNames(styles.inputField, {
+                      [styles.error]: errors.email,
+                    })}
                     name="email"
                     placeholder="Email"
                     as="input"
@@ -52,7 +71,9 @@ export default function Contact() {
 
                   <Field
                     id="phone"
-                    className={styles.inputField}
+                    className={classNames(styles.inputField, {
+                      [styles.error]: errors.phone,
+                    })}
                     name="phone"
                     placeholder="Telefon"
                     as="input"
@@ -60,7 +81,9 @@ export default function Contact() {
 
                   <Field
                     id="message"
-                    className={styles.textField}
+                    className={classNames(styles.textField, {
+                      [styles.error]: errors.message,
+                    })}
                     name="message"
                     placeholder="Wiadomość"
                     as="input"
