@@ -44,7 +44,7 @@ export default function Projects() {
           <div className={styles.card}>
             <img
               className={styles.thumbnail}
-              src="./img/project1.png"
+              src="./img/projects/project1.png"
               alt="project1"
             />
             <h3>Project Number One</h3>
@@ -58,7 +58,7 @@ export default function Projects() {
           <div className={styles.card}>
             <img
               className={styles.thumbnail}
-              src="./img/project2.png"
+              src="./img/projects/project2.png"
               alt="project2"
             />
             <h3>Project Number Two</h3>
@@ -72,7 +72,7 @@ export default function Projects() {
           <div className={styles.card}>
             <img
               className={styles.thumbnail}
-              src="./img/project3.png"
+              src="./img/projects/project3.png"
               alt="project3"
             />
             <h3>Project Number Three</h3>
@@ -86,7 +86,7 @@ export default function Projects() {
           <div className={styles.card}>
             <img
               className={styles.thumbnail}
-              src="./img/project4.png"
+              src="./img/projects/project4.png"
               alt="project4"
             />
             <h3>Project Number Four</h3>
@@ -100,7 +100,7 @@ export default function Projects() {
           <div className={styles.card}>
             <img
               className={styles.thumbnail}
-              src="./img/project1.png"
+              src="./img/projects/project1.png"
               alt="project5"
             />
             <h3>Project Number Five</h3>
@@ -114,7 +114,7 @@ export default function Projects() {
           <div className={styles.card}>
             <img
               className={styles.thumbnail}
-              src="./img/project2.png"
+              src="./img/projects/project2.png"
               alt="project6"
             />
             <h3>Project Number Six</h3>
@@ -128,7 +128,7 @@ export default function Projects() {
           <div className={styles.card}>
             <img
               className={styles.thumbnail}
-              src="./img/project3.png"
+              src="./img/projects/project3.png"
               alt="project7"
             />
             <h3>Project Number Seven</h3>
@@ -142,7 +142,7 @@ export default function Projects() {
           <div className={styles.card}>
             <img
               className={styles.thumbnail}
-              src="./img/project4.png"
+              src="./img/projects/project4.png"
               alt="project8"
             />
             <h3>Project Number Eight</h3>

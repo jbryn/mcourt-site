@@ -21,7 +21,10 @@ export default function About() {
           </p>
           <div className={styles.bottom}>
             <button className={styles.button}>Contact us</button>
-            <img className={styles.logo} src="./img/mcourt-logo-color.png" />
+            <img
+              className={styles.logo}
+              src="./img/logos/mcourt-logo-color.png"
+            />
           </div>
         </div>
 

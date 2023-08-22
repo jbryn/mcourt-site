@@ -12,7 +12,7 @@ export default function Header() {
         <Link href="/">
           <img
             className={styles.logo}
-            src="./img/mcourt-logo.png"
+            src="./img/logos/mcourt-logo.png"
             alt="mcourt-logo"
           />
         </Link>

@@ -33,7 +33,7 @@ export default function Contact() {
   return (
     <section className="pb-[232px]">
       <div className={styles.wrapper}>
-        <img src="./img/mcourt-sygnet.png" alt="sygnet" />
+        <img src="./img/logos/mcourt-sygnet.png" alt="sygnet" />
 
         <div className={styles.formWrapper}>
           <h2>Skontaktuj się z nami</h2>

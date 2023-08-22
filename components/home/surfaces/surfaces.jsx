@@ -7,27 +7,27 @@ export default function Surfaces() {
         <h2>Types of tennis surfaces</h2>
         <div className={styles.cards}>
           <div>
-            <img src="./img/court6.png" alt="Laykold" />
+            <img src="./img/surfaces/court6.png" alt="Laykold" />
             <h3>Laykold</h3>
           </div>
           <div>
-            <img src="./img/court5.png" alt="Antuka premium" />
+            <img src="./img/surfaces/court5.png" alt="Antuka premium" />
             <h3>Antuka Premium</h3>
           </div>
           <div>
-            <img src="./img/court4.png" alt="Fast Track 15" />
+            <img src="./img/surfaces/court4.png" alt="Fast Track 15" />
             <h3>Fast Track 15</h3>
           </div>
           <div>
-            <img src="./img/court3.png" alt="Padel courts" />
+            <img src="./img/surfaces/court3.png" alt="Padel courts" />
             <h3>Padel courts</h3>
           </div>
           <div>
-            <img src="./img/court2.png" alt="Tennis Halls" />
+            <img src="./img/surfaces/court2.png" alt="Tennis Halls" />
             <h3>Tennis Halls</h3>
           </div>
           <div>
-            <img src="./img/court1.png" alt="All year" />
+            <img src="./img/surfaces/court1.png" alt="All year" />
             <h3>All year tennis courts</h3>
           </div>
         </div>
