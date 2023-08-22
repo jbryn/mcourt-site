@@ -1,8 +1,21 @@
 .wrapper {
-  @apply grid place-items-center py-[120px];
+  @apply grid gap-[30px] place-items-center py-[120px] px-[30px];
+
+  h2 {
+    @apply text-[24px] font-semibold;
+  }
+
+  h3 {
+    @apply text-[16px] text-light-grey;
+  }
+
+  img {
+    @apply rounded-[10px] pb-[80px];
+  }
 
   .colors {
-    @apply flex gap-[9px];
+    @apply grid gap-[9px] grid-cols-12;
+    grid-template-rows: repeat(2, minmax(0, 60px));
 
     img {
       @apply cursor-pointer;

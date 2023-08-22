@@ -9,7 +9,7 @@ export default function Video() {
     <section>
       <div className={styles.wrapper}>
         <h2>Video</h2>
-        <h3>
+        <h3 id="video">
           Lorem ipsum dolor sit amet consectetur. Nibh suspendisse aliquam sed
           libero eu faucibus commodo sagittis. Sit accumsan et mauris fringilla
           elementum elit interdum scelerisque consectetur.

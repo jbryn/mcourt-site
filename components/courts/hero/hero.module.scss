@@ -15,8 +15,17 @@
   }
 
   h2 {
-    @apply text-[12px];
+    @apply text-[12px] pb-[160px];
     @apply sm:text-[14px];
+  }
+
+  svg {
+    transition: all 0.3s;
+  }
+
+  svg:hover {
+    @apply cursor-pointer;
+    filter: brightness(1.5);
   }
 
   .cta {
@@ -27,7 +36,9 @@
 }
 
 .scrollDown {
-  @apply grid place-items-center pt-[120px];
+  svg {
+    @apply pt-[120px];
+  }
 }
 
 .ball {

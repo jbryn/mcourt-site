@@ -9,9 +9,20 @@
   }
 
   .list {
-    @apply gap-[30px] text-[12px] text-white;
+    @apply gap-[30px] text-[16px] text-white;
     @apply hidden;
     @apply md:flex;
+
+    #courts::after {
+      content: url("/public/icons/close.svg");
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+    }
+
+    li:hover {
+      @apply cursor-pointer;
+    }
   }
 
   .hamburger {

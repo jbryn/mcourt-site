@@ -7,7 +7,7 @@ export default function About() {
 
       <div className={styles.cardsWrapper}>
         <div className={styles.card}>
-          <h2>O nas</h2>
+          <h2 id="about">O nas</h2>
           <p>
             Witamy w mCourt.eu, liderze w budowie i wyposażeniu kortów w Polsce.
             Z dumą dostarczamy najwyższej jakości korty tenisowe, do padla i

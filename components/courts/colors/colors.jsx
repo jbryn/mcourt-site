@@ -1,17 +1,62 @@
+import { useState } from "react";
 import styles from "./colors.module.scss";
 
 export default function Colors() {
+  const [image, setImage] = useState("./img/colors/green.png");
+
+  function handleMouseEnter(imagePath) {
+    return () => {
+      setImage(imagePath);
+    };
+  }
+
   return (
     <section>
-      <div className={styles.wrapper}>
-        <div className={styles.colors}>
-          <img src="./vectors/hexagons/2.svg" alt="2" />
-          <img src="./vectors/hexagons/3.svg" alt="3" />
-          <img src="./vectors/hexagons/4.svg" alt="4" />
-          <img src="./vectors/hexagons/5.svg" alt="5" />
-          <img src="./vectors/hexagons/6.svg" alt="6" />
+      <div
+        className={styles.wrapper}
+        onMouseEnter={handleMouseEnter("./img/colors/green.png")}
+      >
+        <h2>Laykold surface colors:</h2>
+        <h3>
+          Check how your tennis court with Laykold surface will look like.
+          Choose your colors.
+        </h3>
+        <img src={image} width={1028} height={400} alt="green" />
+        <div
+          className={styles.colors}
+          onMouseLeave={handleMouseEnter("./img/colors/green.png")}
+        >
+          <img
+            src="./vectors/hexagons/2.svg"
+            onMouseEnter={handleMouseEnter("./img/colors/blue.png")}
+            alt="2"
+          />
+          <img
+            src="./vectors/hexagons/3.svg"
+            onMouseEnter={handleMouseEnter("./img/colors/brown.png")}
+            alt="3"
+          />
+          <img
+            src="./vectors/hexagons/4.svg"
+            onMouseEnter={handleMouseEnter("./img/colors/red.png")}
+            alt="4"
+          />
+          <img
+            src="./vectors/hexagons/5.svg"
+            onMouseEnter={handleMouseEnter("./img/colors/crimson.png")}
+            alt="5"
+          />
+          <img
+            src="./vectors/hexagons/6.svg"
+            onMouseEnter={handleMouseEnter("./img/colors/bloody.png")}
+            alt="6"
+          />
           <img src="./vectors/hexagons/7.svg" alt="7" />
-          <img src="./vectors/hexagons/8.svg" alt="8" />
+          <img
+            src="./vectors/hexagons/8.svg"
+            onMouseEnter={handleMouseEnter("./img/colors/darkblue.png")}
+            alt="8"
+          />
           <img src="./vectors/hexagons/9.svg" alt="9" />
           <img src="./vectors/hexagons/10.svg" alt="10" />
           <img src="./vectors/hexagons/11.svg" alt="11" />

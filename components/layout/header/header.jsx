@@ -17,8 +17,12 @@ export default function Header() {
           />
         </Link>
         <ul className={styles.list}>
-          <li>Home</li>
-          <li>Courts</li>
+          <Link href="/">
+            <li>Home</li>
+          </Link>
+          <Link href="/courts">
+            <li id="courts">Courts</li>
+          </Link>
           <li>Tennis halls</li>
           <li>Padel</li>
           <li>Pickelball</li>
@@ -30,6 +34,7 @@ export default function Header() {
           <img src="./icons/hamburger.svg" alt="hamburger" />
         </div>
       </div>
+      {/* <div className={styles.tooltip}></div> */}
       <div className={classNames(styles.menu, { ["hidden"]: !isMenuOpen })}>
         <div
           className={styles.close}

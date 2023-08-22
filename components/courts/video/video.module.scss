@@ -1,6 +1,6 @@
 .wrapper {
   @apply flex flex-col gap-[30px] items-center;
-  @apply pt-[305px] text-center;
+  @apply pt-[305px] text-center px-[30px];
 
   h2 {
     @apply text-[42px] font-semibold;
@@ -12,7 +12,7 @@
   }
 
   .imageContainer {
-    @apply grid place-items-center relative mt-[32px];
+    @apply grid place-items-center relative mt-[32px] overflow-hidden;
 
     img {
       @apply rounded-[10px];
