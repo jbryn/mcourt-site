@@ -1,0 +1,24 @@
+.wrapper {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+
+  .play {
+    @apply relative w-[160px] h-[160px];
+    @apply grid place-items-center;
+  }
+
+  .ellipse1 {
+    @apply absolute;
+    @apply z-0;
+  }
+
+  .ellipse2 {
+    @apply absolute top-[24px] z-10;
+  }
+
+  .playBtn {
+    @apply absolute;
+    @apply z-20;
+  }
+}

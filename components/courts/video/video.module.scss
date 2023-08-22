@@ -1,2 +1,25 @@
 .wrapper {
+  @apply flex flex-col gap-[30px] items-center;
+  @apply pt-[305px] text-center;
+
+  h2 {
+    @apply text-[42px] font-semibold;
+  }
+
+  h3 {
+    @apply text-[16px] text-light-grey;
+    @apply max-w-[652px] pb-[41px];
+  }
+
+  .imageContainer {
+    @apply grid place-items-center relative mt-[32px];
+
+    img {
+      @apply rounded-[10px];
+    }
+
+    .video {
+      @apply absolute h-[63px] bottom-[265px] left-[415px];
+    }
+  }
 }
