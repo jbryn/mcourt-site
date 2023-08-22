@@ -1,0 +1,42 @@
+.hero {
+  @apply mx-[24px] mt-[50px];
+  @apply flex flex-col justify-center items-center gap-[30px];
+  @apply sm:mx-[100px];
+  @apply lg:mx-[257px] lg:mt-[100px];
+
+  h1,
+  h2 {
+    @apply text-white;
+  }
+
+  h1 {
+    @apply text-[44px] leading-normal font-semibold max-w-[398px];
+    @apply sm:text-[65px] sm:leading-[82px];
+  }
+
+  h2 {
+    @apply text-[12px];
+    @apply sm:text-[14px];
+  }
+
+  .cta {
+    @apply px-[35px] py-[10px] rounded-md;
+    @apply text-white text-[14px] max-w-[149px];
+    @apply bg-green;
+  }
+}
+
+.scrollDown {
+  @apply grid place-items-center pt-[120px];
+}
+
+.ball {
+  @apply absolute top-0 right-0 -z-10;
+}
+
+.background {
+  @apply absolute top-0 -z-20;
+  @apply w-[100vw] h-[721px];
+
+  filter: brightness(0.3);
+}

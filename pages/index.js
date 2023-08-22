@@ -1,9 +1,9 @@
-import About from "@/components/about/about";
-import Contact from "@/components/contact/contact";
-import Hero from "@/components/hero/hero";
-import Projects from "@/components/projects/projects";
-import Surfaces from "@/components/surfaces/surfaces";
-import Testimonials from "@/components/testimonials/testimonials";
+import About from "@/components/home/about/about";
+import Contact from "@/components/home/contact/contact";
+import Hero from "@/components/home/hero/hero";
+import Projects from "@/components/home/projects/projects";
+import Surfaces from "@/components/home/surfaces/surfaces";
+import Testimonials from "@/components/home/testimonials/testimonials";
 
 export default function Home() {
   return (
