@@ -1,0 +1,17 @@
+.wrapper {
+  @apply grid place-items-center py-[120px];
+
+  .colors {
+    @apply flex gap-[9px];
+
+    img {
+      @apply cursor-pointer;
+      transition: all 0.4s;
+
+      &:hover {
+        filter: brightness(0.9);
+        transform: scale(1.05);
+      }
+    }
+  }
+}

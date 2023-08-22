@@ -1,0 +1,34 @@
+import styles from "./colors.module.scss";
+
+export default function Colors() {
+  return (
+    <section>
+      <div className={styles.wrapper}>
+        <div className={styles.colors}>
+          <img src="./vectors/hexagons/2.svg" alt="2" />
+          <img src="./vectors/hexagons/3.svg" alt="3" />
+          <img src="./vectors/hexagons/4.svg" alt="4" />
+          <img src="./vectors/hexagons/5.svg" alt="5" />
+          <img src="./vectors/hexagons/6.svg" alt="6" />
+          <img src="./vectors/hexagons/7.svg" alt="7" />
+          <img src="./vectors/hexagons/8.svg" alt="8" />
+          <img src="./vectors/hexagons/9.svg" alt="9" />
+          <img src="./vectors/hexagons/10.svg" alt="10" />
+          <img src="./vectors/hexagons/11.svg" alt="11" />
+          <img src="./vectors/hexagons/12.svg" alt="12" />
+          <img src="./vectors/hexagons/13.svg" alt="13" />
+          <img src="./vectors/hexagons/14.svg" alt="14" />
+          <img src="./vectors/hexagons/15.svg" alt="15" />
+          <img src="./vectors/hexagons/16.svg" alt="16" />
+          <img src="./vectors/hexagons/17.svg" alt="17" />
+          <img src="./vectors/hexagons/18.svg" alt="18" />
+          <img src="./vectors/hexagons/19.svg" alt="19" />
+          <img src="./vectors/hexagons/20.svg" alt="20" />
+          <img src="./vectors/hexagons/21.svg" alt="21" />
+          <img src="./vectors/hexagons/22.svg" alt="22" />
+          <img src="./vectors/hexagons/23.svg" alt="23" />
+        </div>
+      </div>
+    </section>
+  );
+}
