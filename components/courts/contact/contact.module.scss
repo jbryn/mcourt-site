@@ -1,0 +1,49 @@
+.wrapper {
+  @apply py-[200px];
+  .cardsWrapper {
+    @apply flex items-center justify-center;
+    @apply max-[400px]:px-[20px];
+    @apply max-[1333px]:flex-col max-[1333px]:gap-[100px];
+    @apply max-[1333px]:px-[60px];
+    @apply max-[400px]:px-[20px];
+
+    .card {
+      @apply bg-white shadow-2xl px-[42px] pb-[42px] pt-[26px];
+      @apply max-w-[526px] max-h-[541px];
+      @apply rounded-[10px];
+
+      @apply min-[1333px]:transform min-[1333px]:-translate-x-[60px];
+      @apply max-[1333px]:max-w-[700px] max-[1333px]:max-h-fit;
+
+      h2 {
+        @apply text-[30px] font-semibold;
+        @apply sm:text-[38px];
+      }
+
+      p {
+        @apply text-[14px] text-light-grey;
+        @apply max-w-[435px];
+        @apply max-[1333px]:max-w-[600px];
+        @apply sm:text-[16px];
+      }
+
+      .bottom {
+        @apply flex flex-col gap-[25px];
+        @apply sm:flex-row sm:gap-[43px];
+
+        .button {
+          @apply text-[14px] text-white py-[10px] px-[29px] rounded-[5px] bg-green;
+        }
+
+        .logo {
+          @apply max-w-[160px];
+        }
+      }
+    }
+
+    .image {
+      @apply rounded-[10px] -z-10;
+      @apply min-[1333px]:transform min-[1333px]:translate-x-[60px];
+    }
+  }
+}
