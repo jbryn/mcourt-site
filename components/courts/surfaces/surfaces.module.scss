@@ -1,0 +1,28 @@
+.wrapper {
+  @apply flex flex-col items-center gap-[230px];
+
+  .surface {
+    @apply flex gap-[95px] pb-[60px];
+
+    img {
+      @apply rounded-[10px];
+    }
+
+    .description {
+      @apply flex flex-col gap-[40px];
+      @apply max-w-[462px];
+
+      h2 {
+        @apply text-[42px] font-semibold;
+      }
+
+      h3 {
+        @apply text-[16px] text-light-grey;
+
+        p {
+          @apply pb-[40px];
+        }
+      }
+    }
+  }
+}

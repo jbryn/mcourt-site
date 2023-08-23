@@ -16,6 +16,30 @@ export default function Colors() {
         className={styles.wrapper}
         onMouseEnter={handleMouseEnter("./img/colors/green.png")}
       >
+        <div className={styles.laykold}>
+          <img
+            src="./img/blue-court.png"
+            width={540}
+            height={406}
+            alt="laykold"
+          />
+          <div className={styles.description}>
+            <h2>Laykold</h2>
+            <h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Nibh suspendisse aliquam
+                sed libero eu faucibus commodo sagittis. Sit accumsan et mauris
+                fringilla elementum elit interdum scelerisque consectetur.
+              </p>
+              <p>
+                {" "}
+                Quis vitae pharetra aenean nibh pellentesque ac tristique metus
+                enim. Viverra mauris risus nunc nibh cras.
+              </p>{" "}
+              <p>Et tortor massa sit cras faucibus arcu commodo.</p>
+            </h3>
+          </div>
+        </div>
         <h2>Laykold surface colors:</h2>
         <h3>
           Check how your tennis court with Laykold surface will look like.

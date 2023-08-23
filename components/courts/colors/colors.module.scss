@@ -1,5 +1,22 @@
 .wrapper {
-  @apply grid gap-[30px] place-items-center py-[120px] px-[30px];
+  @apply grid gap-[30px] place-items-center py-[200px] px-[30px];
+
+  .laykold {
+    @apply flex gap-[95px] pb-[60px];
+
+    .description {
+      @apply flex flex-col gap-[40px];
+      @apply max-w-[462px];
+
+      h2 {
+        @apply text-[42px] font-semibold;
+      }
+
+      h3 {
+        @apply text-[16px];
+      }
+    }
+  }
 
   h2 {
     @apply text-[24px] font-semibold;
@@ -7,6 +24,10 @@
 
   h3 {
     @apply text-[16px] text-light-grey;
+
+    p {
+      @apply pb-[40px];
+    }
   }
 
   img {
