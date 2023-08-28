@@ -1,20 +1,25 @@
 .wrapper {
-  @apply mt-[300px] text-[11px];
+  @apply mt-[300px] text-[16px];
   @apply flex flex-col items-center justify-end text-center;
-  @apply text-white sm:text-[14px];
+  @apply text-white;
   @apply relative;
 
   .card {
     @apply absolute bottom-[20%];
-    @apply w-[90%] pt-[89px] pb-[78px] bg-light-grey;
-    @apply flex flex-col items-center justify-center rounded-[40px] gap-[77px];
+    @apply w-[100%] pt-[89px] pb-[78px];
+    @apply flex flex-col items-center justify-center rounded-[40px] gap-[40px];
     @apply z-10;
+    @apply sm:gap-[77px] sm:w-[90%];
+    @apply bg-white;
+    background-image: url("/img/footer.png");
+    background-size: cover;
 
     img {
       @apply max-w-[216px] max-h-[75px];
     }
     .menu {
-      @apply flex gap-[50px];
+      @apply flex flex-col text-light-grey;
+      @apply sm:flex-row sm:gap-[50px];
     }
 
     .socials {
@@ -27,19 +32,22 @@
   }
 
   .bottom {
-    @apply flex justify-center items-end h-[336px];
+    @apply flex flex-col justify-end items-center h-[336px];
     @apply bg-black pb-[73px];
     @apply w-full;
     @apply relative;
+
+    p {
+      @apply text-[12px];
+      @apply sm:text-[14px];
+    }
 
     .contact {
       @apply absolute bottom-0 right-0;
       @apply flex items-center justify-center gap-[10px];
       @apply py-[15px] px-[29px] bg-green;
-      @apply text-white text-[12px];
-      @apply sm:py-[29px] sm:px-[58px];
-      @apply sm:text-[24px];
-      @apply sm:w-auto;
+      @apply text-white text-[16px];
+      @apply rounded-tl-[40px];
 
       img {
         @apply w-[16px] h-[16px];
