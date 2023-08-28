@@ -23,7 +23,9 @@ export default function Header() {
           <Link href="/courts">
             <li id="courts">Courts</li>
           </Link>
-          <li>Tennis halls</li>
+          <Link href="/tennis-halls">
+            <li>Tennis halls</li>
+          </Link>
           <li>Padel</li>
           <li>Pickelball</li>
         </ul>
@@ -43,9 +45,15 @@ export default function Header() {
           <img src="./icons/close.svg" alt="close" />
         </div>
         <ul className={styles.list}>
-          <li>Home</li>
-          <li>Courts</li>
-          <li>Tennis halls</li>
+          <Link href="/">
+            <li>Home</li>
+          </Link>
+          <Link href="/courts">
+            <li id="courts">Courts</li>
+          </Link>
+          <Link href="/tennis-halls">
+            <li>Tennis halls</li>
+          </Link>
           <li>Padel</li>
           <li>Pickelball</li>
         </ul>

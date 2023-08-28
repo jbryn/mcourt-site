@@ -27,22 +27,6 @@
     @apply cursor-pointer;
     filter: brightness(1.5);
   }
-
-  .cta {
-    @apply px-[35px] py-[10px] rounded-md;
-    @apply text-white text-[14px] max-w-[149px];
-    @apply bg-green;
-  }
-}
-
-.scrollDown {
-  svg {
-    @apply pt-[120px];
-  }
-}
-
-.ball {
-  @apply absolute top-0 right-0 -z-10;
 }
 
 .background {
