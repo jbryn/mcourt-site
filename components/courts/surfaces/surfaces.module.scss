@@ -2,7 +2,8 @@
   @apply flex flex-col items-center gap-[230px];
 
   .surface {
-    @apply flex gap-[95px] pb-[60px];
+    @apply flex flex-col gap-[95px] pb-[60px] px-[30px];
+    @apply lg:flex-row;
 
     img {
       @apply rounded-[10px];
