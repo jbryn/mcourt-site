@@ -8,8 +8,8 @@ export default function Contact() {
         <div className={styles.cardsWrapper}>
           <img
             className={styles.image}
-            src="./img/paddle-tennis.png"
-            alt="paddle"
+            src="./img/tennis-ball-hd.png"
+            alt="ball"
           />
           <div className={styles.card}>
             <ContactForm />

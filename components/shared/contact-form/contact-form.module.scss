@@ -1,5 +1,5 @@
 .formWrapper {
-  @apply flex flex-col gap-[40px];
+  @apply flex flex-col gap-[30px];
 
   h2 {
     @apply text-[30px] font-semibold;
@@ -22,7 +22,7 @@
     }
 
     .submitButton {
-      @apply py-[10px] px-[40px] mt-[27px];
+      @apply py-[10px] px-[40px];
       @apply bg-green rounded-[5px];
       @apply text-[14px] text-white;
       @apply max-w-[117px];

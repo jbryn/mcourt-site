@@ -1,3 +1,4 @@
+import Contact from "@/components/courts/contact/contact";
 import About from "@/components/tennis-halls/about/about";
 import Description from "@/components/tennis-halls/description/description";
 import Hero from "@/components/tennis-halls/hero/hero";
@@ -8,6 +9,7 @@ export default function TennisHalls() {
       <Hero />
       <About />
       <Description />
+      <Contact />
     </main>
   );
 }
