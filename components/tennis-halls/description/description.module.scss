@@ -1,5 +1,6 @@
 .wrapper {
-  @apply flex items-center justify-center pt-[200px];
+  @apply flex flex-col items-center justify-center pt-[200px] px-[60px];
+  @apply min-[1100px]:flex-row max-[1100px]:gap-[60px];
 
   .description {
     h2 {
@@ -12,6 +13,10 @@
 
     li {
       @apply flex gap-[8px];
+
+      img {
+        @apply w-[22px] h-[22px];
+      }
     }
   }
 }
