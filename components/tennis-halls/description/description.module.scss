@@ -1,0 +1,17 @@
+.wrapper {
+  @apply flex items-center justify-center pt-[200px];
+
+  .description {
+    h2 {
+      @apply text-[42px] font-semibold;
+    }
+
+    ul {
+      @apply flex flex-col gap-[15px] pt-[40px];
+    }
+
+    li {
+      @apply flex gap-[8px];
+    }
+  }
+}
