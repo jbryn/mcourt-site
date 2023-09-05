@@ -1,10 +1,15 @@
 import Link from "next/link";
 import styles from "./header.module.scss";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import classNames from "classnames";
 
 export default function Header() {
+  const tooltipRef = useRef();
   const [isMenuOpen, setMenuOpen] = useState(false);
+
+  const setVisible = (visible) => {
+    tooltipRef.current.style.visibility = visible ? "visible" : "hidden";
+  };
 
   return (
     <header>
@@ -20,9 +25,23 @@ export default function Header() {
           <Link href="/">
             <li>Home</li>
           </Link>
-          <Link href="/courts">
-            <li id="courts">Courts</li>
-          </Link>
+
+          <li className={styles.tooltip} onMouseEnter={() => setVisible(true)}>
+            Courts
+            <span
+              ref={tooltipRef}
+              className={styles.tooltipContent}
+              onMouseLeave={() => setVisible(false)}
+            >
+              <Link href="/">Hard surfaces/acrylics</Link>
+              <Link href="/">Artificial surfaces/grass</Link>
+              <Link href="/">Hybrid surfaces</Link>
+              <Link href="/">Carpet surfaces</Link>
+              <Link href="/">Court lightning</Link>
+              <Link href="/">Court hydration</Link>
+            </span>
+          </li>
+
           <Link href="/tennis-halls">
             <li>Tennis halls</li>
           </Link>
