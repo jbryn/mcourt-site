@@ -64,13 +64,13 @@ export default function Header() {
           <img src="./icons/close.svg" alt="close" />
         </div>
         <ul className={styles.list}>
-          <Link href="/">
+          <Link href="/" onClick={() => setMenuOpen(false)}>
             <li>Home</li>
           </Link>
-          <Link href="/courts">
+          <Link href="/courts" onClick={() => setMenuOpen(false)}>
             <li id="courts">Courts</li>
           </Link>
-          <Link href="/tennis-halls">
+          <Link href="/tennis-halls" onClick={() => setMenuOpen(false)}>
             <li>Tennis halls</li>
           </Link>
           <li>Padel</li>
