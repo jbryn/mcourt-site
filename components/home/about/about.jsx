@@ -24,6 +24,7 @@ export default function About() {
             <img
               className={styles.logo}
               src="./img/logos/mcourt-logo-color.png"
+              alt="logo"
             />
           </div>
         </div>
