@@ -33,12 +33,12 @@ export default function Header() {
               className={styles.tooltipContent}
               onMouseLeave={() => setVisible(false)}
             >
-              <Link href="/">Hard surfaces/acrylics</Link>
-              <Link href="/">Artificial surfaces/grass</Link>
-              <Link href="/">Hybrid surfaces</Link>
-              <Link href="/">Carpet surfaces</Link>
-              <Link href="/">Court lightning</Link>
-              <Link href="/">Court hydration</Link>
+              <Link href="/courts">Hard surfaces/acrylics</Link>
+              <Link href="/courts">Artificial surfaces/grass</Link>
+              <Link href="/courts">Hybrid surfaces</Link>
+              <Link href="/courts">Carpet surfaces</Link>
+              <Link href="/courts">Court lightning</Link>
+              <Link href="/courts">Court hydration</Link>
             </span>
           </li>
 

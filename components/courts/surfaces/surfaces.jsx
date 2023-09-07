@@ -8,6 +8,7 @@ export default function Surfaces() {
           <img
             className="order-1"
             src="./img/surfaces/antuka.png"
+            loading="lazy"
             width={540}
             height={406}
             alt="antuka"
@@ -32,6 +33,7 @@ export default function Surfaces() {
         <div className={styles.surface}>
           <img
             src="./img/surfaces/fast-track.png"
+            loading="lazy"
             width={540}
             height={406}
             alt="fast-track"
@@ -57,6 +59,7 @@ export default function Surfaces() {
           <img
             className="order-1"
             src="./img/surfaces/padel.png"
+            loading="lazy"
             width={540}
             height={406}
             alt="padel"
@@ -81,6 +84,7 @@ export default function Surfaces() {
         <div className={styles.surface}>
           <img
             src="./img/surfaces/tennis-halls.png"
+            loading="lazy"
             width={540}
             height={406}
             alt="tennis-halls"
@@ -106,6 +110,7 @@ export default function Surfaces() {
           <img
             className="order-1"
             src="./img/surfaces/all-year.png"
+            loading="lazy"
             width={540}
             height={406}
             alt="padel"

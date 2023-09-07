@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <section className="pb-[232px]">
       <div className={styles.wrapper}>
-        <img src="./img/logos/mcourt-sygnet.png" alt="sygnet" />
+        <img src="./img/logos/mcourt-sygnet.png" loading="lazy" alt="sygnet" />
         <ContactForm />
       </div>
     </section>

@@ -24,6 +24,7 @@ export default function About() {
             <img
               className={styles.logo}
               src="./img/logos/mcourt-logo-color.png"
+              loading="lazy"
               alt="logo"
             />
           </div>
@@ -32,6 +33,7 @@ export default function About() {
         <img
           className={styles.image}
           src="./img/paddle-tennis.png"
+          loading="lazy"
           alt="paddle"
         />
       </div>

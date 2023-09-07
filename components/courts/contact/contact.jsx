@@ -9,6 +9,7 @@ export default function Contact() {
           <img
             className={styles.image}
             src="./img/tennis-ball-hd.png"
+            loading="lazy"
             alt="ball"
           />
           <div className={styles.card}>

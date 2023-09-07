@@ -45,6 +45,7 @@ export default function Projects() {
             <img
               className={styles.thumbnail}
               src="./img/projects/project1.png"
+              loading="lazy"
               alt="project1"
             />
             <h3 id="projects">Project Number One</h3>
@@ -59,6 +60,7 @@ export default function Projects() {
             <img
               className={styles.thumbnail}
               src="./img/projects/project2.png"
+              loading="lazy"
               alt="project2"
             />
             <h3>Project Number Two</h3>
@@ -73,6 +75,7 @@ export default function Projects() {
             <img
               className={styles.thumbnail}
               src="./img/projects/project3.png"
+              loading="lazy"
               alt="project3"
             />
             <h3>Project Number Three</h3>
@@ -87,6 +90,7 @@ export default function Projects() {
             <img
               className={styles.thumbnail}
               src="./img/projects/project4.png"
+              loading="lazy"
               alt="project4"
             />
             <h3>Project Number Four</h3>
@@ -101,6 +105,7 @@ export default function Projects() {
             <img
               className={styles.thumbnail}
               src="./img/projects/project1.png"
+              loading="lazy"
               alt="project5"
             />
             <h3>Project Number Five</h3>
@@ -115,6 +120,7 @@ export default function Projects() {
             <img
               className={styles.thumbnail}
               src="./img/projects/project2.png"
+              loading="lazy"
               alt="project6"
             />
             <h3>Project Number Six</h3>
@@ -129,6 +135,7 @@ export default function Projects() {
             <img
               className={styles.thumbnail}
               src="./img/projects/project3.png"
+              loading="lazy"
               alt="project7"
             />
             <h3>Project Number Seven</h3>
@@ -143,6 +150,7 @@ export default function Projects() {
             <img
               className={styles.thumbnail}
               src="./img/projects/project4.png"
+              loading="lazy"
               alt="project8"
             />
             <h3>Project Number Eight</h3>
