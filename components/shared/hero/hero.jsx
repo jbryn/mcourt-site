@@ -1,15 +1,11 @@
 import styles from "./hero.module.scss";
 
-export default function Hero() {
+export default function Hero({ backgroundUrl, title, subtitle }) {
   return (
     <section className="overflow-hidden">
       <div className={styles.hero}>
-        <h1>Courts</h1>
-        <h2>
-          Lorem ipsum dolor sit amet consectetur. Nibh suspendisse aliquam sed
-          libero eu faucibus commodo sagittis. Sit accumsan et mauris fringilla
-          elementum elit interdum scelerisque consectetur.
-        </h2>
+        <h1>{title}</h1>
+        <h2>{subtitle}</h2>
         <svg
           width="49"
           height="76"
@@ -30,7 +26,7 @@ export default function Hero() {
 
       <img
         className={styles.background}
-        src="./img/courts-hero.png"
+        src={backgroundUrl}
         alt="tennis-court"
       />
     </section>

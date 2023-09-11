@@ -26,15 +26,19 @@ export default function Header() {
             <li>Strona główna</li>
           </Link>
 
-          <Link href="/courts" onMouseEnter={() => setVisible(true)}>
+          <Link href="/korty" onMouseEnter={() => setVisible(true)}>
             <li>Korty</li>
           </Link>
 
-          <Link href="/tennis-halls">
+          <Link href="/hale-tenisowe">
             <li>Hale tenisowe</li>
           </Link>
-          <li>Padel</li>
-          <li>Pickelball</li>
+          <Link href="/padel">
+            <li>Padel</li>
+          </Link>
+          <Link href="/pickelball">
+            <li>Pickelball</li>
+          </Link>
         </ul>
         <div
           className={styles.hamburger}
@@ -49,10 +53,10 @@ export default function Header() {
         onMouseLeave={() => setVisible(false)}
       >
         <span className={styles.tooltipContent}>
-          <Link href="/courts">Nawierzchnie akrylowe</Link>
-          <Link href="/courts">Sztuczna trawa</Link>
-          <Link href="/courts">Nawierzchnie hybrydowe</Link>
-          <Link href="/courts">Nawierzchnia ceglana</Link>
+          <Link href="/nawierzchnie-akrylowe">Nawierzchnie akrylowe</Link>
+          <Link href="/sztuczna-trawa">Sztuczna trawa</Link>
+          <Link href="/nawierzchnie-hybrydowe">Nawierzchnie hybrydowe</Link>
+          <Link href="/nawierzchnia-ceglana">Nawierzchnia ceglana</Link>
         </span>
       </div>
       <div className={classNames(styles.menu, { ["hidden"]: !isMenuOpen })}>
@@ -66,14 +70,18 @@ export default function Header() {
           <Link href="/" onClick={() => setMenuOpen(false)}>
             <li>Strona główna</li>
           </Link>
-          <Link href="/courts" onClick={() => setMenuOpen(false)}>
+          <Link href="/korty" onClick={() => setMenuOpen(false)}>
             <li id="courts">Korty</li>
           </Link>
-          <Link href="/tennis-halls" onClick={() => setMenuOpen(false)}>
+          <Link href="/hale-tenisowe" onClick={() => setMenuOpen(false)}>
             <li>Hale tenisowe</li>
           </Link>
-          <li>Padel</li>
-          <li>Pickelball</li>
+          <Link href="/padel">
+            <li>Padel</li>
+          </Link>
+          <Link href="/pickelball">
+            <li>Pickelball</li>
+          </Link>
         </ul>
       </div>
     </header>
