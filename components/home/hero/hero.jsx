@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styles from "./hero.module.scss";
 
 export default function Hero() {
@@ -49,11 +50,9 @@ export default function Hero() {
 
         <img className={styles.ball} src="./vectors/ball.svg" alt="ball" />
 
-        <img
-          className={styles.background}
-          src="./img/tennis-court.png"
-          alt="tennis-court"
-        />
+        <div className={styles.background}>
+          <Image src="/img/tennis-court.png" alt="tennis-court" fill />
+        </div>
       </div>
     </section>
   );

@@ -1,11 +1,17 @@
+import Image from "next/image";
 import ContactForm from "@/components/shared/contact-form/contact-form";
 import styles from "./contact.module.scss";
 
 export default function Contact() {
   return (
-    <section className="pb-[232px]">
+    <section>
       <div className={styles.wrapper}>
-        <img src="./img/logos/mcourt-sygnet.png" loading="lazy" alt="sygnet" />
+        <Image
+          src="/img/logos/mcourt-sygnet.png"
+          width={542}
+          height={542}
+          alt="sygnet"
+        />
         <ContactForm />
       </div>
     </section>

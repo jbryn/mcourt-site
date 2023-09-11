@@ -1,10 +1,9 @@
+import Image from "next/image";
 import styles from "./about.module.scss";
 
 export default function About() {
   return (
     <section className={styles.container}>
-      {/* <div className={styles.background} /> */}
-
       <div className={styles.cardsWrapper}>
         <div className={styles.card}>
           <h2 id="about">O nas</h2>
@@ -21,19 +20,21 @@ export default function About() {
           </p>
           <div className={styles.bottom}>
             <button className={styles.button}>Contact us</button>
-            <img
-              className={styles.logo}
-              src="./img/logos/mcourt-logo-color.png"
-              loading="lazy"
+
+            <Image
+              src="/img/logos/mcourt-logo-color.png"
+              width={160}
+              height={56}
               alt="logo"
             />
           </div>
         </div>
 
-        <img
+        <Image
           className={styles.image}
-          src="./img/paddle-tennis.png"
-          loading="lazy"
+          src="/img/paddle-tennis.png"
+          width={783}
+          height={623}
           alt="paddle"
         />
       </div>

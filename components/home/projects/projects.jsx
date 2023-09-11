@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
@@ -42,10 +43,11 @@ export default function Projects() {
       >
         <SwiperSlide>
           <div className={styles.card}>
-            <img
+            <Image
               className={styles.thumbnail}
-              src="./img/projects/project1.png"
-              loading="lazy"
+              src="/img/projects/project1.png"
+              width={700}
+              height={406}
               alt="project1"
             />
             <h3 id="projects">Project Number One</h3>
@@ -57,10 +59,11 @@ export default function Projects() {
         </SwiperSlide>
         <SwiperSlide>
           <div className={styles.card}>
-            <img
+            <Image
               className={styles.thumbnail}
-              src="./img/projects/project2.png"
-              loading="lazy"
+              src="/img/projects/project2.png"
+              width={700}
+              height={406}
               alt="project2"
             />
             <h3>Project Number Two</h3>
@@ -72,10 +75,11 @@ export default function Projects() {
         </SwiperSlide>
         <SwiperSlide>
           <div className={styles.card}>
-            <img
+            <Image
               className={styles.thumbnail}
-              src="./img/projects/project3.png"
-              loading="lazy"
+              src="/img/projects/project3.png"
+              width={700}
+              height={406}
               alt="project3"
             />
             <h3>Project Number Three</h3>
@@ -87,10 +91,11 @@ export default function Projects() {
         </SwiperSlide>
         <SwiperSlide>
           <div className={styles.card}>
-            <img
+            <Image
               className={styles.thumbnail}
-              src="./img/projects/project4.png"
-              loading="lazy"
+              src="/img/projects/project4.png"
+              width={700}
+              height={406}
               alt="project4"
             />
             <h3>Project Number Four</h3>
@@ -102,10 +107,11 @@ export default function Projects() {
         </SwiperSlide>
         <SwiperSlide>
           <div className={styles.card}>
-            <img
+            <Image
               className={styles.thumbnail}
-              src="./img/projects/project1.png"
-              loading="lazy"
+              src="/img/projects/project1.png"
+              width={700}
+              height={406}
               alt="project5"
             />
             <h3>Project Number Five</h3>
@@ -117,10 +123,11 @@ export default function Projects() {
         </SwiperSlide>
         <SwiperSlide>
           <div className={styles.card}>
-            <img
+            <Image
               className={styles.thumbnail}
-              src="./img/projects/project2.png"
-              loading="lazy"
+              src="/img/projects/project2.png"
+              width={700}
+              height={406}
               alt="project6"
             />
             <h3>Project Number Six</h3>
@@ -132,10 +139,11 @@ export default function Projects() {
         </SwiperSlide>
         <SwiperSlide>
           <div className={styles.card}>
-            <img
+            <Image
               className={styles.thumbnail}
-              src="./img/projects/project3.png"
-              loading="lazy"
+              src="/img/projects/project3.png"
+              width={700}
+              height={406}
               alt="project7"
             />
             <h3>Project Number Seven</h3>
@@ -147,10 +155,11 @@ export default function Projects() {
         </SwiperSlide>
         <SwiperSlide>
           <div className={styles.card}>
-            <img
+            <Image
               className={styles.thumbnail}
-              src="./img/projects/project4.png"
-              loading="lazy"
+              src="/img/projects/project4.png"
+              width={700}
+              height={406}
               alt="project8"
             />
             <h3>Project Number Eight</h3>

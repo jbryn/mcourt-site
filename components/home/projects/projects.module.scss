@@ -30,11 +30,8 @@
   @apply max-[420px]:items-center;
 
   .thumbnail {
-    @apply w-[700px] h-[406px];
     @apply rounded-[10px];
     @apply mb-[28px];
-    @apply min-[880px]:w-[350px] min-[880px]:h-[406px];
-    @apply max-[420px]:w-[260px] max-[420px]:h-[316px];
   }
 
   h3 {
