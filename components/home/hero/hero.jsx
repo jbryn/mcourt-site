@@ -6,10 +6,10 @@ export default function Hero() {
     <section className="overflow-hidden">
       <div className={styles.wrapper}>
         <div className={styles.hero}>
-          <h1>Experience Quality and Precision</h1>
+          <h1>Jakość, doświadczenie i precyzja</h1>
           <h2>
-            mCourt is a company with over a decade of experience in building and
-            maintaining tennis courts.
+            Budujemy korty tenisowe od 2008 roku, naszym klientom proponujemy
+            rozwiązania najlepszych światowych producentów
           </h2>
           <button
             className={styles.cta}
@@ -18,11 +18,11 @@ export default function Hero() {
               video.scrollIntoView({ behavior: "smooth" });
             }}
           >
-            Learn More
+            Dowiedz się więcej
           </button>
         </div>
 
-        <div className="flex w-full justify-center pt-[50px]">
+        <div className="flex w-full justify-center pb-[100px]">
           <svg
             width="49"
             height="76"

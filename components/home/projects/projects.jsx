@@ -50,9 +50,11 @@ export default function Projects() {
               height={406}
               alt="project1"
             />
-            <h3 id="projects">Project Number One</h3>
+            <h3 id="projects">
+              2023 Budowa komplesku czterech kortów tenisowych w Łaźniewku
+            </h3>
             <Link href="/">
-              <span>View More</span>
+              <span>Dowiedz się więcej</span>
               <img src="./icons/little-arrow.svg" alt="arrow" />
             </Link>
           </div>
@@ -66,9 +68,9 @@ export default function Projects() {
               height={406}
               alt="project2"
             />
-            <h3>Project Number Two</h3>
+            <h3>2023 Korty ze sztucznej trawy w Dębnie</h3>
             <Link href="/">
-              <span>View More</span>
+              <span>Dowiedz się więcej</span>
               <img src="./icons/little-arrow.svg" alt="arrow" />
             </Link>
           </div>
@@ -82,9 +84,9 @@ export default function Projects() {
               height={406}
               alt="project3"
             />
-            <h3>Project Number Three</h3>
+            <h3>2022 Budowa 11 kortów w Akademii Tenisa Kozerkii</h3>
             <Link href="/">
-              <span>View More</span>
+              <span>Dowiedz się więcej</span>
               <img src="./icons/little-arrow.svg" alt="arrow" />
             </Link>
           </div>
@@ -98,9 +100,9 @@ export default function Projects() {
               height={406}
               alt="project4"
             />
-            <h3>Project Number Four</h3>
+            <h3>2022 Renowacja nawierzchni na Warszawiance</h3>
             <Link href="/">
-              <span>View More</span>
+              <span>Dowiedz się więcej</span>
               <img src="./icons/little-arrow.svg" alt="arrow" />
             </Link>
           </div>
@@ -116,55 +118,7 @@ export default function Projects() {
             />
             <h3>Project Number Five</h3>
             <Link href="/">
-              <span>View More</span>
-              <img src="./icons/little-arrow.svg" alt="arrow" />
-            </Link>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className={styles.card}>
-            <Image
-              className={styles.thumbnail}
-              src="/img/projects/project2.png"
-              width={700}
-              height={406}
-              alt="project6"
-            />
-            <h3>Project Number Six</h3>
-            <Link href="/">
-              <span>View More</span>
-              <img src="./icons/little-arrow.svg" alt="arrow" />
-            </Link>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className={styles.card}>
-            <Image
-              className={styles.thumbnail}
-              src="/img/projects/project3.png"
-              width={700}
-              height={406}
-              alt="project7"
-            />
-            <h3>Project Number Seven</h3>
-            <Link href="/">
-              <span>View More</span>
-              <img src="./icons/little-arrow.svg" alt="arrow" />
-            </Link>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className={styles.card}>
-            <Image
-              className={styles.thumbnail}
-              src="/img/projects/project4.png"
-              width={700}
-              height={406}
-              alt="project8"
-            />
-            <h3>Project Number Eight</h3>
-            <Link href="/">
-              <span>View More</span>
+              <span>Dowiedz się więcej</span>
               <img src="./icons/little-arrow.svg" alt="arrow" />
             </Link>
           </div>

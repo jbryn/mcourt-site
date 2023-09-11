@@ -33,6 +33,13 @@ export default function ContactForm() {
   return (
     <div className={styles.formWrapper}>
       <h2>Skontaktuj się z nami</h2>
+      <p>
+        Skontaktuj się z nami już dziś, aby dowiedzieć się więcej o naszej
+        ofercie i przekonać się, jak możemy spełnić Twoje potrzeby związane z{" "}
+        <strong>budową i wyposażeniem kortów tenisowych</strong>. Jesteśmy
+        gotowi dostarczyć Ci najlepsze rozwiązania, które zapewnią doskonałe
+        warunki do <strong>gry w tenisa</strong> i spełnią Twoje oczekiwania.
+      </p>
       <Formik
         initialValues={{
           name: "",

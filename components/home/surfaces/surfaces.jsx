@@ -5,7 +5,12 @@ export default function Surfaces() {
   return (
     <section>
       <div className={styles.container}>
-        <h2>Types of tennis surfaces</h2>
+        <h2>
+          Nasza oferta obejmuje wysokiej jakości{" "}
+          <strong>
+            nawierzchnie tenisowe renomowanych światowych producentów
+          </strong>
+        </h2>
         <div className={styles.cards}>
           <div>
             <Image

@@ -30,6 +30,7 @@
   @apply max-[420px]:items-center;
 
   .thumbnail {
+    @apply max-h-[406px];
     @apply rounded-[10px];
     @apply mb-[28px];
   }

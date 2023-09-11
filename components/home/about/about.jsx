@@ -8,18 +8,20 @@ export default function About() {
         <div className={styles.card}>
           <h2 id="about">O nas</h2>
           <p>
-            Witamy w mCourt.eu, liderze w budowie i wyposażeniu kortów w Polsce.
-            Z dumą dostarczamy najwyższej jakości korty tenisowe, do padla i
-            pickleballa od ponad 10 lat. Nasze doświadczenie i zrozumienie
-            potrzeb klienta czynią nas niezrównanym wyborem dla Twojego
-            projektu.
-          </p>
-          <p>
-            Skontaktuj się z nami już dziś i przekonaj się, jak możemy pomóc w
-            realizacji Twojego wymarzonego kortu.
+            Od 2008 roku z dumą dostarczamy najwyższej jakości{" "}
+            <strong>
+              korty tenisowe, korty do padla i korty do pickleballa
+            </strong>
+            . Nasi wysoko wykwalifikowani specjaliści zawsze służą fachowym
+            doradztwem i wsparciem technicznym, aby dostosować rozwiązania do
+            indywidualnych potrzeb i wymagań klienta. Niezależnie od tego, czy
+            planujesz budowę nowego <strong>kortu tenisowego</strong>,{" "}
+            <strong>modernizację istniejącego obiektu</strong> czy{" "}
+            <strong>konserwację nawierzchni tenisowej</strong>, jesteśmy gotowi
+            zapewnić Ci kompleksową obsługę na najwyższym poziomie.
           </p>
           <div className={styles.bottom}>
-            <button className={styles.button}>Contact us</button>
+            <button className={styles.button}>Skontaktuj się z nami</button>
 
             <Image
               src="/img/logos/mcourt-logo-color.png"
@@ -42,21 +44,21 @@ export default function About() {
       <div className={styles.statsContainer}>
         <div className={styles.stat}>
           <div className={styles.top}>
-            <span>200</span>
+            <span>225</span>
             <img src="./vectors/stats-circles.svg" alt="stat" />
           </div>
           <p>Zbudowanych kortów</p>
         </div>
         <div className={styles.stat}>
           <div className={styles.top}>
-            <span>10</span>
+            <span>15</span>
             <img src="./vectors/stats-circles.svg" alt="stat" />
           </div>
           <p>Lat doświadczenia</p>
         </div>
         <div className={styles.stat}>
           <div className={styles.top}>
-            <span>8</span>
+            <span>5</span>
             <img src="./vectors/stats-circles.svg" alt="stat" />
           </div>
           <p>Typów kortów budujemy</p>

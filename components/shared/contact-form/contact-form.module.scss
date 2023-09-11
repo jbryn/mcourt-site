@@ -6,6 +6,10 @@
     @apply sm:text-[42px];
   }
 
+  p {
+    @apply max-w-[500px];
+  }
+
   .fieldsWrapper {
     @apply flex flex-col gap-[12px];
 
