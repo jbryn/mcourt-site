@@ -4,7 +4,7 @@ export default function CourtsPage() {
   return (
     <main>
       <Hero
-        backgroundUrl={"./img/courts-hero.png"}
+        backgroundUrl={"/img/courts-hero.png"}
         title="Nawierzchnia akrylowa"
         subtitle={`Lorem ipsum dolor sit amet consectetur. Nibh suspendisse aliquam sed
           libero eu faucibus commodo sagittis. Sit accumsan et mauris fringilla

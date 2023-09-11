@@ -7,7 +7,7 @@ export default function TennisHalls() {
   return (
     <main>
       <Hero
-        backgroundUrl={"./img/tennis-halls/hero.png"}
+        backgroundUrl={"/img/tennis-halls/hero.png"}
         title="Hale tenisowe"
         subtitle={`Lorem ipsum dolor sit amet consectetur. Nibh suspendisse aliquam sed
           libero eu faucibus commodo sagittis. Sit accumsan et mauris fringilla
