@@ -20,10 +20,19 @@
     .menu {
       @apply flex flex-col text-light-grey;
       @apply sm:flex-row sm:gap-[50px];
+
+      li:hover {
+        @apply underline;
+        @apply cursor-pointer;
+      }
     }
 
     .socials {
       @apply flex gap-[11px];
+
+      img:hover {
+        @apply cursor-pointer;
+      }
     }
   }
 

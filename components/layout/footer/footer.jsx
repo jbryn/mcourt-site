@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./footer.module.scss";
 
 export default function Footer() {
@@ -7,17 +8,28 @@ export default function Footer() {
         <div className={styles.card}>
           <img src="./img/logos/mcourt-logo-color.png" alt="logo" />
           <ul className={styles.menu}>
-            <li>Home</li>
-            <li>Courts</li>
-            <li>Tennis halls</li>
+            <li>Strona główna</li>
+            <li>Korty</li>
+            <li>Hale tenisowe</li>
             <li>Padel</li>
             <li>Pickelball</li>
           </ul>
           <div className={styles.socials}>
-            <img src="./icons/facebook.svg" alt="facebook" />
-            <img src="./icons/instagram.svg" alt="instagram" />
-            <img src="./icons/twitter.svg" alt="twitter" />
-            <img src="./icons/linkedin.svg" alt="linkedin" />
+            <Link href="https://www.facebook.com/mcourt.eu" target="_blank">
+              <img src="./icons/facebook.svg" alt="facebook" />
+            </Link>
+            <Link href="https://www.instagram.com/mcourt.eu/" target="_blank">
+              <img src="./icons/instagram.svg" alt="instagram" />
+            </Link>
+            <Link href="">
+              <img src="./icons/twitter.svg" alt="twitter" />
+            </Link>
+            <Link
+              href="https://www.linkedin.com/company/mcourt-polska/"
+              target="_blank"
+            >
+              <img src="./icons/linkedin.svg" alt="linkedin" />
+            </Link>
           </div>
         </div>
         <div className={styles.top} />

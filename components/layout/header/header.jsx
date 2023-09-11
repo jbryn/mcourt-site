@@ -23,15 +23,15 @@ export default function Header() {
         </Link>
         <ul className={styles.list}>
           <Link href="/">
-            <li>Home</li>
+            <li>Strona główna</li>
           </Link>
 
           <Link href="/courts" onMouseEnter={() => setVisible(true)}>
-            <li>Courts</li>
+            <li>Korty</li>
           </Link>
 
           <Link href="/tennis-halls">
-            <li>Tennis halls</li>
+            <li>Hale tenisowe</li>
           </Link>
           <li>Padel</li>
           <li>Pickelball</li>
@@ -64,13 +64,13 @@ export default function Header() {
         </div>
         <ul className={styles.list}>
           <Link href="/" onClick={() => setMenuOpen(false)}>
-            <li>Home</li>
+            <li>Strona główna</li>
           </Link>
           <Link href="/courts" onClick={() => setMenuOpen(false)}>
-            <li id="courts">Courts</li>
+            <li id="courts">Korty</li>
           </Link>
           <Link href="/tennis-halls" onClick={() => setMenuOpen(false)}>
-            <li>Tennis halls</li>
+            <li>Hale tenisowe</li>
           </Link>
           <li>Padel</li>
           <li>Pickelball</li>

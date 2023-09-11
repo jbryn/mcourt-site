@@ -19,7 +19,7 @@ export default function Surfaces() {
               width={350}
               height={406}
             />
-            <h3>Laykold</h3>
+            <h3>Nawierzchnie akrylowe</h3>
           </div>
           <div>
             <Image
@@ -28,7 +28,7 @@ export default function Surfaces() {
               width={350}
               height={406}
             />
-            <h3>Antuka Premium</h3>
+            <h3>Nawierzchnie ceglane</h3>
           </div>
           <div>
             <Image
@@ -37,7 +37,7 @@ export default function Surfaces() {
               width={350}
               height={406}
             />
-            <h3>Fast Track 15</h3>
+            <h3>Sztuczna trawa</h3>
           </div>
           <div>
             <Image
@@ -46,7 +46,7 @@ export default function Surfaces() {
               width={350}
               height={406}
             />
-            <h3>Padel courts</h3>
+            <h3>Korty do padla</h3>
           </div>
           <div>
             <Image
@@ -55,7 +55,7 @@ export default function Surfaces() {
               width={350}
               height={406}
             />
-            <h3>Tennis Halls</h3>
+            <h3>Hale tenisowe</h3>
           </div>
           <div>
             <Image
@@ -64,7 +64,7 @@ export default function Surfaces() {
               width={350}
               height={406}
             />
-            <h3>All year tennis courts</h3>
+            <h3>Korty całoroczne</h3>
           </div>
         </div>
       </div>
