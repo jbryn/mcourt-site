@@ -48,6 +48,7 @@
 
   .background {
     @apply absolute top-0 -z-20;
+    @apply w-full;
     @apply h-[721px];
 
     filter: brightness(0.3);
