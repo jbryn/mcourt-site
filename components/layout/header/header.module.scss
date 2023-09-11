@@ -1,8 +1,6 @@
 .wrapper {
   @apply flex items-center justify-between py-[10px] px-[32px];
   @apply border-b-[1px] border-grey;
-  @apply md:px-[80px];
-  @apply lg:px-[165px];
 
   .logo {
     @apply max-w-[160px];
@@ -15,42 +13,6 @@
 
     li:hover {
       @apply cursor-pointer;
-    }
-
-    .tooltip {
-      @apply relative inline-block;
-    }
-
-    .tooltipContent {
-      visibility: hidden;
-      @apply bg-white text-black text-center rounded-[6px];
-      @apply absolute bottom-[-270px] left-[-90px] z-10;
-      @apply p-[22px];
-      @apply flex flex-col items-start;
-      @apply whitespace-nowrap;
-      @apply min-w-[239px];
-
-      a {
-        @apply text-light-grey text-[14px];
-        line-height: 240%;
-
-        &:hover {
-          @apply text-black font-semibold;
-
-          &::before {
-            content: url("/icons/arrow.svg");
-            @apply pr-[8px];
-          }
-        }
-      }
-    }
-
-    .tooltipContent::before {
-      content: "";
-      @apply absolute block w-[0px] left-[50%] top-[5px] border-t-0;
-      border: 15px solid transparent;
-      border-bottom: 15px solid white;
-      transform: translate(-50%, calc(-100% - 5px));
     }
   }
 
@@ -74,5 +36,41 @@
   .close {
     @apply absolute right-5 top-5;
     @apply cursor-pointer z-10;
+  }
+}
+
+.tooltip {
+  visibility: hidden;
+  @apply absolute right-[235px];
+  @apply min-w-[255px];
+  @apply bg-white text-center rounded-[6px];
+
+  .tooltipContent {
+    @apply text-black;
+    @apply flex flex-col items-start;
+    @apply whitespace-nowrap;
+    @apply p-[22px];
+
+    a {
+      @apply text-light-grey text-[14px];
+      line-height: 240%;
+
+      &:hover {
+        @apply text-black font-semibold;
+
+        &::before {
+          content: url("/icons/arrow.svg");
+          @apply pr-[8px];
+        }
+      }
+    }
+  }
+
+  &::before {
+    content: "";
+    @apply absolute block w-[0px] left-[50%] top-[5px] border-t-0;
+    border: 15px solid transparent;
+    border-bottom: 15px solid white;
+    transform: translate(-50%, calc(-100% - 5px));
   }
 }

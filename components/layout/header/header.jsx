@@ -26,21 +26,9 @@ export default function Header() {
             <li>Home</li>
           </Link>
 
-          <li className={styles.tooltip} onMouseEnter={() => setVisible(true)}>
-            Courts
-            <span
-              ref={tooltipRef}
-              className={styles.tooltipContent}
-              onMouseLeave={() => setVisible(false)}
-            >
-              <Link href="/courts">Hard surfaces/acrylics</Link>
-              <Link href="/courts">Artificial surfaces/grass</Link>
-              <Link href="/courts">Hybrid surfaces</Link>
-              <Link href="/courts">Carpet surfaces</Link>
-              <Link href="/courts">Court lightning</Link>
-              <Link href="/courts">Court hydration</Link>
-            </span>
-          </li>
+          <Link href="/courts" onMouseEnter={() => setVisible(true)}>
+            <li>Courts</li>
+          </Link>
 
           <Link href="/tennis-halls">
             <li>Tennis halls</li>
@@ -55,7 +43,18 @@ export default function Header() {
           <img src="./icons/hamburger.svg" alt="hamburger" />
         </div>
       </div>
-      {/* <div className={styles.tooltip}></div> */}
+      <div
+        ref={tooltipRef}
+        className={styles.tooltip}
+        onMouseLeave={() => setVisible(false)}
+      >
+        <span className={styles.tooltipContent}>
+          <Link href="/courts">Nawierzchnie akrylowe</Link>
+          <Link href="/courts">Sztuczna trawa</Link>
+          <Link href="/courts">Nawierzchnie hybrydowe</Link>
+          <Link href="/courts">Nawierzchnia ceglana</Link>
+        </span>
+      </div>
       <div className={classNames(styles.menu, { ["hidden"]: !isMenuOpen })}>
         <div
           className={styles.close}

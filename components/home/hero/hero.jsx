@@ -51,7 +51,12 @@ export default function Hero() {
         <img className={styles.ball} src="./vectors/ball.svg" alt="ball" />
 
         <div className={styles.background}>
-          <Image src="/img/tennis-court.png" alt="tennis-court" fill />
+          <Image
+            src="/img/tennis-court.png"
+            alt="tennis-court"
+            quality={25}
+            fill
+          />
         </div>
       </div>
     </section>
