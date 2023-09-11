@@ -34,7 +34,13 @@ export default function Hero({ backgroundUrl, title, subtitle }) {
         </div>
 
         <div className={styles.background}>
-          <Image src={backgroundUrl} alt={title} quality={25} fill />
+          <Image
+            src={backgroundUrl}
+            alt={title}
+            quality={25}
+            loading="eager"
+            fill
+          />
         </div>
       </div>
     </section>

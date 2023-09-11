@@ -54,6 +54,7 @@ export default function Hero() {
           <Image
             src="/img/tennis-court.png"
             alt="tennis-court"
+            loading="eager"
             quality={25}
             fill
           />
