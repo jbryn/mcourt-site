@@ -55,6 +55,7 @@ export default function Hero() {
             src="/img/tennis-court.png"
             alt="tennis-court"
             loading="eager"
+            // placeholder="blur"
             quality={25}
             fill
           />

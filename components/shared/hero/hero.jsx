@@ -39,6 +39,7 @@ export default function Hero({ backgroundUrl, title, subtitle }) {
             alt={title}
             quality={25}
             loading="eager"
+            // placeholder="blur"
             fill
           />
         </div>

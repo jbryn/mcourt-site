@@ -1,0 +1,29 @@
+.wrapper {
+  @apply flex flex-col items-center gap-[230px] pt-[300px];
+
+  .feature {
+    @apply flex flex-col gap-[95px] pb-[60px] px-[30px];
+    @apply lg:flex-row;
+
+    img {
+      @apply rounded-[10px];
+    }
+
+    .description {
+      @apply flex flex-col gap-[40px];
+      @apply max-w-[462px];
+
+      h2 {
+        @apply text-[42px] font-semibold;
+      }
+
+      h3 {
+        @apply text-[16px] text-light-grey;
+
+        p {
+          @apply pb-[40px];
+        }
+      }
+    }
+  }
+}
