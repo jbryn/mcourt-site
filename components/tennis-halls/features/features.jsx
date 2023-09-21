@@ -83,6 +83,73 @@ export default function Features() {
             </h3>
           </div>
         </div>
+        <div className={styles.feature}>
+          <Image
+            src="/img/tennis-halls/image5.jpeg"
+            width={540}
+            height={406}
+            alt="budowa"
+          />
+          <div className={styles.description}>
+            <h2>Tytuł sekcji</h2>
+            <h3>
+              <p>
+                W naszych halach łukowych stosujemy nowoczesne oświetlenie LED o
+                intensywności na poziomie 350 lx. To zapewnia doskonałe warunki
+                oświetleniowe, które są nie tylko energooszczędne, ale także
+                optymalne dla różnych zastosowań. Oświetlenie LED oferuje
+                jasność i równomierny rozkład światła, co zwiększa efektywność
+                pracy oraz komfort użytkowników wewnątrz hali.
+              </p>
+            </h3>
+          </div>
+        </div>
+        <div className={styles.feature}>
+          <Image
+            className="order-1"
+            src="/img/tennis-halls/image6.jpeg"
+            width={640}
+            height={406}
+            alt="hall"
+          />
+          <div className={styles.description}>
+            <h2>Tytuł sekcji</h2>
+            <h3>
+              <p>
+                W zależności od dostępnych źródeł energii, istnieje opcja
+                <strong> ogrzewania hali tenisowej</strong> za pomocą gazu,
+                podłączenia do sieci centralnego ogrzewania, lub alternatywnie,
+                w przypadku braku dostępności tych mediów, można rozważyć opcję
+                ogrzewania olejem opałowym. Proponowane przez nas systemy
+                grzewcze zapewniają optymalne warunki do gry w tenisa,
+                utrzymując stabilną i komfortową temperaturę wewnątrz hali
+                niezależnie od pory roku czy warunków atmosferycznych na
+                zewnątrz.
+              </p>
+            </h3>
+          </div>
+        </div>
+        <div className={styles.feature}>
+          <Image
+            src="/img/tennis-halls/image4.jpeg"
+            width={540}
+            height={406}
+            alt="budowa"
+          />
+          <div className={styles.description}>
+            <h2>Tytuł sekcji</h2>
+            <h3>
+              <p>
+                Nasze <strong>hale tenisowe</strong> wyposażamy w rozsuwane
+                rolety boczne. Te innowacyjne rozwiązania pozwalają na regulację
+                przepływu powietrza wewnątrz hali, umożliwiając efektywne
+                chłodzenie i cyrkulację powietrza w cieplejszych miesiącach. To
+                kolejny element, który sprawia, że nasze hale są dostosowane do
+                różnorodnych potrzeb i sezonowych wymagań.
+              </p>
+            </h3>
+          </div>
+        </div>
       </div>
     </section>
   );
