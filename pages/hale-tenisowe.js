@@ -15,9 +15,7 @@ export default function TennisHalls() {
         technologicznymi. Dzięki naszemu doświadczeniu zapewnimy Ci doskonałe warunki do gry przez cały
         rok.`}
       />
-      {/* <About /> */}
       <Features />
-      {/* <Description /> */}
       <Testimonials />
       <Contact />
     </main>

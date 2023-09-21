@@ -1,5 +1,5 @@
 .wrapper {
-  @apply block gap-[20px] pt-[200px] pb-[274px] pl-[20px];
+  @apply block gap-[20px] pt-[200px] pl-[20px] pr-[20px];
   @apply lg:flex lg:pl-[60px] lg:pr-[30px];
   @apply min-[1440px]:pl-[165px];
 

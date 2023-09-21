@@ -2,7 +2,7 @@
   @apply flex flex-col items-center gap-[230px] pt-[300px];
 
   .feature {
-    @apply flex flex-col gap-[95px] pb-[60px] px-[30px];
+    @apply flex flex-col gap-[95px] px-[30px];
     @apply lg:flex-row;
 
     img {

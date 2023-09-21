@@ -10,7 +10,7 @@
 
     .card {
       @apply bg-white shadow-2xl px-[42px] pb-[42px] pt-[26px];
-      @apply max-w-[526px] max-h-[541px];
+      @apply max-w-[526px];
       @apply rounded-[10px];
 
       @apply min-[1333px]:transform min-[1333px]:-translate-x-[60px];
