@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import styles from "./testimonials.module.scss";
@@ -8,11 +9,9 @@ export default function Testimonials() {
   return (
     <section>
       <div className={styles.wrapper}>
-        {/* <div className={styles.decor} /> */}
         <div className={styles.header}>
           <span>
-            <h2>Testimonials</h2>
-            <h3>Hear What Our Customers Have to Say</h3>
+            <h2>Wybrane wizualizacje</h2>
           </span>
           <div className={styles.navigation}>
             <div id="swiper1-prev" className="swiper-button-prev" />
@@ -28,20 +27,20 @@ export default function Testimonials() {
               slidesPerView: 1,
             },
             512: {
-              slidesPerView: 2,
+              slidesPerView: 1,
             },
             812: {
-              slidesPerView: 3,
+              slidesPerView: 1,
             },
             1024: {
-              slidesPerView: 2,
+              slidesPerView: 1,
             },
 
             1334: {
-              slidesPerView: 3,
+              slidesPerView: 1,
             },
             1600: {
-              slidesPerView: 4,
+              slidesPerView: 1,
             },
           }}
           spaceBetween={30}
@@ -53,94 +52,58 @@ export default function Testimonials() {
           className="mySwiper1"
         >
           <SwiperSlide>
-            <div className={styles.card}>
-              <div className={styles.name}>
-                <cite>Ralph Edwards</cite>
-                <span>CEO</span>
-                <img src="./icons/five-stars.svg" alt="rating" />
-              </div>
-              <blockquote>
-                Working with MCOURT was an absolute pleasure. Their expertise in
-                building and maintaining tennis courts is unmatched. From the
-                initial consultation to the final touches, they were
-                professional, reliable, and attentive to every detail.
-              </blockquote>
-            </div>
+            <Image
+              className="rounded-[10px]"
+              src="/img/tennis-halls/carousel/image8.png"
+              width={640}
+              height={406}
+              alt="hall"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <div className={styles.card}>
-              <div className={styles.name}>
-                <cite>Darrell Steward</cite>
-                <span>CEO</span>
-                <img src="./icons/five-stars.svg" alt="rating" />
-              </div>
-              <blockquote>
-                We&apos;ve been relying on MCOURT for over a decade to take care
-                of our tennis courts, and they have never disappointed. Their
-                team is incredibly knowledgeable and skilled in all aspects of
-                tennis court maintenance.
-              </blockquote>
-            </div>
+            <Image
+              className="rounded-[10px]"
+              src="/img/tennis-halls/carousel/image9.png"
+              width={640}
+              height={406}
+              alt="hall"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <div className={styles.card}>
-              <div className={styles.name}>
-                <cite>Ralph Edwards</cite>
-                <span>CEO</span>
-                <img src="./icons/five-stars.svg" alt="rating" />
-              </div>
-              <blockquote>
-                We&apos;ve been relying on MCOURT for over a decade to take care
-                of our tennis courts, and they have never disappointed. Their
-                team is incredibly knowledgeable and skilled in all aspects of
-                tennis court maintenance.
-              </blockquote>
-            </div>
+            <Image
+              className="rounded-[10px]"
+              src="/img/tennis-halls/carousel/image10.png"
+              width={640}
+              height={406}
+              alt="hall"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <div className={styles.card}>
-              <div className={styles.name}>
-                <cite>Ralph Edwards</cite>
-                <span>CEO</span>
-                <img src="./icons/five-stars.svg" alt="rating" />
-              </div>
-              <blockquote>
-                Working with MCOURT was an absolute pleasure. Their expertise in
-                building and maintaining tennis courts is unmatched. From the
-                initial consultation to the final touches, they were
-                professional, reliable, and attentive to every detail.
-              </blockquote>
-            </div>
+            <Image
+              className="rounded-[10px]"
+              src="/img/tennis-halls/carousel/image11.png"
+              width={640}
+              height={406}
+              alt="hall"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <div className={styles.card}>
-              <div className={styles.name}>
-                <cite>Darrell Steward</cite>
-                <span>CEO</span>
-                <img src="./icons/five-stars.svg" alt="rating" />
-              </div>
-              <blockquote>
-                We&apos;ve been relying on MCOURT for over a decade to take care
-                of our tennis courts, and they have never disappointed. Their
-                team is incredibly knowledgeable and skilled in all aspects of
-                tennis court maintenance.
-              </blockquote>
-            </div>
+            <Image
+              className="rounded-[10px]"
+              src="/img/tennis-halls/carousel/image12.png"
+              width={640}
+              height={406}
+              alt="hall"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <div className={styles.card}>
-              <div className={styles.name}>
-                <cite>Ralph Edwards</cite>
-                <span>CEO</span>
-                <img src="./icons/five-stars.svg" alt="rating" />
-              </div>
-              <blockquote>
-                We&apos;ve been relying on MCOURT for over a decade to take care
-                of our tennis courts, and they have never disappointed. Their
-                team is incredibly knowledgeable and skilled in all aspects of
-                tennis court maintenance.
-              </blockquote>
-            </div>
+            <Image
+              className="rounded-[10px]"
+              src="/img/tennis-halls/carousel/image13.png"
+              width={640}
+              height={406}
+              alt="hall"
+            />
           </SwiperSlide>
         </Swiper>
       </div>

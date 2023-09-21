@@ -3,6 +3,7 @@ import About from "@/components/tennis-halls/about/about";
 import Description from "@/components/tennis-halls/description/description";
 import Hero from "@/components/shared/hero/hero";
 import Features from "@/components/tennis-halls/features/features";
+import Testimonials from "@/components/home/testimonials/testimonials";
 
 export default function TennisHalls() {
   return (
@@ -16,7 +17,8 @@ export default function TennisHalls() {
       />
       {/* <About /> */}
       <Features />
-      <Description />
+      {/* <Description /> */}
+      <Testimonials />
       <Contact />
     </main>
   );

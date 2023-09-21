@@ -14,7 +14,7 @@ export default function Features() {
             alt="hall"
           />
           <div className={styles.description}>
-            <h2>Tytuł sekcji</h2>
+            <h2 id="video">Tytuł sekcji</h2>
             <h3>
               <p>
                 Od wielu lat dostarczamy naszym klientom innowacyjne rozwiązania
