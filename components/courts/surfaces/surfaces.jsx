@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styles from "./surfaces.module.scss";
 
 export default function Surfaces() {
@@ -5,9 +6,9 @@ export default function Surfaces() {
     <section>
       <div className={styles.wrapper}>
         <div className={styles.surface}>
-          <img
+          <Image
             className="lg:order-1"
-            src="./img/courts/image1.jpeg"
+            src="/img/courts/image1.jpeg"
             loading="lazy"
             width={540}
             height={406}
@@ -25,18 +26,12 @@ export default function Surfaces() {
                 kortach w <strong>Akademii Tenisa Kozerki</strong> czy na{" "}
                 <strong>Legii Warszawa</strong>.
               </p>
-              <p>
-                {" "}
-                Dołącz do grona tych, którzy wybierają jakość i doświadczenie
-                <strong>Laykold</strong>, i przekształć swój kort tenisowy w
-                arenę mistrzów.
-              </p>{" "}
             </h3>
           </div>
         </div>
         <div className={styles.surface}>
-          <img
-            src="./img/courts/image3.jpeg"
+          <Image
+            src="/img/courts/image3.jpeg"
             loading="lazy"
             width={540}
             height={406}
@@ -64,9 +59,9 @@ export default function Surfaces() {
           </div>
         </div>
         <div className={styles.surface}>
-          <img
+          <Image
             className="lg:order-1"
-            src="./img/courts/image4.jpeg"
+            src="/img/courts/image4.jpeg"
             loading="lazy"
             width={540}
             height={406}
@@ -93,8 +88,8 @@ export default function Surfaces() {
           </div>
         </div>
         <div className={styles.surface}>
-          <img
-            src="./img/courts/image2.jpeg"
+          <Image
+            src="/img/courts/image2.jpeg"
             loading="lazy"
             width={540}
             height={406}
