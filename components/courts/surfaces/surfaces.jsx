@@ -14,19 +14,23 @@ export default function Surfaces() {
             alt="antuka"
           />
           <div className={styles.description}>
-            <h2>Antuka Premium</h2>
+            <h2>Korty twarde / akrylowe nawierzchnie Laykold</h2>
             <h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur. Nibh suspendisse aliquam
-                sed libero eu faucibus commodo sagittis. Sit accumsan et mauris
-                fringilla elementum elit interdum scelerisque consectetur.
+                W naszej ofercie znajdziesz prestiżowe{" "}
+                <strong>nawierzchnie akrylowe</strong> od światowego lidera,
+                firmy Laykold. To dokładnie te nawierzchnie, na których
+                rywalizują zawodowcy na takich wydarzeniach jak{" "}
+                <strong>US Open</strong>, <strong>Miami Open</strong> a także na
+                kortach w <strong>Akademii Tenisa Kozerki</strong> czy na{" "}
+                <strong>Legii Warszawa</strong>.
               </p>
               <p>
                 {" "}
-                Quis vitae pharetra aenean nibh pellentesque ac tristique metus
-                enim. Viverra mauris risus nunc nibh cras.
+                Dołącz do grona tych, którzy wybierają jakość i doświadczenie
+                <strong>Laykold</strong>, i przekształć swój kort tenisowy w
+                arenę mistrzów.
               </p>{" "}
-              <p>Et tortor massa sit cras faucibus arcu commodo.</p>
             </h3>
           </div>
         </div>

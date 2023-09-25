@@ -8,14 +8,12 @@ export default function CourtsPage() {
   return (
     <main>
       <Hero
-        backgroundUrl={"/img/courts-hero.png"}
-        title="Korty"
-        subtitle={`Lorem ipsum dolor sit amet consectetur. Nibh suspendisse aliquam sed
-          libero eu faucibus commodo sagittis. Sit accumsan et mauris fringilla
-          elementum elit interdum scelerisque consectetur.`}
+        backgroundUrl={"/img/courts/image5.png"}
+        title="Korty tenisowe"
+        subtitle={`Budowa kortów tenisowych to nasza specjalność. Oferujemy najlepsze nawierzchnie tenisowe i profesjonalizm w każdym projekcie. Skontaktuj się z nami już dziś i wybuduj swój wymarzony kort.`}
       />
-      <Video />
-      <Colors />
+      {/* <Video /> */}
+      {/* <Colors /> */}
       <Surfaces />
       <Contact />
     </main>
