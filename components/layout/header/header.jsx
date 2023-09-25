@@ -12,7 +12,7 @@ export default function Header() {
   };
 
   return (
-    <header>
+    <header className="bg-black fixed w-full z-50">
       <div className={classNames(styles.wrapper)}>
         <Link href="/">
           <img
