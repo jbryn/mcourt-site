@@ -3,7 +3,7 @@ import styles from "./hero.module.scss";
 
 export default function Hero() {
   return (
-    <section className="overflow-hidden">
+    <section className="overflow-hidden pt-[78px]">
       <div className={styles.wrapper}>
         <div className={styles.hero}>
           <h1>Jakość, doświadczenie i precyzja</h1>
@@ -22,7 +22,7 @@ export default function Hero() {
           </button>
         </div>
 
-        <div className="flex w-full justify-center pb-[100px]">
+        <div className="flex w-full justify-center py-[100px]">
           <svg
             width="49"
             height="76"

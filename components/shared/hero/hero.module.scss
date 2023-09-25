@@ -5,6 +5,10 @@
     @apply sm:mx-[100px];
     @apply lg:mx-[257px] lg:mt-[100px];
 
+    h1 {
+      @apply md:min-w-[500px];
+    }
+
     h1,
     h2 {
       @apply text-white;

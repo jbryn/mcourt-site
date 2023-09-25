@@ -11,7 +11,7 @@
     }
 
     h1 {
-      @apply text-[44px] leading-normal font-semibold max-w-[398px];
+      @apply text-[32px] leading-normal font-semibold max-w-[398px];
       @apply sm:text-[65px] sm:leading-[82px];
     }
 
@@ -47,7 +47,7 @@
   }
 
   .background {
-    @apply absolute top-0 -z-20;
+    @apply absolute top-[78px] -z-20;
     @apply w-full;
     @apply h-[721px];
 
