@@ -13,6 +13,7 @@
 
     li:hover {
       @apply cursor-pointer;
+      @apply text-green transform transition-all;
     }
   }
 
