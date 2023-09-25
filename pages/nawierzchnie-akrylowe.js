@@ -4,11 +4,9 @@ export default function CourtsPage() {
   return (
     <main>
       <Hero
-        backgroundUrl={"/img/courts-hero.png"}
-        title="Nawierzchnia akrylowa"
-        subtitle={`Lorem ipsum dolor sit amet consectetur. Nibh suspendisse aliquam sed
-          libero eu faucibus commodo sagittis. Sit accumsan et mauris fringilla
-          elementum elit interdum scelerisque consectetur.`}
+        backgroundUrl={"/img/acryl/mc.jpeg"}
+        title="Nawierzchnie akrylowe"
+        subtitle={`Zaawansowane nawierzchnie tenisowe akrylowe to doskonały wybór zarówno dla graczy, jak i klubów tenisowych. Oferujemy trwałe i wydajne rozwiązania, które spełnią Twoje oczekiwania.`}
       />
     </main>
   );

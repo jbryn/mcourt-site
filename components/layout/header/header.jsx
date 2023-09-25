@@ -56,7 +56,7 @@ export default function Header() {
           <Link href="/nawierzchnie-akrylowe">Nawierzchnie akrylowe</Link>
           <Link href="/sztuczna-trawa">Sztuczna trawa</Link>
           <Link href="/nawierzchnie-hybrydowe">Nawierzchnie hybrydowe</Link>
-          <Link href="/nawierzchnia-ceglana">Nawierzchnia ceglana</Link>
+          <Link href="/nawierzchnie-ceglane">Nawierzchnia ceglana</Link>
         </span>
       </div>
       <div className={classNames(styles.menu, { ["hidden"]: !isMenuOpen })}>

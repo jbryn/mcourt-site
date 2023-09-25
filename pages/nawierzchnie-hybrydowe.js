@@ -5,7 +5,7 @@ export default function CourtsPage() {
     <main>
       <Hero
         backgroundUrl={"/img/courts-hero.png"}
-        title="Nawierzchnia hybrydowa"
+        title="Nawierzchnie hybrydowe"
         subtitle={`Lorem ipsum dolor sit amet consectetur. Nibh suspendisse aliquam sed
           libero eu faucibus commodo sagittis. Sit accumsan et mauris fringilla
           elementum elit interdum scelerisque consectetur.`}
