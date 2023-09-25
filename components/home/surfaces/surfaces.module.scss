@@ -14,7 +14,7 @@
     @apply lg:grid-cols-3 lg:grid-rows-2;
     @apply pt-[52px];
 
-    div {
+    a {
       @apply relative;
       @apply cursor-pointer;
       transition: all 0.1s;
