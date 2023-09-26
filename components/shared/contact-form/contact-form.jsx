@@ -31,7 +31,7 @@ export default function ContactForm() {
       .required("Required"),
   });
   return (
-    <div className={styles.formWrapper}>
+    <div id="contact-form" className={styles.formWrapper}>
       <h2>Skontaktuj się z nami</h2>
       <p>
         Skontaktuj się z nami już dziś, aby dowiedzieć się więcej o naszej

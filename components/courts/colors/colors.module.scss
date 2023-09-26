@@ -1,5 +1,5 @@
 .wrapper {
-  @apply grid gap-[30px] place-items-center py-[200px] px-[30px];
+  @apply grid gap-[30px] place-items-center pt-[200px] px-[30px];
 
   .laykold {
     @apply flex flex-col gap-[25px] pb-[60px];
@@ -36,7 +36,7 @@
   }
 
   .colors {
-    @apply grid gap-[9px] grid-cols-12 pt-[80px];
+    @apply grid gap-[9px] grid-cols-12;
 
     img {
       @apply cursor-pointer;

@@ -64,14 +64,15 @@ export default function Acryl() {
         </div>
 
         <div className={styles.laykold}>
-          <Image
-            className="lg:order-1"
-            src="/img/acryl/image14.jpeg"
-            loading="lazy"
-            width={600}
-            height={185}
-            alt="antuka"
-          />
+          <div className="pt-[50px] lg:order-1">
+            <Image
+              src="/img/acryl/image14.jpeg"
+              loading="lazy"
+              width={600}
+              height={185}
+              alt="antuka"
+            />
+          </div>
           <div className={styles.description}>
             <h2>Tytuł sekcji</h2>
             <h3>

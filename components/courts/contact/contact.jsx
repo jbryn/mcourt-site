@@ -3,7 +3,7 @@ import styles from "./contact.module.scss";
 
 export default function Contact() {
   return (
-    <section id="video">
+    <section id="contact-form">
       <div className={styles.wrapper}>
         <div className={styles.cardsWrapper}>
           <img

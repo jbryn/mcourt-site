@@ -2,6 +2,7 @@ import Head from "next/head";
 import Hero from "@/components/shared/hero/hero";
 import Acryl from "@/components/courts/surfaces/acryl/acryl";
 import Colors from "@/components/courts/colors/colors";
+import Contact from "@/components/courts/contact/contact";
 
 export default function CourtsPage() {
   return (
@@ -31,6 +32,7 @@ export default function CourtsPage() {
         />
         <Acryl />
         <Colors />
+        <Contact />
       </main>
     </>
   );
