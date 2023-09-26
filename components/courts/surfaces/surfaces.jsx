@@ -15,7 +15,7 @@ export default function Surfaces() {
             alt="antuka"
           />
           <div className={styles.description}>
-            <h2>Korty twarde / akrylowe nawierzchnie Laykold</h2>
+            <h2>Akrylowe nawierzchnie Laykold</h2>
             <h3>
               <p>
                 W naszej ofercie znajdziesz prestiżowe{" "}
@@ -38,7 +38,7 @@ export default function Surfaces() {
             alt="fast-track"
           />
           <div className={styles.description}>
-            <h2>Korty ziemne / nawierzchnie z mączki ceglanej</h2>
+            <h2>Nawierzchnie z mączki ceglanej</h2>
             <h3>
               <p>
                 Nasze nawierzchnie z klasycznej mączki ceglanej czeskiego
