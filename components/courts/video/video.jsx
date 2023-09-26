@@ -8,22 +8,16 @@ export default function Video() {
   return (
     <section>
       <div className={styles.wrapper}>
-        <h2>Video</h2>
-        <h3 id="video">
-          Lorem ipsum dolor sit amet consectetur. Nibh suspendisse aliquam sed
-          libero eu faucibus commodo sagittis. Sit accumsan et mauris fringilla
-          elementum elit interdum scelerisque consectetur.
-        </h3>
         <div className={styles.imageContainer}>
           <img
-            src="./img/tennis-girl.png"
+            src="/img/video-thumbnail.jpg"
             width={973}
             height={673}
-            alt="tennis girl"
+            alt="video"
           />
           <div className={styles.video}>
             <PlayVideo
-              videoSrc="https://www.youtube.com/embed/mksAglZgRbw"
+              videoSrc="https://www.youtube.com/embed/Ra-rDKcs1Yg?si=WvgSPAq6PU71te_9"
               active={active}
               toggle={toggle}
             />
