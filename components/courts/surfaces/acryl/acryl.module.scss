@@ -17,14 +17,17 @@
       h2 {
         @apply text-[42px] font-semibold;
       }
+    }
+  }
+  h3 {
+    @apply text-[16px] text-light-grey;
 
-      h3 {
-        @apply text-[16px] text-light-grey;
+    p {
+      @apply pb-[40px];
+    }
 
-        p {
-          @apply pb-[40px];
-        }
-      }
+    ul {
+      @apply list-disc;
     }
   }
 }

@@ -22,7 +22,7 @@ export default function Hero() {
           </button>
         </div>
 
-        <div className="flex w-full justify-center py-[100px]">
+        <div className="absolute top-[570px] left-[50%]">
           <svg
             width="49"
             height="76"

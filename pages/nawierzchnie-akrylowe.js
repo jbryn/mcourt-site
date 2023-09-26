@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Hero from "@/components/shared/hero/hero";
 import Acryl from "@/components/courts/surfaces/acryl/acryl";
+import Colors from "@/components/courts/colors/colors";
 
 export default function CourtsPage() {
   return (
@@ -29,6 +30,7 @@ export default function CourtsPage() {
           subtitle={`Zaawansowane nawierzchnie tenisowe akrylowe to doskonały wybór zarówno dla graczy, jak i klubów tenisowych. Oferujemy trwałe i wydajne rozwiązania, które spełnią Twoje oczekiwania.`}
         />
         <Acryl />
+        <Colors />
       </main>
     </>
   );

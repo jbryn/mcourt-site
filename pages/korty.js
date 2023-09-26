@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Colors from "@/components/courts/colors/colors";
 import Hero from "@/components/shared/hero/hero";
 import Surfaces from "@/components/courts/surfaces/surfaces";
 import Video from "@/components/courts/video/video";
@@ -32,7 +31,7 @@ export default function CourtsPage() {
           subtitle={`Budowa kortów tenisowych to nasza specjalność. Oferujemy najlepsze nawierzchnie tenisowe i profesjonalizm w każdym projekcie. Skontaktuj się z nami już dziś i wybuduj swój wymarzony kort.`}
         />
         {/* <Video /> */}
-        {/* <Colors /> */}
+
         <Surfaces />
         <Contact />
       </main>
