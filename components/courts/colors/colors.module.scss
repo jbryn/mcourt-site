@@ -20,7 +20,7 @@
   }
 
   h2 {
-    @apply text-[24px] font-semibold;
+    @apply text-[42px] font-semibold;
   }
 
   h3 {
@@ -37,8 +37,6 @@
 
   .colors {
     @apply grid gap-[9px] grid-cols-12 pt-[80px];
-    // @apply grid-rows-[repeat(2, minmax(0, 60px))];
-    // grid-template-rows: repeat(2, minmax(0, 60px));
 
     img {
       @apply cursor-pointer;

@@ -1,8 +1,9 @@
+import Image from "next/image";
 import { useState } from "react";
 import styles from "./colors.module.scss";
 
 export default function Colors() {
-  const [image, setImage] = useState("./img/colors/green.png");
+  const [image, setImage] = useState("/img/acryl/configurator.jpeg");
 
   function handleMouseEnter(imagePath) {
     return () => {
@@ -14,77 +15,55 @@ export default function Colors() {
     <section>
       <div
         className={styles.wrapper}
-        onMouseEnter={handleMouseEnter("./img/colors/green.png")}
+        onMouseEnter={handleMouseEnter("/img/acryl/configurator.jpeg")}
       >
-        <div className={styles.laykold}>
-          <img
-            src="./img/blue-court.png"
-            width={540}
-            height={406}
-            loading="lazy"
-            alt="laykold"
-          />
-          <div className={styles.description}>
-            <h2>Laykold</h2>
-            <h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur. Nibh suspendisse aliquam
-                sed libero eu faucibus commodo sagittis. Sit accumsan et mauris
-                fringilla elementum elit interdum scelerisque consectetur.
-              </p>
-              <p>
-                {" "}
-                Quis vitae pharetra aenean nibh pellentesque ac tristique metus
-                enim. Viverra mauris risus nunc nibh cras.
-              </p>{" "}
-              <p>Et tortor massa sit cras faucibus arcu commodo.</p>
-            </h3>
-          </div>
-        </div>
-        <h2>Laykold surface colors:</h2>
-        <h3>
-          Check how your tennis court with Laykold surface will look like.
-          Choose your colors.
-        </h3>
-        <img src={image} width={1028} height={400} loading="lazy" alt="green" />
+        <h2>Nasze nawierzchnie oferują szeroki wybór kolorów:</h2>
+
+        <Image
+          src={image}
+          width={1028}
+          height={400}
+          loading="lazy"
+          alt="green"
+        />
         <div
           className={styles.colors}
-          onMouseLeave={handleMouseEnter("./img/colors/green.png")}
+          onMouseLeave={handleMouseEnter("/img/acryl/configurator.jpeg")}
         >
           <img
             src="./vectors/hexagons/2.svg"
-            onMouseEnter={handleMouseEnter("./img/colors/blue.png")}
+            onMouseEnter={handleMouseEnter("/img/acryl/configurator.jpeg")}
             loading="lazy"
             alt="2"
           />
           <img
             src="./vectors/hexagons/3.svg"
-            onMouseEnter={handleMouseEnter("./img/colors/brown.png")}
+            onMouseEnter={handleMouseEnter("/img/acryl/configurator.jpeg")}
             loading="lazy"
             alt="3"
           />
           <img
             src="./vectors/hexagons/4.svg"
-            onMouseEnter={handleMouseEnter("./img/colors/red.png")}
+            onMouseEnter={handleMouseEnter("/img/acryl/configurator.jpeg")}
             loading="lazy"
             alt="4"
           />
           <img
             src="./vectors/hexagons/5.svg"
-            onMouseEnter={handleMouseEnter("./img/colors/crimson.png")}
+            onMouseEnter={handleMouseEnter("/img/acryl/configurator.jpeg")}
             loading="lazy"
             alt="5"
           />
           <img
             src="./vectors/hexagons/6.svg"
-            onMouseEnter={handleMouseEnter("./img/colors/bloody.png")}
+            onMouseEnter={handleMouseEnter("/img/acryl/configurator.jpeg")}
             loading="lazy"
             alt="6"
           />
           <img src="./vectors/hexagons/7.svg" alt="7" />
           <img
             src="./vectors/hexagons/8.svg"
-            onMouseEnter={handleMouseEnter("./img/colors/darkblue.png")}
+            onMouseEnter={handleMouseEnter("/img/acryl/configurator.jpeg")}
             loading="lazy"
             alt="8"
           />

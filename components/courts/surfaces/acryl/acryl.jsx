@@ -62,29 +62,34 @@ export default function Acryl() {
             </h3>
           </div>
         </div>
-        <div className="px-[100px] flex flex-col gap-[50px]">
-          <h3>
-            W naszej ofercie znajdziesz nawierzchnię <strong>Laykold</strong>.
-            <strong>Tenisowa nawierzchnia akrylowa Laykold</strong> to{" "}
-            <strong>
-              oficjalna nawierzchnia turniejowa na kortach wielkoszlemowych US
-              Open
-            </strong>{" "}
-            od 2020 roku. Od teraz i Ty możesz mieć jeden z najlepszych{" "}
-            <strong>kortów tenisowych</strong> na świecie.
-          </h3>
-          <Image
-            className="rounded-[10px]"
-            src="/img/acryl/image14.jpeg"
-            loading="lazy"
-            width={1200}
-            height={370}
-            alt="laykold"
-          />
-        </div>
-        <div className={styles.surface}>
+
+        <div className={styles.laykold}>
           <Image
             className="lg:order-1"
+            src="/img/acryl/image14.jpeg"
+            loading="lazy"
+            width={600}
+            height={185}
+            alt="antuka"
+          />
+          <div className={styles.description}>
+            <h2>Tytuł sekcji</h2>
+            <h3>
+              <p>
+                Nawierzchnia <strong>Laykold</strong> to rozwiązanie, które
+                rewolucjonizuje korty tenisowe na całym świecie. Charakteryzuje
+                się wyjątkową jakością i trwałością, a także oferuje różne
+                systemy, które można dostosować do konkretnej preferencji
+                graczy. Warto bliżej przyjrzeć się dwóm głównym kategoriom
+                nawierzchni Laykold: systemom twardym i{" "}
+                <strong>amortyzowanym</strong>.
+              </p>
+            </h3>
+          </div>
+        </div>
+
+        <div className={styles.surface}>
+          <Image
             src="/img/acryl/image3.jpg"
             loading="lazy"
             width={540}
@@ -108,6 +113,7 @@ export default function Acryl() {
         </div>
         <div className={styles.surface}>
           <Image
+            className="lg:order-1"
             src="/img/acryl/image15.jpeg"
             loading="lazy"
             width={540}
