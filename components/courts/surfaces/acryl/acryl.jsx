@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "./acryl.module.scss";
+import styles from "../surfaces.module.scss";
 
 export default function Acryl() {
   return (
