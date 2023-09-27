@@ -27,7 +27,7 @@ export default function CourtsPage() {
       </Head>
       <main className="overflow-hidden">
         <Hero
-          backgroundUrl={"/img/acryl/mc.jpeg"}
+          backgroundUrl={"/img/acryl/mc.jpg"}
           title="Nawierzchnie akrylowe"
           subtitle={`Zaawansowane nawierzchnie tenisowe akrylowe to doskonały wybór zarówno dla graczy, jak i klubów tenisowych. Oferujemy trwałe i wydajne rozwiązania, które spełnią Twoje oczekiwania.`}
         />

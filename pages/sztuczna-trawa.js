@@ -29,7 +29,7 @@ export default function CourtsPage() {
       </Head>
       <main className="overflow-hidden">
         <Hero
-          backgroundUrl={"/img/grass/image5.jpeg"}
+          backgroundUrl={"/img/grass/image5.jpg"}
           title="Sztuczna trawa"
           subtitle={`Nawierzchnie z sztucznej trawy do kortów tenisowych to rozwiązania przyjazne środowisku i wydajne. Dzięki nam możesz cieszyć się nowoczesnością i minimalną konserwacją na swoim korcie. Dowiedz się więcej!`}
         />

@@ -3,8 +3,11 @@ import styles from "./hero.module.scss";
 
 export default function Hero({ backgroundUrl, title, subtitle }) {
   return (
-    <section className="overflow-hidden pb-[200px]">
-      <div className={styles.wrapper}>
+    <section className="overflow-hidden pb-[800px]">
+      <div
+        className={styles.wrapper}
+        style={{ backgroundImage: `url('${backgroundUrl}')` }}
+      >
         <div className={styles.hero}>
           <h1>{title}</h1>
           <h2>{subtitle}</h2>
@@ -33,17 +36,6 @@ export default function Hero({ backgroundUrl, title, subtitle }) {
               />
             </svg>
           </div>
-        </div>
-
-        <div className={styles.background}>
-          <Image
-            src={backgroundUrl}
-            alt={title}
-            quality={25}
-            loading="eager"
-            // placeholder="blur"
-            fill
-          />
         </div>
       </div>
     </section>

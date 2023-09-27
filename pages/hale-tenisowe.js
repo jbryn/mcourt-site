@@ -28,12 +28,13 @@ estetyką. Zaufaj ekspertom w projektowaniu i budowie hal tenisowych"
       </Head>
       <main className="overflow-hidden">
         <Hero
-          backgroundUrl={"/img/tennis-halls/hero.jpeg"}
+          backgroundUrl={"/img/tennis-halls/hero.jpg"}
           title="Hale tenisowe"
           subtitle={`Nasze hale tenisowe to połączenie tradycji drewna z nowoczesnymi osiągnięciami
         technologicznymi. Dzięki naszemu doświadczeniu zapewnimy Ci doskonałe warunki do gry przez cały
         rok.`}
         />
+
         <Features />
         <Testimonials />
         <Contact />

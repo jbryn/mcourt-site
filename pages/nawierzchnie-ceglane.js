@@ -22,7 +22,7 @@ export default function CourtsPage() {
       </Head>
       <main className="overflow-hidden">
         <Hero
-          backgroundUrl={"/img/courts/image5.png"}
+          backgroundUrl={"/img/courts/image5.jpg"}
           title="Nawierzchnie ceglane"
           subtitle={`Jeśli marzysz o unikalnym doświadczeniu podczas gry w tenisa, nawierzchnia ceglana z pewnością spełni Twoje oczekiwania i zapewni niezapomniane chwile na korcie tenisowym.`}
         />

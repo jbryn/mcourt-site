@@ -25,7 +25,7 @@ export default function CourtsPage() {
       </Head>
       <main className="overflow-hidden">
         <Hero
-          backgroundUrl={"/img/courts/image5.png"}
+          backgroundUrl={"/img/courts/image5.jpg"}
           title="Korty tenisowe"
           subtitle={`Budowa kortów tenisowych to nasza specjalność. Oferujemy najlepsze nawierzchnie tenisowe i profesjonalizm w każdym projekcie. Skontaktuj się z nami już dziś i wybuduj swój wymarzony kort.`}
         />

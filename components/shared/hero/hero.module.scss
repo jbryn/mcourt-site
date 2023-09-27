@@ -1,4 +1,6 @@
 .wrapper {
+  @apply absolute top-0 h-[721px];
+
   .hero {
     @apply mx-[24px] mt-[50px] pt-[100px];
     @apply flex flex-col justify-center items-center gap-[30px];
@@ -52,8 +54,9 @@
 
   .background {
     @apply absolute top-0 -z-20;
-    @apply w-full;
+    @apply w-[1000px];
     @apply h-[721px];
+    object-fit: cover;
 
     filter: brightness(0.3);
   }
