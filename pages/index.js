@@ -20,7 +20,7 @@ export default function Home() {
           property="og:description"
           content="Doświadcz jakości i precyzji wykonania naszych kortów"
         />
-        <meta property="og:image" content="./logos/mcourt-logo-color.png" />
+        <meta property="og:image" content="./img/logos/mcourt-logo-color.png" />
       </Head>
       <main>
         <Hero />

@@ -23,7 +23,7 @@ export default function CourtsPage() {
           property="og:description"
           content="Zaawansowane nawierzchnie tenisowe akrylowe to doskonały wybór zarówno dla graczy, jak i klubów tenisowych. Oferujemy trwałe i wydajne rozwiązania, które spełnią Twoje oczekiwania."
         />
-        <meta property="og:image" content="./logos/mcourt-logo-color.png" />
+        <meta property="og:image" content="./img/logos/mcourt-logo-color.png" />
       </Head>
       <main>
         <Hero

@@ -21,7 +21,7 @@ export default function CourtsPage() {
           property="og:description"
           content="W naszej ofercie posiadamy nawierzchnie do tenisa czołowych światowych producentów. Wykonujemy bezpłatne wyceny i pomiary przed rozpoczęciem inwestycji."
         />
-        <meta property="og:image" content="./logos/mcourt-logo-color.png" />
+        <meta property="og:image" content="./img/logos/mcourt-logo-color.png" />
       </Head>
       <main>
         <Hero
