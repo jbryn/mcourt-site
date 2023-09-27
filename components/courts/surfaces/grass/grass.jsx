@@ -8,7 +8,7 @@ export default function Grass() {
         <div className={styles.surface}>
           <Image
             className="lg:order-1"
-            src="/img/grass/image2.jpeg"
+            src="https://media.graphassets.com/ldUbVxBYT9G4XL3mtwsv"
             loading="lazy"
             width={540}
             height={406}
@@ -36,7 +36,7 @@ export default function Grass() {
         </div>
         <div className={styles.surface}>
           <Image
-            src="/img/grass/image1.jpeg"
+            src="https://media.graphassets.com/YLuc9UsGTpKnCOhr8IT1"
             loading="lazy"
             width={540}
             height={406}
@@ -60,7 +60,7 @@ export default function Grass() {
         <div className={styles.surface}>
           <Image
             className="lg:order-1"
-            src="/img/grass/image3.jpeg"
+            src="https://media.graphassets.com/nw6S8kb8RQyZna9uVejR"
             loading="lazy"
             width={540}
             height={406}
@@ -82,7 +82,7 @@ export default function Grass() {
         </div>
         <div className={styles.surface}>
           <Image
-            src="/img/grass/image4.jpg"
+            src="https://media.graphassets.com/9DWn6SluRBOUqAjCFKWy"
             loading="lazy"
             width={540}
             height={406}

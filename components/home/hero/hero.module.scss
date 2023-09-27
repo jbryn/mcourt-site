@@ -1,6 +1,8 @@
 .wrapper {
   @apply absolute top-0 h-[721px] w-full;
   background-image: url("/img/tennis-court.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   z-index: -10;
 
   .hero {

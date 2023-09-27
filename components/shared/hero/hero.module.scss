@@ -1,5 +1,8 @@
 .wrapper {
   @apply absolute top-0 h-[721px];
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100%;
 
   .hero {
     @apply mx-[24px] mt-[50px] pt-[100px];
@@ -17,8 +20,9 @@
     }
 
     h1 {
-      @apply text-[44px] leading-normal font-semibold;
-      @apply sm:text-[65px] sm:leading-[82px];
+      @apply text-[32px] leading-normal font-semibold;
+      @apply sm:text-[44px];
+      @apply md:text-[65px] md:leading-[82px];
     }
 
     h2 {

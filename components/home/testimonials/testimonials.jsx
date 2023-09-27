@@ -54,7 +54,7 @@ export default function Testimonials() {
           <SwiperSlide>
             <Image
               className="rounded-[10px]"
-              src="/img/tennis-halls/carousel/image8.png"
+              src="https://media.graphassets.com/QIYXFxp0QeiBHvnVaIbL"
               width={640}
               height={406}
               loading="eager"
@@ -64,7 +64,7 @@ export default function Testimonials() {
           <SwiperSlide>
             <Image
               className="rounded-[10px]"
-              src="/img/tennis-halls/carousel/image9.png"
+              src="https://media.graphassets.com/nciChFGRteYeOK4FaagL"
               width={640}
               height={406}
               loading="eager"
@@ -74,7 +74,7 @@ export default function Testimonials() {
           <SwiperSlide>
             <Image
               className="rounded-[10px]"
-              src="/img/tennis-halls/carousel/image10.png"
+              src="https://media.graphassets.com/0uLoNuBQQc2hAQgYxBbH"
               width={640}
               height={406}
               loading="eager"
@@ -84,7 +84,7 @@ export default function Testimonials() {
           <SwiperSlide>
             <Image
               className="rounded-[10px]"
-              src="/img/tennis-halls/carousel/image11.png"
+              src="https://media.graphassets.com/capKKKNKSEen71jYRO1n"
               width={640}
               height={406}
               loading="eager"
@@ -94,7 +94,7 @@ export default function Testimonials() {
           <SwiperSlide>
             <Image
               className="rounded-[10px]"
-              src="/img/tennis-halls/carousel/image12.png"
+              src="https://media.graphassets.com/mc2y6CaGTwarVjDk00K7"
               width={640}
               height={406}
               loading="eager"
@@ -104,7 +104,7 @@ export default function Testimonials() {
           <SwiperSlide>
             <Image
               className="rounded-[10px]"
-              src="/img/tennis-halls/carousel/image13.png"
+              src="https://media.graphassets.com/VTLPIVQ1RJ2WvqdcLUyO"
               width={640}
               height={406}
               loading="eager"

@@ -45,7 +45,7 @@ export default function Projects() {
           <div className={styles.card}>
             <Image
               className={styles.thumbnail}
-              src="/img/projects/project1.png"
+              src="https://media.graphassets.com/vN8fWB7XTwCgzNYVGtgy"
               width={700}
               height={406}
               loading="eager"
@@ -64,7 +64,7 @@ export default function Projects() {
           <div className={styles.card}>
             <Image
               className={styles.thumbnail}
-              src="/img/projects/project2.png"
+              src="https://media.graphassets.com/J57YydIsSw6hUiJZOdVd"
               width={700}
               height={406}
               loading="eager"
@@ -81,7 +81,7 @@ export default function Projects() {
           <div className={styles.card}>
             <Image
               className={styles.thumbnail}
-              src="/img/projects/project3.png"
+              src="https://media.graphassets.com/B5m7X3NTq5bdh6ZFEAFg"
               width={700}
               height={406}
               loading="eager"
@@ -98,7 +98,7 @@ export default function Projects() {
           <div className={styles.card}>
             <Image
               className={styles.thumbnail}
-              src="/img/projects/project4.png"
+              src="https://media.graphassets.com/oJGN97STza6bpoISUa5m"
               width={700}
               height={406}
               loading="eager"
@@ -115,7 +115,7 @@ export default function Projects() {
           <div className={styles.card}>
             <Image
               className={styles.thumbnail}
-              src="/img/projects/project1.png"
+              src="https://media.graphassets.com/J57YydIsSw6hUiJZOdVd"
               width={700}
               height={406}
               loading="eager"

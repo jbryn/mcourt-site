@@ -33,7 +33,7 @@ export default function Surfaces() {
           </Link>
           <Link href="/sztuczna-trawa">
             <Image
-              src="https://media.graphassets.com/output=format:jpg/resize=height:800,fit:max/nw6S8kb8RQyZna9uVejR"
+              src="https://media.graphassets.com/J57YydIsSw6hUiJZOdVd"
               alt="fast-track15"
               width={350}
               height={406}

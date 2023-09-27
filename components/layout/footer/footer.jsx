@@ -11,11 +11,22 @@ export default function Footer() {
             alt="logo"
           />
           <ul className={styles.menu}>
-            <li>Strona główna</li>
-            <li>Korty</li>
-            <li>Hale tenisowe</li>
-            <li>Padel</li>
-            <li>Pickelball</li>
+            <Link href="/">
+              <li>Strona główna</li>
+            </Link>
+            <Link href="/korty">
+              <li>Korty</li>
+            </Link>
+
+            <Link href="/hale-tenisowe">
+              <li>Hale tenisowe</li>
+            </Link>
+            <Link href="/padel">
+              <li>Padel</li>
+            </Link>
+            <Link href="/pickelball">
+              <li>Pickelball</li>
+            </Link>
           </ul>
           <div className={styles.socials}>
             <Link href="https://www.facebook.com/mcourt.eu" target="_blank">

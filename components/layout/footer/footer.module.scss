@@ -18,8 +18,8 @@
       @apply max-w-[216px] max-h-[75px];
     }
     .menu {
-      @apply flex flex-col text-light-grey;
-      @apply sm:flex-row sm:gap-[50px];
+      @apply flex flex-col text-light-grey px-[20px];
+      @apply sm:flex-row sm:gap-[30px];
 
       li:hover {
         @apply underline;
