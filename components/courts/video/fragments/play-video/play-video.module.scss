@@ -6,6 +6,12 @@
   .play {
     @apply relative w-[160px] h-[160px];
     @apply grid place-items-center;
+    @apply transform scale-50;
+    @apply md:transform md:scale-100;
+
+    &:hover {
+      filter: brightness(0.85);
+    }
   }
 
   .ellipse1 {

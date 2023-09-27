@@ -8,11 +8,12 @@ export default function Video() {
   return (
     <section>
       <div className={styles.wrapper}>
+        <h2>Zobacz film</h2>
         <div className={styles.imageContainer}>
           <img
             src="/img/video-thumbnail.jpg"
-            width={973}
-            height={673}
+            width={583}
+            height={403}
             alt="video"
           />
           <div className={styles.video}>
