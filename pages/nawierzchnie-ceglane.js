@@ -20,7 +20,7 @@ export default function CourtsPage() {
         />
         <meta property="og:image" content="./img/logos/mcourt-logo-color.png" />
       </Head>
-      <main>
+      <main className="overflow-hidden">
         <Hero
           backgroundUrl={"/img/courts/image5.png"}
           title="Nawierzchnie ceglane"

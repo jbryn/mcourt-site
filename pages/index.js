@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>mcourt - tenis dla profesjonalistów</title>
+        <title>MCOURT | Tenis dla profesjonalistów</title>
         <meta
           name="description"
           content="Doświadcz jakości i precyzji wykonania naszych kortów"

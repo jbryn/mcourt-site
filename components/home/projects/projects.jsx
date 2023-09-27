@@ -48,6 +48,7 @@ export default function Projects() {
               src="/img/projects/project1.png"
               width={700}
               height={406}
+              loading="eager"
               alt="project1"
             />
             <h3 id="projects">
@@ -66,6 +67,7 @@ export default function Projects() {
               src="/img/projects/project2.png"
               width={700}
               height={406}
+              loading="eager"
               alt="project2"
             />
             <h3>2023 Korty ze sztucznej trawy w Dębnie</h3>
@@ -82,6 +84,7 @@ export default function Projects() {
               src="/img/projects/project3.png"
               width={700}
               height={406}
+              loading="eager"
               alt="project3"
             />
             <h3>2022 Budowa 11 kortów w Akademii Tenisa Kozerkii</h3>
@@ -98,6 +101,7 @@ export default function Projects() {
               src="/img/projects/project4.png"
               width={700}
               height={406}
+              loading="eager"
               alt="project4"
             />
             <h3>2022 Renowacja nawierzchni na Warszawiance</h3>
@@ -114,6 +118,7 @@ export default function Projects() {
               src="/img/projects/project1.png"
               width={700}
               height={406}
+              loading="eager"
               alt="project5"
             />
             <h3>Project Number Five</h3>

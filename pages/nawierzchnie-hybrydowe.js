@@ -2,7 +2,7 @@ import Hero from "@/components/shared/hero/hero";
 
 export default function CourtsPage() {
   return (
-    <main>
+    <main className="overflow-hidden">
       <Hero
         backgroundUrl={"/img/courts-hero.png"}
         title="Nawierzchnie hybrydowe"

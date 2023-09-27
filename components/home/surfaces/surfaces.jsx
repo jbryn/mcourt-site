@@ -22,7 +22,7 @@ export default function Surfaces() {
             />
             <h3>Nawierzchnie akrylowe</h3>
           </Link>
-          <Link href="/nawierzchnia-ceglana">
+          <Link href="/nawierzchnie-ceglane">
             <Image
               src="/img/surfaces/court5.png"
               alt="antuka"
