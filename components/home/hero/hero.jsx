@@ -1,9 +1,8 @@
-import Image from "next/image";
 import styles from "./hero.module.scss";
 
 export default function Hero() {
   return (
-    <section className="overflow-hidden pt-[78px]">
+    <section className="overflow-hidden pt-[500px]">
       <div className={styles.wrapper}>
         <div className={styles.hero}>
           <h1>Jakość, doświadczenie i precyzja</h1>
@@ -22,7 +21,7 @@ export default function Hero() {
           </button>
         </div>
 
-        <div className="absolute top-[570px] left-[50%]">
+        <div className="absolute top-[570px] left-[calc(50%-25px)]">
           <svg
             width="49"
             height="76"
@@ -49,17 +48,6 @@ export default function Hero() {
         </div>
 
         <img className={styles.ball} src="./vectors/ball.svg" alt="ball" />
-
-        <div className={styles.background}>
-          <Image
-            src="/img/tennis-court.png"
-            alt="tennis-court"
-            loading="eager"
-            // placeholder="blur"
-            quality={25}
-            fill
-          />
-        </div>
       </div>
     </section>
   );

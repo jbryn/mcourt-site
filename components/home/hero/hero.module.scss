@@ -1,9 +1,13 @@
 .wrapper {
+  @apply absolute top-0 h-[721px] w-full;
+  background-image: url("/img/tennis-court.jpg");
+  z-index: -10;
+
   .hero {
-    @apply mx-[24px] mt-[50px] max-w-[450px];
+    @apply mx-[24px] mt-[150px] max-w-[450px];
     @apply flex flex-col gap-[30px];
     @apply sm:mx-[100px];
-    @apply lg:mx-[257px] lg:mt-[100px];
+    @apply lg:mx-[257px];
 
     h1,
     h2 {
@@ -44,13 +48,5 @@
 
   .ball {
     @apply absolute top-0 right-0 -z-10;
-  }
-
-  .background {
-    @apply absolute top-[0px] -z-20;
-    @apply w-full;
-    @apply h-[721px];
-
-    filter: brightness(0.3);
   }
 }
