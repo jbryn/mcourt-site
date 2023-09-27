@@ -8,7 +8,7 @@ export default function Contact() {
         <div className={styles.cardsWrapper}>
           <img
             className={styles.image}
-            src="./img/tennis-ball-hd.png"
+            src="https://media.graphassets.com/l88QJaYURiiMrL3fwmQw"
             loading="lazy"
             alt="ball"
           />

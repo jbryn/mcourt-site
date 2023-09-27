@@ -9,7 +9,10 @@ export default function CourtsPage() {
   return (
     <>
       <Head>
-        <title>mcourt - tenis dla profesjonalistów</title>
+        <title>
+          Korty Tenisowe z Nawierzchnią Akrylową | Profesjonalne Rozwiązania Dla
+          Tenisistów
+        </title>
         <meta
           name="description"
           content="Zaawansowane nawierzchnie tenisowe akrylowe to doskonały wybór zarówno dla graczy, jak i klubów tenisowych. Oferujemy trwałe i wydajne rozwiązania, które spełnią Twoje oczekiwania."
@@ -23,11 +26,14 @@ export default function CourtsPage() {
           property="og:description"
           content="Zaawansowane nawierzchnie tenisowe akrylowe to doskonały wybór zarówno dla graczy, jak i klubów tenisowych. Oferujemy trwałe i wydajne rozwiązania, które spełnią Twoje oczekiwania."
         />
-        <meta property="og:image" content="./img/logos/mcourt-logo-color.png" />
+        <meta
+          property="og:image"
+          content="https://media.graphassets.com/GAIKjn52QECZ8IAZgHUO"
+        />
       </Head>
       <main className="overflow-hidden">
         <Hero
-          backgroundUrl={"/img/acryl/mc.jpg"}
+          backgroundUrl={"https://media.graphassets.com/2bJA2f1KRTGxX1o3uhiW"}
           title="Nawierzchnie akrylowe"
           subtitle={`Zaawansowane nawierzchnie tenisowe akrylowe to doskonały wybór zarówno dla graczy, jak i klubów tenisowych. Oferujemy trwałe i wydajne rozwiązania, które spełnią Twoje oczekiwania.`}
         />

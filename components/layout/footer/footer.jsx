@@ -6,7 +6,10 @@ export default function Footer() {
     <footer>
       <div className={styles.wrapper}>
         <div className={styles.card}>
-          <img src="./img/logos/mcourt-logo-color.png" alt="logo" />
+          <img
+            src="https://media.graphassets.com/GAIKjn52QECZ8IAZgHUO"
+            alt="logo"
+          />
           <ul className={styles.menu}>
             <li>Strona główna</li>
             <li>Korty</li>

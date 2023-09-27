@@ -7,7 +7,7 @@ export default function Features() {
       <div className={styles.wrapper}>
         <div className={styles.feature}>
           <Image
-            className="order-1"
+            className="lg:order-1"
             src="/img/tennis-halls/image1.jpeg"
             width={640}
             height={406}
@@ -60,7 +60,7 @@ export default function Features() {
         </div>
         <div className={styles.feature}>
           <Image
-            className="order-1"
+            className="lg:order-1"
             src="/img/tennis-halls/image3.jpeg"
             width={640}
             height={406}
@@ -106,7 +106,7 @@ export default function Features() {
         </div>
         <div className={styles.feature}>
           <Image
-            className="order-1"
+            className="lg:order-1"
             src="/img/tennis-halls/image6.jpeg"
             width={640}
             height={406}

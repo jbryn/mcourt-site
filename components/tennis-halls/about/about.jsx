@@ -21,7 +21,7 @@ export default function About() {
             <div className={styles.bottom}>
               <img
                 className={styles.logo}
-                src="./img/logos/mcourt-logo-color.png"
+                src="https://media.graphassets.com/GAIKjn52QECZ8IAZgHUO"
                 alt="logo"
               />
             </div>

@@ -11,7 +11,7 @@ export default function Video() {
         <h2>Zobacz film</h2>
         <div className={styles.imageContainer}>
           <img
-            src="/img/video-thumbnail.jpg"
+            src="https://media.graphassets.com/5wPJgkdSTuEYCp90yHkz"
             width={583}
             height={403}
             alt="video"

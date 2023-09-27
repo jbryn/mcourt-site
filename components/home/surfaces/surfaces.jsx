@@ -15,7 +15,7 @@ export default function Surfaces() {
         <div className={styles.cards}>
           <Link href="/nawierzchnie-akrylowe">
             <Image
-              src="/img/surfaces/court6.png"
+              src="https://media.graphassets.com/DzqO16JWQaiwbfgCNB2q"
               alt="laykold"
               width={350}
               height={406}
@@ -24,7 +24,7 @@ export default function Surfaces() {
           </Link>
           <Link href="/nawierzchnie-ceglane">
             <Image
-              src="/img/surfaces/court5.png"
+              src="https://media.graphassets.com/uPNLWO2ScKhthwc3Ujlw"
               alt="antuka"
               width={350}
               height={406}
@@ -33,7 +33,7 @@ export default function Surfaces() {
           </Link>
           <Link href="/sztuczna-trawa">
             <Image
-              src="/img/surfaces/court4.png"
+              src="https://media.graphassets.com/output=format:jpg/resize=height:800,fit:max/nw6S8kb8RQyZna9uVejR"
               alt="fast-track15"
               width={350}
               height={406}
@@ -42,7 +42,7 @@ export default function Surfaces() {
           </Link>
           <Link href="/padel">
             <Image
-              src="/img/surfaces/court3.png"
+              src="https://media.graphassets.com/nbrXBWYATtWqWmAwHTJX"
               alt="padel"
               width={350}
               height={406}
@@ -51,7 +51,7 @@ export default function Surfaces() {
           </Link>
           <Link href="/hale-tenisowe">
             <Image
-              src="/img/surfaces/court2.png"
+              src="https://media.graphassets.com/oZYjmEmEQS2RwnbEqtQd"
               alt="tennis-halls"
               width={350}
               height={406}
@@ -60,7 +60,7 @@ export default function Surfaces() {
           </Link>
           <Link href="/nawierzchnie-hybrydowe">
             <Image
-              src="/img/surfaces/court1.png"
+              src="https://media.graphassets.com/3e2xp7oLSNOJfFQcgnsi"
               alt="all-year"
               width={350}
               height={406}

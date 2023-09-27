@@ -7,7 +7,9 @@ export default function CourtsPage() {
   return (
     <>
       <Head>
-        <title>mcourt - tenis dla profesjonalistów</title>
+        <title>
+          Budowa kortów tenisowych, profesjonalne nawierzchnie do tenisa
+        </title>
         <meta
           name="description"
           content="W naszej ofercie posiadamy nawierzchnie do tenisa czołowych światowych producentów. Wykonujemy bezpłatne wyceny i pomiary przed rozpoczęciem inwestycji."
@@ -21,7 +23,10 @@ export default function CourtsPage() {
           property="og:description"
           content="W naszej ofercie posiadamy nawierzchnie do tenisa czołowych światowych producentów. Wykonujemy bezpłatne wyceny i pomiary przed rozpoczęciem inwestycji."
         />
-        <meta property="og:image" content="./img/logos/mcourt-logo-color.png" />
+        <meta
+          property="og:image"
+          content="https://media.graphassets.com/GAIKjn52QECZ8IAZgHUO"
+        />
       </Head>
       <main className="overflow-hidden">
         <Hero

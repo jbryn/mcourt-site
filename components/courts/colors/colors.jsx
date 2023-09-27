@@ -3,7 +3,9 @@ import { useState } from "react";
 import styles from "./colors.module.scss";
 
 export default function Colors() {
-  const [image, setImage] = useState("/img/acryl/configurator.jpeg");
+  const [image, setImage] = useState(
+    "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
+  );
 
   function handleMouseEnter(imagePath) {
     return () => {
@@ -15,7 +17,9 @@ export default function Colors() {
     <section>
       <div
         className={styles.wrapper}
-        onMouseEnter={handleMouseEnter("/img/acryl/configurator.jpeg")}
+        onMouseEnter={handleMouseEnter(
+          "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
+        )}
       >
         <h2>Nasze nawierzchnie oferują szeroki wybór kolorów:</h2>
 
@@ -33,42 +37,56 @@ export default function Colors() {
           </p>
           <div
             className={styles.colors}
-            onMouseLeave={handleMouseEnter("/img/acryl/configurator.jpeg")}
+            onMouseLeave={handleMouseEnter(
+              "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
+            )}
           >
             <img
               src="./vectors/hexagons/2.svg"
-              onMouseEnter={handleMouseEnter("/img/acryl/configurator.jpeg")}
+              onMouseEnter={handleMouseEnter(
+                "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
+              )}
               loading="lazy"
               alt="2"
             />
             <img
               src="./vectors/hexagons/3.svg"
-              onMouseEnter={handleMouseEnter("/img/acryl/configurator.jpeg")}
+              onMouseEnter={handleMouseEnter(
+                "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
+              )}
               loading="lazy"
               alt="3"
             />
             <img
               src="./vectors/hexagons/4.svg"
-              onMouseEnter={handleMouseEnter("/img/acryl/configurator.jpeg")}
+              onMouseEnter={handleMouseEnter(
+                "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
+              )}
               loading="lazy"
               alt="4"
             />
             <img
               src="./vectors/hexagons/5.svg"
-              onMouseEnter={handleMouseEnter("/img/acryl/configurator.jpeg")}
+              onMouseEnter={handleMouseEnter(
+                "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
+              )}
               loading="lazy"
               alt="5"
             />
             <img
               src="./vectors/hexagons/6.svg"
-              onMouseEnter={handleMouseEnter("/img/acryl/configurator.jpeg")}
+              onMouseEnter={handleMouseEnter(
+                "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
+              )}
               loading="lazy"
               alt="6"
             />
             <img src="./vectors/hexagons/7.svg" alt="7" />
             <img
               src="./vectors/hexagons/8.svg"
-              onMouseEnter={handleMouseEnter("/img/acryl/configurator.jpeg")}
+              onMouseEnter={handleMouseEnter(
+                "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
+              )}
               loading="lazy"
               alt="8"
             />
@@ -95,42 +113,56 @@ export default function Colors() {
           </p>
           <div
             className={styles.colors}
-            onMouseLeave={handleMouseEnter("/img/acryl/configurator.jpeg")}
+            onMouseLeave={handleMouseEnter(
+              "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
+            )}
           >
             <img
               src="./vectors/hexagons/2.svg"
-              onMouseEnter={handleMouseEnter("/img/acryl/configurator.jpeg")}
+              onMouseEnter={handleMouseEnter(
+                "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
+              )}
               loading="lazy"
               alt="2"
             />
             <img
               src="./vectors/hexagons/3.svg"
-              onMouseEnter={handleMouseEnter("/img/acryl/configurator.jpeg")}
+              onMouseEnter={handleMouseEnter(
+                "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
+              )}
               loading="lazy"
               alt="3"
             />
             <img
               src="./vectors/hexagons/4.svg"
-              onMouseEnter={handleMouseEnter("/img/acryl/configurator.jpeg")}
+              onMouseEnter={handleMouseEnter(
+                "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
+              )}
               loading="lazy"
               alt="4"
             />
             <img
               src="./vectors/hexagons/5.svg"
-              onMouseEnter={handleMouseEnter("/img/acryl/configurator.jpeg")}
+              onMouseEnter={handleMouseEnter(
+                "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
+              )}
               loading="lazy"
               alt="5"
             />
             <img
               src="./vectors/hexagons/6.svg"
-              onMouseEnter={handleMouseEnter("/img/acryl/configurator.jpeg")}
+              onMouseEnter={handleMouseEnter(
+                "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
+              )}
               loading="lazy"
               alt="6"
             />
             <img src="./vectors/hexagons/7.svg" alt="7" />
             <img
               src="./vectors/hexagons/8.svg"
-              onMouseEnter={handleMouseEnter("/img/acryl/configurator.jpeg")}
+              onMouseEnter={handleMouseEnter(
+                "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
+              )}
               loading="lazy"
               alt="8"
             />

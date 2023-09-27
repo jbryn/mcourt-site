@@ -24,7 +24,10 @@ estetyką. Zaufaj ekspertom w projektowaniu i budowie hal tenisowych"
           content="Zapewniamy unikalne hale tenisowe o konstrukcji drewnianej łukowej, łącząc trwałość z
 estetyką. Zaufaj ekspertom w projektowaniu i budowie hal tenisowych"
         />
-        <meta property="og:image" content="./img/logos/mcourt-logo-color.png" />
+        <meta
+          property="og:image"
+          content="https://media.graphassets.com/GAIKjn52QECZ8IAZgHUO"
+        />
       </Head>
       <main className="overflow-hidden">
         <Hero

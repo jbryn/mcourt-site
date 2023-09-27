@@ -25,7 +25,10 @@ export default function CourtsPage() {
           property="og:description"
           content="Nawierzchnie z sztucznej trawy do kortów tenisowych to rozwiązania przyjazne środowisku i wydajne. Dzięki nam możesz cieszyć się nowoczesnością i minimalną konserwacją na swoim korcie. Dowiedz się więcej!"
         />
-        <meta property="og:image" content="./img/logos/mcourt-logo-color.png" />
+        <meta
+          property="og:image"
+          content="https://media.graphassets.com/GAIKjn52QECZ8IAZgHUO"
+        />
       </Head>
       <main className="overflow-hidden">
         <Hero

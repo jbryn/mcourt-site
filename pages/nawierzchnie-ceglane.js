@@ -18,7 +18,10 @@ export default function CourtsPage() {
           property="og:description"
           content="Korty tenisowe z nawierzchnią ceglaną to harmonia tradycji i nowoczesności. Dzięki nam możesz mieć wyjątkowy kort, który sprosta wymaganiom każdego tenisisty. Dowiedz się więcej!"
         />
-        <meta property="og:image" content="./img/logos/mcourt-logo-color.png" />
+        <meta
+          property="og:image"
+          content="https://media.graphassets.com/GAIKjn52QECZ8IAZgHUO"
+        />
       </Head>
       <main className="overflow-hidden">
         <Hero

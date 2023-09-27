@@ -8,7 +8,7 @@ export default function Acryl() {
         <div className={styles.surface}>
           <Image
             className="lg:order-1"
-            src="/img/acryl/image2.jpeg"
+            src="https://media.graphassets.com/I9tcS4GSeCcI2sSQ2qr6"
             loading="lazy"
             width={540}
             height={406}
@@ -40,7 +40,7 @@ export default function Acryl() {
         </div>
         <div className={styles.surface}>
           <Image
-            src="/img/acryl/image1.jpeg"
+            src="https://media.graphassets.com/J4Zd9OlZQoOePwqQYkUI"
             loading="lazy"
             width={540}
             height={406}
@@ -66,7 +66,7 @@ export default function Acryl() {
         <div className={styles.laykold}>
           <div className="pt-[50px] lg:order-1">
             <Image
-              src="/img/acryl/image14.jpeg"
+              src="https://media.graphassets.com/OGwwcsaCSTyjyOrFBmng"
               loading="lazy"
               width={600}
               height={185}
@@ -91,7 +91,7 @@ export default function Acryl() {
 
         <div className={styles.surface}>
           <Image
-            src="/img/acryl/image3.jpg"
+            src="https://media.graphassets.com/4Fo65evrRQ2MZaTx8iQO"
             loading="lazy"
             width={540}
             height={406}
@@ -115,7 +115,7 @@ export default function Acryl() {
         <div className={styles.surface}>
           <Image
             className="lg:order-1"
-            src="/img/acryl/image15.jpeg"
+            src="https://media.graphassets.com/QDn15GJJSeiHUSP9K0FM"
             loading="lazy"
             width={540}
             height={406}
@@ -150,7 +150,7 @@ export default function Acryl() {
           </h2>
           <Image
             className="rounded-[10px]"
-            src="/img/acryl/image12.png"
+            src="https://media.graphassets.com/9eroL6XZTCWeZqs0fZTU"
             loading="lazy"
             width={1292}
             height={609}

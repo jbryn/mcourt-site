@@ -57,6 +57,7 @@ export default function Testimonials() {
               src="/img/tennis-halls/carousel/image8.png"
               width={640}
               height={406}
+              loading="eager"
               alt="hall"
             />
           </SwiperSlide>
@@ -66,6 +67,7 @@ export default function Testimonials() {
               src="/img/tennis-halls/carousel/image9.png"
               width={640}
               height={406}
+              loading="eager"
               alt="hall"
             />
           </SwiperSlide>
@@ -75,6 +77,7 @@ export default function Testimonials() {
               src="/img/tennis-halls/carousel/image10.png"
               width={640}
               height={406}
+              loading="eager"
               alt="hall"
             />
           </SwiperSlide>
@@ -84,6 +87,7 @@ export default function Testimonials() {
               src="/img/tennis-halls/carousel/image11.png"
               width={640}
               height={406}
+              loading="eager"
               alt="hall"
             />
           </SwiperSlide>
@@ -93,6 +97,7 @@ export default function Testimonials() {
               src="/img/tennis-halls/carousel/image12.png"
               width={640}
               height={406}
+              loading="eager"
               alt="hall"
             />
           </SwiperSlide>
@@ -102,6 +107,7 @@ export default function Testimonials() {
               src="/img/tennis-halls/carousel/image13.png"
               width={640}
               height={406}
+              loading="eager"
               alt="hall"
             />
           </SwiperSlide>
