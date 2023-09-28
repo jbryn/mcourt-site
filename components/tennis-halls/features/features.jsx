@@ -8,7 +8,7 @@ export default function Features() {
         <div className={styles.feature}>
           <Image
             className="lg:order-1"
-            src="/img/tennis-halls/image1.jpeg"
+            src="https://media.graphassets.com/ElE0uEe6SQGhhdaUwHlk"
             width={640}
             height={406}
             alt="hall"
@@ -34,7 +34,7 @@ export default function Features() {
         </div>
         <div className={styles.feature}>
           <Image
-            src="/img/tennis-halls/image2.jpeg"
+            src="https://media.graphassets.com/JmJ8dnoTS8eRYNTaaUeD"
             width={540}
             height={406}
             alt="budowa"
@@ -61,7 +61,7 @@ export default function Features() {
         <div className={styles.feature}>
           <Image
             className="lg:order-1"
-            src="/img/tennis-halls/image3.jpeg"
+            src="https://media.graphassets.com/2m8U5PyGR4ueMqkHG0Qq"
             width={640}
             height={406}
             alt="hall"
@@ -85,7 +85,7 @@ export default function Features() {
         </div>
         <div className={styles.feature}>
           <Image
-            src="/img/tennis-halls/image5.jpeg"
+            src="https://media.graphassets.com/SKlPEJRTPSwn42o5Lf4Q"
             width={540}
             height={406}
             alt="budowa"
@@ -107,7 +107,7 @@ export default function Features() {
         <div className={styles.feature}>
           <Image
             className="lg:order-1"
-            src="/img/tennis-halls/image6.jpeg"
+            src="https://media.graphassets.com/R666H1mRjOWejcte7tHx"
             width={640}
             height={406}
             alt="hall"
@@ -131,7 +131,7 @@ export default function Features() {
         </div>
         <div className={styles.feature}>
           <Image
-            src="/img/tennis-halls/image4.jpeg"
+            src="https://media.graphassets.com/p0NNNUw3QNOLlCW0IcwJ"
             width={540}
             height={406}
             alt="budowa"
