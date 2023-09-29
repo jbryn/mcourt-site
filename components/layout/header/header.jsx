@@ -22,23 +22,27 @@ export default function Header() {
           />
         </Link>
         <ul className={styles.list}>
-          <Link href="/">
-            <li>Strona główna</li>
-          </Link>
+          <li>
+            <Link href="/">Strona główna</Link>
+          </li>
 
-          <Link href="/korty" onMouseEnter={() => setVisible(true)}>
-            <li>Korty</li>
-          </Link>
+          <li>
+            <Link href="/korty" onMouseEnter={() => setVisible(true)}>
+              Korty
+            </Link>
+          </li>
 
-          <Link href="/hale-tenisowe">
-            <li>Hale tenisowe</li>
-          </Link>
-          <Link href="/padel">
-            <li>Padel</li>
-          </Link>
-          <Link href="/pickelball">
-            <li>Pickelball</li>
-          </Link>
+          <li>
+            <Link href="/hale-tenisowe">Hale tenisowe</Link>
+          </li>
+
+          <li>
+            <Link href="/padel">Padel</Link>
+          </li>
+
+          <li>
+            <Link href="/pickelball">Pickelball</Link>
+          </li>
         </ul>
         <div
           className={styles.hamburger}
@@ -67,21 +71,31 @@ export default function Header() {
           <img src="./icons/close.svg" alt="close" />
         </div>
         <ul className={styles.list}>
-          <Link href="/" onClick={() => setMenuOpen(false)}>
-            <li>Strona główna</li>
-          </Link>
-          <Link href="/korty" onClick={() => setMenuOpen(false)}>
-            <li id="courts">Korty</li>
-          </Link>
-          <Link href="/hale-tenisowe" onClick={() => setMenuOpen(false)}>
-            <li>Hale tenisowe</li>
-          </Link>
-          <Link href="/padel">
-            <li>Padel</li>
-          </Link>
-          <Link href="/pickelball">
-            <li>Pickelball</li>
-          </Link>
+          <li>
+            <Link href="/" onClick={() => setMenuOpen(false)}>
+              Strona główna
+            </Link>
+          </li>
+
+          <li id="courts">
+            <Link href="/korty" onClick={() => setMenuOpen(false)}>
+              Korty
+            </Link>
+          </li>
+
+          <li>
+            <Link href="/hale-tenisowe" onClick={() => setMenuOpen(false)}>
+              Hale tenisowe
+            </Link>
+          </li>
+
+          <li>
+            <Link href="/padel">Padel</Link>
+          </li>
+
+          <li>
+            <Link href="/pickelball">Pickelball</Link>
+          </li>
         </ul>
       </div>
     </header>

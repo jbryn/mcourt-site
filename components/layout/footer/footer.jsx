@@ -51,7 +51,10 @@ export default function Footer() {
           <p>Copyright 2023 © MCOURT | All Rights Reserved</p>
           <button className={styles.contact}>
             <img src="./icons/phone.svg" alt="phone" />
-            <span>Call us</span>
+            <div className="flex flex-col">
+              <p>531-988-445</p>
+              <p>507-302-897</p>
+            </div>
           </button>
         </div>
       </div>
