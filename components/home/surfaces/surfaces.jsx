@@ -20,7 +20,7 @@ export default function Surfaces() {
               width={350}
               height={406}
             />
-            <h3>Nawierzchnie akrylowe</h3>
+            <h3 className="max-[338px]:pl-[20px]">Nawierzchnie akrylowe</h3>
           </Link>
           <Link href="/nawierzchnie-ceglane">
             <Image
@@ -29,7 +29,7 @@ export default function Surfaces() {
               width={350}
               height={406}
             />
-            <h3>Nawierzchnie ceglane</h3>
+            <h3 className="max-[338px]:pl-[20px]">Nawierzchnie ceglane</h3>
           </Link>
           <Link href="/sztuczna-trawa">
             <Image
