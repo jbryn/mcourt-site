@@ -51,7 +51,7 @@ export default function Projects() {
               loading="eager"
               alt="project1"
             />
-            <h3 id="projects">
+            <h3>
               2023 Budowa komplesku czterech kortów tenisowych w Łaźniewku
             </h3>
             <Link href="/">

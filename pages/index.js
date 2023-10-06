@@ -26,7 +26,11 @@ export default function Home() {
         />
       </Head>
       <main>
-        <Hero />
+        <Hero
+          backgroundUrl={"/img/tennis-court.jpg"}
+          title="Jakość, doświadczenie i precyzja"
+          subtitle={`Budujemy korty tenisowe od 2008 roku, naszym klientom proponujemy rozwiązania najlepszych światowych producentów`}
+        />
         <Surfaces />
         <About />
         <Projects />

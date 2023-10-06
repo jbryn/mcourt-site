@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Surfaces() {
   return (
-    <section className="pt-[200px]">
+    <section>
       <div className={styles.container}>
         <h2>
           Nasza oferta obejmuje wysokiej jakości{" "}
