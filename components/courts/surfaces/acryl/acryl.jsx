@@ -63,7 +63,7 @@ export default function Acryl() {
           </div>
         </div>
 
-        <div className={styles.laykold}>
+        {/* <div className={styles.laykold}>
           <div className="pt-[50px] lg:order-1">
             <Image
               src="https://media.graphassets.com/OGwwcsaCSTyjyOrFBmng"
@@ -87,7 +87,7 @@ export default function Acryl() {
               </p>
             </h3>
           </div>
-        </div>
+        </div> */}
 
         <div className={styles.surface}>
           <Image

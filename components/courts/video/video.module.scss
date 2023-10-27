@@ -1,9 +1,9 @@
 .wrapper {
   @apply flex flex-col gap-[30px] items-center;
-  @apply pt-[100px] text-center px-[30px];
+  @apply text-center px-[30px];
 
   h2 {
-    @apply text-[42px] font-semibold;
+    @apply text-[42px] font-semibold pb-[60px];
   }
 
   video {
