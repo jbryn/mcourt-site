@@ -3,7 +3,7 @@ import styles from "./hero.module.scss";
 
 export default function Hero({ backgroundUrl, title, subtitle }) {
   return (
-    <section className="overflow-hidden pb-[800px]">
+    <section className="overflow-hidden pb-[720px]">
       <div
         className={styles.wrapper}
         style={{ backgroundImage: `url('${backgroundUrl}')` }}

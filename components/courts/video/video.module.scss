@@ -3,10 +3,10 @@
   @apply text-center px-[30px];
 
   h2 {
-    @apply text-[42px] font-semibold pb-[60px];
+    @apply text-[42px] font-semibold pb-[20px];
   }
 
   video {
-    @apply rounded-[15px];
+    @apply rounded-[15px] pb-[40px];
   }
 }
