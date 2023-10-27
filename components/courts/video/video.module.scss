@@ -1,26 +1,12 @@
 .wrapper {
   @apply flex flex-col gap-[30px] items-center;
-  @apply pt-[305px] text-center px-[30px];
+  @apply pt-[100px] text-center px-[30px];
 
   h2 {
     @apply text-[42px] font-semibold;
   }
 
-  h3 {
-    @apply text-[16px] text-light-grey;
-    @apply max-w-[652px] pb-[41px];
-  }
-
-  .imageContainer {
-    @apply grid place-items-center relative mt-[32px] overflow-hidden;
-
-    img {
-      @apply rounded-[10px];
-    }
-
-    .video {
-      @apply absolute h-[63px] bottom-[50%] left-[calc(50%-80px)];
-      @apply max-[400px]:bottom-[55%];
-    }
+  video {
+    @apply rounded-[15px];
   }
 }
