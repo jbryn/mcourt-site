@@ -7,6 +7,9 @@ export default function Colors() {
     "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
   );
 
+  const [innerImage, setInnerImage] = useState("/colors/inner.png");
+  const [outerImage, setOuterImage] = useState("/colors/outer.png");
+
   function handleMouseEnter(imagePath) {
     return () => {
       setImage(imagePath);
@@ -23,70 +26,88 @@ export default function Colors() {
       >
         <h2>Nasze nawierzchnie oferują szeroki wybór kolorów:</h2>
 
-        <Image
-          src={image}
-          width={1028}
-          height={400}
-          loading="lazy"
-          alt="green"
-        />
+        <div className={styles.imagesContainer}>
+          <Image
+            src={image}
+            width={1028}
+            height={400}
+            loading="eager"
+            alt="green"
+          />
+          <Image
+            className={styles.inner}
+            src={innerImage}
+            width={1028}
+            height={400}
+            loading="eager"
+            alt="green"
+          />
+          <Image
+            className={styles.outer}
+            src={outerImage}
+            width={1028}
+            height={400}
+            loading="eager"
+            alt="green"
+          />
+        </div>
 
-        <div className="pt-[80px]">
+        {/* <div className="pt-[80px]">
           <p className="font-semibold text-[26px] pb-[20px]">
             Wybierz kolor pola gry:
           </p>
           <div
             className={styles.colors}
-            onMouseLeave={handleMouseEnter(
-              "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
-            )}
+            // onMouseLeave={handleMouseEnter(
+            //   "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
+            // )}
           >
             <img
               src="./vectors/hexagons/2.svg"
-              onMouseEnter={handleMouseEnter(
-                "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
-              )}
+              // onMouseEnter={handleMouseEnter(
+              //   "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
+              // )}
               loading="lazy"
               alt="2"
             />
             <img
               src="./vectors/hexagons/3.svg"
-              onMouseEnter={handleMouseEnter(
-                "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
-              )}
+              // onMouseEnter={handleMouseEnter(
+              //   "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
+              // )}
               loading="lazy"
               alt="3"
             />
             <img
               src="./vectors/hexagons/4.svg"
-              onMouseEnter={handleMouseEnter(
-                "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
-              )}
+              // onMouseEnter={handleMouseEnter(
+              //   "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
+              // )}
               loading="lazy"
               alt="4"
             />
             <img
               src="./vectors/hexagons/5.svg"
-              onMouseEnter={handleMouseEnter(
-                "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
-              )}
+              // onMouseEnter={handleMouseEnter(
+              //   "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
+              // )}
               loading="lazy"
               alt="5"
             />
             <img
               src="./vectors/hexagons/6.svg"
-              onMouseEnter={handleMouseEnter(
-                "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
-              )}
+              // onMouseEnter={handleMouseEnter(
+              //   "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
+              // )}
               loading="lazy"
               alt="6"
             />
             <img src="./vectors/hexagons/7.svg" alt="7" />
             <img
               src="./vectors/hexagons/8.svg"
-              onMouseEnter={handleMouseEnter(
-                "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
-              )}
+              // onMouseEnter={handleMouseEnter(
+              //   "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
+              // )}
               loading="lazy"
               alt="8"
             />
@@ -106,8 +127,8 @@ export default function Colors() {
             <img src="./vectors/hexagons/22.svg" loading="lazy" alt="22" />
             <img src="./vectors/hexagons/23.svg" loading="lazy" alt="23" />
           </div>
-        </div>
-        <div className="pt-[80px]">
+        </div> */}
+        {/* <div className="pt-[80px]">
           <p className="font-semibold text-[26px] pb-[20px]">
             Wybierz kolor wybiegu:
           </p>
@@ -182,7 +203,7 @@ export default function Colors() {
             <img src="./vectors/hexagons/22.svg" loading="lazy" alt="22" />
             <img src="./vectors/hexagons/23.svg" loading="lazy" alt="23" />
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

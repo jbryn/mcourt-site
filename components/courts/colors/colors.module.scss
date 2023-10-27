@@ -35,6 +35,18 @@
     @apply rounded-[10px];
   }
 
+  .imagesContainer {
+    @apply relative;
+
+    .inner {
+      @apply absolute top-0;
+    }
+
+    .outer {
+      @apply absolute top-0;
+    }
+  }
+
   .colors {
     @apply grid gap-[9px] grid-cols-12;
 
