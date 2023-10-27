@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Contact from "@/components/courts/contact/contact";
+import Contact from "@/components/home/contact/contact";
 import Grass from "@/components/courts/surfaces/grass/grass";
 import Hero from "@/components/shared/hero/hero";
 

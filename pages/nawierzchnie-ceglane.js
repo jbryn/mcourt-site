@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Hero from "@/components/shared/hero/hero";
-import Contact from "@/components/courts/contact/contact";
+import Contact from "@/components/home/contact/contact";
 import Antuka from "@/components/courts/surfaces/antuka/antuka";
 
 export default function CourtsPage() {

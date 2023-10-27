@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Hero from "@/components/shared/hero/hero";
 import Features from "@/components/pickelball/features";
+import Contact from "@/components/home/contact/contact";
 
 export default function CourtsPage() {
   return (
@@ -31,6 +32,7 @@ export default function CourtsPage() {
           elementum elit interdum scelerisque consectetur.`}
         />
         <Features />
+        <Contact />
       </main>
     </>
   );

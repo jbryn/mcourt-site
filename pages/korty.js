@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Hero from "@/components/shared/hero/hero";
 import Surfaces from "@/components/courts/surfaces/surfaces";
-import Contact from "@/components/courts/contact/contact";
+import Contact from "@/components/home/contact/contact";
 
 export default function CourtsPage() {
   return (

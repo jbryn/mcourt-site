@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Contact from "@/components/courts/contact/contact";
+import Contact from "@/components/home/contact/contact";
 import Hero from "@/components/shared/hero/hero";
 import Features from "@/components/tennis-halls/features/features";
 import Testimonials from "@/components/home/testimonials/testimonials";
