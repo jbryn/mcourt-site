@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 
 export default function Projects() {
   return (
-    <section className="pb-[100px]">
+    <section>
       <div className={styles.decor} />
       <div className={styles.header}>
         <h2>Nasze projekty</h2>

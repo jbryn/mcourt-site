@@ -1,6 +1,6 @@
 .wrapper {
   @apply flex flex-col items-center justify-center gap-[83px] px-[60px];
-  @apply lg:flex-row;
+  @apply lg:flex-row max-[1024px]:pt-[100px];
 
   .formWrapper {
     @apply flex flex-col gap-[40px];

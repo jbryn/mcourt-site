@@ -1,5 +1,6 @@
 .formWrapper {
-  @apply flex flex-col gap-[30px];
+  @apply flex flex-col gap-[30px] pt-[100px];
+  @apply max-[1024px]:pt-[00px];
 
   h2 {
     @apply text-[30px] font-semibold;
