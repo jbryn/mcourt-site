@@ -2,13 +2,33 @@ import Image from "next/image";
 import { useState } from "react";
 import styles from "./colors.module.scss";
 
+const COLORS = [
+  { name: "beach beige", hex: "#d7a262" },
+  { name: "pumpkin", hex: "#f6921e" },
+  { name: "candy red", hex: "#dd2227" },
+  { name: "burgundy", hex: "#661825" },
+  { name: "red", hex: "#7d2c25" },
+  { name: "coral", hex: "#ea515f" },
+  { name: "purple", hex: "#8864a3" },
+  { name: "royal purple", hex: "#4e1d59" },
+  { name: "dark blue", hex: "#073142" },
+  { name: "light blue", hex: "#0070b2" },
+  { name: "grass green", hex: "#277936" },
+  { name: "spring green", hex: "#4eb757" },
+  { name: "dark green", hex: "#1e503e" },
+  { name: "dark grey", hex: "#464d54" },
+  { name: "light grey", hex: "#c2c9c8" },
+  { name: "arctic blue", hex: "#89badb" },
+  { name: "teal", hex: "#008d91" },
+];
+
 export default function Colors() {
   const [image, setImage] = useState(
     "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
   );
 
-  const [innerImage, setInnerImage] = useState("/colors/inner.png");
-  const [outerImage, setOuterImage] = useState("/colors/outer.png");
+  const [innerImage, setInnerImage] = useState("/colors/inner/1_Arctic.png");
+  const [outerImage, setOuterImage] = useState("/colors/outer/2_Coral.png");
 
   function handleMouseEnter(imagePath) {
     return () => {
@@ -52,158 +72,58 @@ export default function Colors() {
           />
         </div>
 
-        {/* <div className="pt-[80px]">
+        <div className="pt-[80px]">
           <p className="font-semibold text-[26px] pb-[20px]">
             Wybierz kolor pola gry:
           </p>
-          <div
-            className={styles.colors}
-            // onMouseLeave={handleMouseEnter(
-            //   "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
-            // )}
-          >
-            <img
-              src="./vectors/hexagons/2.svg"
-              // onMouseEnter={handleMouseEnter(
-              //   "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
-              // )}
-              loading="lazy"
-              alt="2"
-            />
-            <img
-              src="./vectors/hexagons/3.svg"
-              // onMouseEnter={handleMouseEnter(
-              //   "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
-              // )}
-              loading="lazy"
-              alt="3"
-            />
-            <img
-              src="./vectors/hexagons/4.svg"
-              // onMouseEnter={handleMouseEnter(
-              //   "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
-              // )}
-              loading="lazy"
-              alt="4"
-            />
-            <img
-              src="./vectors/hexagons/5.svg"
-              // onMouseEnter={handleMouseEnter(
-              //   "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
-              // )}
-              loading="lazy"
-              alt="5"
-            />
-            <img
-              src="./vectors/hexagons/6.svg"
-              // onMouseEnter={handleMouseEnter(
-              //   "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
-              // )}
-              loading="lazy"
-              alt="6"
-            />
-            <img src="./vectors/hexagons/7.svg" alt="7" />
-            <img
-              src="./vectors/hexagons/8.svg"
-              // onMouseEnter={handleMouseEnter(
-              //   "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
-              // )}
-              loading="lazy"
-              alt="8"
-            />
-            <img src="./vectors/hexagons/9.svg" loading="lazy" alt="9" />
-            <img src="./vectors/hexagons/10.svg" loading="lazy" alt="10" />
-            <img src="./vectors/hexagons/11.svg" loading="lazy" alt="11" />
-            <img src="./vectors/hexagons/12.svg" loading="lazy" alt="12" />
-            <img src="./vectors/hexagons/13.svg" loading="lazy" alt="13" />
-            <img src="./vectors/hexagons/14.svg" loading="lazy" alt="14" />
-            <img src="./vectors/hexagons/15.svg" loading="lazy" alt="15" />
-            <img src="./vectors/hexagons/16.svg" loading="lazy" alt="16" />
-            <img src="./vectors/hexagons/17.svg" loading="lazy" alt="17" />
-            <img src="./vectors/hexagons/18.svg" loading="lazy" alt="18" />
-            <img src="./vectors/hexagons/19.svg" loading="lazy" alt="19" />
-            <img src="./vectors/hexagons/20.svg" loading="lazy" alt="20" />
-            <img src="./vectors/hexagons/21.svg" loading="lazy" alt="21" />
-            <img src="./vectors/hexagons/22.svg" loading="lazy" alt="22" />
-            <img src="./vectors/hexagons/23.svg" loading="lazy" alt="23" />
+          <div className={styles.colors}>
+            {COLORS.map((color, index) => (
+              <div
+                key={index}
+                // onClick={() => setInnerImage("/colors/inner/1_Purple.png")}
+              >
+                <svg
+                  width="52"
+                  height="61"
+                  viewBox="0 0 52 61"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 16.5L26 0L52 16.5V46L26 61L0 46V16.5Z"
+                    fill={color.hex}
+                  />
+                </svg>
+              </div>
+            ))}
           </div>
-        </div> */}
-        {/* <div className="pt-[80px]">
+        </div>
+        <div className="pt-[80px]">
           <p className="font-semibold text-[26px] pb-[20px]">
             Wybierz kolor wybiegu:
           </p>
-          <div
-            className={styles.colors}
-            onMouseLeave={handleMouseEnter(
-              "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
-            )}
-          >
-            <img
-              src="./vectors/hexagons/2.svg"
-              onMouseEnter={handleMouseEnter(
-                "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
-              )}
-              loading="lazy"
-              alt="2"
-            />
-            <img
-              src="./vectors/hexagons/3.svg"
-              onMouseEnter={handleMouseEnter(
-                "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
-              )}
-              loading="lazy"
-              alt="3"
-            />
-            <img
-              src="./vectors/hexagons/4.svg"
-              onMouseEnter={handleMouseEnter(
-                "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
-              )}
-              loading="lazy"
-              alt="4"
-            />
-            <img
-              src="./vectors/hexagons/5.svg"
-              onMouseEnter={handleMouseEnter(
-                "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
-              )}
-              loading="lazy"
-              alt="5"
-            />
-            <img
-              src="./vectors/hexagons/6.svg"
-              onMouseEnter={handleMouseEnter(
-                "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
-              )}
-              loading="lazy"
-              alt="6"
-            />
-            <img src="./vectors/hexagons/7.svg" alt="7" />
-            <img
-              src="./vectors/hexagons/8.svg"
-              onMouseEnter={handleMouseEnter(
-                "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
-              )}
-              loading="lazy"
-              alt="8"
-            />
-            <img src="./vectors/hexagons/9.svg" loading="lazy" alt="9" />
-            <img src="./vectors/hexagons/10.svg" loading="lazy" alt="10" />
-            <img src="./vectors/hexagons/11.svg" loading="lazy" alt="11" />
-            <img src="./vectors/hexagons/12.svg" loading="lazy" alt="12" />
-            <img src="./vectors/hexagons/13.svg" loading="lazy" alt="13" />
-            <img src="./vectors/hexagons/14.svg" loading="lazy" alt="14" />
-            <img src="./vectors/hexagons/15.svg" loading="lazy" alt="15" />
-            <img src="./vectors/hexagons/16.svg" loading="lazy" alt="16" />
-            <img src="./vectors/hexagons/17.svg" loading="lazy" alt="17" />
-            <img src="./vectors/hexagons/18.svg" loading="lazy" alt="18" />
-            <img src="./vectors/hexagons/19.svg" loading="lazy" alt="19" />
-            <img src="./vectors/hexagons/20.svg" loading="lazy" alt="20" />
-            <img src="./vectors/hexagons/21.svg" loading="lazy" alt="21" />
-            <img src="./vectors/hexagons/22.svg" loading="lazy" alt="22" />
-            <img src="./vectors/hexagons/23.svg" loading="lazy" alt="23" />
+          <div className={styles.colors}>
+            {COLORS.map((color, index) => (
+              <div
+                key={index}
+                // onClick={() => setInnerImage("/colors/inner/1_Purple.png")}
+              >
+                <svg
+                  width="52"
+                  height="61"
+                  viewBox="0 0 52 61"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 16.5L26 0L52 16.5V46L26 61L0 46V16.5Z"
+                    fill={color.hex}
+                  />
+                </svg>
+              </div>
+            ))}
           </div>
-        </div> */}
+        </div>
       </div>
     </section>
   );
