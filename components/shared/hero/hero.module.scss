@@ -6,7 +6,7 @@
 
   .hero {
     @apply mx-[24px] mt-[50px] pt-[100px];
-    @apply flex flex-col justify-center items-center gap-[30px];
+    @apply flex flex-col justify-center items-center gap-[30px] text-center;
     @apply sm:mx-[100px];
     @apply lg:mx-[257px] lg:mt-[100px];
 

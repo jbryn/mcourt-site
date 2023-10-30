@@ -31,7 +31,7 @@ export default function CourtsPage() {
           libero eu faucibus commodo sagittis. Sit accumsan et mauris fringilla
           elementum elit interdum scelerisque consectetur.`}
         />
-        <Features />
+        {/* <Features /> */}
         <Contact />
       </main>
     </>

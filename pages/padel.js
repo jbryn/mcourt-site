@@ -1,4 +1,5 @@
 import Hero from "@/components/shared/hero/hero";
+import Contact from "@/components/home/contact/contact";
 
 export default function CourtsPage() {
   return (
@@ -10,6 +11,7 @@ export default function CourtsPage() {
           libero eu faucibus commodo sagittis. Sit accumsan et mauris fringilla
           elementum elit interdum scelerisque consectetur.`}
       />
+      <Contact />
     </main>
   );
 }
