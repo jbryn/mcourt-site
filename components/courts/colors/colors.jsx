@@ -3,22 +3,22 @@ import { useState } from "react";
 import styles from "./colors.module.scss";
 
 const COLORS = [
-  { name: "beach beige", hex: "#d7a262" },
+  { name: "beach-beige", hex: "#d7a262" },
   { name: "pumpkin", hex: "#f6921e" },
-  { name: "candy red", hex: "#dd2227" },
+  { name: "candy-red", hex: "#dd2227" },
   { name: "burgundy", hex: "#661825" },
   { name: "red", hex: "#7d2c25" },
   { name: "coral", hex: "#ea515f" },
   { name: "purple", hex: "#8864a3" },
-  { name: "royal purple", hex: "#4e1d59" },
-  { name: "dark blue", hex: "#073142" },
-  { name: "light blue", hex: "#0070b2" },
-  { name: "grass green", hex: "#277936" },
-  { name: "spring green", hex: "#4eb757" },
-  { name: "dark green", hex: "#1e503e" },
-  { name: "dark grey", hex: "#464d54" },
-  { name: "light grey", hex: "#c2c9c8" },
-  { name: "arctic blue", hex: "#89badb" },
+  { name: "royal-purple", hex: "#4e1d59" },
+  { name: "dark-blue", hex: "#073142" },
+  { name: "light-blue", hex: "#0070b2" },
+  { name: "grass-green", hex: "#277936" },
+  { name: "spring-green", hex: "#4eb757" },
+  { name: "dark-green", hex: "#1e503e" },
+  { name: "dark-grey", hex: "#464d54" },
+  { name: "light-grey", hex: "#c2c9c8" },
+  { name: "arctic-blue", hex: "#89badb" },
   { name: "teal", hex: "#008d91" },
 ];
 
@@ -27,8 +27,8 @@ export default function Colors() {
     "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
   );
 
-  const [innerImage, setInnerImage] = useState("/colors/inner/1_Arctic.png");
-  const [outerImage, setOuterImage] = useState("/colors/outer/2_Coral.png");
+  const [innerImage, setInnerImage] = useState("/colors/inner/light-blue.png");
+  const [outerImage, setOuterImage] = useState("/colors/outer/grass-green.png");
 
   function handleMouseEnter(imagePath) {
     return () => {
@@ -80,7 +80,8 @@ export default function Colors() {
             {COLORS.map((color, index) => (
               <div
                 key={index}
-                // onClick={() => setInnerImage("/colors/inner/1_Purple.png")}
+                className="cursor-pointer"
+                onClick={() => setInnerImage(`/colors/inner/${color.name}.png`)}
               >
                 <svg
                   width="52"
@@ -106,7 +107,8 @@ export default function Colors() {
             {COLORS.map((color, index) => (
               <div
                 key={index}
-                // onClick={() => setInnerImage("/colors/inner/1_Purple.png")}
+                className="cursor-pointer"
+                onClick={() => setOuterImage(`/colors/outer/${color.name}.png`)}
               >
                 <svg
                   width="52"
