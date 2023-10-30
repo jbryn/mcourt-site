@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 import styles from "./surfaces.module.scss";
 
@@ -15,7 +16,9 @@ export default function Surfaces() {
             alt="antuka"
           />
           <div className={styles.description}>
-            <h2>Akrylowe nawierzchnie Laykold</h2>
+            <Link href="/nawierzchnie-akrylowe">
+              <h2>Akrylowe nawierzchnie Laykold</h2>
+            </Link>
             <h3>
               <p>
                 W naszej ofercie znajdziesz prestiżowe{" "}
@@ -38,7 +41,9 @@ export default function Surfaces() {
             alt="fast-track"
           />
           <div className={styles.description}>
-            <h2>Nawierzchnie z mączki ceglanej</h2>
+            <Link href="/nawierzchnie-ceglane">
+              <h2>Nawierzchnie z mączki ceglanej</h2>
+            </Link>
             <h3>
               <p>
                 Nasze nawierzchnie z klasycznej mączki ceglanej czeskiego
@@ -68,7 +73,9 @@ export default function Surfaces() {
             alt="padel"
           />
           <div className={styles.description}>
-            <h2>Korty ze sztucznej trawy</h2>
+            <Link href="/sztuczna-trawa">
+              <h2>Korty ze sztucznej trawy</h2>
+            </Link>
             <h3>
               <p>
                 Marzysz o własnym <strong>korcie tenisowym</strong> przy domu?
@@ -96,7 +103,9 @@ export default function Surfaces() {
             alt="tennis-halls"
           />
           <div className={styles.description}>
-            <h2>Oświetlenie kortów tenisowych</h2>
+            <Link href="/oswietlenie-kortow">
+              <h2>Oświetlenie kortów tenisowych</h2>
+            </Link>
             <h3>
               <p>
                 Nasze korty tenisowe wyróżniają się dzięki oświetleniu firmy

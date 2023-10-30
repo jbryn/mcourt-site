@@ -58,7 +58,7 @@ export default function Surfaces() {
             />
             <h3>Hale tenisowe</h3>
           </Link>
-          <Link href="/nawierzchnie-hybrydowe">
+          <Link href="/oswietlenie-kortow">
             <Image
               src="https://media.graphassets.com/3e2xp7oLSNOJfFQcgnsi"
               alt="all-year"

@@ -5,7 +5,7 @@ export default function CourtsPage() {
     <main className="overflow-hidden">
       <Hero
         backgroundUrl={"/img/courts-hero.png"}
-        title="Nawierzchnie hybrydowe"
+        title="Oświetlenie kortów"
         subtitle={`Lorem ipsum dolor sit amet consectetur. Nibh suspendisse aliquam sed
           libero eu faucibus commodo sagittis. Sit accumsan et mauris fringilla
           elementum elit interdum scelerisque consectetur.`}

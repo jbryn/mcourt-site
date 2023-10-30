@@ -59,7 +59,7 @@ export default function Header() {
         <span className={styles.tooltipContent}>
           <Link href="/nawierzchnie-akrylowe">Nawierzchnie akrylowe</Link>
           <Link href="/sztuczna-trawa">Sztuczna trawa</Link>
-          <Link href="/nawierzchnie-hybrydowe">Nawierzchnie hybrydowe</Link>
+          <Link href="/oswietlenie-kortow">Oświetlenie kortów</Link>
           <Link href="/nawierzchnie-ceglane">Nawierzchnia ceglana</Link>
         </span>
       </div>
