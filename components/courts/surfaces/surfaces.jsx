@@ -16,7 +16,10 @@ export default function Surfaces() {
             alt="antuka"
           />
           <div className={styles.description}>
-            <Link href="/nawierzchnie-akrylowe">
+            <Link
+              href="/nawierzchnie-akrylowe"
+              className="hover:cursor-pointer hover:underline"
+            >
               <h2>Akrylowe nawierzchnie Laykold</h2>
             </Link>
             <h3>
@@ -41,7 +44,10 @@ export default function Surfaces() {
             alt="fast-track"
           />
           <div className={styles.description}>
-            <Link href="/nawierzchnie-ceglane">
+            <Link
+              href="/nawierzchnie-ceglane"
+              className="hover:cursor-pointer hover:underline"
+            >
               <h2>Nawierzchnie z mączki ceglanej</h2>
             </Link>
             <h3>
@@ -73,7 +79,10 @@ export default function Surfaces() {
             alt="padel"
           />
           <div className={styles.description}>
-            <Link href="/sztuczna-trawa">
+            <Link
+              href="/sztuczna-trawa"
+              className="hover:cursor-pointer hover:underline"
+            >
               <h2>Korty ze sztucznej trawy</h2>
             </Link>
             <h3>
@@ -103,7 +112,10 @@ export default function Surfaces() {
             alt="tennis-halls"
           />
           <div className={styles.description}>
-            <Link href="/oswietlenie-kortow">
+            <Link
+              href="/oswietlenie-kortow"
+              className="hover:cursor-pointer hover:underline"
+            >
               <h2>Oświetlenie kortów tenisowych</h2>
             </Link>
             <h3>

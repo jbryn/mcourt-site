@@ -15,7 +15,7 @@ export default function Acryl() {
             alt="antuka"
           />
           <div className={styles.description}>
-            <h2>Tytuł sekcji</h2>
+            <h2>Czym są nawierzchnie akrylowe?</h2>
             <h3>
               <p>
                 <strong>Nawierzchnia akrylowa</strong> jest jednym z
@@ -47,7 +47,7 @@ export default function Acryl() {
             alt="antuka"
           />
           <div className={styles.description}>
-            <h2>Tytuł sekcji</h2>
+            <h2>Akryl - przewagi</h2>
             <h3>
               <p>
                 <strong>Korty tenisowe twarde</strong> charakteryzują się
@@ -63,7 +63,7 @@ export default function Acryl() {
           </div>
         </div>
 
-        {/* <div className={styles.laykold}>
+        <div className={styles.laykold}>
           <div className="pt-[50px] lg:order-1">
             <Image
               src="https://media.graphassets.com/OGwwcsaCSTyjyOrFBmng"
@@ -77,17 +77,16 @@ export default function Acryl() {
             <h2>Tytuł sekcji</h2>
             <h3>
               <p>
-                Nawierzchnia <strong>Laykold</strong> to rozwiązanie, które
-                rewolucjonizuje korty tenisowe na całym świecie. Charakteryzuje
-                się wyjątkową jakością i trwałością, a także oferuje różne
-                systemy, które można dostosować do konkretnej preferencji
-                graczy. Warto bliżej przyjrzeć się dwóm głównym kategoriom
-                nawierzchni Laykold: systemom twardym i{" "}
-                <strong>amortyzowanym</strong>.
+                W naszej ofercie znajdziesz nawierzchnię{" "}
+                <strong>Laykold</strong>. Tenisowa nawierzchnia akrylowa{" "}
+                <strong>Laykold</strong>
+                to oficjalna nawierzchnia turniejowa na kortach wielkoszlemowych
+                US Open od 2020 roku. Od teraz i Ty możesz mieć jeden z
+                najlepszych kortów tenisowych na świecie.
               </p>
             </h3>
           </div>
-        </div> */}
+        </div>
 
         <div className={styles.surface}>
           <Image
@@ -152,8 +151,8 @@ export default function Acryl() {
             className="rounded-[10px]"
             src="https://media.graphassets.com/9eroL6XZTCWeZqs0fZTU"
             loading="lazy"
-            width={1292}
-            height={609}
+            width={646}
+            height={304}
             alt="laykold"
           />
         </div>
