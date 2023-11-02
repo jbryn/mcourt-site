@@ -4,6 +4,7 @@
 
   h2 {
     @apply text-[42px] font-semibold pb-[20px];
+    @apply max-[600px]:text-[30px];
   }
 
   video {

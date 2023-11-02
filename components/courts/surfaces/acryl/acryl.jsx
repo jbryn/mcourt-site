@@ -79,10 +79,9 @@ export default function Acryl() {
               <p>
                 W naszej ofercie znajdziesz nawierzchnię{" "}
                 <strong>Laykold</strong>. Tenisowa nawierzchnia akrylowa{" "}
-                <strong>Laykold</strong>
-                to oficjalna nawierzchnia turniejowa na kortach wielkoszlemowych
-                US Open od 2020 roku. Od teraz i Ty możesz mieć jeden z
-                najlepszych kortów tenisowych na świecie.
+                <strong>Laykold</strong> to oficjalna nawierzchnia turniejowa na
+                kortach wielkoszlemowych US Open od 2020 roku. Od teraz i Ty
+                możesz mieć jeden z najlepszych kortów tenisowych na świecie.
               </p>
             </h3>
           </div>
@@ -123,28 +122,30 @@ export default function Acryl() {
           <div className={styles.description}>
             <h2>Zalety nawierzchni tenisowych Laykold:</h2>
             <h3>
-              <ul>
+              <ul className="px-[10px]">
                 <li>
-                  Większa ochrona stawów - Kort pokryty wysokiej jakości akrylem
-                  Laykold® zapewnia równomierne odbicie, tempo i niezawodne
-                  trzymanie stopy
+                  Większa ochrona stawów - Kort pokryty wysokiej jakości akrylem{" "}
+                  <strong>Laykold®</strong> zapewnia równomierne odbicie, tempo
+                  i niezawodne trzymanie stopy
                 </li>
                 <li>
-                  Nawierzchnia Laykold® jest oficjalną nawierzchnią turniejową –
-                  trenując na tej nawierzchni zawodnik znacznie lepiej
-                  przygotowuje się do gry na turniejach na najwyższym poziomie
+                  Nawierzchnia <strong>Laykold®</strong> jest oficjalną
+                  nawierzchnią turniejową – trenując na tej nawierzchni zawodnik
+                  znacznie lepiej przygotowuje się do gry na turniejach na
+                  najwyższym poziomie
                 </li>
                 <li>
-                  System Laykold w porównaniu do konkurencyjnych nawierzchni o
-                  podobnych parametrach wyróżniją się 14% lepszym efektem
-                  amortyzacji, zmniejszając ryzyko powstawania kontuzji.
+                  System <strong>Laykold®</strong> w porównaniu do
+                  konkurencyjnych nawierzchni o podobnych parametrach wyróżniją
+                  się 14% lepszym efektem amortyzacji, zmniejszając ryzyko
+                  powstawania kontuzji.
                 </li>
               </ul>
             </h3>
           </div>
         </div>
-        <div className="px-[100px] flex flex-col items-center gap-[50px]">
-          <h2 className="font-semibold text-[42px]">
+        <div className="px-[30px] flex flex-col items-center gap-[50px] pt-[40px]">
+          <h2 className="font-semibold text-[42px] max-[600px]:text-[30px]">
             Szybkość nawierzchni potwierdzają certyfikaty ITF:
           </h2>
           <Image

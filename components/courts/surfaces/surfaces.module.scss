@@ -16,6 +16,7 @@
 
       h2 {
         @apply text-[42px] font-semibold;
+        @apply max-[600px]:text-[30px];
       }
 
       h3 {
@@ -29,7 +30,7 @@
   }
 
   .laykold {
-    @apply flex flex-col gap-[95px] px-[30px];
+    @apply flex flex-col gap-[60px] px-[30px];
     @apply xl:flex-row;
 
     img {
@@ -43,6 +44,7 @@
 
       h2 {
         @apply text-[42px] font-semibold;
+        @apply max-[600px]:text-[30px];
       }
     }
   }
@@ -62,6 +64,7 @@
 
       h2 {
         @apply text-[42px] font-semibold;
+        @apply max-[600px]:text-[30px];
       }
     }
   }
@@ -81,6 +84,7 @@
 
       h2 {
         @apply text-[42px] font-semibold;
+        @apply max-[600px]:text-[30px];
       }
     }
   }

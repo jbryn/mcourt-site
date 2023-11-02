@@ -56,7 +56,7 @@ export default function Antuka() {
                 atmosferyczne.
               </p>
               <strong>Zalety: </strong>
-              <ul className="pl-[20px]">
+              <ul className="pl-[20px] max-[600px]:pb-[60px]">
                 <li>
                   Dłuższy sezon na kortach zewnętrznych o co najmniej dwa
                   miesiące!
