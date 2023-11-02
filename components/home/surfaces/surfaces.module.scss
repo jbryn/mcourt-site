@@ -16,10 +16,11 @@
 
     a {
       @apply flex flex-col justify-end items-center rounded-[15px];
-      @apply cursor-pointer min-h-[330px] p-[20px];
+      @apply cursor-pointer min-h-[260px] p-[20px];
       background-size: cover;
       background-repeat: no-repeat;
       transition: all 0.1s;
+      filter: brightness(0.9);
 
       img {
         @apply rounded-[10px];

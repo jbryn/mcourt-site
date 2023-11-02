@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "./surfaces.module.scss";
 import Link from "next/link";
 
@@ -29,12 +28,6 @@ export default function Surfaces() {
                 "url('https://media.graphassets.com/uPNLWO2ScKhthwc3Ujlw')",
             }}
           >
-            {/* <Image
-              src="https://media.graphassets.com/uPNLWO2ScKhthwc3Ujlw"
-              alt="antuka"
-              width={350}
-              height={406}
-            /> */}
             <h3 className="max-[338px]:pl-[20px]">
               Nawierzchnie z mączki ceglanej
             </h3>
@@ -46,12 +39,6 @@ export default function Surfaces() {
                 "url('https://media.graphassets.com/J57YydIsSw6hUiJZOdVd')",
             }}
           >
-            {/* <Image
-              src="https://media.graphassets.com/J57YydIsSw6hUiJZOdVd"
-              alt="fast-track15"
-              width={350}
-              height={406}
-            /> */}
             <h3>Nawierzchnie ze sztucznej trawy</h3>
           </Link>
           <Link
@@ -61,12 +48,6 @@ export default function Surfaces() {
                 "url('https://media.graphassets.com/nbrXBWYATtWqWmAwHTJX')",
             }}
           >
-            {/* <Image
-              src="https://media.graphassets.com/nbrXBWYATtWqWmAwHTJX"
-              alt="padel"
-              width={350}
-              height={406}
-            /> */}
             <h3>Korty do padla</h3>
           </Link>
           <Link
@@ -76,12 +57,6 @@ export default function Surfaces() {
                 "url('https://media.graphassets.com/oZYjmEmEQS2RwnbEqtQd')",
             }}
           >
-            {/* <Image
-              src="https://media.graphassets.com/oZYjmEmEQS2RwnbEqtQd"
-              alt="tennis-halls"
-              width={350}
-              height={406}
-            /> */}
             <h3>Korty do pickelballa</h3>
           </Link>
           <Link
@@ -91,12 +66,6 @@ export default function Surfaces() {
                 "url('https://media.graphassets.com/3e2xp7oLSNOJfFQcgnsi')",
             }}
           >
-            {/* <Image
-              src="https://media.graphassets.com/3e2xp7oLSNOJfFQcgnsi"
-              alt="all-year"
-              width={350}
-              height={406}
-            /> */}
             <h3>Hale tenisowe</h3>
           </Link>
         </div>
