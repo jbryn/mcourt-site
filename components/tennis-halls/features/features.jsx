@@ -40,7 +40,7 @@ export default function Features() {
             alt="budowa"
           />
           <div className={styles.description}>
-            <h2>Tytuł sekcji</h2>
+            <h2>Konstrukcja</h2>
             <h3>
               <p>
                 Konstrukcja naszych <strong>hal tenisowych</strong> opiera się
@@ -67,7 +67,7 @@ export default function Features() {
             alt="hall"
           />
           <div className={styles.description}>
-            <h2>Tytuł sekcji</h2>
+            <h2>Przykrycia</h2>
             <h3>
               <p>
                 Pokrycie hal <strong>dwuwarstwową plandeką PVC</strong> jest
@@ -91,7 +91,7 @@ export default function Features() {
             alt="budowa"
           />
           <div className={styles.description}>
-            <h2>Tytuł sekcji</h2>
+            <h2>Oświetlenie</h2>
             <h3>
               <p>
                 W naszych halach łukowych stosujemy nowoczesne oświetlenie LED o
@@ -113,7 +113,7 @@ export default function Features() {
             alt="hall"
           />
           <div className={styles.description}>
-            <h2>Tytuł sekcji</h2>
+            <h2>Ogrzewanie</h2>
             <h3>
               <p>
                 W zależności od dostępnych źródeł energii, istnieje opcja
@@ -137,7 +137,7 @@ export default function Features() {
             alt="budowa"
           />
           <div className={styles.description}>
-            <h2>Tytuł sekcji</h2>
+            <h2>Dodatki</h2>
             <h3>
               <p>
                 Nasze <strong>hale tenisowe</strong> wyposażamy w rozsuwane

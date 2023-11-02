@@ -1,5 +1,6 @@
 .wrapper {
   @apply flex flex-col items-center gap-[130px] pt-[60px];
+  @apply max-[600px]:gap-[80px];
 
   .feature {
     @apply flex flex-col gap-[95px] px-[30px];

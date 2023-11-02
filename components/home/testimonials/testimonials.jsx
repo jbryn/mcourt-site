@@ -11,7 +11,7 @@ export default function Testimonials() {
       <div className={styles.wrapper}>
         <div className={styles.header}>
           <span>
-            <h2>Wybrane wizualizacje</h2>
+            <h2>Wybrane projekty</h2>
           </span>
           <div className={styles.navigation}>
             <div id="swiper1-prev" className="swiper-button-prev" />
