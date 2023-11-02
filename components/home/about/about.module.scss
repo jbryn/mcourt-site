@@ -1,5 +1,6 @@
 .container {
   @apply pt-[120px] pb-[100px];
+  @apply max-[600px]:pt-[60px];
 
   .background {
     @apply -z-10 absolute left-0 w-[503px] h-[600px] rounded-[623px];
