@@ -1,6 +1,6 @@
 import Link from "next/link";
 import styles from "./header.module.scss";
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import classNames from "classnames";
 
 export default function Header() {
@@ -10,6 +10,14 @@ export default function Header() {
   const setVisible = (visible) => {
     tooltipRef.current.style.visibility = visible ? "visible" : "hidden";
   };
+
+  useEffect(() => {
+    const body = document.getElementById("body");
+
+    if (isMenuOpen) {
+      body.style.position = "fixed";
+    } else body.style.position = "static";
+  }, [isMenuOpen]);
 
   return (
     <header className="bg-black fixed w-full z-50">
@@ -73,7 +81,7 @@ export default function Header() {
         <ul className={styles.list}>
           <li>
             <Link href="/" onClick={() => setMenuOpen(false)}>
-              Strona główna
+              Home
             </Link>
           </li>
 
@@ -85,7 +93,7 @@ export default function Header() {
 
           <li>
             <Link href="/hale-tenisowe" onClick={() => setMenuOpen(false)}>
-              Hale tenisowe
+              Hale
             </Link>
           </li>
 

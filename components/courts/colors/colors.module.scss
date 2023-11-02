@@ -21,6 +21,7 @@
 
   h2 {
     @apply text-[42px] font-semibold;
+    @apply max-[600px]:text-[30px];
   }
 
   h3 {

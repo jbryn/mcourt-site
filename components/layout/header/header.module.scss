@@ -32,6 +32,10 @@
     @apply absolute top-[50%] left-[50%];
     @apply text-white text-[44px];
     transform: translate(-50%, -50%);
+
+    a {
+      @apply text-[42px] uppercase;
+    }
   }
 
   .close {

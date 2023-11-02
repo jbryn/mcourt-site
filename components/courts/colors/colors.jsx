@@ -72,7 +72,7 @@ export default function Colors() {
           />
         </div>
 
-        <div className="pt-[80px]">
+        <div className="pt-[20px]">
           <p className="font-semibold text-[26px] pb-[20px]">
             Wybierz kolor pola gry:
           </p>
@@ -99,7 +99,7 @@ export default function Colors() {
             ))}
           </div>
         </div>
-        <div className="pt-[80px]">
+        <div className="pt-[20px]">
           <p className="font-semibold text-[26px] pb-[20px]">
             Wybierz kolor wybiegu:
           </p>
