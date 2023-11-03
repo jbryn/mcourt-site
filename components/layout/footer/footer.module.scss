@@ -5,7 +5,7 @@
   @apply relative;
 
   .card {
-    @apply absolute bottom-[20%];
+    @apply absolute bottom-[28%];
     @apply w-[100%] pt-[89px] pb-[78px];
     @apply flex flex-col items-center justify-center rounded-[40px] gap-[40px];
     @apply z-10;
@@ -41,31 +41,23 @@
   }
 
   .bottom {
-    @apply flex flex-col justify-end items-center h-[336px];
-    @apply bg-black pb-[73px];
+    @apply flex flex-col gap-[20px] justify-end h-[336px] px-[100px] pb-[30px];
+    @apply bg-black;
     @apply w-full;
     @apply relative;
-
-    p {
-      @apply text-[12px];
-      @apply sm:text-[14px];
-    }
+    @apply text-[14px];
+    @apply max-[700px]:px-[40px];
+    @apply max-[640px]:px-[20px];
+    @apply max-[500px]:px-[20px];
+    @apply max-[500px]:text-[12px];
 
     .contact {
-      @apply absolute bottom-0 right-0;
-      @apply flex items-center justify-center gap-[10px];
-      @apply py-[15px] px-[29px] bg-green;
-      @apply text-white text-[16px];
-      @apply rounded-tl-[40px];
+      @apply w-full flex items-center justify-between;
+    }
 
-      img {
-        @apply w-[16px] h-[16px];
-        @apply sm:w-[32px] sm:h-[32px];
-      }
-
-      span {
-        @apply min-w-[40px];
-      }
+    .phone {
+      @apply hidden;
+      @apply max-[500px]:flex justify-between;
     }
   }
 }

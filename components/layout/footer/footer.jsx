@@ -48,14 +48,32 @@ export default function Footer() {
         </div>
         <div className={styles.top} />
         <div className={styles.bottom}>
-          <p>Copyright 2023 © MCOURT | All Rights Reserved</p>
-          <button className={styles.contact}>
-            <img src="./icons/phone.svg" alt="phone" />
-            <div className="flex flex-col">
-              <p>531-988-445</p>
-              <p>507-302-897</p>
+          <div id="footer" className={styles.contact}>
+            <div className="flex flex-col items-start">
+              <p>Kineskopowa 1</p>
+              <p>Budynek F</p>
+              <p>05-500</p>
+              <p>Piaseczno</p>
             </div>
-          </button>
+            <div>
+              <p className="flex max-[380px]:flex-col">
+                <span>Poniedziałek - Piątek: </span>
+                <span className="pl-[5px]">9:00 - 17:00</span>
+              </p>
+              <p className="flex max-[380px]:flex-col">
+                <span>Sobota - Niedziela: </span>
+                <span className="pl-[5px]">Zamknięte</span>
+              </p>
+            </div>
+            <div className="flex flex-col items-end max-[500px]:hidden">
+              <p>+48 531 988 445</p>
+              <p>+48 507 302 897</p>
+            </div>
+          </div>
+          <div className={styles.phone}>
+            <p>+48 531 988 445</p>
+            <p>+48 507 302 897</p>
+          </div>
         </div>
       </div>
     </footer>
