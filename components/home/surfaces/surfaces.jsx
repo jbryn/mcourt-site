@@ -51,7 +51,7 @@ export default function Surfaces() {
             <h3>Korty do padla</h3>
           </Link>
           <Link
-            href="/hale-tenisowe"
+            href="/pickelball"
             style={{
               backgroundImage:
                 "url('https://media.graphassets.com/oZYjmEmEQS2RwnbEqtQd')",
@@ -60,7 +60,7 @@ export default function Surfaces() {
             <h3>Korty do pickelballa</h3>
           </Link>
           <Link
-            href="/oswietlenie-kortow"
+            href="/hale-tenisowe"
             style={{
               backgroundImage:
                 "url('https://media.graphassets.com/3e2xp7oLSNOJfFQcgnsi')",

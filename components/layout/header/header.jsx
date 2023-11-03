@@ -98,11 +98,15 @@ export default function Header() {
           </li>
 
           <li>
-            <Link href="/padel">Padel</Link>
+            <Link href="/padel" onClick={() => setMenuOpen(false)}>
+              Padel
+            </Link>
           </li>
 
           <li>
-            <Link href="/pickelball">Pickelball</Link>
+            <Link href="/pickelball" onClick={() => setMenuOpen(false)}>
+              Pickelball
+            </Link>
           </li>
         </ul>
       </div>
