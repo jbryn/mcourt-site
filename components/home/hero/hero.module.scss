@@ -23,7 +23,7 @@
     .cta {
       @apply px-[35px] py-[10px] rounded-md;
       @apply text-white text-[14px] max-w-[149px];
-      @apply bg-green;
+      @apply bg-green z-20;
       transition: all 0.3s;
 
       &:hover {
