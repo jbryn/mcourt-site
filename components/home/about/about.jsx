@@ -3,10 +3,10 @@ import styles from "./about.module.scss";
 
 export default function About() {
   return (
-    <section className={styles.container}>
+    <section id="about" className={styles.container}>
       <div className={styles.cardsWrapper}>
         <div className={styles.card}>
-          <h2 id="about">O nas</h2>
+          <h2>O nas</h2>
           <p>
             Od 2008 roku z dumą dostarczamy najwyższej jakości{" "}
             <strong>

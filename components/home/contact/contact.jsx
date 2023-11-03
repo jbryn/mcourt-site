@@ -4,7 +4,7 @@ import styles from "./contact.module.scss";
 
 export default function Contact() {
   return (
-    <section>
+    <section id="contact">
       <div className={styles.wrapper}>
         <Image
           src="/img/logos/mcourt-sygnet.png"

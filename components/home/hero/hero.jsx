@@ -13,7 +13,7 @@ export default function Hero({ backgroundUrl, title, subtitle }) {
           <button
             className={styles.cta}
             onClick={() => {
-              const video = document.getElementById("projects");
+              const video = document.getElementById("about");
               video.scrollIntoView({ behavior: "smooth" });
             }}
           >
@@ -26,7 +26,7 @@ export default function Hero({ backgroundUrl, title, subtitle }) {
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
               onClick={() => {
-                const video = document.getElementById("about");
+                const video = document.getElementById("contact");
                 video.scrollIntoView({ behavior: "smooth" });
               }}
             >

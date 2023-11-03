@@ -5,18 +5,19 @@
   @apply lg:px-[167px];
 
   h2 {
-    @apply text-[30px] font-semibold;
+    @apply text-[30px] font-semibold text-center;
     @apply sm:text-[42px];
   }
 
   .cards {
-    @apply grid grid-cols-2 grid-rows-3 gap-[29px];
-    @apply lg:grid-cols-3 lg:grid-rows-2;
+    @apply grid grid-cols-2 grid-rows-3 gap-[29px] justify-items-center;
+    @apply min-[1140px]:grid-cols-3 min-[1140px]:grid-rows-2;
     @apply pt-[52px];
 
     a {
       @apply flex flex-col justify-end items-center rounded-[15px];
-      @apply cursor-pointer min-h-[260px] p-[20px];
+      @apply cursor-pointer w-full max-w-[360px] h-[260px] p-[20px];
+
       background-size: cover;
       background-repeat: no-repeat;
       transition: all 0.1s;
