@@ -1,6 +1,6 @@
+import { React, useRef, useState, useEffect } from "react";
 import Link from "next/link";
 import styles from "./header.module.scss";
-import { useRef, useState, useEffect } from "react";
 import classNames from "classnames";
 
 export default function Header() {
@@ -50,6 +50,16 @@ export default function Header() {
 
           <li>
             <Link href="/pickelball">Pickelball</Link>
+          </li>
+
+          <li
+            className={styles.contact}
+            onClick={() => {
+              const footer = document.getElementById("footer");
+              footer.scrollIntoView({ behavior: "smooth" });
+            }}
+          >
+            Kontakt
           </li>
         </ul>
         <div
