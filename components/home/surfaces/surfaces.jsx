@@ -16,7 +16,7 @@ export default function Surfaces() {
             href="/nawierzchnie-akrylowe"
             style={{
               backgroundImage:
-                "url('https://media.graphassets.com/DzqO16JWQaiwbfgCNB2q')",
+                "url('https://media.graphassets.com/U6sgWGOKSmyVDeA1vKUq')",
             }}
           >
             <h3 className="max-[338px]:pl-[20px]">Nawierzchnie akrylowe</h3>
@@ -25,7 +25,7 @@ export default function Surfaces() {
             href="/nawierzchnie-ceglane"
             style={{
               backgroundImage:
-                "url('https://media.graphassets.com/uPNLWO2ScKhthwc3Ujlw')",
+                "url('https://media.graphassets.com/MLaj2NHBTsWS4edMwdVk')",
             }}
           >
             <h3 className="max-[338px]:pl-[20px]">
@@ -36,7 +36,7 @@ export default function Surfaces() {
             href="/sztuczna-trawa"
             style={{
               backgroundImage:
-                "url('https://media.graphassets.com/J57YydIsSw6hUiJZOdVd')",
+                "url('https://media.graphassets.com/TMqQo2uHT8LKCQfLcsWL')",
             }}
           >
             <h3>Nawierzchnie ze sztucznej trawy</h3>
@@ -45,7 +45,7 @@ export default function Surfaces() {
             href="/padel"
             style={{
               backgroundImage:
-                "url('https://media.graphassets.com/nbrXBWYATtWqWmAwHTJX')",
+                "url('https://media.graphassets.com/mUa2GvOyQQCRrSu1X8Wf')",
             }}
           >
             <h3>Korty do padla</h3>
@@ -54,7 +54,7 @@ export default function Surfaces() {
             href="/pickelball"
             style={{
               backgroundImage:
-                "url('https://media.graphassets.com/oZYjmEmEQS2RwnbEqtQd')",
+                "url('https://media.graphassets.com/rglaWOeqTyKNR9mWNfDg')",
             }}
           >
             <h3>Korty do pickelballa</h3>
@@ -63,7 +63,7 @@ export default function Surfaces() {
             href="/hale-tenisowe"
             style={{
               backgroundImage:
-                "url('https://media.graphassets.com/3e2xp7oLSNOJfFQcgnsi')",
+                "url('https://media.graphassets.com/O25H68sFQpSh8xQDLspq')",
             }}
           >
             <h3>Hale tenisowe</h3>

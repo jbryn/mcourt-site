@@ -45,14 +45,14 @@ export default function Projects() {
           <div className={styles.card}>
             <Image
               className={styles.thumbnail}
-              src="https://media.graphassets.com/vN8fWB7XTwCgzNYVGtgy"
+              src="https://media.graphassets.com/sjk72IyQxC8zD8U682BL"
               width={700}
               height={406}
               loading="eager"
               alt="project1"
             />
             <h3>
-              2023 Budowa komplesku czterech kortów tenisowych w Łaźniewku
+              2023 Budowa kompleksu czterech kortów tenisowych w Łaźniewku
             </h3>
             <Link href="/">
               <span>Dowiedz się więcej</span>
@@ -64,7 +64,7 @@ export default function Projects() {
           <div className={styles.card}>
             <Image
               className={styles.thumbnail}
-              src="https://media.graphassets.com/J57YydIsSw6hUiJZOdVd"
+              src="https://media.graphassets.com/u2uZPdu2RAy77IDJlJsD"
               width={700}
               height={406}
               loading="eager"
@@ -81,7 +81,7 @@ export default function Projects() {
           <div className={styles.card}>
             <Image
               className={styles.thumbnail}
-              src="https://media.graphassets.com/B5m7X3NTq5bdh6ZFEAFg"
+              src="https://media.graphassets.com/PotiAzGKQh62ytvoBwDk"
               width={700}
               height={406}
               loading="eager"
@@ -98,30 +98,13 @@ export default function Projects() {
           <div className={styles.card}>
             <Image
               className={styles.thumbnail}
-              src="https://media.graphassets.com/oJGN97STza6bpoISUa5m"
+              src="https://media.graphassets.com/koc9lQ9QRZenqAQtl7JY"
               width={700}
               height={406}
               loading="eager"
               alt="project4"
             />
             <h3>2022 Renowacja nawierzchni na Warszawiance</h3>
-            <Link href="/">
-              <span>Dowiedz się więcej</span>
-              <img src="./icons/little-arrow.svg" alt="arrow" />
-            </Link>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className={styles.card}>
-            <Image
-              className={styles.thumbnail}
-              src="https://media.graphassets.com/J57YydIsSw6hUiJZOdVd"
-              width={700}
-              height={406}
-              loading="eager"
-              alt="project5"
-            />
-            <h3>Project Number Five</h3>
             <Link href="/">
               <span>Dowiedz się więcej</span>
               <img src="./icons/little-arrow.svg" alt="arrow" />

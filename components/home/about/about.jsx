@@ -34,9 +34,9 @@ export default function About() {
 
         <Image
           className={styles.image}
-          src="/img/paddle-tennis.png"
-          width={783}
-          height={623}
+          src="https://media.graphassets.com/ucyKSNExTqW6u33AmZ3s"
+          width={683}
+          height={1024}
           alt="paddle"
         />
       </div>
