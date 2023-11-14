@@ -9,7 +9,7 @@ export default function Surfaces() {
         <div className={styles.surface}>
           <Image
             className="lg:order-1"
-            src="/img/courts/image1.jpeg"
+            src="https://media.graphassets.com/5o1AZlSi6STe2ER8Qvge"
             loading="lazy"
             width={540}
             height={406}
@@ -37,7 +37,7 @@ export default function Surfaces() {
         </div>
         <div className={styles.surface}>
           <Image
-            src="/img/courts/image3.jpeg"
+            src="https://media.graphassets.com/oqbjYrm7Tjua5UUxjTgZ"
             loading="lazy"
             width={540}
             height={406}
@@ -72,7 +72,7 @@ export default function Surfaces() {
         <div className={styles.surface}>
           <Image
             className="lg:order-1"
-            src="/img/courts/image4.jpeg"
+            src="https://media.graphassets.com/BsCPdzHATdGnCNkxjHAa"
             loading="lazy"
             width={540}
             height={406}
@@ -105,7 +105,7 @@ export default function Surfaces() {
         </div>
         <div className={styles.surface}>
           <Image
-            src="/img/courts/image2.jpeg"
+            src="https://media.graphassets.com/DY9mFzdtROOIsBioyzeX"
             loading="lazy"
             width={540}
             height={406}
