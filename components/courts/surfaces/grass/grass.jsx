@@ -5,7 +5,7 @@ export default function Grass() {
   return (
     <section>
       <div className={styles.wrapper}>
-        <div className={styles.surface}>
+        <div className={styles.surface} style={{ alignItems: "center" }}>
           <Image
             className="lg:order-1"
             src="https://media.graphassets.com/ldUbVxBYT9G4XL3mtwsv"
@@ -15,7 +15,6 @@ export default function Grass() {
             alt="antuka"
           />
           <div className={styles.description}>
-            <h2>Tytuł sekcji</h2>
             <h3>
               <p>
                 <strong>Sztuczna trawa</strong> bardzo często jest postrzegana
@@ -34,7 +33,7 @@ export default function Grass() {
             </h3>
           </div>
         </div>
-        <div className={styles.surface}>
+        <div className={styles.surface} style={{ alignItems: "center" }}>
           <Image
             src="https://media.graphassets.com/YLuc9UsGTpKnCOhr8IT1"
             loading="lazy"
@@ -43,7 +42,6 @@ export default function Grass() {
             alt="antuka"
           />
           <div className={styles.description}>
-            <h2>Tytuł sekcji</h2>
             <h3>
               <p>
                 Gra na <strong>sztucznej trawie</strong> charakteryzuje się
@@ -57,7 +55,7 @@ export default function Grass() {
             </h3>
           </div>
         </div>
-        <div className={styles.surface}>
+        <div className={styles.surface} style={{ alignItems: "center" }}>
           <Image
             className="lg:order-1"
             src="https://media.graphassets.com/nw6S8kb8RQyZna9uVejR"
@@ -67,7 +65,6 @@ export default function Grass() {
             alt="antuka"
           />
           <div className={styles.description}>
-            <h2>Tytuł sekcji</h2>
             <h3>
               <p>
                 <strong>Piasek na nawierzchni kortu</strong> pomaga w utrzymaniu
@@ -80,7 +77,7 @@ export default function Grass() {
             </h3>
           </div>
         </div>
-        <div className={styles.surface}>
+        <div className={styles.surface} style={{ alignItems: "center" }}>
           <Image
             src="https://media.graphassets.com/9DWn6SluRBOUqAjCFKWy"
             loading="lazy"
@@ -89,7 +86,6 @@ export default function Grass() {
             alt="antuka"
           />
           <div className={styles.description}>
-            <h2>Tytuł sekcji</h2>
             <h3>
               <p>
                 <strong>Korty ze sztucznej trawy z piaskiem</strong> są idealne

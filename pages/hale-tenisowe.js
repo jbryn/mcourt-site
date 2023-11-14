@@ -4,6 +4,15 @@ import Hero from "@/components/shared/hero/hero";
 import Features from "@/components/tennis-halls/features/features";
 import Testimonials from "@/components/home/testimonials/testimonials";
 
+const projectsData = [
+  "https://media.graphassets.com/QIYXFxp0QeiBHvnVaIbL",
+  "https://media.graphassets.com/nciChFGRteYeOK4FaagL",
+  "https://media.graphassets.com/0uLoNuBQQc2hAQgYxBbH",
+  "https://media.graphassets.com/capKKKNKSEen71jYRO1n",
+  "https://media.graphassets.com/mc2y6CaGTwarVjDk00K7",
+  "https://media.graphassets.com/VTLPIVQ1RJ2WvqdcLUyO",
+];
+
 export default function TennisHalls() {
   return (
     <>
@@ -39,7 +48,7 @@ estetyką. Zaufaj ekspertom w projektowaniu i budowie hal tenisowych"
         />
 
         <Features />
-        <Testimonials />
+        <Testimonials title="Wybrane projekty" data={projectsData} />
         <Contact />
       </main>
     </>

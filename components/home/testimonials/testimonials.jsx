@@ -5,13 +5,13 @@ import styles from "./testimonials.module.scss";
 import "swiper/css";
 import "swiper/css/navigation";
 
-export default function Testimonials() {
+export default function Testimonials({ title, data }) {
   return (
     <section>
       <div className={styles.wrapper}>
         <div className={styles.header}>
           <span>
-            <h2>Wybrane projekty</h2>
+            <h2>{title}</h2>
           </span>
           <div className={styles.navigation}>
             <div id="swiper1-prev" className="swiper-button-prev" />
@@ -51,66 +51,18 @@ export default function Testimonials() {
           }}
           className="mySwiper1"
         >
-          <SwiperSlide>
-            <Image
-              className="rounded-[10px]"
-              src="https://media.graphassets.com/QIYXFxp0QeiBHvnVaIbL"
-              width={640}
-              height={406}
-              loading="eager"
-              alt="hall"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              className="rounded-[10px]"
-              src="https://media.graphassets.com/nciChFGRteYeOK4FaagL"
-              width={640}
-              height={406}
-              loading="eager"
-              alt="hall"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              className="rounded-[10px]"
-              src="https://media.graphassets.com/0uLoNuBQQc2hAQgYxBbH"
-              width={640}
-              height={406}
-              loading="eager"
-              alt="hall"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              className="rounded-[10px]"
-              src="https://media.graphassets.com/capKKKNKSEen71jYRO1n"
-              width={640}
-              height={406}
-              loading="eager"
-              alt="hall"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              className="rounded-[10px]"
-              src="https://media.graphassets.com/mc2y6CaGTwarVjDk00K7"
-              width={640}
-              height={406}
-              loading="eager"
-              alt="hall"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              className="rounded-[10px]"
-              src="https://media.graphassets.com/VTLPIVQ1RJ2WvqdcLUyO"
-              width={640}
-              height={406}
-              loading="eager"
-              alt="hall"
-            />
-          </SwiperSlide>
+          {data.map((item, index) => (
+            <SwiperSlide key={index}>
+              <Image
+                className="rounded-[10px]"
+                src={item}
+                width={640}
+                height={406}
+                loading="eager"
+                alt="hall"
+              />
+            </SwiperSlide>
+          ))}
         </Swiper>
       </div>
     </section>
