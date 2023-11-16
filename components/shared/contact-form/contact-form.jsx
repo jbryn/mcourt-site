@@ -20,6 +20,7 @@ export default function ContactForm() {
       from_email: email,
       from_phone: phone,
       to_email: process.env.NEXT_PUBLIC_TO_EMAIL,
+      reply_to: email,
       message,
     };
 
