@@ -1,6 +1,9 @@
 import { Formik, Form, Field } from "formik";
-import { useCallback } from "react";
+import { useCallback, useState } from "react";
 import classNames from "classnames";
+import emailjs from "emailjs-com";
+import toast from "react-hot-toast";
+
 import styles from "./contact-form.module.scss";
 
 import * as yup from "yup";
@@ -10,7 +13,27 @@ const phoneRegExp =
 
 export default function ContactForm() {
   const onSubmit = useCallback((values) => {
-    console.log(values);
+    const { name, email, message } = values;
+
+    const messageData = {
+      from_name: name,
+      from_email: email,
+      to_email: process.env.NEXT_PUBLIC_TO_EMAIL,
+      message,
+    };
+
+    try {
+      emailjs.send(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+        messageData,
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+      );
+
+      toast.success("Wysłano!");
+    } catch (err) {
+      toast.error("Coś poszło nie tak");
+    }
   }, []);
 
   const validationSchema = yup.object().shape({
@@ -50,7 +73,7 @@ export default function ContactForm() {
         validationSchema={validationSchema}
         onSubmit={onSubmit}
       >
-        {({ dirty, errors }) => (
+        {({ dirty, errors, isValid, isSubmitting }) => (
           <Form>
             <div className={styles.fieldsWrapper}>
               <Field
@@ -90,14 +113,15 @@ export default function ContactForm() {
                 })}
                 name="message"
                 placeholder="Wiadomość"
-                as="input"
+                as="textarea"
               />
 
               <button
                 className={classNames(styles.submitButton, {
-                  [styles.active]: dirty,
+                  [styles.active]: isValid && dirty && !isSubmitting,
                 })}
                 type="submit"
+                disabled={!isValid || !dirty || isSubmitting}
               >
                 Wyślij
               </button>

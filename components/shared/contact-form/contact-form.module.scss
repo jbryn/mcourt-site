@@ -28,6 +28,13 @@
 
     .submitButton {
       @apply py-[10px] px-[40px];
+      @apply bg-light-grey rounded-[5px];
+      @apply text-[14px] text-white;
+      @apply max-w-[117px];
+    }
+
+    .active {
+      @apply py-[10px] px-[40px];
       @apply bg-green rounded-[5px];
       @apply text-[14px] text-white;
       @apply max-w-[117px];
