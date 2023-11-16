@@ -13,11 +13,12 @@ const phoneRegExp =
 
 export default function ContactForm() {
   const onSubmit = useCallback((values) => {
-    const { name, email, message } = values;
+    const { name, email, phone, message } = values;
 
     const messageData = {
       from_name: name,
       from_email: email,
+      from_phone: phone,
       to_email: process.env.NEXT_PUBLIC_TO_EMAIL,
       message,
     };
@@ -50,7 +51,7 @@ export default function ContactForm() {
     message: yup
       .string()
       .min(2, "Too Short!")
-      .max(50, "Too Long!")
+      .max(2500, "Too Long!")
       .required("Required"),
   });
   return (
