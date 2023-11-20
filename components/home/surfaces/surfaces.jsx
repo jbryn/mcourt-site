@@ -17,6 +17,7 @@ export default function Surfaces() {
             style={{
               backgroundImage:
                 "url('https://media.graphassets.com/U6sgWGOKSmyVDeA1vKUq')",
+              backgroundPositionX: "-18px",
             }}
           >
             <h3 className="max-[338px]:pl-[20px]">Nawierzchnie akrylowe</h3>
@@ -26,6 +27,7 @@ export default function Surfaces() {
             style={{
               backgroundImage:
                 "url('https://media.graphassets.com/MLaj2NHBTsWS4edMwdVk')",
+              backgroundPositionX: "-15px",
             }}
           >
             <h3 className="max-[338px]:pl-[20px]">
@@ -37,6 +39,7 @@ export default function Surfaces() {
             style={{
               backgroundImage:
                 "url('https://media.graphassets.com/TMqQo2uHT8LKCQfLcsWL')",
+              backgroundPositionX: "-12px",
             }}
           >
             <h3>Nawierzchnie ze sztucznej trawy</h3>
@@ -64,6 +67,7 @@ export default function Surfaces() {
             style={{
               backgroundImage:
                 "url('https://media.graphassets.com/O25H68sFQpSh8xQDLspq')",
+              backgroundPositionX: "-26px",
             }}
           >
             <h3>Hale tenisowe</h3>
