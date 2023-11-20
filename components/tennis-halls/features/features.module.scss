@@ -4,7 +4,7 @@
 
   .feature {
     @apply flex flex-col gap-[95px] px-[30px];
-    @apply lg:flex-row;
+    @apply lg:flex-row lg:items-center;
 
     img {
       @apply rounded-[10px];

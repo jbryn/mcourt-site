@@ -5,12 +5,12 @@ import Features from "@/components/tennis-halls/features/features";
 import Testimonials from "@/components/home/testimonials/testimonials";
 
 const projectsData = [
-  "https://media.graphassets.com/QIYXFxp0QeiBHvnVaIbL",
-  "https://media.graphassets.com/nciChFGRteYeOK4FaagL",
-  "https://media.graphassets.com/0uLoNuBQQc2hAQgYxBbH",
-  "https://media.graphassets.com/capKKKNKSEen71jYRO1n",
-  "https://media.graphassets.com/mc2y6CaGTwarVjDk00K7",
-  "https://media.graphassets.com/VTLPIVQ1RJ2WvqdcLUyO",
+  "https://media.graphassets.com/NqE8aa8kTn2Hc5oPqTg9",
+  "https://media.graphassets.com/bZASIQhuRuhmzDjiP8jO",
+  "https://media.graphassets.com/1XUaTUQSoiNUmsM6tZMs",
+  "https://media.graphassets.com/bmrPQqETxP19Y4QhRTZA",
+  "https://media.graphassets.com/srzOtiBkQrOm6qzldfuv",
+  "https://media.graphassets.com/yx9MBd5xTU648pLVI7i3",
 ];
 
 export default function TennisHalls() {
@@ -40,7 +40,7 @@ estetyką. Zaufaj ekspertom w projektowaniu i budowie hal tenisowych"
       </Head>
       <main className="overflow-hidden">
         <Hero
-          backgroundUrl={"https://media.graphassets.com/UeL4wKjETsGk1FFJFbLh"}
+          backgroundUrl={"https://media.graphassets.com/KqOodpITDqmSp6Dy1EdC"}
           title="Hale tenisowe"
           subtitle={`Nasze hale tenisowe to połączenie tradycji drewna z nowoczesnymi osiągnięciami
         technologicznymi. Dzięki naszemu doświadczeniu zapewnimy Ci doskonałe warunki do gry przez cały

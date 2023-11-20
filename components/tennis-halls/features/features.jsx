@@ -8,13 +8,13 @@ export default function Features() {
         <div className={styles.feature}>
           <Image
             className="lg:order-1"
-            src="https://media.graphassets.com/ElE0uEe6SQGhhdaUwHlk"
-            width={640}
+            src="https://media.graphassets.com/3HycZ0RtWf15zgrVLNgQ"
+            width={540}
             height={406}
             alt="hall"
           />
           <div className={styles.description}>
-            <h2>Tytuł sekcji</h2>
+            <h2>Zadaszenie kortów</h2>
             <h3>
               <p>
                 Od wielu lat dostarczamy naszym klientom innowacyjne rozwiązania
@@ -34,7 +34,7 @@ export default function Features() {
         </div>
         <div className={styles.feature}>
           <Image
-            src="https://media.graphassets.com/JmJ8dnoTS8eRYNTaaUeD"
+            src="https://media.graphassets.com/gsYhiHqKRKQI935u65j3"
             width={540}
             height={406}
             alt="budowa"
@@ -61,8 +61,8 @@ export default function Features() {
         <div className={styles.feature}>
           <Image
             className="lg:order-1"
-            src="https://media.graphassets.com/2m8U5PyGR4ueMqkHG0Qq"
-            width={640}
+            src="https://media.graphassets.com/EUIIDFwRHG6EKeYp1WnB"
+            width={540}
             height={406}
             alt="hall"
           />
@@ -85,7 +85,7 @@ export default function Features() {
         </div>
         <div className={styles.feature}>
           <Image
-            src="https://media.graphassets.com/SKlPEJRTPSwn42o5Lf4Q"
+            src="https://media.graphassets.com/hjVwRLHPTfe0kHZAx6YP"
             width={540}
             height={406}
             alt="budowa"
@@ -107,8 +107,8 @@ export default function Features() {
         <div className={styles.feature}>
           <Image
             className="lg:order-1"
-            src="https://media.graphassets.com/R666H1mRjOWejcte7tHx"
-            width={640}
+            src="https://media.graphassets.com/CTOgSsIvQtqQZ1Pm3c6y"
+            width={540}
             height={406}
             alt="hall"
           />
@@ -131,7 +131,7 @@ export default function Features() {
         </div>
         <div className={styles.feature}>
           <Image
-            src="https://media.graphassets.com/p0NNNUw3QNOLlCW0IcwJ"
+            src="https://media.graphassets.com/K8jujnt8TbqIK5hAOMuk"
             width={540}
             height={406}
             alt="budowa"
