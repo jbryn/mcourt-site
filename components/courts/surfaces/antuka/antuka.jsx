@@ -8,14 +8,14 @@ export default function Antuka() {
         <div className={styles.surface}>
           <Image
             className="lg:order-1"
-            src="/img/courts/image3.jpeg"
+            src="https://media.graphassets.com/FlWh3b0QN2uxPbITbblg"
             loading="lazy"
             width={540}
             height={406}
             alt="antuka"
           />
           <div className={styles.description}>
-            <h2>Tytuł sekcji</h2>
+            <h2>Czym są korty z mączki?</h2>
             <h3>
               <p>
                 <strong>Korty ceglane</strong> charakteryzują się niezwykle
@@ -33,29 +33,60 @@ export default function Antuka() {
         </div>
         <div className={styles.antuka}>
           <Image
-            src="/img/antuka/image3.jpeg"
+            src="https://media.graphassets.com/BySB9IpTziXwKJuGz7VU"
             loading="lazy"
-            width={387}
-            height={580}
+            width={540}
+            height={406}
             alt="antuka"
           />
           <div className={styles.description}>
-            <h2>Oferta</h2>
+            <h2>Nasza oferta</h2>
             <h3>
-              <p>
-                W naszej ofercie posiadamy nawierzchnie tenisową ceglaną Antuka
-                Premium, którą można zobaczyć na największych turniejach
-                tenisowych na całym świecie {`(`}np. turnieje pod szyldem WTA,
-                ATP Challenger czy rozgrywki o puchar Davisa{`)`}. Dzięki
-                specjalnie zaprojekowanej strukturze nawierzchnia ceglana Antuka
-                Premium znacznie obniża prawdopodobieństwo wystąpienia kontuzji.
-                Co więcej, grubość wierzchniej warstwy kortu Antuka Premium jest
-                znacząco mniejsza niż w przypadku jej zwykłych odpowiedników
-                mączki. Dzięki temu kort z mączki Antuka Premium zachowuje swoje
-                właściwości, przepuszczalność wody i odporność na warunki
-                atmosferyczne.
-              </p>
-              <strong>Zalety: </strong>
+              W naszej ofercie posiadamy ceglaną nawierzchnię tenisową Antuka
+              Premium, którą można dostrzec na największych turniejach
+              tenisowych na całym świecie. Dzięki specjalnie zaprojektowanej
+              strukturze nawierzchni - grubość wierzchniej warstwy kortu Antuka
+              Premium jest znacząco mniejsza niż w przypadku jej zwykłych
+              odpowiedników, kort z mączki ceglanej Antuka wykazuje wysoką
+              wodoprzepuszczalność i odporność na warunki atmosferyczne.
+            </h3>
+          </div>
+        </div>
+        <div className={styles.antuka2}>
+          <Image
+            className="lg:order-1"
+            src="https://media.graphassets.com/IqyC7bgxQ8ekd9IntoYd"
+            loading="lazy"
+            width={540}
+            height={406}
+            alt="antuka"
+          />
+          <div className={styles.description}>
+            <h2>Wykonanie</h2>
+            <h3>
+              Wykonanie nawierzchni nawierzchni <strong>Antuka</strong> możliwe
+              jest tylko przy wykorzystaniu specjalistycznych urządzeń,
+              gwarantujących precyzję, której nie można osiągnąć ręcznymi
+              metodami. Struktura podłoża została zaprojektowana tak aby
+              zmniejszyć obciążenie stawów i zmniejszyć prawdopodobieństwo
+              powstania ewentualnych kontuzji. Ponadto odpowiednio dobrana
+              granulacja mączki ceglanej pozwala na uzyskanie jednolitej
+              nawierzchni, która idealnie sprawdza się na kortach zewnętrznych i
+              krytych.
+            </h3>
+          </div>
+        </div>
+        <div className={styles.antuka}>
+          <Image
+            src="https://media.graphassets.com/4EgBRIiaROe6ijWEqkln"
+            loading="lazy"
+            width={540}
+            height={406}
+            alt="antuka"
+          />
+          <div className={styles.description}>
+            <h2>Zalety nawierzchni Antuka</h2>
+            <h3>
               <ul className="pl-[20px] max-[600px]:pb-[60px]">
                 <li>
                   Dłuższy sezon na kortach zewnętrznych o co najmniej dwa
@@ -77,7 +108,7 @@ export default function Antuka() {
         <div className={styles.antuka2}>
           <Image
             className="lg:order-1"
-            src="/img/antuka/image2.jpeg"
+            src="https://media.graphassets.com/TgkYxLfyRZKJEJ8tbJqT"
             loading="lazy"
             width={459}
             height={306}

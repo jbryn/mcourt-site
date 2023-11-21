@@ -69,7 +69,7 @@
   }
 
   .antuka2 {
-    @apply flex flex-col gap-[95px] px-[30px];
+    @apply flex flex-col items-center gap-[95px] px-[30px];
     @apply lg:flex-row;
 
     img {
