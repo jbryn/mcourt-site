@@ -1,7 +1,6 @@
 .wrapper {
-  @apply block gap-[20px] pt-[130px] pl-[20px] pr-[20px];
+  @apply flex w-full gap-[20px] pt-[130px] pl-[20px] pr-[20px] max-w-[1300px];
   @apply lg:flex lg:pl-[60px] lg:pr-[30px];
-  @apply min-[1440px]:pl-[165px];
   @apply max-[600px]:pt-[60px];
 
   .header {
@@ -60,14 +59,4 @@
       @apply pt-[20px] text-center;
     }
   }
-
-  // .decor {
-  //   @apply absolute left-[320px];
-  //   @apply max-w-[503px] max-h-[455px] rounded-[503px];
-  //   background: radial-gradient(
-  //     50% 50% at 50% 50%,
-  //     rgba(177, 176, 185, 0.6) 0%,
-  //     rgba(177, 176, 185, 0) 100%
-  //   );
-  // }
 }

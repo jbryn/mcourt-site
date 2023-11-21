@@ -7,7 +7,7 @@ import "swiper/css/navigation";
 
 export default function Testimonials({ title, data }) {
   return (
-    <section>
+    <section className="grid place-items-center">
       <div className={styles.wrapper}>
         <div className={styles.header}>
           <span>
@@ -56,7 +56,7 @@ export default function Testimonials({ title, data }) {
               <Image
                 className="rounded-[10px]"
                 src={item}
-                width={640}
+                width={540}
                 height={406}
                 loading="eager"
                 alt="hall"

@@ -1,5 +1,6 @@
 .wrapper {
   @apply grid gap-[30px] place-items-center pt-[100px] px-[30px];
+  @apply text-center;
 
   .laykold {
     @apply flex flex-col gap-[25px] pb-[60px];
@@ -49,11 +50,8 @@
   }
 
   .colors {
-    @apply grid gap-[9px] grid-cols-12;
-
-    svg {
-      @apply max-[600px]:max-w-[25px];
-    }
+    @apply grid gap-[9px] grid-cols-5;
+    @apply max-[710px]:max-w-[300px] max-[710px]:place-items-center;
 
     img {
       @apply cursor-pointer;
