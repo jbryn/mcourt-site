@@ -36,43 +36,34 @@ export default function Colors() {
     displayName: "Grass Green",
   });
 
-  function handleMouseEnter(imagePath) {
-    return () => {
-      setImage(imagePath);
-    };
-  }
-
   return (
     <section>
-      <div
-        className={styles.wrapper}
-        onMouseEnter={handleMouseEnter(
-          "https://media.graphassets.com/RFma9uHSQFKsCs1VxOsW"
-        )}
-      >
-        <h2>Nasze nawierzchnie oferują szeroki wybór kolorów:</h2>
+      <div className={styles.wrapper}>
+        <h2 className="max-w-[700px]">
+          Nasze nawierzchnie oferują szeroki wybór kolorów:
+        </h2>
 
         <div className={styles.imagesContainer}>
           <Image
             src={image}
-            width={1028}
-            height={400}
+            width={678}
+            height={264}
             loading="eager"
             alt="green"
           />
           <Image
             className={styles.inner}
             src={`/colors/inner/${innerImage.name}.png`}
-            width={1028}
-            height={400}
+            width={678}
+            height={264}
             loading="eager"
             alt="green"
           />
           <Image
             className={styles.outer}
             src={`/colors/outer/${outerImage.name}.png`}
-            width={1028}
-            height={400}
+            width={678}
+            height={264}
             loading="eager"
             alt="green"
           />

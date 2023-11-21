@@ -50,8 +50,12 @@
   }
 
   .colors {
-    @apply grid gap-[9px] grid-cols-5;
+    @apply grid grid-cols-10;
     @apply max-[710px]:max-w-[300px] max-[710px]:place-items-center;
+
+    svg {
+      @apply max-w-[31px];
+    }
 
     img {
       @apply cursor-pointer;

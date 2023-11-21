@@ -35,9 +35,7 @@ export default function Footer() {
             <Link href="https://www.instagram.com/mcourt.eu/" target="_blank">
               <img src="./icons/instagram.svg" alt="instagram" />
             </Link>
-            <Link href="">
-              <img src="./icons/twitter.svg" alt="twitter" />
-            </Link>
+
             <Link
               href="https://www.linkedin.com/company/mcourt-polska/"
               target="_blank"

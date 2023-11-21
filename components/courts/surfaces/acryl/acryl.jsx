@@ -40,7 +40,6 @@ export default function Acryl() {
         </div>
         <div className={styles.surface}>
           <Image
-            className="lg:order-1"
             src="https://media.graphassets.com/QDn15GJJSeiHUSP9K0FM"
             loading="lazy"
             width={540}
@@ -127,6 +126,7 @@ export default function Acryl() {
 
         <div className={styles.surface}>
           <Image
+            className="lg:order-1"
             src="https://media.graphassets.com/ahgdtH8S92z0H64tfAD8"
             loading="lazy"
             width={540}
@@ -151,7 +151,7 @@ export default function Acryl() {
           </div>
         </div>
 
-        <div className="px-[30px] flex flex-col items-center gap-[50px] pt-[40px]">
+        <div className="pb-[30px] flex flex-col items-center gap-[50px]">
           <h2 className="font-semibold text-[42px] max-w-[1000px] text-center max-[600px]:text-[30px]">
             Nawierzchnia certyfikowana przez Międzynarodową Federację Tenisa
             (ITF):
