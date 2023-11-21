@@ -105,7 +105,7 @@ export default function Surfaces() {
         </div>
         <div className={styles.surface}>
           <Image
-            src="https://media.graphassets.com/DY9mFzdtROOIsBioyzeX"
+            src="https://media.graphassets.com/v3rhqLzaTA2lZfn08t0C"
             loading="lazy"
             width={540}
             height={406}
@@ -133,6 +133,38 @@ export default function Surfaces() {
                 oświetlony w sposób idealny. Odkryj jasną przyszłość dla swojego
                 kortu tenisowego dzięki LedCourt
               </p>
+            </h3>
+          </div>
+        </div>
+        <div className={styles.surface}>
+          <Image
+            src="https://media.graphassets.com/DK3vdAd9QumtBwSesf9K"
+            className="lg:order-1"
+            loading="lazy"
+            width={540}
+            height={406}
+            alt="termoizolacja"
+          />
+          <div className={styles.description}>
+            <Link
+              href="/termoizolacja"
+              className="hover:cursor-pointer hover:underline"
+            >
+              <h2>Termoizolacja hal tenisowych</h2>
+            </Link>
+            <h3>
+              <p>
+                Odpowiednia izolacja termiczna może przyczynić się do utrzymania
+                stabilnej temperatury w hali, co jest istotne zarówno dla
+                zawodników, jak i widzów. Dodatkowo, poprawia efektywność
+                systemu ogrzewania, co w niedalekiej przyszłości przynosi duże
+                oszczędności energetyczne.
+              </p>
+              <p>
+                {" "}
+                Sprawdź jakie korzyści może przynieść Ci poprawa termoizolacji
+                obiektu. Zdjęcie jest w wysłanych
+              </p>{" "}
             </h3>
           </div>
         </div>

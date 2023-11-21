@@ -76,9 +76,10 @@ export default function Header() {
       >
         <span className={styles.tooltipContent}>
           <Link href="/nawierzchnie-akrylowe">Nawierzchnie akrylowe</Link>
+          <Link href="/nawierzchnie-ceglane">Nawierzchnie ceglane</Link>
           <Link href="/sztuczna-trawa">Sztuczna trawa</Link>
           <Link href="/oswietlenie-kortow">Oświetlenie kortów</Link>
-          <Link href="/nawierzchnie-ceglane">Nawierzchnia ceglana</Link>
+          <Link href="/termoizolacja">Termoizolacja hal</Link>
         </span>
       </div>
       <div className={classNames(styles.menu, { ["hidden"]: !isMenuOpen })}>
