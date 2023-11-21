@@ -9,7 +9,6 @@ import "swiper/css/navigation";
 export default function Projects() {
   return (
     <section>
-      <div className={styles.decor} />
       <div className={styles.header}>
         <h2>Nasze projekty</h2>
         <div className={styles.navigation}>
@@ -30,16 +29,13 @@ export default function Projects() {
           1275: {
             slidesPerView: 3,
           },
-          1600: {
-            slidesPerView: 4,
-          },
         }}
         modules={[Navigation]}
         navigation={{
           nextEl: "#swiper2-next",
           prevEl: "#swiper2-prev",
         }}
-        className="mySwiper"
+        className="mySwiper max-w-[1400px]"
       >
         <SwiperSlide>
           <div className={styles.card}>
