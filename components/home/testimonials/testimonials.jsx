@@ -21,28 +21,28 @@ export default function Testimonials({ title, data }) {
         </div>
 
         <Swiper
-          slidesPerView={2}
-          breakpoints={{
-            0: {
-              slidesPerView: 1,
-            },
-            512: {
-              slidesPerView: 1,
-            },
-            812: {
-              slidesPerView: 1,
-            },
-            1024: {
-              slidesPerView: 1,
-            },
+          slidesPerView={1}
+          // breakpoints={{
+          //   0: {
+          //     slidesPerView: 1,
+          //   },
+          //   512: {
+          //     slidesPerView: 1,
+          //   },
+          //   812: {
+          //     slidesPerView: 1,
+          //   },
+          //   1024: {
+          //     slidesPerView: 1,
+          //   },
 
-            1334: {
-              slidesPerView: 1,
-            },
-            1600: {
-              slidesPerView: 1,
-            },
-          }}
+          //   1334: {
+          //     slidesPerView: 1,
+          //   },
+          //   1600: {
+          //     slidesPerView: 1,
+          //   },
+          // }}
           spaceBetween={30}
           modules={[Navigation]}
           navigation={{

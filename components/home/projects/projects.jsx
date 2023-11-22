@@ -6,11 +6,11 @@ import styles from "./projects.module.scss";
 import "swiper/css";
 import "swiper/css/navigation";
 
-export default function Projects() {
+export default function Projects({ title, data }) {
   return (
     <section>
       <div className={styles.header}>
-        <h2>Nasze projekty</h2>
+        <h2>{title}</h2>
         <div className={styles.navigation}>
           <div id="swiper2-prev" className="swiper-button-prev" />
           <div id="swiper2-next" className="swiper-button-next" />
@@ -37,76 +37,26 @@ export default function Projects() {
         }}
         className="mySwiper max-w-[1400px]"
       >
-        <SwiperSlide>
-          <div className={styles.card}>
-            <Image
-              className={styles.thumbnail}
-              src="https://media.graphassets.com/sjk72IyQxC8zD8U682BL"
-              width={700}
-              height={406}
-              loading="eager"
-              alt="project1"
-            />
-            <h3>
-              2023 Budowa kompleksu czterech kortów tenisowych w Łaźniewku
-            </h3>
-            <Link href="/">
-              <span>Dowiedz się więcej</span>
-              <img src="./icons/little-arrow.svg" alt="arrow" />
-            </Link>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className={styles.card}>
-            <Image
-              className={styles.thumbnail}
-              src="https://media.graphassets.com/u2uZPdu2RAy77IDJlJsD"
-              width={700}
-              height={406}
-              loading="eager"
-              alt="project2"
-            />
-            <h3>2023 Korty ze sztucznej trawy w Dębnie</h3>
-            <Link href="/">
-              <span>Dowiedz się więcej</span>
-              <img src="./icons/little-arrow.svg" alt="arrow" />
-            </Link>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className={styles.card}>
-            <Image
-              className={styles.thumbnail}
-              src="https://media.graphassets.com/PotiAzGKQh62ytvoBwDk"
-              width={700}
-              height={406}
-              loading="eager"
-              alt="project3"
-            />
-            <h3>2022 Budowa 11 kortów w Akademii Tenisa Kozerkii</h3>
-            <Link href="/">
-              <span>Dowiedz się więcej</span>
-              <img src="./icons/little-arrow.svg" alt="arrow" />
-            </Link>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className={styles.card}>
-            <Image
-              className={styles.thumbnail}
-              src="https://media.graphassets.com/koc9lQ9QRZenqAQtl7JY"
-              width={700}
-              height={406}
-              loading="eager"
-              alt="project4"
-            />
-            <h3>2022 Renowacja nawierzchni na Warszawiance</h3>
-            <Link href="/">
-              <span>Dowiedz się więcej</span>
-              <img src="./icons/little-arrow.svg" alt="arrow" />
-            </Link>
-          </div>
-        </SwiperSlide>
+        {data.map((item, index) => (
+          <SwiperSlide key={index}>
+            <div className={styles.card}>
+              <Image
+                className={styles.thumbnail}
+                src={item.url}
+                width={540}
+                height={406}
+                loading="eager"
+                alt="hall"
+              />
+
+              <h3>{item.title}</h3>
+              <Link href="/">
+                <span>Dowiedz się więcej</span>
+                <img src="./icons/little-arrow.svg" alt="arrow" />
+              </Link>
+            </div>
+          </SwiperSlide>
+        ))}
       </Swiper>
     </section>
   );

@@ -7,7 +7,11 @@
     @apply max-[600px]:text-[30px];
   }
 
-  video {
-    @apply rounded-[15px] pb-[40px];
+  .videoWrapper {
+    @apply max-w-[1100px];
+
+    video {
+      @apply w-full h-full rounded-[15px];
+    }
   }
 }

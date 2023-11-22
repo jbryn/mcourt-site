@@ -1,13 +1,15 @@
 .wrapper {
-  @apply flex flex-col items-center lg:gap-[130px] pt-[60px];
+  @apply flex flex-col items-center gap-[100px] pt-[60px];
+  @apply max-[1024px]:gap-[60px];
 
   .surface {
-    @apply flex flex-col items-center gap-[95px] px-[30px];
+    @apply flex flex-col items-center gap-[100px] px-[30px];
     @apply lg:flex-row;
+    @apply max-[1024px]:gap-[60px];
 
     img {
       @apply rounded-[10px];
-      @apply max-h-[406px];
+      @apply lg:h-[356px];
     }
 
     .description {
@@ -21,20 +23,18 @@
 
       h3 {
         @apply text-[16px] text-light-grey;
-
-        p {
-          @apply pb-[40px];
-        }
       }
     }
   }
 
   .laykold {
-    @apply flex flex-col items-center gap-[60px] px-[30px];
-    @apply xl:flex-row;
+    @apply flex flex-col items-center gap-[100px] px-[30px];
+    @apply lg:flex-row;
+    @apply max-[1024px]:gap-[60px];
 
     img {
       @apply rounded-[10px];
+      @apply lg:h-[356px];
     }
 
     .description {
@@ -49,12 +49,13 @@
   }
 
   .antuka {
-    @apply flex flex-col items-center gap-[95px] px-[30px];
+    @apply flex flex-col items-center gap-[100px] px-[30px];
     @apply lg:flex-row;
+    @apply max-[1024px]:gap-[60px];
 
     img {
       @apply rounded-[10px];
-      @apply max-h-[580px];
+      @apply lg:h-[356px];
     }
 
     .description {
@@ -69,12 +70,13 @@
   }
 
   .antuka2 {
-    @apply flex flex-col items-center gap-[95px] px-[30px];
+    @apply flex flex-col items-center gap-[100px] px-[30px];
     @apply lg:flex-row;
+    @apply max-[1024px]:gap-[60px];
 
     img {
       @apply rounded-[10px];
-      @apply max-h-[306px];
+      @apply lg:h-[356px];
     }
 
     .description {
@@ -90,10 +92,6 @@
 
   h3 {
     @apply text-[16px] text-light-grey;
-
-    p {
-      @apply pb-[40px];
-    }
 
     ul {
       @apply list-disc;

@@ -87,7 +87,7 @@ export default function Antuka() {
           <div className={styles.description}>
             <h2>Zalety nawierzchni Antuka</h2>
             <h3>
-              <ul className="pl-[20px] max-[600px]:pb-[60px]">
+              <ul className="pl-[20px]">
                 <li>
                   Dłuższy sezon na kortach zewnętrznych o co najmniej dwa
                   miesiące!
@@ -110,7 +110,7 @@ export default function Antuka() {
             className="lg:order-1"
             src="https://media.graphassets.com/TgkYxLfyRZKJEJ8tbJqT"
             loading="lazy"
-            width={459}
+            width={540}
             height={306}
             alt="antuka"
           />

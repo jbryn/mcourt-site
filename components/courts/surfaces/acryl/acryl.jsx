@@ -40,6 +40,7 @@ export default function Acryl() {
         </div>
         <div className={styles.surface}>
           <Image
+            className="min-[600px]:min-h-[406px]"
             src="https://media.graphassets.com/QDn15GJJSeiHUSP9K0FM"
             loading="lazy"
             width={540}
@@ -126,7 +127,7 @@ export default function Acryl() {
 
         <div className={styles.surface}>
           <Image
-            className="lg:order-1"
+            className="lg:order-1 max-h-[300px]"
             src="https://media.graphassets.com/ahgdtH8S92z0H64tfAD8"
             loading="lazy"
             width={540}
