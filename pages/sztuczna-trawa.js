@@ -12,7 +12,7 @@ const projectsData = [
   { url: "https://media.graphassets.com/k6aTAz8RuyAw3zPucL3A" },
 ];
 
-export default function CourtsPage() {
+export default function GrassPage() {
   return (
     <>
       <Head>

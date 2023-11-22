@@ -27,7 +27,7 @@ const projectsData = [
   },
 ];
 
-export default function CourtsPage() {
+export default function AcrylPage() {
   return (
     <>
       <Head>

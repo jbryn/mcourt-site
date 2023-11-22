@@ -11,7 +11,7 @@ const projectsData = [
   { url: "https://media.graphassets.com/VpdQzjhMTNqq1aRJPxna" },
 ];
 
-export default function CourtsPage() {
+export default function AntukaPage() {
   return (
     <>
       <Head>

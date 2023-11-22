@@ -2,7 +2,7 @@ import Head from "next/head";
 import Features from "@/components/lights/features";
 import Hero from "@/components/shared/hero/hero";
 
-export default function LightsPage() {
+export default function ThermoPage() {
   return (
     <>
       <Head>

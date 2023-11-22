@@ -3,7 +3,7 @@ import Hero from "@/components/shared/hero/hero";
 import Features from "@/components/pickelball/features";
 import Contact from "@/components/home/contact/contact";
 
-export default function CourtsPage() {
+export default function PickelballPage() {
   return (
     <>
       <Head>

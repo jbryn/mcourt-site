@@ -3,7 +3,7 @@ import Hero from "@/components/shared/hero/hero";
 import Contact from "@/components/home/contact/contact";
 import Features from "@/components/padel/features";
 
-export default function CourtsPage() {
+export default function PadelPage() {
   return (
     <>
       <Head>
