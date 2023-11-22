@@ -9,22 +9,22 @@ const projectsData = [
   {
     url: "https://media.graphassets.com/sjk72IyQxC8zD8U682BL",
     title: "2023 Budowa kompleksu czterech kortów tenisowych w Łaźniewku",
-    link: "",
+    link: "/",
   },
   {
     url: "https://media.graphassets.com/u2uZPdu2RAy77IDJlJsD",
     title: "2023 Korty ze sztucznej trawy w Dębnie",
-    link: "",
+    link: "/",
   },
   {
     url: "https://media.graphassets.com/PotiAzGKQh62ytvoBwDk",
     title: "2022 Budowa 11 kortów w Akademii Tenisa Kozerkii",
-    link: "",
+    link: "/",
   },
   {
     url: "https://media.graphassets.com/koc9lQ9QRZenqAQtl7JY",
     title: "2022 Renowacja nawierzchni na Warszawiance",
-    link: "",
+    link: "/",
   },
 ];
 

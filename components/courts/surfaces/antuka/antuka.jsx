@@ -3,7 +3,7 @@ import styles from "../surfaces.module.scss";
 
 export default function Antuka() {
   return (
-    <section>
+    <section className="pb-[100px]">
       <div className={styles.wrapper}>
         <div className={styles.surface}>
           <Image

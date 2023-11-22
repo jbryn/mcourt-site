@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 
 export default function Projects({ title, data }) {
   return (
-    <section>
+    <section className="flex flex-col justify-center items-center">
       <div className={styles.header}>
         <h2>{title}</h2>
         <div className={styles.navigation}>
@@ -49,11 +49,13 @@ export default function Projects({ title, data }) {
                 alt="hall"
               />
 
-              <h3>{item.title}</h3>
-              <Link href="/">
-                <span>Dowiedz się więcej</span>
-                <img src="./icons/little-arrow.svg" alt="arrow" />
-              </Link>
+              {item.title ? <h3>{item.title}</h3> : null}
+              {item.link ? (
+                <Link href={item.link}>
+                  <span>Dowiedz się więcej</span>
+                  <img src="./icons/little-arrow.svg" alt="arrow" />
+                </Link>
+              ) : null}
             </div>
           </SwiperSlide>
         ))}

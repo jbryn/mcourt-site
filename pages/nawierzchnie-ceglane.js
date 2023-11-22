@@ -2,13 +2,13 @@ import Head from "next/head";
 import Hero from "@/components/shared/hero/hero";
 import Contact from "@/components/home/contact/contact";
 import Antuka from "@/components/courts/surfaces/antuka/antuka";
-import Testimonials from "@/components/home/testimonials/testimonials";
+import Projects from "@/components/home/projects/projects";
 
 const projectsData = [
-  "https://media.graphassets.com/ONDf21C8TLieaELcrSRC",
-  "https://media.graphassets.com/pPzEbpRzT6KHsbljkPmp",
-  "https://media.graphassets.com/Vvg3UnquRj0j4WhpZCJh",
-  "https://media.graphassets.com/VpdQzjhMTNqq1aRJPxna",
+  { url: "https://media.graphassets.com/ONDf21C8TLieaELcrSRC" },
+  { url: "https://media.graphassets.com/pPzEbpRzT6KHsbljkPmp" },
+  { url: "https://media.graphassets.com/Vvg3UnquRj0j4WhpZCJh" },
+  { url: "https://media.graphassets.com/VpdQzjhMTNqq1aRJPxna" },
 ];
 
 export default function CourtsPage() {
@@ -38,7 +38,7 @@ export default function CourtsPage() {
           subtitle={`Jeśli marzysz o unikalnym doświadczeniu podczas gry w tenisa, nawierzchnia ceglana z pewnością spełni Twoje oczekiwania i zapewni niezapomniane chwile na korcie tenisowym.`}
         />
         <Antuka />
-        <Testimonials title="Wybrane realizacje" data={projectsData} />
+        <Projects title="Wybrane realizacje" data={projectsData} />
         <Contact />
       </main>
     </>

@@ -4,15 +4,27 @@ import Acryl from "@/components/courts/surfaces/acryl/acryl";
 import Colors from "@/components/courts/colors/colors";
 import Contact from "@/components/home/contact/contact";
 import Video from "@/components/courts/video/video";
-import Testimonials from "@/components/home/testimonials/testimonials";
+import Projects from "@/components/home/projects/projects";
 
 const projectsData = [
-  "https://media.graphassets.com/mZy0ynBSD6RUj33fDnum",
-  "https://media.graphassets.com/0DLZTnN9T7WHVj9l9PM4",
-  "https://media.graphassets.com/8M0sy7f5SniDaCsADDfe",
-  "https://media.graphassets.com/CmpprxbTTgSuH5KzBgzc",
-  "https://media.graphassets.com/8eeBzOquQJGfdhyTD6XB",
-  "https://media.graphassets.com/93oYNjYxSZq0mafoy0P7",
+  {
+    url: "https://media.graphassets.com/mZy0ynBSD6RUj33fDnum",
+  },
+  {
+    url: "https://media.graphassets.com/0DLZTnN9T7WHVj9l9PM4",
+  },
+  {
+    url: "https://media.graphassets.com/8M0sy7f5SniDaCsADDfe",
+  },
+  {
+    url: "https://media.graphassets.com/CmpprxbTTgSuH5KzBgzc",
+  },
+  {
+    url: "https://media.graphassets.com/8eeBzOquQJGfdhyTD6XB",
+  },
+  {
+    url: "https://media.graphassets.com/93oYNjYxSZq0mafoy0P7",
+  },
 ];
 
 export default function CourtsPage() {
@@ -50,7 +62,7 @@ export default function CourtsPage() {
         <Video />
         <Acryl />
         <Colors />
-        <Testimonials title="Wybrane realizacje" data={projectsData} />
+        <Projects title="Wybrane realizacje" data={projectsData} />
         <Contact />
       </main>
     </>

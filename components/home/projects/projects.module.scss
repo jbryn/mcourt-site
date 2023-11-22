@@ -1,5 +1,5 @@
 .header {
-  @apply flex justify-center gap-[40px];
+  @apply flex w-full max-w-[1600px] justify-between gap-[40px];
   @apply pb-[71px] px-[40px];
   @apply lg:px-[167px];
   @apply max-[420px]:flex-col max-[420px]:items-start;
@@ -25,7 +25,7 @@
   @apply max-[420px]:items-center;
 
   .thumbnail {
-    @apply max-h-[233px];
+    @apply h-[233px];
     @apply rounded-[10px];
     @apply mb-[28px];
   }

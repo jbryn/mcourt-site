@@ -3,7 +3,7 @@ import styles from "./features.module.scss";
 
 export default function Features() {
   return (
-    <section>
+    <section className="pb-[100px]">
       <div className={styles.wrapper}>
         <div className={styles.feature}>
           <Image
