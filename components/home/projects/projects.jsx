@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 
 export default function Projects({ title, data }) {
   return (
-    <section className="flex flex-col justify-center items-center">
+    <section className="flex flex-col justify-center items-center overflow-hidden">
       <div className={styles.header}>
         <h2>{title}</h2>
         <div className={styles.navigation}>
@@ -38,7 +38,7 @@ export default function Projects({ title, data }) {
         className="mySwiper max-w-[1400px]"
       >
         {data.map((item, index) => (
-          <SwiperSlide key={index}>
+          <SwiperSlide className="max-w-[400px]" key={index}>
             <div className={styles.card}>
               {item.link ? (
                 <Link
