@@ -5,7 +5,10 @@ export default function Hero({ backgroundUrl, title, subtitle }) {
     <section className="overflow-hidden pb-[600px]">
       <div
         className={styles.wrapper}
-        style={{ backgroundImage: `url('${backgroundUrl}')` }}
+        style={{
+          backgroundImage: `url('${backgroundUrl}')`,
+          backgroundPositionY: "-100px",
+        }}
       >
         <div className={styles.hero}>
           <h1>{title}</h1>

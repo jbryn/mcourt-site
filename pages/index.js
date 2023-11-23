@@ -7,7 +7,7 @@ import Surfaces from "@/components/home/surfaces/surfaces";
 
 const projectsData = [
   {
-    url: "https://media.graphassets.com/sjk72IyQxC8zD8U682BL",
+    url: "https://media.graphassets.com/bPjA4uPtQxurLqETiVQZ",
     title: "Budowa kompleksu czterech kortów tenisowych w Łaźniewku",
     link: "/korty-lazniewek",
   },
@@ -22,7 +22,7 @@ const projectsData = [
     link: "/akademia-tenisa-kozerki",
   },
   {
-    url: "https://media.graphassets.com/FlWh3b0QN2uxPbITbblg",
+    url: "https://media.graphassets.com/sjk72IyQxC8zD8U682BL",
     title: "Rewitalizacja 3 kortów w Falenicy",
     link: "/rewitalizacja-falenica",
   },
@@ -50,7 +50,7 @@ export default function Home() {
       </Head>
       <main>
         <Hero
-          backgroundUrl={"https://media.graphassets.com/9Z9cIdMQHqMAFQabQ9gz"}
+          backgroundUrl={"https://media.graphassets.com/jujSnbwbTayd5QhAATWd"}
           title="Jakość, doświadczenie i precyzja"
           subtitle={`Budujemy korty tenisowe od 2008 roku, naszym klientom proponujemy rozwiązania najlepszych światowych producentów`}
         />
