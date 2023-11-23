@@ -40,14 +40,23 @@ export default function Projects({ title, data }) {
         {data.map((item, index) => (
           <SwiperSlide key={index}>
             <div className={styles.card}>
-              <Image
-                className={styles.thumbnail}
-                src={item.url}
-                width={540}
-                height={406}
-                loading="eager"
-                alt="hall"
-              />
+              {item.link ? (
+                <Link
+                  href={item.link}
+                  className={styles.thumbnail}
+                  style={{
+                    backgroundImage: `url('https://media.graphassets.com/${item.url}')`,
+                  }}
+                />
+              ) : (
+                <Image
+                  className={styles.thumbnail}
+                  src={item.url}
+                  width={349}
+                  height={233}
+                  alt={item.url}
+                />
+              )}
 
               {item.title ? <h3>{item.title}</h3> : null}
               {item.link ? (

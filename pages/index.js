@@ -19,7 +19,7 @@ const projectsData = [
   {
     url: "https://media.graphassets.com/PotiAzGKQh62ytvoBwDk",
     title: "2022 Budowa 11 kortów w Akademii Tenisa Kozerkii",
-    link: "/",
+    link: "/akademia-tenisa-kozerki",
   },
   {
     url: "https://media.graphassets.com/koc9lQ9QRZenqAQtl7JY",

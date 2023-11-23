@@ -28,6 +28,10 @@
     @apply h-[233px];
     @apply rounded-[10px];
     @apply mb-[28px];
+
+    &:hover {
+      transform: scale(1.01);
+    }
   }
 
   h3 {
