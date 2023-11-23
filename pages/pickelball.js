@@ -7,7 +7,7 @@ export default function PickelballPage() {
   return (
     <>
       <Head>
-        <title>MCOURT | Tenis dla profesjonalistów</title>
+        {/* <title>MCOURT | Tenis dla profesjonalistów</title>
         <meta
           name="description"
           content="Doświadcz jakości i precyzji wykonania naszych kortów"
@@ -21,15 +21,13 @@ export default function PickelballPage() {
         <meta
           property="og:image"
           content="https://media.graphassets.com/GAIKjn52QECZ8IAZgHUO"
-        />
+        /> */}
       </Head>
       <main className="overflow-hidden">
         <Hero
-          backgroundUrl={"/img/pickelball/hero.jpg"}
-          title="Pickelball"
-          subtitle={`Lorem ipsum dolor sit amet consectetur. Nibh suspendisse aliquam sed
-          libero eu faucibus commodo sagittis. Sit accumsan et mauris fringilla
-          elementum elit interdum scelerisque consectetur.`}
+          backgroundUrl={"https://media.graphassets.com/S0RCqG6qRsWaaazuDfiJ"}
+          title="Kort do gry w pickleballa"
+          subtitle="Jesteśmy zespołem pasjonatów, którzy nie tylko projektują, ale także z radością realizują unikatowe korty do pickleballa. Jeśli jesteś miłośnikiem tej dynamicznej gry, to trafiłeś we właściwe miejsce!"
         />
         <Features />
         <Contact />
