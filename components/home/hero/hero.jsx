@@ -7,7 +7,6 @@ export default function Hero({ backgroundUrl, title, subtitle }) {
         className={styles.wrapper}
         style={{
           backgroundImage: `url('${backgroundUrl}')`,
-          backgroundPositionY: "-100px",
         }}
       >
         <div className={styles.hero}>
