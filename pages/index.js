@@ -8,8 +8,8 @@ import Surfaces from "@/components/home/surfaces/surfaces";
 const projectsData = [
   {
     url: "https://media.graphassets.com/sjk72IyQxC8zD8U682BL",
-    title: "2023 Budowa kompleksu czterech kortów tenisowych w Łaźniewku",
-    link: "/",
+    title: "Budowa kompleksu czterech kortów tenisowych w Łaźniewku",
+    link: "/korty-lazniewek",
   },
   {
     url: "https://media.graphassets.com/awYLvtSNmg72UZ4Do0wA",
@@ -18,7 +18,7 @@ const projectsData = [
   },
   {
     url: "https://media.graphassets.com/7wafg69TWKhh99kz1lUv",
-    title: "2022 Budowa 11 kortów w Akademii Tenisa Kozerkii",
+    title: "Budowa 11 kortów w Akademii Tenisa Kozerkii",
     link: "/akademia-tenisa-kozerki",
   },
   {

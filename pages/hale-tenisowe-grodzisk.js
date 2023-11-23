@@ -21,19 +21,19 @@ export default function GrodziskPage() {
   return (
     <>
       <Head>
-        <title>Budowa 11 kortów z nawierzchnią Laykold w Kozerkach</title>
+        <title>Odkryj nowe hale tenisowe z nawierzchnią Laykold</title>
         <meta
           name="description"
-          content="Odkryj nasze najnowsze projekty budowy 11 nowoczesnych kortów tenisowych w Polskim Centrum Szkoleniowym Tenisa w 2022 roku. Zapraszamy do obejrzenia fotorelacji z realizacji prac."
+          content="Zbudowane we wrześniu 2023 roku hale tenisowe w Grodzisku Mazowieckim, oferują innowacyjną nawierzchnię Laykold Masters 5 dla doskonałych wrażeń z gry. Dołącz do naszej pasji tenisa!"
           key="desc"
         />
         <meta
           property="og:title"
-          content="Budowa 11 kortów z nawierzchnią Laykold w Kozerkach"
+          content="Odkryj nowe hale tenisowe z nawierzchnią Laykold"
         />
         <meta
           property="og:description"
-          content="Odkryj nasze najnowsze projekty budowy 11 nowoczesnych kortów tenisowych w Polskim Centrum Szkoleniowym Tenisa w 2022 roku. Zapraszamy do obejrzenia fotorelacji z realizacji prac."
+          content="Zbudowane we wrześniu 2023 roku hale tenisowe w Grodzisku Mazowieckim, oferują innowacyjną nawierzchnię Laykold Masters 5 dla doskonałych wrażeń z gry. Dołącz do naszej pasji tenisa!"
         />
         <meta
           property="og:image"
@@ -43,8 +43,8 @@ export default function GrodziskPage() {
       <main className="overflow-hidden">
         <Hero
           backgroundUrl={"https://media.graphassets.com/XGvyv53ORjqnVccqdm27"}
-          title="Budowa 11 kortów w Akademii Tenisa Kozerkii"
-          subtitle="Rok budowy: 2023"
+          title="Hale tenisowe w Grodzisku Mazowieckim"
+          subtitle="Zbudowane we wrześniu 2023 roku hale tenisowe w Grodzisku Mazowieckim, oferują innowacyjną nawierzchnię Laykold Masters 5 dla doskonałych wrażeń z gry. Dołącz do naszej pasji tenisa!"
         />
         <section className="grid place-items-center pb-[100px]">
           <div className="flex flex-col text-center gap-[60px] px-[40px] max-w-[1000px]">
