@@ -46,6 +46,8 @@ export default function Projects({ title, data }) {
                   className={styles.thumbnail}
                   style={{
                     backgroundImage: `url('https://media.graphassets.com/${item.url}')`,
+                    backgroundPosition: "center",
+                    backgroundSize: "cover",
                   }}
                 />
               ) : (
