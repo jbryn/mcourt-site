@@ -12,9 +12,9 @@ const projectsData = [
     link: "/",
   },
   {
-    url: "https://media.graphassets.com/u2uZPdu2RAy77IDJlJsD",
-    title: "2023 Korty ze sztucznej trawy w Dębnie",
-    link: "/",
+    url: "https://media.graphassets.com/awYLvtSNmg72UZ4Do0wA",
+    title: "Hale tenisowe w Grodzisku Mazowieckim",
+    link: "/hale-tenisowe-grodzisk",
   },
   {
     url: "https://media.graphassets.com/7wafg69TWKhh99kz1lUv",

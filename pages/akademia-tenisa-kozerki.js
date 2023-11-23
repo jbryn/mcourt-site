@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Hero from "@/components/shared/hero/hero";
 import Image from "next/image";
+import Contact from "@/components/home/contact/contact";
 
 const images = [
   "https://media.graphassets.com/7nnD8jwgQOOAuq4YxdP0",
@@ -98,6 +99,7 @@ export default function KozerkiPage() {
             />
           ))}
         </section>
+        <Contact />
       </main>
     </>
   );
