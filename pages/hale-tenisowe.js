@@ -49,7 +49,9 @@ estetyką. Zaufaj ekspertom w projektowaniu i budowie hal tenisowych"
 
         <Features />
         <Projects title="Wybrane projekty" data={projectsData} />
-        <Contact />
+        <Contact
+          imageUrl={"https://media.graphassets.com/I5ALCpRCTtOwMTxFCoZI"}
+        />
       </main>
     </>
   );

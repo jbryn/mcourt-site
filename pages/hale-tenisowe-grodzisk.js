@@ -89,7 +89,9 @@ export default function GrodziskPage() {
             />
           ))}
         </section>
-        <Contact />
+        <Contact
+          imageUrl={"https://media.graphassets.com/e6hLOrvmS6ux777rizz7"}
+        />
       </main>
     </>
   );

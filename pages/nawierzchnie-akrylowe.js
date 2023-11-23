@@ -63,7 +63,9 @@ export default function AcrylPage() {
         <Acryl />
         <Colors />
         <Projects title="Wybrane realizacje" data={projectsData} />
-        <Contact />
+        <Contact
+          imageUrl={"https://media.graphassets.com/e6hLOrvmS6ux777rizz7"}
+        />
       </main>
     </>
   );

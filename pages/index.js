@@ -57,7 +57,9 @@ export default function Home() {
         <Surfaces />
         <About />
         <Projects title="Nasze projekty" data={projectsData} />
-        <Contact />
+        <Contact
+          imageUrl={"https://media.graphassets.com/TI5dBSKRnaSPtrkOSniw"}
+        />
       </main>
     </>
   );

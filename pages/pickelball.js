@@ -30,7 +30,9 @@ export default function PickelballPage() {
           subtitle="Jesteśmy zespołem pasjonatów, którzy nie tylko projektują, ale także z radością realizują unikatowe korty do pickleballa. Jeśli jesteś miłośnikiem tej dynamicznej gry, to trafiłeś we właściwe miejsce!"
         />
         <Features />
-        <Contact />
+        <Contact
+          imageUrl={"https://media.graphassets.com/Bri7G1DtQ7q2gsMHjqaw"}
+        />
       </main>
     </>
   );

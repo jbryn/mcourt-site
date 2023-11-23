@@ -39,7 +39,9 @@ export default function AntukaPage() {
         />
         <Antuka />
         <Projects title="Wybrane realizacje" data={projectsData} />
-        <Contact />
+        <Contact
+          imageUrl={"https://media.graphassets.com/TI5dBSKRnaSPtrkOSniw"}
+        />
       </main>
     </>
   );

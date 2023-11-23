@@ -99,7 +99,9 @@ export default function KozerkiPage() {
             />
           ))}
         </section>
-        <Contact />
+        <Contact
+          imageUrl={"https://media.graphassets.com/KVXWyuTjR3GPLFZg9836"}
+        />
       </main>
     </>
   );

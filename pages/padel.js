@@ -33,7 +33,9 @@ export default function PadelPage() {
           subtitle="Specjalizujemy się w kompleksowej budowie boisk do padla. Serdecznie zachęcamy do zapoznania się z naszą ofertą oraz do nawiązania kontaktu. Nasz zespół z przyjemnością udzieli odpowiedzi na wszystkie pytania."
         />
         <Features />
-        <Contact />
+        <Contact
+          imageUrl={"https://media.graphassets.com/ouPi12eTUWTkM7aIvyIx"}
+        />
       </main>
     </>
   );

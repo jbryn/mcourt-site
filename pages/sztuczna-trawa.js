@@ -47,7 +47,9 @@ export default function GrassPage() {
         />
         <Grass />
         <Projects title="Wybrane realizacje" data={projectsData} />
-        <Contact />
+        <Contact
+          imageUrl={"https://media.graphassets.com/fDKZW0brSNSOAvU4u0tv"}
+        />
       </main>
     </>
   );

@@ -174,7 +174,9 @@ export default function FalenicaPage() {
           </div>
         </section>
 
-        <Contact />
+        <Contact
+          imageUrl={"https://media.graphassets.com/ouPi12eTUWTkM7aIvyIx"}
+        />
       </main>
     </>
   );

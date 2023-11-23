@@ -97,7 +97,9 @@ export default function LazniewekPage() {
             />
           ))}
         </section>
-        <Contact />
+        <Contact
+          imageUrl={"https://media.graphassets.com/fDKZW0brSNSOAvU4u0tv"}
+        />
       </main>
     </>
   );

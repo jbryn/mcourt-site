@@ -36,7 +36,9 @@ export default function CourtsPage() {
         />
 
         <Surfaces />
-        <Contact />
+        <Contact
+          imageUrl={"https://media.graphassets.com/1KCpwNOQ32At08N8oPDK"}
+        />
       </main>
     </>
   );

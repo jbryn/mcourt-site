@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Features from "@/components/lights/features";
 import Hero from "@/components/shared/hero/hero";
+import Contact from "@/components/home/contact/contact";
 
 export default function LightsPage() {
   return (
@@ -34,6 +35,9 @@ export default function LightsPage() {
           subtitle="Doświetl swój kort tenisowy już dziś i ciesz się możliwością gry po zmroku, sprawdź propozycję naszych rozwiązań!"
         />
         <Features />
+        <Contact
+          imageUrl={"https://media.graphassets.com/e6hLOrvmS6ux777rizz7"}
+        />
       </main>
     </>
   );
