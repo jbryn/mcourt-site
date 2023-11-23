@@ -73,14 +73,6 @@ export default function LazniewekPage() {
                 tenisistów.
               </h2>
             </div>
-            <h2>
-              Jesteśmy dumni z faktu, że mogliśmy przyczynić się do rozwoju
-              tenisa w lokalnej społeczności. Zapraszamy zarówno miłośników tej
-              dyscypliny, jak i osoby, które dopiero zaczynają swoją przygodę z
-              tenisem. Korty tenisowe Kortmax to miejsce, gdzie sport staje się
-              pasją, a każdy ma szansę odkryć radość gry na kortach wykonanych z
-              pasji.
-            </h2>
           </div>
         </section>
         <section className="grid grid-cols-2 justify-center justify-items-center gap-[10px] px-[20px]">
@@ -97,6 +89,14 @@ export default function LazniewekPage() {
             />
           ))}
         </section>
+        <h2 className="">
+          Jesteśmy dumni z faktu, że mogliśmy przyczynić się do rozwoju tenisa w
+          lokalnej społeczności. Zapraszamy zarówno miłośników tej dyscypliny,
+          jak i osoby, które dopiero zaczynają swoją przygodę z tenisem. Korty
+          tenisowe Kortmax to miejsce, gdzie sport staje się pasją, a każdy ma
+          szansę odkryć radość gry na kortach wykonanych z pasji.
+        </h2>
+
         <Contact
           imageUrl={"https://media.graphassets.com/fDKZW0brSNSOAvU4u0tv"}
         />
