@@ -22,9 +22,9 @@ const projectsData = [
     link: "/akademia-tenisa-kozerki",
   },
   {
-    url: "https://media.graphassets.com/koc9lQ9QRZenqAQtl7JY",
-    title: "2022 Renowacja nawierzchni na Warszawiance",
-    link: "/",
+    url: "https://media.graphassets.com/FlWh3b0QN2uxPbITbblg",
+    title: "Rewitalizacja 3 kortów w Falenicy",
+    link: "/rewitalizacja-falenica",
   },
 ];
 
