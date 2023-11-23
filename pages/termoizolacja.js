@@ -7,26 +7,27 @@ export default function ThermoPage() {
   return (
     <>
       <Head>
-        {/* <title>
-          Oświetlenie kortów tenisowych: zapewnij komfort na wysokim poziomie!
+        <title>
+          Termoizolacja hal tenisowych: optymalne rozwiązania dla komfortu i
+          efektywności energetycznej
         </title>
         <meta
           name="description"
-          content="Przygotujemy dla Ciebie spersonalizowany projekt oświetlenia, dostosowany do Twoich indywidualnych potrzeb"
+          content="Kompleksowe podejście do termoizolacji hal tenisowych - Nasza firma oferuje nowoczesne technologie, zapewniając optymalną izolację cieplną. Zainwestuj w efektywne rozwiązania dla długotrwałego komfortu."
           key="desc"
         />
         <meta
           property="og:title"
-          content="Oświetlenie kortów tenisowych: zapewnij komfort na wysokim poziomie!"
+          content="Termoizolacja hal tenisowych: optymalne rozwiązania dla komfortu i efektywności energetycznej"
         />
         <meta
           property="og:description"
-          content="Przygotujemy dla Ciebie spersonalizowany projekt oświetlenia, dostosowany do Twoich indywidualnych potrzeb"
+          content="Kompleksowe podejście do termoizolacji hal tenisowych - Nasza firma oferuje nowoczesne technologie, zapewniając optymalną izolację cieplną. Zainwestuj w efektywne rozwiązania dla długotrwałego komfortu."
         />
         <meta
           property="og:image"
           content="https://media.graphassets.com/GAIKjn52QECZ8IAZgHUO"
-        /> */}
+        />
       </Head>
       <main className="overflow-hidden">
         <Hero

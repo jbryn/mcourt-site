@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 
 export default function Projects({ data }) {
   return (
-    <section>
+    <section className="grid place-items-center">
       <div className={styles.header}>
         <h2>Nasze projekty</h2>
         <div className={styles.navigation}>

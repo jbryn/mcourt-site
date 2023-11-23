@@ -7,21 +7,24 @@ export default function PickelballPage() {
   return (
     <>
       <Head>
-        {/* <title>MCOURT | Tenis dla profesjonalistów</title>
+        <title>Budowa kortów do gry w pickleballa</title>
         <meta
           name="description"
-          content="Doświadcz jakości i precyzji wykonania naszych kortów"
+          content="Innowacyjne podejście do budowy kortów Pickleball - Jesteśmy liderem branży, oferując najnowsze technologie i profesjonalne doradztwo. Z nami Twój kort będzie unikatowy!"
           key="desc"
         />
-        <meta property="og:title" content="Tenis dla profesjonalistów" />
+        <meta
+          property="og:title"
+          content="Budowa kortów do gry w pickleballa"
+        />
         <meta
           property="og:description"
-          content="Doświadcz jakości i precyzji wykonania naszych kortów"
+          content="Innowacyjne podejście do budowy kortów Pickleball - Jesteśmy liderem branży, oferując najnowsze technologie i profesjonalne doradztwo. Z nami Twój kort będzie unikatowy!"
         />
         <meta
           property="og:image"
           content="https://media.graphassets.com/GAIKjn52QECZ8IAZgHUO"
-        /> */}
+        />
       </Head>
       <main className="overflow-hidden">
         <Hero
