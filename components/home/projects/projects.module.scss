@@ -21,8 +21,7 @@
 }
 
 .card {
-  @apply flex flex-col max-w-[350px];
-  @apply max-[420px]:items-center;
+  @apply flex flex-col max-w-[350px] px-[20px];
 
   .thumbnail {
     @apply h-[233px];
@@ -38,7 +37,7 @@
     @apply text-[24px] font-semibold;
   }
 
-  a {
+  .more {
     @apply flex items-center text-[14px] text-light-grey;
     @apply mt-[5px] gap-[5px];
 

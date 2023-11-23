@@ -6,11 +6,11 @@ import styles from "./projects.module.scss";
 import "swiper/css";
 import "swiper/css/navigation";
 
-export default function Projects({ title, data }) {
+export default function Projects({ data }) {
   return (
-    <section className="flex flex-col justify-center items-center overflow-hidden">
+    <section>
       <div className={styles.header}>
-        <h2>{title}</h2>
+        <h2>Nasze projekty</h2>
         <div className={styles.navigation}>
           <div id="swiper2-prev" className="swiper-button-prev" />
           <div id="swiper2-next" className="swiper-button-next" />
@@ -38,37 +38,35 @@ export default function Projects({ title, data }) {
         className="mySwiper max-w-[1400px]"
       >
         {data.map((item, index) => (
-          <SwiperSlide className="max-w-[400px]" key={index}>
-            <div className={styles.card}>
-              {item.link ? (
-                <Link
-                  href={item.link}
-                  className={styles.thumbnail}
-                  style={{
-                    backgroundImage: `url('https://media.graphassets.com/${item.url}')`,
-                    backgroundPosition: "center",
-                    backgroundSize: "cover",
-                  }}
-                />
-              ) : (
+          <div key={index}>
+            <SwiperSlide>
+              <div className={styles.card}>
                 <Image
                   className={styles.thumbnail}
-                  src={item.url}
-                  width={349}
-                  height={233}
-                  alt={item.url}
+                  src={`https://media.graphassets.com/${item.url}`}
+                  width={700}
+                  height={406}
+                  loading="eager"
+                  alt="project1"
                 />
-              )}
-
-              {item.title ? <h3>{item.title}</h3> : null}
-              {item.link ? (
-                <Link href={item.link}>
-                  <span>Dowiedz się więcej</span>
-                  <img src="./icons/little-arrow.svg" alt="arrow" />
-                </Link>
-              ) : null}
-            </div>
-          </SwiperSlide>
+                {item.link ? (
+                  <>
+                    <Link
+                      className="font-bold hover:underline"
+                      href={item.link}
+                    >
+                      2023 Budowa kompleksu czterech kortów tenisowych w
+                      Łaźniewku
+                    </Link>
+                    <Link className={styles.more} href={item.link}>
+                      <span>Dowiedz się więcej</span>
+                      <img src="./icons/little-arrow.svg" alt="arrow" />
+                    </Link>
+                  </>
+                ) : null}
+              </div>
+            </SwiperSlide>
+          </div>
         ))}
       </Swiper>
     </section>
