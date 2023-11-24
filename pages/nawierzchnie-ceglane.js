@@ -2,7 +2,7 @@ import Head from "next/head";
 import Hero from "@/components/shared/hero/hero";
 import Contact from "@/components/home/contact/contact";
 import Antuka from "@/components/courts/surfaces/antuka/antuka";
-import Projects from "@/components/home/projects/projects";
+import Projects from "@/components/courts/surfaces/antuka/projects";
 
 const projectsData = [
   { url: "https://media.graphassets.com/ONDf21C8TLieaELcrSRC" },
@@ -38,7 +38,7 @@ export default function AntukaPage() {
           subtitle={`Jeśli marzysz o unikalnym doświadczeniu podczas gry w tenisa, nawierzchnia ceglana z pewnością spełni Twoje oczekiwania i zapewni niezapomniane chwile na korcie tenisowym.`}
         />
         <Antuka />
-        {/* <Projects title="Wybrane realizacje" data={projectsData} /> */}
+        <Projects />
         <Contact
           imageUrl={"https://media.graphassets.com/TI5dBSKRnaSPtrkOSniw"}
         />

@@ -41,43 +41,7 @@ export default function Projects() {
           <div className={styles.card}>
             <Image
               className={styles.thumbnail}
-              src="https://media.graphassets.com/CmpprxbTTgSuH5KzBgzc"
-              width={700}
-              height={406}
-              loading="eager"
-              alt="project4"
-            />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className={styles.card}>
-            <Image
-              className={styles.thumbnail}
-              src="https://media.graphassets.com/8eeBzOquQJGfdhyTD6XB"
-              width={700}
-              height={406}
-              loading="eager"
-              alt="project4"
-            />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className={styles.card}>
-            <Image
-              className={styles.thumbnail}
-              src="https://media.graphassets.com/93oYNjYxSZq0mafoy0P7"
-              width={700}
-              height={406}
-              loading="eager"
-              alt="project4"
-            />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className={styles.card}>
-            <Image
-              className={styles.thumbnail}
-              src="https://media.graphassets.com/mZy0ynBSD6RUj33fDnum"
+              src="https://media.graphassets.com/ONDf21C8TLieaELcrSRC"
               width={700}
               height={406}
               loading="eager"
@@ -89,7 +53,7 @@ export default function Projects() {
           <div className={styles.card}>
             <Image
               className={styles.thumbnail}
-              src="https://media.graphassets.com/0DLZTnN9T7WHVj9l9PM4"
+              src="https://media.graphassets.com/pPzEbpRzT6KHsbljkPmp"
               width={700}
               height={406}
               loading="eager"
@@ -101,11 +65,23 @@ export default function Projects() {
           <div className={styles.card}>
             <Image
               className={styles.thumbnail}
-              src="https://media.graphassets.com/8M0sy7f5SniDaCsADDfe"
+              src="https://media.graphassets.com/Vvg3UnquRj0j4WhpZCJh"
               width={700}
               height={406}
               loading="eager"
               alt="project3"
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className={styles.card}>
+            <Image
+              className={styles.thumbnail}
+              src="https://media.graphassets.com/VpdQzjhMTNqq1aRJPxna"
+              width={700}
+              height={406}
+              loading="eager"
+              alt="project4"
             />
           </div>
         </SwiperSlide>
