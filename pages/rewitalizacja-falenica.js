@@ -43,7 +43,7 @@ export default function FalenicaPage() {
       <main className="overflow-hidden">
         <Hero
           backgroundUrl={"https://media.graphassets.com/R7EYtiNvQENL3Ly3VdqU"}
-          title="Generalny remont 3 kortów tenisowych w Falenicy"
+          title="Korty tenisowe w Falenicy"
           subtitle=" Firma MCourt wykonała generalny remont trzech kortów tenisowych z mączki ceglanej. Zobacz fotorelację z wykonanego remontu."
         />
         <section className="grid place-items-center">
@@ -90,18 +90,18 @@ export default function FalenicaPage() {
           </div>
         </section>
         <section>
-          <div className="grid place-items-center gap-[20px] p-[20px]">
-            <p>Przed: </p>
-            <div className="flex gap-[20px] overflow-scroll">
+          <div className="grid place-items-center gap-[20px] p-[20px] pt-[60px]">
+            <p className="text-[26px] font-bold">Przed: </p>
+            <div className="flex gap-[20px] max-[780px]:flex-col">
               <Image
-                className="rounded-[15px]"
+                className="rounded-[15px] max-[780px]:w-[700px]"
                 src={images[0]}
                 width={340}
                 height={206}
                 alt="przed"
               />
               <Image
-                className="rounded-[15px]"
+                className="rounded-[15px] max-[780px]:w-[700px]"
                 src={images[2]}
                 width={340}
                 height={206}
@@ -119,17 +119,17 @@ export default function FalenicaPage() {
         </section>
         <section>
           <div className="grid place-items-center gap-[20px] p-[20px]">
-            <p>W trakcie: </p>
-            <div className="flex gap-[20px] overflow-scroll">
+            <p className="text-[26px] font-bold">W trakcie: </p>
+            <div className="flex gap-[20px] max-[780px]:flex-col">
               <Image
-                className="rounded-[15px]"
+                className="rounded-[15px] max-[780px]:w-[700px]"
                 src={images[3]}
                 width={340}
                 height={206}
                 alt="przed"
               />
               <Image
-                className="rounded-[15px]"
+                className="rounded-[15px] max-[780px]:w-[700px]"
                 src={images[4]}
                 width={340}
                 height={206}
@@ -147,17 +147,17 @@ export default function FalenicaPage() {
         </section>
         <section>
           <div className="grid place-items-center gap-[20px] p-[20px]">
-            <p>Po: </p>
-            <div className="flex gap-[20px] overflow-scroll">
+            <p className="text-[26px] font-bold">Po: </p>
+            <div className="flex gap-[20px] max-[780px]:flex-col">
               <Image
-                className="rounded-[15px]"
+                className="rounded-[15px] max-[780px]:w-[700px]"
                 src={images[6]}
                 width={340}
                 height={206}
                 alt="przed"
               />
               <Image
-                className="rounded-[15px]"
+                className="rounded-[15px] max-[780px]:w-[700px]"
                 src={images[7]}
                 width={340}
                 height={206}
