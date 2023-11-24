@@ -36,7 +36,7 @@ export default function Features() {
             alt="antuka"
           />
           <div className={styles.description}>
-            <h2>Oto kilka kluczowych elementów związanych z pickleballem:</h2>
+            <h2>Czym się wyróżnia?</h2>
             <h3>
               <ul className="pl-[20px]">
                 <li>
@@ -64,7 +64,6 @@ export default function Features() {
             alt="antuka"
           />
           <div className={styles.description}>
-            <h2>Czym się wyróżnia?</h2>
             <h3>
               <ul className="flex flex-col gap-[40px] pl-[20px] ">
                 <li>

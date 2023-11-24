@@ -54,8 +54,8 @@ export default function Antuka() {
         </div>
         <div className={styles.antuka2}>
           <Image
-            className="lg:order-1"
-            src="https://media.graphassets.com/IqyC7bgxQ8ekd9IntoYd"
+            className="lg:order-1 lg:h-[300px]"
+            src="https://media.graphassets.com/uH7IlSKTx6glxjIoPuTz"
             loading="lazy"
             width={540}
             height={406}
@@ -105,7 +105,7 @@ export default function Antuka() {
             </h3>
           </div>
         </div>
-        <div className={styles.antuka2}>
+        <div className={styles.antuka}>
           <Image
             className="lg:order-1"
             src="https://media.graphassets.com/TgkYxLfyRZKJEJ8tbJqT"

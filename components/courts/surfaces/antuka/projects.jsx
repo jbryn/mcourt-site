@@ -41,7 +41,7 @@ export default function Projects() {
           <div className={styles.card}>
             <Image
               className={styles.thumbnail}
-              src="https://media.graphassets.com/ONDf21C8TLieaELcrSRC"
+              src="https://media.graphassets.com/VpdQzjhMTNqq1aRJPxna"
               width={700}
               height={406}
               loading="eager"
@@ -77,7 +77,7 @@ export default function Projects() {
           <div className={styles.card}>
             <Image
               className={styles.thumbnail}
-              src="https://media.graphassets.com/VpdQzjhMTNqq1aRJPxna"
+              src="https://media.graphassets.com/ONDf21C8TLieaELcrSRC"
               width={700}
               height={406}
               loading="eager"

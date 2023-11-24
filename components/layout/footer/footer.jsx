@@ -48,8 +48,7 @@ export default function Footer() {
         <div className={styles.bottom}>
           <div id="footer" className={styles.contact}>
             <div className="flex flex-col items-start">
-              <p>Kineskopowa 1</p>
-              <p>Budynek F</p>
+              <p>Kineskopowa 1/F</p>
               <p>05-500</p>
               <p>Piaseczno</p>
             </div>
