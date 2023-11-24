@@ -15,11 +15,12 @@ export default function Features() {
             alt="antuka"
           />
           <div className={styles.description}>
+            <h2>Jak ważne jest odpowiednie oświetlenie kortu?</h2>
             <h3>
               <strong>Jakość oświetlenia kortów tenisowych</strong> ma kluczowe
               znaczenie dla komfortu i{" "}
               <strong>bezpieczeństwa podczas rozgrywek i treningów</strong>. To
-              <strong>innowacyjne oświetlenie</strong> generuje wystarczające
+              <strong> innowacyjne oświetlenie</strong> generuje wystarczające
               światło, aby kort był odpowiednio doświetlony, jednocześnie
               eliminując efekt oślepiania zarówno zawodników, jak i
               obserwatorów, w tym sędziów i kibiców.
@@ -35,6 +36,7 @@ export default function Features() {
             alt="antuka"
           />
           <div className={styles.description}>
+            <h2>Proponowane oprawy</h2>
             <h3>
               Nasze lampy <strong>Ledcourt</strong> są dziełem niemieckiego
               producenta o wieloletnim doświadczeniu w branży oświetleniowej.
@@ -55,6 +57,7 @@ export default function Features() {
             alt="antuka"
           />
           <div className={styles.description}>
+            <h2>Rozproszenie światła</h2>
             <h3>
               Przykładowy schemat rozproszenia światła na korcie w jednym z
               proponowanych systemów. W ramach tego projektu zastosowaliśmy
@@ -73,6 +76,7 @@ export default function Features() {
             alt="antuka"
           />
           <div className={styles.description}>
+            <h2>Rozmieszczenie słupów</h2>
             <h3>
               <p>Przykładowy system rozmieszczenia słupów na korcie</p>
               <ul className="pl-[20px]">
@@ -100,6 +104,7 @@ export default function Features() {
             alt="antuka"
           />
           <div className={styles.description}>
+            <h2>Zgłoś się do nas!</h2>
             <h3>
               Nasi doświadczeni technicy są gotowi dostosować projekt
               oświetlenia do Twoich indywidualnych potrzeb. Zapraszamy do

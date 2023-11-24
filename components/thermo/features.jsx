@@ -15,6 +15,7 @@ export default function Features() {
             alt="antuka"
           />
           <div className={styles.description}>
+            <h2>Ocieplenie obiektu</h2>
             <h3>
               Dlaczego warto skorzystać z naszych usług? Odpowiedź jest prosta:
               nasze doświadczenie i zaangażowanie w dostarczanie najwyższej
@@ -35,6 +36,7 @@ export default function Features() {
             alt="antuka"
           />
           <div className={styles.description}>
+            <h2>Na czym to polega?</h2>
             <h3>
               Proces ten polega na wprowadzaniu styropianu pomiędzy dwie warstwy
               powłok, co tworzy efektywną warstwę izolacyjną o grubości zależnej
@@ -54,6 +56,7 @@ export default function Features() {
             alt="antuka"
           />
           <div className={styles.description}>
+            <h2>Redukcja strat ciepła</h2>
             <h3>
               Ocieplenie hali tenisowej to kluczowy element utrzymania
               optymalnych warunków zarówno podczas zimy, jak i latem. Poprawa
@@ -73,23 +76,29 @@ export default function Features() {
             alt="antuka"
           />
           <div className={styles.description}>
-            <h2>Korzyści z wykonania termoizolacji</h2>
+            <h2>Termoizolacja = Oszczędność</h2>
             <h3>
               Przede wszystkim – dobrze wykonana termoizolacja hal pozwoli
-              znacząco obniżyć koszty ogrzewania - a same oszczędności mogą
-              sięgać nawet do 80%. Po zaizolowaniu hal wewnątrz poprawiają się
+              <strong>znacząco obniżyć koszty ogrzewania</strong> - a same{" "}
+              <strong>oszczędności</strong> mogą sięgać nawet do{" "}
+              <strong>80%</strong>. Po zaizolowaniu hal wewnątrz poprawiają się
               znacznie lepsze warunki. Przykładowo latem temperatura jest o
-              około 15°C niższa niż na zewnątrz, co sprawia, że hala jest
-              przyjemnie chłodniejsza. Zimą natomiast utrzymuje się ciepło, a
-              temperatura w hali rano może być o 11-18°C wyższa niż na zewnątrz,
+              około <strong>15°C niższa</strong> niż na zewnątrz, co sprawia, że
+              hala jest przyjemnie chłodniejsza. Zimą natomiast{" "}
+              <strong>utrzymuje się ciepło</strong>, a temperatura w hali rano
+              może być o <strong>11-18°C wyższa niż na zewnątrz</strong>,
               zwłaszcza w przypadku niskich temperatur.
             </h3>
           </div>
         </div>
-        <div className="flex pb-[100px] pt-[60px] lg:gap-[100px] px-[20px] text-[14px] max-[600px]:flex-col max-[600px]:gap-[140px]">
-          <div className="flex flex-col gap-[60px] items-center">
+        <h2 className="text-center text-[26px] font-bold px-[60px] max-[600px]:text-[18px]">
+          Temperatury w hali w szczycie letniego sezonu przed i po wykonaniu
+          termoizolacji
+        </h2>
+        <div className="flex pb-[100px] pt-[60px] lg:gap-[100px] px-[20px] text-[14px] max-[800px]:flex-col max-[800px]:gap-[140px]">
+          <div className="flex flex-col gap-[60px] items-center text-center">
             <Image
-              className="rotate-90 rounded-[15px]"
+              className="rotate-90 translate-y-[45px] rounded-[15px]"
               src="https://media.graphassets.com/Ans7MMCLRE2JllYwIt4z"
               loading="lazy"
               width={378}
@@ -97,18 +106,24 @@ export default function Features() {
               alt="antuka"
             />
 
-            <p>Temperatura na zewnątrz 28,2*C</p>
+            <p className="translate-y-[95px]">
+              Przed wykonaniem termoizolacji, temperatura w hali 28,2 *C przy
+              wilgotności 89,4%
+            </p>
           </div>
-          <div className="flex flex-col gap-[60px] items-center">
+          <div className="flex flex-col gap-[60px] items-center text-center">
             <Image
-              className="rotate-90 rounded-[15px]"
-              src="https://media.graphassets.com/zzyKzp5IRvyRMQf7EBUY"
+              className="rounded-[15px] max-w-[283px]"
+              src="https://media.graphassets.com/a1ZXYHAST9uKhePjOaNV"
               loading="lazy"
               width={378}
               height={504}
               alt="antuka"
             />
-            <p>Temperatura w zaizolowanej hali 21,8*C</p>
+            <p>
+              Po wykonaniu termoizolacji, temperatura w hali 21,8 *C przy
+              wilgotności 71,7%
+            </p>
           </div>
         </div>
 
@@ -122,6 +137,7 @@ export default function Features() {
             alt="antuka"
           />
           <div className={styles.description}>
+            <h2>Pozostałe korzyści</h2>
             <h3>
               <p>
                 Dzięki izolacji termicznej możemy dobrać optymalną jednostkę
@@ -140,6 +156,13 @@ export default function Features() {
             </h3>
           </div>
         </div>
+        <h2 className="text-center text-[26px] font-bold px-[60px] max-[600px]:text-[18px]">
+          Jesteśmy przekonani, że nasza oferta zapewni Państwu kompleksowe i
+          skuteczne ocieplenie hal, co przyczyni się do poprawy warunków
+          wewnątrz obiektu, obniżenia kosztów ogrzewania oraz zwiększenia
+          trwałości konstrukcji. Chętnie odpowiemy na wszelkie pytania i
+          dostosujemy naszą ofertę do Państwa indywidualnych potrzeb.
+        </h2>
       </div>
     </section>
   );
