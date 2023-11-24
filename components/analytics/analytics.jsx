@@ -10,7 +10,7 @@ export default function GoogleAnalytics({ GA_MEASUREMENT_ID }) {
 
   return (
     <>
-      {/* <Script
+      <Script
         strategy="afterInteractive"
         src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
       />
@@ -26,7 +26,7 @@ export default function GoogleAnalytics({ GA_MEASUREMENT_ID }) {
                 gtag('config', '${GA_MEASUREMENT_ID}');
                 `,
         }}
-      /> */}
+      />
     </>
   );
 }
