@@ -1,6 +1,6 @@
 .wrapper {
   @apply flex flex-col gap-[30px] items-center;
-  @apply text-center px-[30px];
+  @apply text-center px-[30px] pt-[60px];
 
   h2 {
     @apply text-[42px] font-semibold pb-[20px];

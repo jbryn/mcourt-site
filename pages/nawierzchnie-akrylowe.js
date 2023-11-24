@@ -38,10 +38,10 @@ export default function AcrylPage() {
           title="Nawierzchnie akrylowe"
           subtitle={`Zaawansowane nawierzchnie tenisowe akrylowe to doskonały wybór zarówno dla graczy, jak i klubów tenisowych. Oferujemy trwałe i wydajne rozwiązania, które spełnią Twoje oczekiwania.`}
         />
-        <Video />
         <Acryl />
         <Colors />
         <Projects />
+        <Video />
         <Contact
           imageUrl={"https://media.graphassets.com/e6hLOrvmS6ux777rizz7"}
         />
