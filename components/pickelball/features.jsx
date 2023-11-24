@@ -64,6 +64,7 @@ export default function Features() {
             alt="antuka"
           />
           <div className={styles.description}>
+            <h2>Czym się wyróżnia?</h2>
             <h3>
               <ul className="flex flex-col gap-[40px] pl-[20px] ">
                 <li>
@@ -93,6 +94,7 @@ export default function Features() {
             alt="antuka"
           />
           <div className={styles.description}>
+            <h2>Zbudujemy Twój kort do pickleballa!</h2>
             <h3>
               Dla nas pickleball to nie tylko gra - to pasja. Chcemy, aby korty,
               które projektujemy i budujemy, były miejscem, gdzie ta pasja może

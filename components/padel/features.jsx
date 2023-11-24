@@ -37,6 +37,7 @@ export default function Features() {
             alt="antuka"
           />
           <div className={styles.description}>
+            <h2>Zasady gry</h2>
             <h3>
               W sporcie tym można znaleźć{" "}
               <strong>kombinacje tenisa i squasha</strong>. Zasady punktacji są
