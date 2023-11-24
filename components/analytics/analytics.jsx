@@ -1,9 +1,16 @@
 import Script from "next/script";
+import { useEffect } from "react";
+import { useRouter } from "next/router";
 
 export default function GoogleAnalytics({ GA_MEASUREMENT_ID }) {
+  const router = useRouter();
+  useEffect(() => {
+    console.log(router.pathname);
+  }, [router.pathname]);
+
   return (
     <>
-      <Script
+      {/* <Script
         strategy="afterInteractive"
         src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
       />
@@ -19,7 +26,7 @@ export default function GoogleAnalytics({ GA_MEASUREMENT_ID }) {
                 gtag('config', '${GA_MEASUREMENT_ID}');
                 `,
         }}
-      />
+      /> */}
     </>
   );
 }
