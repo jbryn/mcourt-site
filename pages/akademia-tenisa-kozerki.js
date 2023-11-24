@@ -2,10 +2,9 @@ import Head from "next/head";
 import Hero from "@/components/shared/hero/hero";
 import Image from "next/image";
 import Contact from "@/components/home/contact/contact";
+import Article from "@/components/article/article";
 
 const images = [
-  "https://media.graphassets.com/7nnD8jwgQOOAuq4YxdP0",
-  "https://media.graphassets.com/ZhPVJMJTTepB8Yr4qY2w",
   "https://media.graphassets.com/z8vaQ1owSYGvPVkEJ2dQ",
 
   "https://media.graphassets.com/6zdfJcvYTTusUqd1yNIv",
@@ -60,44 +59,48 @@ export default function KozerkiPage() {
               budowy 11 nowoczesnych kortów tenisowych w renomowanym Polskim
               Centrum Szkoleniowym Tenisa.
             </h1>
-            <div className="flex text-start gap-[100px]">
-              <h2>
-                Nasza krótka fotorelacja przedstawia nie tylko efekt końcowy,
+
+            <Article
+              imageUrl={"https://media.graphassets.com/7nnD8jwgQOOAuq4YxdP0"}
+              description={`Nasza krótka fotorelacja przedstawia nie tylko efekt końcowy,
                 ale również krok po kroku proces budowy, od przygotowania terenu
                 po ostatnie szlify. Każdy kort został starannie zaprojektowany,
                 uwzględniając zarówno aspekty techniczne, jak i estetyczne.
                 Dbamy o każdy detal, aby zapewnić doskonałe warunki gry i
-                wyjątkową atmosferę.
-              </h2>
-              <h2>
-                Zapraszamy do obejrzenia zdjęć, które przedstawiają naszą pracę
+                wyjątkową atmosferę.`}
+            />
+            <Article
+              imageUrl={"https://media.graphassets.com/ZhPVJMJTTepB8Yr4qY2w"}
+              description={`Zapraszamy do obejrzenia zdjęć, które przedstawiają naszą pracę
                 w pełnej krasie. Jeśli mają Państwo jakiekolwiek pytania lub
                 chcielibyście dowiedzieć się więcej o naszych projektach,
                 serdecznie zachęcamy do kontaktu. Jesteśmy gotowi odpowiedzieć
                 na wszystkie Państwa zapytania i podzielić się naszym
-                doświadczeniem.
-              </h2>
-            </div>
-            <h3 className="text-[26px] font-bold">
-              Dziękujemy za zaufanie i możliwość uczestnictwa w tworzeniu
-              wyjątkowych miejsc do uprawiania tenisa. Razem tworzymy
-              przestrzenie, gdzie sport staje się prawdziwą pasją!
-            </h3>
+                doświadczeniem.`}
+              inverted
+            />
           </div>
         </section>
-        <section className="grid grid-cols-2 justify-center justify-items-center gap-[10px] px-[20px]">
-          {images.map((image, index) => (
-            <Image
-              className={`lg:h-[330px] rounded-[15px] ${
-                index % 2 == 0 ? "justify-self-end" : "justify-self-start"
-              }`}
-              key={index}
-              src={image}
-              width={440}
-              height={306}
-              alt={image}
-            />
-          ))}
+        <section className="grid place-items-center text-center gap-[60px]">
+          <div className="grid grid-cols-2 justify-center justify-items-center gap-[10px] px-[20px]">
+            {images.map((image, index) => (
+              <Image
+                className={`lg:h-[330px] rounded-[15px] ${
+                  index % 2 == 0 ? "justify-self-end" : "justify-self-start"
+                }`}
+                key={index}
+                src={image}
+                width={440}
+                height={306}
+                alt={image}
+              />
+            ))}
+          </div>
+          <h2 className="max-w-[1000px] text-[26px] max-[600px]:text-[20px] font-bold px-[20px]">
+            Dziękujemy za zaufanie i możliwość uczestnictwa w tworzeniu
+            wyjątkowych miejsc do uprawiania tenisa. Razem tworzymy
+            przestrzenie, gdzie sport staje się prawdziwą pasją!
+          </h2>
         </section>
         <Contact
           imageUrl={"https://media.graphassets.com/KVXWyuTjR3GPLFZg9836"}
