@@ -15,7 +15,8 @@
     background-size: cover;
 
     img {
-      @apply max-w-[216px] max-h-[75px];
+      @apply max-w-[432px] max-h-[150px];
+      @apply max-[700px]:max-w-[216px] max-[700px]:max-h-[75px];
     }
     .menu {
       @apply flex flex-col text-light-grey px-[20px];

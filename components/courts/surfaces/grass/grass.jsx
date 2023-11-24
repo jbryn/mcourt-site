@@ -15,6 +15,7 @@ export default function Grass() {
             alt="antuka"
           />
           <div className={styles.description}>
+            <h2>Uniwersalna nawierzchnia</h2>
             <h3>
               <p>
                 <strong>Sztuczna trawa</strong> bardzo często jest postrzegana
@@ -42,6 +43,7 @@ export default function Grass() {
             alt="antuka"
           />
           <div className={styles.description}>
+            <h2>Charakterystyka kortów sztucznych</h2>
             <h3>
               <p>
                 Gra na <strong>sztucznej trawie</strong> charakteryzuje się
@@ -65,6 +67,7 @@ export default function Grass() {
             alt="antuka"
           />
           <div className={styles.description}>
+            <h2>Wypełnienie kortów</h2>
             <h3>
               <p>
                 <strong>Piasek na nawierzchni kortu</strong> pomaga w utrzymaniu
@@ -86,6 +89,7 @@ export default function Grass() {
             alt="antuka"
           />
           <div className={styles.description}>
+            <h2>Kort dla każdego</h2>
             <h3>
               <p>
                 <strong>Korty ze sztucznej trawy z piaskiem</strong> są idealne
