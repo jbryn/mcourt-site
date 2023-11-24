@@ -38,7 +38,7 @@ export default function AntukaPage() {
           subtitle={`Jeśli marzysz o unikalnym doświadczeniu podczas gry w tenisa, nawierzchnia ceglana z pewnością spełni Twoje oczekiwania i zapewni niezapomniane chwile na korcie tenisowym.`}
         />
         <Antuka />
-        <Projects title="Wybrane realizacje" data={projectsData} />
+        {/* <Projects title="Wybrane realizacje" data={projectsData} /> */}
         <Contact
           imageUrl={"https://media.graphassets.com/TI5dBSKRnaSPtrkOSniw"}
         />

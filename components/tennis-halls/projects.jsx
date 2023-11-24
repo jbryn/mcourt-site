@@ -41,68 +41,72 @@ export default function Projects() {
           <div className={styles.card}>
             <Image
               className={styles.thumbnail}
-              src="https://media.graphassets.com/bPjA4uPtQxurLqETiVQZ"
+              src="https://media.graphassets.com/NqE8aa8kTn2Hc5oPqTg9"
               width={700}
               height={406}
               loading="eager"
               alt="project1"
             />
-            <h3>Budowa kompleksu czterech kortów tenisowych w Łaźniewku</h3>
-            <Link href="/korty-lazniewek">
-              <span>Dowiedz się więcej</span>
-              <img src="./icons/little-arrow.svg" alt="arrow" />
-            </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className={styles.card}>
             <Image
               className={styles.thumbnail}
-              src="https://media.graphassets.com/awYLvtSNmg72UZ4Do0wA"
+              src="https://media.graphassets.com/bZASIQhuRuhmzDjiP8jO"
               width={700}
               height={406}
               loading="eager"
               alt="project2"
             />
-            <h3>Hale tenisowe w Grodzisku Mazowieckim</h3>
-            <Link href="/hale-tenisowe-grodzisk">
-              <span>Dowiedz się więcej</span>
-              <img src="./icons/little-arrow.svg" alt="arrow" />
-            </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className={styles.card}>
             <Image
               className={styles.thumbnail}
-              src="https://media.graphassets.com/7wafg69TWKhh99kz1lUv"
+              src="https://media.graphassets.com/1XUaTUQSoiNUmsM6tZMs"
               width={700}
               height={406}
               loading="eager"
               alt="project3"
             />
-            <h3>Budowa 11 kortów w Akademii Tenisa Kozerkii</h3>
-            <Link href="/akademia-tenisa-kozerki">
-              <span>Dowiedz się więcej</span>
-              <img src="./icons/little-arrow.svg" alt="arrow" />
-            </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className={styles.card}>
             <Image
               className={styles.thumbnail}
-              src="https://media.graphassets.com/sjk72IyQxC8zD8U682BL"
+              src="https://media.graphassets.com/bmrPQqETxP19Y4QhRTZA"
               width={700}
               height={406}
               loading="eager"
               alt="project4"
             />
-            <h3>Rewitalizacja 3 kortów w Falenicy</h3>
-            <Link href="/rewitalizacja-falenica">
-              <span>Dowiedz się więcej</span>
-              <img src="./icons/little-arrow.svg" alt="arrow" />
-            </Link>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className={styles.card}>
+            <Image
+              className={styles.thumbnail}
+              src="https://media.graphassets.com/srzOtiBkQrOm6qzldfuv"
+              width={700}
+              height={406}
+              loading="eager"
+              alt="project4"
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className={styles.card}>
+            <Image
+              className={styles.thumbnail}
+              src="https://media.graphassets.com/yx9MBd5xTU648pLVI7i3"
+              width={700}
+              height={406}
+              loading="eager"
+              alt="project4"
+            />
           </div>
         </SwiperSlide>
       </Swiper>

@@ -2,7 +2,7 @@ import Head from "next/head";
 import Contact from "@/components/home/contact/contact";
 import Hero from "@/components/shared/hero/hero";
 import Features from "@/components/tennis-halls/features/features";
-import Projects from "@/components/home/projects/projects";
+import Projects from "@/components/tennis-halls/projects";
 
 const projectsData = [
   { url: "https://media.graphassets.com/NqE8aa8kTn2Hc5oPqTg9" },
@@ -48,7 +48,7 @@ estetyką. Zaufaj ekspertom w projektowaniu i budowie hal tenisowych"
         />
 
         <Features />
-        <Projects title="Wybrane projekty" data={projectsData} />
+        <Projects />
         <Contact
           imageUrl={"https://media.graphassets.com/I5ALCpRCTtOwMTxFCoZI"}
         />

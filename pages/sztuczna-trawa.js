@@ -46,7 +46,7 @@ export default function GrassPage() {
           subtitle={`Nawierzchnie z sztucznej trawy do kortów tenisowych to rozwiązania przyjazne środowisku i wydajne. Dzięki nam możesz cieszyć się nowoczesnością i minimalną konserwacją na swoim korcie. Dowiedz się więcej!`}
         />
         <Grass />
-        <Projects title="Wybrane realizacje" data={projectsData} />
+        {/* <Projects title="Wybrane realizacje" data={projectsData} /> */}
         <Contact
           imageUrl={"https://media.graphassets.com/fDKZW0brSNSOAvU4u0tv"}
         />
