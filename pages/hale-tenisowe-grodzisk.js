@@ -2,10 +2,9 @@ import Head from "next/head";
 import Hero from "@/components/shared/hero/hero";
 import Image from "next/image";
 import Contact from "@/components/home/contact/contact";
+import Article from "@/components/article/article";
 
 const images = [
-  "https://media.graphassets.com/Yfa2RTBoQcHwLnqQoiQw",
-  "https://media.graphassets.com/VWVLrNlwQBysEu8l5IYB",
   "https://media.graphassets.com/pLk2P1QITDKXuJCVbz0Y",
 
   "https://media.graphassets.com/Zp03T6H7SHClcY7EKOao",
@@ -54,25 +53,27 @@ export default function GrodziskPage() {
               zakończone we wrześniu 2023 roku, przynosząc nową erę tenisa do
               lokalnej społeczności.
             </h1>
-            <div className="flex text-start gap-[100px]">
-              <h2>
-                Nowe hale tenisowe w Grodzisku Mazowieckim są wyjątkowe nie
+
+            <Article
+              imageUrl={"https://media.graphassets.com/Yfa2RTBoQcHwLnqQoiQw"}
+              description={`Nowe hale tenisowe w Grodzisku Mazowieckim są wyjątkowe nie
                 tylko ze względu na swoje innowacyjne podejście do architektury,
                 ale także dzięki zastosowaniu najnowszej technologii nawierzchni
                 tenisowej - Laykold Masters 5. Ta syntetyczna nawierzchnia znana
                 z trwałości, elastyczności i doskonałych właściwości gry, stanie
                 się miejscem inspirującym zarówno dla początkujących, jak i
-                doświadczonych tenisistów
-              </h2>
-              <h2>
-                Nasza firma, z pasją i zaangażowaniem, zadbała o każdy aspekt
+                doświadczonych tenisistów`}
+            />
+            <Article
+              imageUrl={"https://media.graphassets.com/VWVLrNlwQBysEu8l5IYB"}
+              description={`Nasza firma, z pasją i zaangażowaniem, zadbała o każdy aspekt
                 budowy, począwszy od gruntownego przygotowania terenu, poprzez
                 nowoczesną konstrukcję hal, aż po precyzyjne wykonanie
                 nawierzchni tenisowej Laykold. Dzięki temu możemy z dumą
                 dostarczyć społeczności Grodziska Mazowieckiego nowoczesne i
-                funkcjonalne obiekty tenisowe.
-              </h2>
-            </div>
+                funkcjonalne obiekty tenisowe.`}
+              inverted
+            />
           </div>
         </section>
         <section className="grid grid-cols-2 justify-center justify-items-center gap-[10px] px-[20px]">
