@@ -4,28 +4,7 @@ import Acryl from "@/components/courts/surfaces/acryl/acryl";
 import Colors from "@/components/courts/colors/colors";
 import Contact from "@/components/home/contact/contact";
 import Video from "@/components/courts/video/video";
-import Projects from "@/components/home/projects/projects";
-
-const projectsData = [
-  {
-    url: "https://media.graphassets.com/mZy0ynBSD6RUj33fDnum",
-  },
-  {
-    url: "https://media.graphassets.com/0DLZTnN9T7WHVj9l9PM4",
-  },
-  {
-    url: "https://media.graphassets.com/8M0sy7f5SniDaCsADDfe",
-  },
-  {
-    url: "https://media.graphassets.com/CmpprxbTTgSuH5KzBgzc",
-  },
-  {
-    url: "https://media.graphassets.com/8eeBzOquQJGfdhyTD6XB",
-  },
-  {
-    url: "https://media.graphassets.com/93oYNjYxSZq0mafoy0P7",
-  },
-];
+import Projects from "@/components/courts/surfaces/acryl/projects";
 
 export default function AcrylPage() {
   return (
@@ -62,7 +41,7 @@ export default function AcrylPage() {
         <Video />
         <Acryl />
         <Colors />
-        {/* <Projects title="Wybrane realizacje" data={projectsData} /> */}
+        <Projects />
         <Contact
           imageUrl={"https://media.graphassets.com/e6hLOrvmS6ux777rizz7"}
         />

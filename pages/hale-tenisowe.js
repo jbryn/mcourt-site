@@ -4,15 +4,6 @@ import Hero from "@/components/shared/hero/hero";
 import Features from "@/components/tennis-halls/features/features";
 import Projects from "@/components/tennis-halls/projects";
 
-const projectsData = [
-  { url: "https://media.graphassets.com/NqE8aa8kTn2Hc5oPqTg9" },
-  { url: "https://media.graphassets.com/bZASIQhuRuhmzDjiP8jO" },
-  { url: "https://media.graphassets.com/1XUaTUQSoiNUmsM6tZMs" },
-  { url: "https://media.graphassets.com/bmrPQqETxP19Y4QhRTZA" },
-  { url: "https://media.graphassets.com/srzOtiBkQrOm6qzldfuv" },
-  { url: "https://media.graphassets.com/yx9MBd5xTU648pLVI7i3" },
-];
-
 export default function TennisHalls() {
   return (
     <>
