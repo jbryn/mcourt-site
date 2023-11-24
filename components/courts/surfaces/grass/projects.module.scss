@@ -1,0 +1,56 @@
+.header {
+  @apply flex justify-center gap-[40px];
+  @apply pb-[71px] px-[40px];
+  @apply lg:px-[167px];
+  @apply max-[420px]:flex-col max-[420px]:items-start;
+
+  h2 {
+    @apply w-full;
+    @apply text-[30px] font-semibold;
+    @apply sm:text-[42px];
+  }
+
+  .navigation {
+    @apply relative;
+    @apply grid place-items-center;
+
+    img {
+      @apply min-w-[146px] min-h-[48px];
+    }
+  }
+}
+
+.cards {
+  @apply flex gap-[30px] overflow-hidden;
+  @apply pl-[165px];
+}
+
+.card {
+  @apply flex flex-col max-w-[350px];
+  @apply max-[420px]:items-center;
+
+  .thumbnail {
+    @apply h-[233px];
+    @apply rounded-[10px];
+    @apply mb-[28px];
+  }
+
+  h3 {
+    @apply text-[24px] font-semibold;
+  }
+
+  a {
+    @apply flex items-center text-[14px] text-light-grey;
+    @apply mt-[5px] gap-[5px];
+
+    img {
+      @apply m-0 w-[11px] max-h-[7px];
+    }
+  }
+}
+
+.decor {
+  @apply absolute left-0;
+  @apply transform translate-y-[390px];
+  @apply w-[165px] h-[118px] bg-other-grey;
+}

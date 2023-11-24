@@ -2,7 +2,7 @@ import Head from "next/head";
 import Contact from "@/components/home/contact/contact";
 import Grass from "@/components/courts/surfaces/grass/grass";
 import Hero from "@/components/shared/hero/hero";
-import Projects from "@/components/home/projects/projects";
+import Projects from "@/components/courts/surfaces/grass/projects";
 
 const projectsData = [
   { url: "https://media.graphassets.com/AptwnlAkRqO9iHHqOFBW" },
@@ -46,7 +46,7 @@ export default function GrassPage() {
           subtitle={`Nawierzchnie z sztucznej trawy do kortów tenisowych to rozwiązania przyjazne środowisku i wydajne. Dzięki nam możesz cieszyć się nowoczesnością i minimalną konserwacją na swoim korcie. Dowiedz się więcej!`}
         />
         <Grass />
-        {/* <Projects title="Wybrane realizacje" data={projectsData} /> */}
+        <Projects />
         <Contact
           imageUrl={"https://media.graphassets.com/fDKZW0brSNSOAvU4u0tv"}
         />
