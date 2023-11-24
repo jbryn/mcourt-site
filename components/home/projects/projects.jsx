@@ -10,7 +10,7 @@ export default function Projects() {
   return (
     <section>
       <div className={styles.header}>
-        <h2>Nasze projekty</h2>
+        <h2>Zrealizowane projekty</h2>
         <div className={styles.navigation}>
           <div id="swiper2-prev" className="swiper-button-prev" />
           <div id="swiper2-next" className="swiper-button-next" />

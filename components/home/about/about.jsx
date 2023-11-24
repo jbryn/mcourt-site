@@ -21,7 +21,15 @@ export default function About() {
             zapewnić Ci kompleksową obsługę na najwyższym poziomie.
           </p>
           <div className={styles.bottom}>
-            <button className={styles.button}>Skontaktuj się z nami</button>
+            <button
+              className={styles.button}
+              onClick={() => {
+                const video = document.getElementById("contact");
+                video.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              Skontaktuj się z nami
+            </button>
 
             <Image
               src="/img/logos/mcourt-logo-color.png"
@@ -41,27 +49,31 @@ export default function About() {
         />
       </div>
 
+      <h2 className="text-center text-[26px] font-bold pt-[100px]">
+        Co nas wyróżnia?
+      </h2>
+
       <div className={styles.statsContainer}>
-        <div className={styles.stat}>
-          <div className={styles.top}>
-            <span>225</span>
-            <img src="./vectors/stats-circles.svg" alt="stat" />
-          </div>
-          <p>Zbudowanych kortów</p>
-        </div>
         <div className={styles.stat}>
           <div className={styles.top}>
             <span>15</span>
             <img src="./vectors/stats-circles.svg" alt="stat" />
           </div>
-          <p>Lat doświadczenia</p>
+          <p>Lat w branży budowlanej</p>
         </div>
         <div className={styles.stat}>
           <div className={styles.top}>
-            <span>5</span>
+            <span>420</span>
             <img src="./vectors/stats-circles.svg" alt="stat" />
           </div>
-          <p>Typów kortów budujemy</p>
+          <p>Zrealizowanych projektów</p>
+        </div>
+        <div className={styles.stat}>
+          <div className={styles.top}>
+            <span>980</span>
+            <img src="./vectors/stats-circles.svg" alt="stat" />
+          </div>
+          <p>Wybudowanych kortów</p>
         </div>
       </div>
     </section>

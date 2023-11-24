@@ -63,7 +63,7 @@ export default function Footer() {
                 <span className="pl-[5px]">Zamknięte</span>
               </p>
               <p className="pt-[20px] font-bold text-[18px]">
-                kontakt@mcourt.pl
+                budowy@mcourt.pl
               </p>
             </div>
             <div className="flex flex-col items-end max-[500px]:hidden">
