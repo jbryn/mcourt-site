@@ -98,7 +98,7 @@ export default function Features() {
         <div className="flex pb-[100px] pt-[60px] lg:gap-[100px] px-[20px] text-[14px] max-[800px]:flex-col max-[800px]:gap-[140px]">
           <div className="flex flex-col gap-[60px] items-center text-center">
             <Image
-              className="translate-y-[45px] rounded-[15px]"
+              className="rounded-[15px] max-w-[283px]"
               src="https://media.graphassets.com/Ans7MMCLRE2JllYwIt4z"
               loading="lazy"
               width={378}
@@ -106,7 +106,7 @@ export default function Features() {
               alt="antuka"
             />
 
-            <p className="translate-y-[95px]">
+            <p>
               Przed wykonaniem termoizolacji, temperatura w hali 28,2 *C przy
               wilgotności 89,4%
             </p>
