@@ -7,7 +7,7 @@ export default function Features() {
       <div className={styles.wrapper}>
         <div className={styles.surface}>
           <Image
-            className="lg:order-1 rotate-180"
+            className="lg:order-1"
             src="https://media.graphassets.com/467c6b3StqqT1fJa3aDI"
             loading="lazy"
             width={540}
@@ -48,7 +48,7 @@ export default function Features() {
         </div>
         <div className={styles.surface}>
           <Image
-            className="lg:order-1 rotate-180"
+            className="lg:order-1"
             src="https://media.graphassets.com/yZBAwHMLRLKuVUHIcfWZ"
             loading="lazy"
             width={540}
@@ -98,7 +98,7 @@ export default function Features() {
         <div className="flex pb-[100px] pt-[60px] lg:gap-[100px] px-[20px] text-[14px] max-[800px]:flex-col max-[800px]:gap-[140px]">
           <div className="flex flex-col gap-[60px] items-center text-center">
             <Image
-              className="rotate-90 translate-y-[45px] rounded-[15px]"
+              className="translate-y-[45px] rounded-[15px]"
               src="https://media.graphassets.com/Ans7MMCLRE2JllYwIt4z"
               loading="lazy"
               width={378}
