@@ -163,7 +163,7 @@ export default function Surfaces() {
               <p>
                 {" "}
                 Sprawdź jakie korzyści może przynieść Ci poprawa termoizolacji
-                obiektu. Zdjęcie jest w wysłanych
+                obiektu.
               </p>{" "}
             </h3>
           </div>

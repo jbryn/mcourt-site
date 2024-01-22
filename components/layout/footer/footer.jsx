@@ -66,12 +66,12 @@ export default function Footer() {
               </p>
             </div>
             <div className="flex flex-col items-end max-[500px]:hidden">
-              <p>+48 531 988 445</p>
+              <p>+48 22 643 55 62</p>
               <p>+48 507 302 897</p>
             </div>
           </div>
           <div className={styles.phone}>
-            <p>+48 531 988 445</p>
+            <p>+48 22 643 55 62</p>
             <p>+48 507 302 897</p>
           </div>
         </div>
