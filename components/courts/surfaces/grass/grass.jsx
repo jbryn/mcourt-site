@@ -21,15 +21,14 @@ export default function Grass() {
                 <strong>Sztuczna trawa</strong> bardzo często jest postrzegana
                 jako uniwersalna i wielofunkcyjna <strong>nawierzchnia</strong>.
                 Nic nie stoi na przeszkodzie, aby użyć jej do budowy
-                przydomowego <strong>kortu tenisowego</strong>..
+                przydomowego <strong>kortu tenisowego</strong>.
               </p>
               <p>
                 {" "}
-                <strong>Nawierzchnie ze sztucznej trawy</strong>, z naszej
-                oferty, są trwałe i odporne na ścieranie. Doskonale sprawdzą się
-                jako korty przydomowe, ze względu na niskie nakłady czasowe
-                potrzebne na bieżącą konserwację{" "}
-                <strong>kortu tenisowego ze sztucznej trawy</strong>.
+                <strong>Nawierzchnie ze sztucznej trawy</strong> z naszej
+                oferty są trwałe i odporne na ścieranie. Doskonale sprawdzą się
+                jako korty przydomowe, bo wymagają bardzo mało czasu na
+                bieżącą konserwację.
               </p>{" "}
             </h3>
           </div>
@@ -72,7 +71,7 @@ export default function Grass() {
               <p>
                 <strong>Piasek na nawierzchni kortu</strong> pomaga w utrzymaniu
                 równomiernej wysokości trawy, co zapewnia idealne warunki gry.
-                Dodatkowo, <strong>kort zasypany piaskiem</strong> powoduje, że
+                Dodatkowo, <strong>kort zasypany piaskiem</strong> powoduje, że{" "}
                 <strong>nawierzchnia tenisowa</strong> jest bardziej stabilna,
                 co minimalizuje ryzyko poślizgnięcia się i zapewnia większe
                 bezpieczeństwo dla graczy.

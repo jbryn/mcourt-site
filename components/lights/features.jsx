@@ -38,7 +38,7 @@ export default function Features() {
           <div className={styles.description}>
             <h2>Proponowane oprawy</h2>
             <h3>
-              Nasze lampy <strong>Ledcourt</strong> są dziełem niemieckiego
+              Nasze lampy{" "}<strong>Ledcourt</strong> są dziełem niemieckiego
               producenta o wieloletnim doświadczeniu w branży oświetleniowej.
               Projektowane z myślą o kortach tenisowych, te{" "}
               <strong>profesjonalne lampy LED</strong> są znane ze swojej
@@ -81,14 +81,14 @@ export default function Features() {
               <p>Przykładowy system rozmieszczenia słupów na korcie</p>
               <ul className="pl-[20px]">
                 <li>
-                  <strong>Minimalny poziom oświetlenia: 300 luksów</strong>
+                  <strong>minimalny poziom oświetlenia: 300 luksów</strong>,
                 </li>
                 <li>
-                  Typ lamp: <strong>Ledcourt Standard+ 300W</strong>
+                  typ lamp: <strong>Ledcourt Standard+ 300W</strong>,
                 </li>
                 <li>
-                  Rozmieszczenie: 4 słupy w czterech punktach wokół kortu, z
-                  dwoma lampami na każdym
+                  rozmieszczenie: 4 słupy w czterech punktach wokół kortu, z
+                  dwoma lampami na każdym.
                 </li>
               </ul>
             </h3>

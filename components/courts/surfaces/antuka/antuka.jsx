@@ -20,11 +20,11 @@ export default function Antuka() {
               <p>
                 <strong>Korty ceglane</strong> charakteryzują się niezwykle
                 przyjaznym dla zawodników stylem gry, pozwalając na rozwinięcie
-                pełnego potencjału umiejętności. Elastyczność i miękkość{" "}
-                <strong>kortów tenisowych</strong> z mączki zapewniają wysokie
+                pełnego potencjału umiejętności. Elastyczność{" "}
+                <strong>kortów tenisowych</strong> z mączki zapewnia wysokie
                 odbicie piłki, co daje tenisistom większą kontrolę nad jej
                 trajektorią. To właśnie na{" "}
-                <strong>nawierzchniach tenisowych ceglanych</strong>
+                <strong>nawierzchniach tenisowych ceglanych{" "}</strong>
                 można doświadczyć niezwykłych efektów rotacji piłki, co stanowi
                 znaczącą przewagę podczas rywalizacji.
               </p>

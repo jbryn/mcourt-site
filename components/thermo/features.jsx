@@ -78,11 +78,11 @@ export default function Features() {
           <div className={styles.description}>
             <h2>Termoizolacja = Oszczędność</h2>
             <h3>
-              Przede wszystkim – dobrze wykonana termoizolacja hal pozwoli
-              <strong>znacząco obniżyć koszty ogrzewania</strong> - a same{" "}
+              Przede wszystkim dobrze wykonana termoizolacja hal pozwoli{" "}
+              <strong>znacząco obniżyć koszty ogrzewania</strong> a same{" "}
               <strong>oszczędności</strong> mogą sięgać nawet do{" "}
-              <strong>80%</strong>. Po zaizolowaniu hal wewnątrz poprawiają się
-              znacznie lepsze warunki. Przykładowo latem temperatura jest o
+              <strong>80%</strong>. Po zaizolowaniu hal mamy dużo lepsze warunki do
+              treningu. Przykładowo latem temperatura jest o
               około <strong>15°C niższa</strong> niż na zewnątrz, co sprawia, że
               hala jest przyjemnie chłodniejsza. Zimą natomiast{" "}
               <strong>utrzymuje się ciepło</strong>, a temperatura w hali rano

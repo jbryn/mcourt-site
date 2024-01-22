@@ -90,7 +90,7 @@ export default function Features() {
                   sztuczna trawa
                 </strong>
                 . Jest to <strong>nawierzchnia syntetyczna</strong>, składająca
-                się z mocnego i elastycznego podkładu w który wtkane są włókna.
+                się z mocnego i elastycznego podkładu, w który wtkane są włókna.
               </p>
               <p>
                 Najczęściej stosowana jest sztuczna trawa w kolorze niebieskim.
@@ -110,12 +110,12 @@ export default function Features() {
           <div className={styles.description}>
             <h2>Oświetlenie</h2>
             <h3>
-              Bardzo ważnym aspektem przy budowie kortu do padla jest
+              Bardzo ważnym aspektem przy budowie kortu do padla jest{" "}
               <strong>odpowiednie oświetlenie</strong>, które ma decydujący
-              wpływ na grę po zmroku. Piłka musi być bardzo dobrze widoczna jak
+              wpływ na grę po zmroku. Piłka musi być bardzo dobrze widoczna, jak
               i zawodnicy znajdujący się na korcie. Rekomendowane jest
-              oświetlenie lampami LED dające minimum 200 luksów. Oświetlenie na
-              tym poziomie znajduje się w systemie standard, składa się ono z 4
+              oświetlenie lampami LED, dające minimum 200 luksów. Oświetlenie, na
+              tym poziomie, znajduje się w systemie Standard, składa się ono z 4
               lamp zamontowanych na czterech słupach o wysokości 6m wokół całego
               kortu. Oświetlenie na poziomie 300 luksów montujemy w systemie
               Panorama. Składa się ono z 8 lamp, które montowane są na czterech
@@ -136,13 +136,13 @@ export default function Features() {
           <div className={styles.description}>
             <h2>System Standard</h2>
             <h3>
-              <strong>Konstrukcja kortu</strong> w systemie standard wykonana
+              <strong>Konstrukcja kortu</strong> w systemie Standard wykonana
               jest z stalowych ocynkowanych profili zamkniętych malowanych
               proszkowo. Ściany boczne łączone są za pomocą śrub do słupów
               ogrodzeniowych, zbudowane są z ram wypełnionych siatką malowaną
-              proszkowo.
+              proszkowo.{" "}
               <strong>Przeszklenia kortu</strong> na ścianach końcowych i
-              bocznych na odcinku czterometrowym od narożników składają się z
+              bocznych, na odcinku czterometrowym od narożników, składają się z
               szkła hartowanego o grubości 10mm.
             </h3>
           </div>
@@ -159,8 +159,8 @@ export default function Features() {
           <div className={styles.description}>
             <h2>System Panorama</h2>
             <h3>
-              Konstrukcja kortu w systemie panorama bazuje na takich samych
-              elementach jak w przypadku systemu standard za wyjątkiem szkła
+              Konstrukcja kortu w systemie Panorama bazuje na takich samych
+              elementach, jak w przypadku systemu Standard, za wyjątkiem szkła
               hartowanego, które w tym wypadku ma grubość 12mm. Nazwa panorama
               wywodzi się z zwiększonej widoczności kortu, spowodowanej
               usunięciem słupów w miejscach przeszkleń tj. na ścianach końcowych

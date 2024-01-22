@@ -23,16 +23,16 @@ export default function Acryl() {
                 <strong>nawierzchni kortów tenisowych</strong>.{" "}
                 <strong>Akrylowe korty tenisowe</strong> są wykorzystywane na
                 największych i najbardziej prestiżowych turniejach, takich jak{" "}
-                <strong>Australian Open, US Open, Miami Open</strong> czy
+                <strong>Australian Open, US Open, Miami Open</strong> czy{" "}
                 <strong>turnieje tenisowe serii Masters</strong> oraz wiele
                 innych. <strong>Nawierzchnia akrylowa</strong> zapewnia
-                niezrównaną jakość gry i dynamiczne doświadczenie tenisowe
-                zarówno dla profesjonalistów jak i amatorów.
+                niezrównaną jakość gry i dynamiczne doświadczenie tenisowe,
+                zarówno dla profesjonalistów, jak i amatorów.
               </p>
               <p>
                 {" "}
                 Dołącz do grona tych, którzy wybierają jakość i doświadczenie{" "}
-                <strong>Laykold</strong>, i przekształć swój kort tenisowy w
+                <strong>Laykold</strong> i przekształć swój kort tenisowy w
                 arenę mistrzów.
               </p>{" "}
             </h3>
@@ -52,19 +52,19 @@ export default function Acryl() {
             <h3>
               <ul className="px-[10px]">
                 <li>
-                  Większa ochrona stawów - Kort pokryty wysokiej jakości akrylem{" "}
+                  większa ochrona stawów - kort pokryty wysokiej jakości akrylem{" "}
                   <strong>Laykold®</strong> zapewnia równomierne odbicie, tempo
-                  i niezawodne trzymanie stopy
+                  i niezawodne trzymanie stopy,
                 </li>
                 <li>
-                  Nawierzchnia <strong>Laykold®</strong> jest oficjalną
+                  nawierzchnia <strong>Laykold®</strong> jest oficjalną
                   nawierzchnią turniejową – trenując na tej nawierzchni zawodnik
                   znacznie lepiej przygotowuje się do gry na turniejach na
-                  najwyższym poziomie
+                  najwyższym poziomie,
                 </li>
                 <li>
-                  System <strong>Laykold®</strong> w porównaniu do
-                  konkurencyjnych nawierzchni o podobnych parametrach wyróżniją
+                  system <strong>Laykold®</strong> w porównaniu do
+                  konkurencyjnych nawierzchni o podobnych parametrach, wyróżniają
                   się 14% lepszym efektem amortyzacji, zmniejszając ryzyko
                   powstawania kontuzji.
                 </li>
