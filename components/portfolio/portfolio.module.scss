@@ -1,0 +1,42 @@
+.portfolio {
+    .categories {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+        padding-inline: 260px;
+
+        button {
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+
+            &.selected {
+                background-color: #d0d0d0;
+            }
+
+            &:hover {
+                background-color: #e0e0e0;
+            }
+        }
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+        padding-top: 60px;
+        padding-inline: 100px;
+
+
+        img {
+            // max-width: 600px;
+            aspect-ratio: 16 / 9;
+            height: auto;
+            border-radius: 16px;
+            box-shadow: inset 0 100px 100px red;
+        }
+
+
+    }
+}

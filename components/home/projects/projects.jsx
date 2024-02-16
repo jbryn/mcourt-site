@@ -39,6 +39,28 @@ export default function Projects() {
       >
         <SwiperSlide>
           <div className={styles.card}>
+
+            <Image
+              className="self-center"
+              src="https://media.graphassets.com/nT2JdqUQWiC7bc4R4Q7C"
+              width={236}
+              height={236}
+              loading="eager"
+              alt="project1"
+            />
+            {/* <div className=" grid place-items-center">
+              <img src="https://media.graphassets.com/nT2JdqUQWiC7bc4R4Q7C" alt="project1" />
+            </div> */}
+
+            <h3 className="pt-[60px]">Zobacz wszystkie realizacje</h3>
+            <Link href="/portfolio">
+              <span>Dowiedz się więcej</span>
+              <img src="./icons/little-arrow.svg" alt="arrow" />
+            </Link>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className={styles.card}>
             <Image
               className={styles.thumbnail}
               src="https://media.graphassets.com/bPjA4uPtQxurLqETiVQZ"
