@@ -52,6 +52,10 @@ export default function Header() {
             <Link href="/pickelball">Pickelball</Link>
           </li>
 
+          <li>
+            <Link href="/realizacje">Realizacje</Link>
+          </li>
+
           <li
             className={styles.contact}
             onClick={() => {

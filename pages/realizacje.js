@@ -5,7 +5,7 @@ import Portfolio from '../components/portfolio/portfolio';
 import Contact from "@/components/home/contact/contact";
 
 const PortfolioPage = () => {
-    const categories = ['korty akrylowe', 'korty ceglane', 'sztuczna trawa', 'hale tenisowe']; // replace with your actual categories
+    const categories = ['wszystkie', 'korty akrylowe', 'korty ceglane', 'sztuczna trawa', 'hale tenisowe']; // replace with your actual categories
 
     return (
         <>
