@@ -60,33 +60,22 @@ export default function PrywatnyMalopolskaPage() {
                         <h1 className="text-[26px] max-[600px]:text-[20px] font-bold">
                             Nasza firma zrealizowała tę innowacyjną inwestycję prywatną, starannie wykonując każdy etap procesu. Nasz zakres prac obejmował kompleksowe przygotowanie podbudowy, profesjonalne ułożenie płyty betonowej, montaż solidnego ogrodzenia oraz, co najważniejsze, zastosowanie najwyższej jakości nawierzchni kortu tenisowego.
                         </h1>
-
-                        {/* <Article
-                            imageUrl={"https://media.graphassets.com/r4TRVtSPRyOHXAFtBAHL"}
-                            description={`Nowoczesny obiekt oferuje różnorodność dla graczy, dysponując
-                dwoma zadaszonymi halami łukowymi, na których znajdują się korty
-                Laykold Masters 5. To zapewnia doskonałe warunki gry niezależnie
-                od pogody. Dodatkowo, obiekt posiada dwa zewnętrzne korty z
-                nawierzchnią Antuka Premium, dla tych, którzy cenią świeże
-                powietrze i naturalne oświetlenie.`}
-                        />
-                        <Article
-                            imageUrl={"https://media.graphassets.com/LA1Z0pQeTPSiT3rQ6edR"}
-                            description={`Korty Laykold Masters 5 to synonim trwałości i doskonałych
-                właściwości gry, podczas gdy nawierzchnia Antuka Premium
-                dostarcza autentyczne doznania z gry na kortach ziemnych. Obiekt
-                Kortmax został starannie zaprojektowany, aby sprostać
-                oczekiwaniom zarówno początkujących, jak i doświadczonych
-                tenisistów.`}
-                            inverted
-                        /> */}
+                        <h2>
+                            Nawierzchnia Laykold Masters 5, znana z prestiżowego turnieju US Open, to gwarancja doskonałych warunków do gry. Dzięki niej możesz doświadczyć niepowtarzalnego komfortu i precyzji podczas każdego uderzenia. Jest to doskonały wybór dla wszystkich miłośników tenisa, którzy pragną doskonalić swoje umiejętności na profesjonalnym poziomie.
+                        </h2>
+                        <h2>
+                            Oferując kompleksowe usługi, zapewniamy nie tylko wysoką jakość nawierzchni, ale także pełne wsparcie w realizacji Twoich potrzeb. Nasz zespół doświadczonych specjalistów zadbał o każdy detal, abyś mógł cieszyć się kompletnym i funkcjonalnym kortem tenisowym.
+                        </h2>
+                        <h2>
+                            Skontaktuj się z nami już dziś, aby dowiedzieć się więcej o oferowanych przez nas nawierzchniach tenisowych.
+                        </h2>
                     </div>
                 </section>
                 <section className="grid place-items-center gap-[60px]">
-                    <div className="grid grid-cols-2 justify-center justify-items-center gap-[10px] px-[20px]">
+                    <div className="grid grid-cols-1 md:grid-cols-2 justify-center justify-items-center gap-[10px] px-[20px]">
                         {images.map((image, index) => (
                             <Image
-                                className={`lg:h-[330px] rounded-[15px] ${index % 2 == 0 ? "justify-self-end" : "justify-self-start"
+                                className={`lg:h-[330px] rounded-[15px] aspect-video ${index % 2 == 0 ? "justify-self-end" : "justify-self-start"
                                     }`}
                                 key={index}
                                 src={image}
@@ -96,14 +85,7 @@ export default function PrywatnyMalopolskaPage() {
                             />
                         ))}
                     </div>
-                    {/* <h2 className="max-w-[1000px] text-[26px] max-[600px]:text-[20px] font-bold px-[20px]">
-                        Jesteśmy dumni z faktu, że mogliśmy przyczynić się do rozwoju tenisa
-                        w lokalnej społeczności. Zapraszamy zarówno miłośników tej
-                        dyscypliny, jak i osoby, które dopiero zaczynają swoją przygodę z
-                        tenisem. Korty tenisowe Kortmax to miejsce, gdzie sport staje się
-                        pasją, a każdy ma szansę odkryć radość gry na kortach wykonanych z
-                        pasji.
-                    </h2> */}
+
                 </section>
 
                 <Contact

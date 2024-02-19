@@ -10,7 +10,7 @@ const imagesData = {
         { id: '1', src: 'https://media.graphassets.com/XGvyv53ORjqnVccqdm27', title: 'Grodzisk Mazowiecki', alt: 'Image 2', href: '/hale-tenisowe-grodzisk' },
         { id: '2', src: 'https://media.graphassets.com/MfKX9WXrQq257vDpGApk', title: 'Kozerki', alt: 'Image 2', href: '/akademia-tenisa-kozerki' },
         { id: '3', src: 'https://media.graphassets.com/89fKLvxRNeSHV8h5rQWQ', title: 'Prywatny Małopolska US Open', alt: 'Image 2', href: '/realizacje/prywatny-malopolska' },
-        { id: '4', src: 'https://media.graphassets.com/MJFer4wtRaGOMmmAhNe3', title: 'Prywatny Mazowsze', alt: 'Image 2', href: '/' },
+        { id: '4', src: 'https://media.graphassets.com/MJFer4wtRaGOMmmAhNe3', title: 'Prywatny Mazowsze', alt: 'Image 2', href: '/realizacje/prywatny-mazowsze' },
         { id: '5', src: 'https://media.graphassets.com/IEFVsQwqTHO3niZGSIvF', title: 'Prywatny Warmia', alt: 'Image 2', href: '/' },
         { id: '6', src: 'https://media.graphassets.com/x7yovZqFS6m2vH1UbWuY', title: 'Prywatny Mazowieckie', alt: 'Image 2', href: '/' },
         { id: '7', src: 'https://media.graphassets.com/C2u5SekYTWq4l3iFcmDI', title: 'Wrocław', alt: 'Image 2', href: '/' },
