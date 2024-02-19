@@ -17,7 +17,7 @@ const images = [
     "https://media.graphassets.com/QrhA0026QBm74ylRqguR",
 ];
 
-export default function PrywatnyMalopolskaPage() {
+export default function PrywatnyMazowszePage() {
     return (
         <>
             <Head>
