@@ -1,0 +1,62 @@
+.wrapper {
+    @apply absolute top-0 h-[721px] w-[100vw];
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+
+    .hero {
+        @apply flex flex-col pt-[140px] text-white;
+        @apply pl-[100px] gap-[20px];
+        @apply min-[1500px]:pl-[300px];
+        @apply max-[660px]:pl-[30px];
+
+        h1 {
+            @apply text-[65px] font-semibold max-w-[400px];
+            @apply max-[660px]:text-[30px];
+        }
+
+        h2 {
+            @apply max-w-[462px] pr-[30px];
+            @apply max-[660px]:text-[14px];
+        }
+
+        .cta {
+            @apply px-[35px] py-[10px] rounded-md;
+            @apply text-white text-[14px] max-w-[149px];
+            @apply bg-green z-20;
+            transition: all 0.3s;
+
+            &:hover {
+                filter: brightness(0.8);
+            }
+        }
+
+        svg {
+            transition: all 0.3s;
+        }
+
+        svg:hover {
+            @apply cursor-pointer;
+            filter: brightness(1.5);
+        }
+    }
+
+    .scrollDown {
+        svg {
+            @apply pt-[120px];
+        }
+    }
+
+    .ball {
+        @apply absolute top-0 right-0 z-10;
+    }
+
+    .background {
+        @apply absolute top-0 -z-20;
+        @apply w-[1000px];
+        @apply h-[721px];
+        object-fit: cover;
+
+        filter: brightness(0.3);
+    }
+}

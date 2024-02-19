@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import Link from "next/link";
+import classNames from 'classnames';
 import { motion } from 'framer-motion';
 
 import styles from './portfolio.module.scss';
@@ -53,16 +55,22 @@ const Portfolio = ({ categories }) => {
 
     return (
         <div className={styles.portfolio}>
-            <div className={styles.categories}>
-                {categories.map(category => (
-                    <button
-                        key={category}
-                        className={selectedCategory === category ? styles.selected : ''}
-                        onClick={() => setSelectedCategory(category)}
-                    >
-                        {category}
-                    </button>
-                ))}
+            <div className="grid grid-cols-4 mb-[20px] mx-[100px] border-green border-[1px] rounded-2xl">
+                {categories.map((category, index) => {
+                    const isFirst = index === 0;
+                    const isLast = index === categories.length - 1;
+                    const borderRadiusClass = isFirst ? 'rounded-l-xl' : isLast ? 'rounded-r-xl' : '';
+
+                    return (
+                        <button
+                            key={category}
+                            className={classNames(styles.category, borderRadiusClass, selectedCategory === category ? 'bg-green text-white' : 'p-[10px] border-green border-r-[1px] text-green')}
+                            onClick={() => setSelectedCategory(category)}
+                        >
+                            {category}
+                        </button>
+                    );
+                })}
             </div>
             <Gallery key={selectedCategory} category={selectedCategory} />
         </div>
@@ -72,6 +80,9 @@ const Portfolio = ({ categories }) => {
 const Gallery = ({ category }) => {
     // Fetch or import your images based on the category
     const images = getImagesForCategory(category);
+
+    const [loaded, setLoaded] = useState(false);
+
 
     const variants = {
         hidden: { opacity: 0 },
@@ -84,22 +95,37 @@ const Gallery = ({ category }) => {
     };
 
     return (
-        <div className={styles.gallery}>
+        <div className="grid grid-cols-2 gap-2 pt-[60px] px-[20px] sm:px-[100px] sm:grid-cols-3">
             {images.map((image, i) => (
-                <div key={image.id} className='relative'>
-                    <motion.img
+                <motion.div
+                    className='relative'
+                    key={image.id}
+                    variants={variants}
+                    initial="hidden"
+                    animate="visible"
+                    custom={i}
+                    whileHover="visible"
+                >
+                    <div
+                        className='aspect-video rounded-2xl'
+                        style={{
+                            backgroundImage: `url(${image.src})`,
+                            backgroundPosition: 'center',
+                            backgroundSize: 'cover',
+                            backgroundRepeat: 'no-repeat'
+
+                        }}
+                    />
+                    {/* <img
+                        className='aspect-video rounded-2xl'
                         src={image.src}
                         alt={image.alt}
-                        variants={variants}
-                        initial="hidden"
-                        animate="visible"
-                        custom={i}
-                        whileHover="visible"
-                    />
-                    <p>
+                        onLoad={() => setLoaded(true)}
+                    /> */}
+                    <div className='absolute w-full h-[50px] backdrop-brightness-75 bottom-0 rounded-b-2xl flex justify-center items-center text-white font-semibold'>
                         {image.title}
-                    </p>
-                </div>
+                    </div>
+                </motion.div>
             ))}
         </div>
     );

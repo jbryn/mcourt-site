@@ -1,24 +1,16 @@
 .portfolio {
-    .categories {
-        display: flex;
-        justify-content: space-around;
-        margin-bottom: 20px;
-        padding-inline: 260px;
 
-        button {
-            border: none;
-            padding: 10px 20px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
+    height: 120vh;
 
-            &.selected {
-                background-color: #d0d0d0;
-            }
+    .category {
+        text-transform: uppercase;
+        font-weight: 700;
+        @apply transition-all;
 
-            &:hover {
-                background-color: #e0e0e0;
-            }
-        }
+        // &:hover {
+        //     color: white;
+        //     background-color: #D3D3D3;
+        // }
     }
 
     .gallery {
@@ -34,9 +26,37 @@
             aspect-ratio: 16 / 9;
             height: auto;
             border-radius: 16px;
-            box-shadow: inset 0 100px 100px red;
         }
 
 
+    }
+
+    .cards {
+        @apply grid grid-cols-2 grid-rows-3 gap-[29px] justify-items-center;
+        @apply min-[1140px]:grid-cols-3 min-[1140px]:grid-rows-2;
+        @apply pt-[52px];
+
+        a {
+            @apply flex flex-col justify-end items-center rounded-[15px];
+            @apply cursor-pointer w-full max-w-[360px] h-[260px] p-[20px];
+
+            background-size: cover;
+            background-repeat: no-repeat;
+            transition: all 0.1s;
+            filter: brightness(0.9);
+
+            img {
+                @apply rounded-[10px];
+            }
+
+            h3 {
+                @apply text-white font-semibold;
+                @apply max-[400px]:text-[12px];
+            }
+
+            &:hover {
+                transform: scale(1.01);
+            }
+        }
     }
 }
