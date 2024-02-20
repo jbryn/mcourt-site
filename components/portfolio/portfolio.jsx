@@ -9,68 +9,84 @@ const imagesData = {
     'wszystkie': [
         { id: '1', src: 'https://media.graphassets.com/XGvyv53ORjqnVccqdm27', title: 'Akademia Tenisa Kozerki - Filia Grodzisk Mazowiecki', alt: 'Image 2', href: '/hale-tenisowe-grodzisk' },
         { id: '2', src: 'https://media.graphassets.com/MfKX9WXrQq257vDpGApk', title: 'Polskie Centrum Szkoleniowe PZT - Kozerki', alt: 'Image 2', href: '/akademia-tenisa-kozerki' },
-        { id: '3', src: 'https://media.graphassets.com/89fKLvxRNeSHV8h5rQWQ', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-malopolska' },
-        { id: '4', src: 'https://media.graphassets.com/MJFer4wtRaGOMmmAhNe3', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-mazowsze' },
-        { id: '5', src: 'https://media.graphassets.com/IEFVsQwqTHO3niZGSIvF', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-warmia' },
-        { id: '6', src: 'https://media.graphassets.com/x7yovZqFS6m2vH1UbWuY', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-mazowieckie' },
-        { id: '7', src: 'https://media.graphassets.com/C2u5SekYTWq4l3iFcmDI', title: 'Szkoła Podstawowa nr: 72 - Wrocław', alt: 'Image 2', href: '/' },
-        { id: '8', src: 'https://media.graphassets.com/mTGgax3RxCRBbP6NdkOw', title: 'Hala w Szkole Podstawowej nr: 72 - Wrocław', alt: 'Image 2', href: '/' },
+        { id: '26', src: 'https://media.graphassets.com/bPjA4uPtQxurLqETiVQZ', title: 'Kortmax - Łaźniewek', alt: 'Image 2', href: '/korty-lazniewek' },
         { id: '9', src: 'https://media.graphassets.com/CeGywygMQFG5aAZWjSA9', title: 'Antuka Tenis Klub - Częstochowa', alt: 'Image 2', href: '/' },
-        { id: '10', src: 'https://media.graphassets.com/9qdgihK1SkGgUVtVlsRw', title: 'Kort prywatny', alt: 'Image 2', href: '/' },
-        { id: '11', src: 'https://media.graphassets.com/gRsQr6SQy8CaJSZ0oKAV', title: 'Kort prywatny', alt: 'Image 2', href: '/' },
-        { id: '12', src: 'https://media.graphassets.com/ULNthdorSK15hIpsNOMA', title: 'Ośrodek wypoczynkowy - Świerkocin', alt: 'Image 2', href: '/' },
-        { id: '13', src: 'https://media.graphassets.com/K6b6golKRMeJOZaG3MjG', title: 'Kort prywatny', alt: 'Image 2', href: '/' },
+
         { id: '14', src: 'https://media.graphassets.com/R8mvuD0CRc4vPLcWiYTG', title: 'OSiR Wawer - Warszawa', alt: 'Image 2', href: '/' },
         { id: '15', src: 'https://media.graphassets.com/87A71ICSdizs9OXV32Tg', title: 'OSiR Dębno - Dębno', alt: 'Image 2', href: '/' },
-        { id: '16', src: 'https://media.graphassets.com/1Vvwps9gTDaWbHp3TLpd', title: 'Kort prywatny', alt: 'Image 2', href: '/' },
-        { id: '17', src: 'https://media.graphassets.com/HBJvx3IFT22tvWmrZts1', title: 'Kort prywatny', alt: 'Image 2', href: '/' },
+
+        { id: '3', src: 'https://media.graphassets.com/89fKLvxRNeSHV8h5rQWQ', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-malopolska' },
+        { id: '20', src: 'https://media.graphassets.com/0IlxCJGoQvSlovFzofhH', title: 'MentorSport - Toruń', alt: 'Image 2', href: '/' },
+
+        { id: '4', src: 'https://media.graphassets.com/MJFer4wtRaGOMmmAhNe3', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-mazowsze' },
+        { id: '23', src: 'https://media.graphassets.com/2gYQ1eFTXO5qniZgsTik', title: 'Centrum Kultury - Wola Gołkowska', alt: 'Image 2', href: '/' },
+
+        { id: '5', src: 'https://media.graphassets.com/IEFVsQwqTHO3niZGSIvF', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-warmia' },
+        { id: '25', src: 'https://media.graphassets.com/5zdtLaRRAiYinj5jzoaA', title: 'Gnieźnieński Klub Tenisowy - Gniezno', alt: 'Image 2', href: '/' },
+
+
         { id: '18', src: 'https://media.graphassets.com/wpifDb23TiWSSvqEjfgg', title: 'Kort prywatny', alt: 'Image 2', href: '/' },
         { id: '19', src: 'https://media.graphassets.com/rshTKxZsQeKpEWFuQnsH', title: 'Kort prywatny', alt: 'Image 2', href: '/' },
-        { id: '20', src: 'https://media.graphassets.com/0IlxCJGoQvSlovFzofhH', title: 'MentorSport - Toruń', alt: 'Image 2', href: '/' },
+        { id: '7', src: 'https://media.graphassets.com/C2u5SekYTWq4l3iFcmDI', title: 'Szkoła Podstawowa nr: 72 - Wrocław', alt: 'Image 2', href: '/' },
+
+        { id: '10', src: 'https://media.graphassets.com/9qdgihK1SkGgUVtVlsRw', title: 'Kort prywatny', alt: 'Image 2', href: '/' },
+        { id: '8', src: 'https://media.graphassets.com/mTGgax3RxCRBbP6NdkOw', title: 'Hala w Szkole Podstawowej nr: 72 - Wrocław', alt: 'Image 2', href: '/' },
+
+
+        { id: '11', src: 'https://media.graphassets.com/gRsQr6SQy8CaJSZ0oKAV', title: 'Kort prywatny', alt: 'Image 2', href: '/' },
+        { id: '12', src: 'https://media.graphassets.com/ULNthdorSK15hIpsNOMA', title: 'Ośrodek wypoczynkowy - Świerkocin', alt: 'Image 2', href: '/' },
+
+        { id: '13', src: 'https://media.graphassets.com/K6b6golKRMeJOZaG3MjG', title: 'Kort prywatny', alt: 'Image 2', href: '/' },
+        { id: '24', src: 'https://media.graphassets.com/DtM9zRUuTHaZVFa2vwAk', title: 'Klub Sportowy Czarni - Rzeszów', alt: 'Image 2', href: '/' },
+
+        { id: '16', src: 'https://media.graphassets.com/1Vvwps9gTDaWbHp3TLpd', title: 'Kort prywatny', alt: 'Image 2', href: '/' },
+        { id: '17', src: 'https://media.graphassets.com/HBJvx3IFT22tvWmrZts1', title: 'Kort prywatny', alt: 'Image 2', href: '/' },
+        { id: '6', src: 'https://media.graphassets.com/x7yovZqFS6m2vH1UbWuY', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-mazowieckie' },
+
+
         { id: '21', src: 'https://media.graphassets.com/sQr7dglMRRG7I9FC5120', title: 'Kort prywatny', alt: 'Image 2', href: '/' },
         { id: '22', src: 'https://media.graphassets.com/haQeipTzTfyoYPasozX8', title: 'Korty prywatny', alt: 'Image 2', href: '/' },
-        { id: '23', src: 'https://media.graphassets.com/2gYQ1eFTXO5qniZgsTik', title: 'Centrum Kultury - Wola Gołkowska', alt: 'Image 2', href: '/' },
-        { id: '24', src: 'https://media.graphassets.com/DtM9zRUuTHaZVFa2vwAk', title: 'Klub Sportowy Czarni - Rzeszów', alt: 'Image 2', href: '/' },
-        { id: '25', src: 'https://media.graphassets.com/5zdtLaRRAiYinj5jzoaA', title: 'Gnieźnieński Klub Tenisowy - Gniezno', alt: 'Image 2', href: '/' },
-        { id: '26', src: 'https://media.graphassets.com/bPjA4uPtQxurLqETiVQZ', title: 'Kortmax - Łaźniewek', alt: 'Image 2', href: '/korty-lazniewek' },
         // more images...
     ],
     'korty akrylowe': [
         { id: '28', src: 'https://media.graphassets.com/XGvyv53ORjqnVccqdm27', title: 'Akademia Tenisa Kozerki - Filia Grodzisk Mazowiecki', alt: 'Image 2', href: '/hale-tenisowe-grodzisk' },
         { id: '29', src: 'https://media.graphassets.com/MfKX9WXrQq257vDpGApk', title: 'Polskie Centrum Szkoleniowe PZT - Kozerki', alt: 'Image 2', href: '/akademia-tenisa-kozerki' },
+        { id: '34', src: 'https://media.graphassets.com/C2u5SekYTWq4l3iFcmDI', title: 'Szkoła Podstawowa nr: 72 - Wrocław', alt: 'Image 2', href: '/' },
+        { id: '35', src: 'https://media.graphassets.com/mTGgax3RxCRBbP6NdkOw', title: 'Hala w Szkole Podstawowej nr: 72 - Wrocław', alt: 'Image 2', href: '/' },
+
         { id: '30', src: 'https://media.graphassets.com/89fKLvxRNeSHV8h5rQWQ', title: 'Kort prywatny', alt: 'Image 2', href: '/' },
         { id: '31', src: 'https://media.graphassets.com/MJFer4wtRaGOMmmAhNe3', title: 'Kort prywatny', alt: 'Image 2', href: '/' },
         { id: '32', src: 'https://media.graphassets.com/IEFVsQwqTHO3niZGSIvF', title: 'Kort prywatny', alt: 'Image 2', href: '/' },
         { id: '33', src: 'https://media.graphassets.com/x7yovZqFS6m2vH1UbWuY', title: 'Kort prywatny', alt: 'Image 2', href: '/' },
-        { id: '34', src: 'https://media.graphassets.com/C2u5SekYTWq4l3iFcmDI', title: 'Szkoła Podstawowa nr: 72 - Wrocław', alt: 'Image 2', href: '/' },
-        { id: '35', src: 'https://media.graphassets.com/mTGgax3RxCRBbP6NdkOw', title: 'Hala w Szkole Podstawowej nr: 72 - Wrocław', alt: 'Image 2', href: '/' },
         // more images...
     ],
     'korty ceglane': [
         { id: '36', src: 'https://media.graphassets.com/CeGywygMQFG5aAZWjSA9', title: 'Antuka Tenis Klub - Częstochowa', alt: 'Image 2', href: '/' },
-        { id: '37', src: 'https://media.graphassets.com/9qdgihK1SkGgUVtVlsRw', title: 'Kort prywatny', alt: 'Image 2', href: '/' },
-        { id: '38', src: 'https://media.graphassets.com/gRsQr6SQy8CaJSZ0oKAV', title: 'Kort prywatny', alt: 'Image 2', href: '/' },
+        { id: '41', src: 'https://media.graphassets.com/R8mvuD0CRc4vPLcWiYTG', title: 'OSiR Wawer - Warszawa', alt: 'Image 2', href: '/' },
         { id: '39', src: 'https://media.graphassets.com/ULNthdorSK15hIpsNOMA', title: 'Ośrodek wypoczynkowy - Świerkocin', alt: 'Image 2', href: '/' },
         { id: '40', src: 'https://media.graphassets.com/K6b6golKRMeJOZaG3MjG', title: 'Kort prywatny', alt: 'Image 2', href: '/' },
-        { id: '41', src: 'https://media.graphassets.com/R8mvuD0CRc4vPLcWiYTG', title: 'OSiR Wawer - Warszawa', alt: 'Image 2', href: '/' },
+        { id: '37', src: 'https://media.graphassets.com/9qdgihK1SkGgUVtVlsRw', title: 'Kort prywatny', alt: 'Image 2', href: '/' },
+        { id: '38', src: 'https://media.graphassets.com/gRsQr6SQy8CaJSZ0oKAV', title: 'Kort prywatny', alt: 'Image 2', href: '/' },
         // more images...
     ],
     'sztuczna trawa': [
         { id: '42', src: 'https://media.graphassets.com/87A71ICSdizs9OXV32Tg', title: 'OSiR Dębno - Dębno', alt: 'Image 2', href: '/' },
+        { id: '47', src: 'https://media.graphassets.com/0IlxCJGoQvSlovFzofhH', title: 'MentorSport - Toruń', alt: 'Image 2', href: '/' },
+        { id: '50', src: 'https://media.graphassets.com/2gYQ1eFTXO5qniZgsTik', title: 'Centrum Kultury - Wola Gołkowska', alt: 'Image 2', href: '/' },
+
         { id: '43', src: 'https://media.graphassets.com/1Vvwps9gTDaWbHp3TLpd', title: 'Kort prywatny', alt: 'Image 2', href: '/' },
         { id: '44', src: 'https://media.graphassets.com/HBJvx3IFT22tvWmrZts1', title: 'Kort prywatny', alt: 'Image 2', href: '/' },
         { id: '45', src: 'https://media.graphassets.com/wpifDb23TiWSSvqEjfgg', title: 'Kort prywatny', alt: 'Image 2', href: '/' },
         { id: '46', src: 'https://media.graphassets.com/rshTKxZsQeKpEWFuQnsH', title: 'Kort prywatny', alt: 'Image 2', href: '/' },
-        { id: '47', src: 'https://media.graphassets.com/0IlxCJGoQvSlovFzofhH', title: 'MentorSport - Toruń', alt: 'Image 2', href: '/' },
         { id: '48', src: 'https://media.graphassets.com/sQr7dglMRRG7I9FC5120', title: 'Kort prywatny', alt: 'Image 2', href: '/' },
         { id: '49', src: 'https://media.graphassets.com/haQeipTzTfyoYPasozX8', title: 'Kort prywatny', alt: 'Image 2', href: '/' },
-        { id: '50', src: 'https://media.graphassets.com/2gYQ1eFTXO5qniZgsTik', title: 'Centrum Kultury - Wola Gołkowska', alt: 'Image 2', href: '/' },
+
     ],
     'hale tenisowe': [
-        { id: '51', src: 'https://media.graphassets.com/DtM9zRUuTHaZVFa2vwAk', title: 'Klub Sportowy Czarni - Rzeszów', alt: 'Image 2', href: '/' },
-        { id: '52', src: 'https://media.graphassets.com/5zdtLaRRAiYinj5jzoaA', title: 'Gnieźnieński Klub Tenisowy - Gniezno', alt: 'Image 2', href: '/' },
         { id: '53', src: 'https://media.graphassets.com/XGvyv53ORjqnVccqdm27', title: 'Akademia Tenisa Kozerki - Filia Grodzisk Mazowiecki', alt: 'Image 2', href: '/hale-tenisowe-grodzisk' },
         { id: '54', src: 'https://media.graphassets.com/MfKX9WXrQq257vDpGApk', title: 'Polskie Centrum Szkoleniowe PZT - Kozerki', alt: 'Image 2', href: '/akademia-tenisa-kozerki' },
+        { id: '52', src: 'https://media.graphassets.com/5zdtLaRRAiYinj5jzoaA', title: 'Gnieźnieński Klub Tenisowy - Gniezno', alt: 'Image 2', href: '/' },
+        { id: '51', src: 'https://media.graphassets.com/DtM9zRUuTHaZVFa2vwAk', title: 'Klub Sportowy Czarni - Rzeszów', alt: 'Image 2', href: '/' },
     ],
     // more categories...
 };
