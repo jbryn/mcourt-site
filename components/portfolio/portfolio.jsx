@@ -15,24 +15,24 @@ const imagesData = {
         { id: '6', src: 'https://media.graphassets.com/x7yovZqFS6m2vH1UbWuY', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-mazowieckie' },
         { id: '7', src: 'https://media.graphassets.com/C2u5SekYTWq4l3iFcmDI', title: 'Szkoła Podstawowa nr: 72 - Wrocław', alt: 'Image 2', href: '/' },
         { id: '8', src: 'https://media.graphassets.com/mTGgax3RxCRBbP6NdkOw', title: 'Hala w Szkole Podstawowej nr: 72 - Wrocław', alt: 'Image 2', href: '/' },
-        { id: '9', src: 'https://media.graphassets.com/CeGywygMQFG5aAZWjSA9', title: 'Częstochowa', alt: 'Image 2', href: '/' },
-        { id: '10', src: 'https://media.graphassets.com/9qdgihK1SkGgUVtVlsRw', title: 'Łódzkie', alt: 'Image 2', href: '/' },
-        { id: '11', src: 'https://media.graphassets.com/gRsQr6SQy8CaJSZ0oKAV', title: 'Mlachowice', alt: 'Image 2', href: '/' },
-        { id: '12', src: 'https://media.graphassets.com/ULNthdorSK15hIpsNOMA', title: 'Świerkocin', alt: 'Image 2', href: '/' },
-        { id: '13', src: 'https://media.graphassets.com/K6b6golKRMeJOZaG3MjG', title: 'Pruszków', alt: 'Image 2', href: '/' },
-        { id: '14', src: 'https://media.graphassets.com/R8mvuD0CRc4vPLcWiYTG', title: 'Wawer', alt: 'Image 2', href: '/' },
-        { id: '15', src: 'https://media.graphassets.com/87A71ICSdizs9OXV32Tg', title: 'Dębno', alt: 'Image 2', href: '/' },
+        { id: '9', src: 'https://media.graphassets.com/CeGywygMQFG5aAZWjSA9', title: 'Antuka Tenis Klub - Częstochowa', alt: 'Image 2', href: '/' },
+        { id: '10', src: 'https://media.graphassets.com/9qdgihK1SkGgUVtVlsRw', title: 'Kort prywatny', alt: 'Image 2', href: '/' },
+        { id: '11', src: 'https://media.graphassets.com/gRsQr6SQy8CaJSZ0oKAV', title: 'Kort prywatny', alt: 'Image 2', href: '/' },
+        { id: '12', src: 'https://media.graphassets.com/ULNthdorSK15hIpsNOMA', title: 'Ośrodek wypoczynkowy - Świerkocin', alt: 'Image 2', href: '/' },
+        { id: '13', src: 'https://media.graphassets.com/K6b6golKRMeJOZaG3MjG', title: 'Kort prywatny', alt: 'Image 2', href: '/' },
+        { id: '14', src: 'https://media.graphassets.com/R8mvuD0CRc4vPLcWiYTG', title: 'OSiR Wawer - Warszawa', alt: 'Image 2', href: '/' },
+        { id: '15', src: 'https://media.graphassets.com/87A71ICSdizs9OXV32Tg', title: 'OSiR Dębno - Dębno', alt: 'Image 2', href: '/' },
         { id: '16', src: 'https://media.graphassets.com/1Vvwps9gTDaWbHp3TLpd', title: 'Kort prywatny', alt: 'Image 2', href: '/' },
         { id: '17', src: 'https://media.graphassets.com/HBJvx3IFT22tvWmrZts1', title: 'Kort prywatny', alt: 'Image 2', href: '/' },
         { id: '18', src: 'https://media.graphassets.com/wpifDb23TiWSSvqEjfgg', title: 'Kort prywatny', alt: 'Image 2', href: '/' },
         { id: '19', src: 'https://media.graphassets.com/rshTKxZsQeKpEWFuQnsH', title: 'Kort prywatny', alt: 'Image 2', href: '/' },
-        { id: '20', src: 'https://media.graphassets.com/0IlxCJGoQvSlovFzofhH', title: 'Mentor Toruń', alt: 'Image 2', href: '/' },
-        { id: '21', src: 'https://media.graphassets.com/sQr7dglMRRG7I9FC5120', title: 'Nowy Sącz', alt: 'Image 2', href: '/' },
-        { id: '22', src: 'https://media.graphassets.com/haQeipTzTfyoYPasozX8', title: 'Pojezierce', alt: 'Image 2', href: '/' },
-        { id: '23', src: 'https://media.graphassets.com/2gYQ1eFTXO5qniZgsTik', title: 'Wola Gąkowska', alt: 'Image 2', href: '/' },
-        { id: '24', src: 'https://media.graphassets.com/DtM9zRUuTHaZVFa2vwAk', title: 'Rzeszów', alt: 'Image 2', href: '/' },
-        { id: '25', src: 'https://media.graphassets.com/5zdtLaRRAiYinj5jzoaA', title: 'Gniezno', alt: 'Image 2', href: '/' },
-        { id: '26', src: 'https://media.graphassets.com/XGvyv53ORjqnVccqdm27', title: 'Grodzisk', alt: 'Image 2', href: '/' },
+        { id: '20', src: 'https://media.graphassets.com/0IlxCJGoQvSlovFzofhH', title: 'MentorSport - Toruń', alt: 'Image 2', href: '/' },
+        { id: '21', src: 'https://media.graphassets.com/sQr7dglMRRG7I9FC5120', title: 'Kort prywatny', alt: 'Image 2', href: '/' },
+        { id: '22', src: 'https://media.graphassets.com/haQeipTzTfyoYPasozX8', title: 'Korty prywatny', alt: 'Image 2', href: '/' },
+        { id: '23', src: 'https://media.graphassets.com/2gYQ1eFTXO5qniZgsTik', title: 'Centrum Kultury - Wola Gołkowska', alt: 'Image 2', href: '/' },
+        { id: '24', src: 'https://media.graphassets.com/DtM9zRUuTHaZVFa2vwAk', title: 'Klub Sportowy Czarni - Rzeszów', alt: 'Image 2', href: '/' },
+        { id: '25', src: 'https://media.graphassets.com/5zdtLaRRAiYinj5jzoaA', title: 'Gnieźnieński Klub Tenisowy - Gniezno', alt: 'Image 2', href: '/' },
+        { id: '26', src: 'https://media.graphassets.com/bPjA4uPtQxurLqETiVQZ', title: 'Kortmax - Łaźniewek', alt: 'Image 2', href: '/korty-lazniewek' },
         // more images...
     ],
     'korty akrylowe': [
@@ -121,7 +121,7 @@ const Gallery = ({ category }) => {
     };
 
     return (
-        <div className="grid grid-cols-1 gap-2 pt-[60px] px-[20px] md:px-[20px] md:grid-cols-3">
+        <div className="grid grid-cols-1 gap-2 pt-[60px] px-[20px] md:px-[20px] md:grid-cols-2 lg:grid-cols-3">
             {images.map((image, i) => (
                 <motion.div
                     className='relative'
