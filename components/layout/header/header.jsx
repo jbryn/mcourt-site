@@ -123,6 +123,12 @@ export default function Header() {
               Pickelball
             </Link>
           </li>
+
+          <li>
+            <Link href="/realizacje" onClick={() => setMenuOpen(false)}>
+              Realizacje
+            </Link>
+          </li>
         </ul>
       </div>
     </header>

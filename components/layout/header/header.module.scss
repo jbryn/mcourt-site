@@ -9,7 +9,7 @@
   .list {
     @apply gap-[25px] text-[14px] text-white;
     @apply hidden;
-    @apply min-[800px]:flex min-[800px]:items-center;
+    @apply min-[900px]:flex min-[900px]:items-center;
 
     li:hover {
       @apply cursor-pointer;
@@ -29,7 +29,7 @@
     @apply w-[32px];
     @apply block;
     @apply cursor-pointer;
-    @apply min-[800px]:hidden;
+    @apply min-[900px]:hidden;
   }
 }
 

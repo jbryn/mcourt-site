@@ -5,6 +5,7 @@
     .category {
         text-transform: uppercase;
         font-weight: 700;
+        padding-block: 10px;
 
         @apply transition-all text-black;
     }
