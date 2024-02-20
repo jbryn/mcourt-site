@@ -107,16 +107,19 @@ export default function Projects() {
         </SwiperSlide>
         <SwiperSlide>
           <div className={styles.card}>
-            <Image
-              className="self-center"
-              src="./icons/plus.svg"
-              width={236}
-              height={236}
-              loading="eager"
-              alt="project1"
-            />
 
-            <h3 className="pt-[60px]">Zobacz wszystkie realizacje</h3>
+            <div className="w-[236px] h-[206px] grid place-items-center">
+              <Image
+                className="self-center"
+                src="./icons/plus.svg"
+                width={166}
+                height={166}
+                loading="eager"
+                alt="project1"
+              />
+            </div>
+
+            <h3 className="pt-[60px]">Zobacz wszystkie</h3>
             <Link href="/realizacje">
               <span>Dowiedz się więcej</span>
               <img src="./icons/little-arrow.svg" alt="arrow" />
