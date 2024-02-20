@@ -109,7 +109,7 @@ const Portfolio = ({ categories }) => {
                     return (
                         <button
                             key={category}
-                            className={classNames(styles.category, borderRadiusClass, selectedCategory === category ? 'bg-green' : 'p-[10px]', !isLast && 'md:border-r-[1px] border-green')}
+                            className={classNames(styles.category, borderRadiusClass, selectedCategory === category ? 'bg-green' : 'p-[10px]', !isLast && 'border-b-[1px] md:border-r-[1px] md:border-b-0 border-green')}
                             onClick={() => setSelectedCategory(category)}
                         >
                             {category}
@@ -137,7 +137,7 @@ const Gallery = ({ category }) => {
     };
 
     return (
-        <div className="grid grid-cols-1 gap-2 pt-[60px] px-[20px] md:px-[20px] md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-2 pt-[30px] px-[20px] md:px-[20px] md:grid-cols-2 lg:grid-cols-3">
             {images.map((image, i) => (
                 <motion.div
                     className='relative'
@@ -148,8 +148,8 @@ const Gallery = ({ category }) => {
                     custom={i}
                     whileHover="visible"
                 >
-                    <Link
-                        href={image.href}
+                    <div
+                        // href={image.href}
                         className='aspect-video rounded-2xl block h-full'
                         style={{
                             backgroundImage: `url(${image.src})`,
