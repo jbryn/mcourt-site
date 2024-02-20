@@ -39,13 +39,15 @@ export default function Projects() {
       >
         <SwiperSlide>
           <div className={styles.card}>
-            <Image
-              className={styles.thumbnail}
-              src="https://media.graphassets.com/bPjA4uPtQxurLqETiVQZ"
-              width={700}
-              height={406}
-              loading="eager"
-              alt="project1"
+            <Link
+              href="/korty-lazniewek"
+              className='aspect-video rounded-2xl block h-full mb-[20px]'
+              style={{
+                backgroundImage: `url(https://media.graphassets.com/bPjA4uPtQxurLqETiVQZ)`,
+                backgroundPosition: 'center',
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat'
+              }}
             />
             <h3>Budowa kompleksu czterech kortów tenisowych w Łaźniewku</h3>
             <Link href="/korty-lazniewek">
@@ -56,13 +58,15 @@ export default function Projects() {
         </SwiperSlide>
         <SwiperSlide>
           <div className={styles.card}>
-            <Image
-              className={styles.thumbnail}
-              src="https://media.graphassets.com/awYLvtSNmg72UZ4Do0wA"
-              width={700}
-              height={406}
-              loading="eager"
-              alt="project2"
+            <Link
+              href='/hale-tenisowe-grodzisk'
+              className='aspect-video rounded-2xl block h-full mb-[20px]'
+              style={{
+                backgroundImage: `url(https://media.graphassets.com/awYLvtSNmg72UZ4Do0wA)`,
+                backgroundPosition: 'center',
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat'
+              }}
             />
             <h3>Hale tenisowe w Grodzisku Mazowieckim</h3>
             <Link href="/hale-tenisowe-grodzisk">
@@ -73,13 +77,15 @@ export default function Projects() {
         </SwiperSlide>
         <SwiperSlide>
           <div className={styles.card}>
-            <Image
-              className={styles.thumbnail}
-              src="https://media.graphassets.com/7wafg69TWKhh99kz1lUv"
-              width={700}
-              height={406}
-              loading="eager"
-              alt="project3"
+            <Link
+              href='/akademia-tenisa-kozerki'
+              className='aspect-video rounded-2xl block h-full mb-[20px]'
+              style={{
+                backgroundImage: `url(https://media.graphassets.com/7wafg69TWKhh99kz1lUv)`,
+                backgroundPosition: 'center',
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat'
+              }}
             />
             <h3>Budowa 11 kortów w Akademii Tenisa Kozerkii</h3>
             <Link href="/akademia-tenisa-kozerki">
@@ -90,13 +96,15 @@ export default function Projects() {
         </SwiperSlide>
         <SwiperSlide>
           <div className={styles.card}>
-            <Image
-              className={styles.thumbnail}
-              src="https://media.graphassets.com/sjk72IyQxC8zD8U682BL"
-              width={700}
-              height={406}
-              loading="eager"
-              alt="project4"
+            <Link
+              href='/rewitalizacja-falenica'
+              className='aspect-video rounded-2xl block h-full mb-[20px]'
+              style={{
+                backgroundImage: `url(https://media.graphassets.com/sjk72IyQxC8zD8U682BL)`,
+                backgroundPosition: 'center',
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat'
+              }}
             />
             <h3>Rewitalizacja 3 kortów w Falenicy</h3>
             <Link href="/rewitalizacja-falenica">
@@ -107,18 +115,16 @@ export default function Projects() {
         </SwiperSlide>
         <SwiperSlide>
           <div className={styles.card}>
-
-            <div className="w-[236px] h-[206px] grid place-items-center">
-              <Image
-                className="self-center"
-                src="./icons/plus.svg"
-                width={166}
-                height={166}
-                loading="eager"
-                alt="project1"
-              />
-            </div>
-
+            <Link
+              href='/realizacje'
+              className='aspect-video rounded-2xl block h-full pt-[140px] mb-[20px]'
+              style={{
+                backgroundImage: `url(./icons/plus.svg)`,
+                backgroundPosition: 'center',
+                backgroundSize: 'contain',
+                backgroundRepeat: 'no-repeat'
+              }}
+            />
             <h3 className="pt-[60px]">Zobacz wszystkie</h3>
             <Link href="/realizacje">
               <span>Dowiedz się więcej</span>

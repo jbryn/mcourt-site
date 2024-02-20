@@ -1,6 +1,6 @@
 .wrapper {
   @apply flex items-center justify-between py-[10px] px-[32px];
-  @apply border-b-[1px] border-grey;
+  @apply border-b-[1px] border-grey z-50;
 
   .logo {
     @apply max-w-[160px];

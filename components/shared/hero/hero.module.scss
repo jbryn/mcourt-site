@@ -4,11 +4,21 @@
   background-repeat: no-repeat;
   background-position: 100%;
 
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
   .hero {
-    @apply mx-[24px] mt-[50px] pt-[100px];
+    @apply mx-[24px] mt-[30px] pt-[100px];
     @apply flex flex-col justify-center items-center gap-[30px] text-center;
     @apply sm:mx-[100px];
-    @apply lg:mx-[257px] lg:mt-[100px];
+    @apply lg:mx-[257px];
 
     h1 {
       @apply md:min-w-[500px];
@@ -16,13 +26,13 @@
 
     h1,
     h2 {
-      @apply text-white;
+      @apply text-white z-10;
     }
 
     h1 {
       @apply text-[32px] leading-normal font-semibold;
       @apply sm:text-[44px];
-      @apply md:text-[65px] md:leading-[82px];
+      @apply md:text-[55px] md:leading-[82px];
     }
 
     h2 {
