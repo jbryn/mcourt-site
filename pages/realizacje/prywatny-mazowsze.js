@@ -21,7 +21,7 @@ export default function PrywatnyMazowszePage() {
     return (
         <>
             <Head>
-                <title>Retopping przydomowego kortu</title>
+                <title>Realizacje | Retopping przydomowego kortu</title>
                 <meta
                     name="description"
                     content="Nowoczesna renowacja kortów akrylowych na prywatnych posesjach. Metoda retoppingu, włączająca naprawę podbudowy oraz ułożenie nowej warstwy akrylu przynosi nowe życie dla kortów"
@@ -29,7 +29,7 @@ export default function PrywatnyMazowszePage() {
                 />
                 <meta
                     property="og:title"
-                    content="Retopping przydomowego kortu"
+                    content="Realizacje | Retopping przydomowego kortu"
                 />
                 <meta
                     property="og:description"

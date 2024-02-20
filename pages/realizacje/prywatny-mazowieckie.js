@@ -33,7 +33,7 @@ export default function PrywatnyWarmiaPage() {
     return (
         <>
             <Head>
-                <title>Prywatny Kort Tenisowy z Nawierzchnią Laykold Masters 5</title>
+                <title>Realizacje | Prywatny Kort Tenisowy z Nawierzchnią Laykold Masters 5</title>
                 <meta
                     name="description"
                     content="Nasz kompleksowy projekt obejmuje podbudowę betonową, ogrodzenie, oświetlenie oraz elegancką nawierzchnię Laykold, zapewniającą niezapomniane doznania podczas gry"
@@ -41,7 +41,7 @@ export default function PrywatnyWarmiaPage() {
                 />
                 <meta
                     property="og:title"
-                    content="Prywatny Kort Tenisowy z Nawierzchnią Laykold Masters 5"
+                    content="Realizacje | Prywatny Kort Tenisowy z Nawierzchnią Laykold Masters 5"
                 />
                 <meta
                     property="og:description"

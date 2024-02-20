@@ -30,7 +30,7 @@ export default function PrywatnyMalopolskaPage() {
     return (
         <>
             <Head>
-                <title>Pierwszy w Polsce Kort Tenisowy z Nawierzchnią Jak na Turnieju US Open!</title>
+                <title>Realizacje | Pierwszy w Polsce Kort Tenisowy z Nawierzchnią Jak na Turnieju US Open!</title>
                 <meta
                     name="description"
                     content="Nasza firma z dumą ogłasza ukończenie budowy pierwszego w Polsce kortu tenisowego z nawierzchnią, która równa się tej z prestiżowego turnieju US Open. "
@@ -38,7 +38,7 @@ export default function PrywatnyMalopolskaPage() {
                 />
                 <meta
                     property="og:title"
-                    content="Pierwszy w Polsce Kort Tenisowy z Nawierzchnią Jak na Turnieju US Open!"
+                    content="Realizacje | Pierwszy w Polsce Kort Tenisowy z Nawierzchnią Jak na Turnieju US Open!"
                 />
                 <meta
                     property="og:description"

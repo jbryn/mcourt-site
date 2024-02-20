@@ -10,13 +10,13 @@ const imagesData = {
         { id: '1', src: 'https://media.graphassets.com/XGvyv53ORjqnVccqdm27', title: 'Akademia Tenisa Kozerki - Filia Grodzisk Mazowiecki', alt: 'Image 2', href: '/hale-tenisowe-grodzisk' },
         { id: '2', src: 'https://media.graphassets.com/MfKX9WXrQq257vDpGApk', title: 'Polskie Centrum Szkoleniowe PZT - Kozerki', alt: 'Image 2', href: '/akademia-tenisa-kozerki' },
         { id: '26', src: 'https://media.graphassets.com/bPjA4uPtQxurLqETiVQZ', title: 'Kortmax - Łaźniewek', alt: 'Image 2', href: '/korty-lazniewek' },
-        { id: '9', src: 'https://media.graphassets.com/CeGywygMQFG5aAZWjSA9', title: 'Antuka Tenis Klub - Częstochowa', alt: 'Image 2', href: '/' },
+        { id: '9', src: 'https://media.graphassets.com/CeGywygMQFG5aAZWjSA9', title: 'Antuka Tenis Klub - Częstochowa', alt: 'Image 2', href: '/realizacje/antuka-tenis-klub-czestochowa' },
 
-        { id: '14', src: 'https://media.graphassets.com/R8mvuD0CRc4vPLcWiYTG', title: 'OSiR Wawer - Warszawa', alt: 'Image 2', href: '/' },
-        { id: '15', src: 'https://media.graphassets.com/87A71ICSdizs9OXV32Tg', title: 'OSiR Dębno - Dębno', alt: 'Image 2', href: '/' },
+        { id: '14', src: 'https://media.graphassets.com/R8mvuD0CRc4vPLcWiYTG', title: 'OSiR Wawer - Warszawa', alt: 'Image 2', href: '/realizacje/osir-wawer-warszawa' },
+        { id: '15', src: 'https://media.graphassets.com/87A71ICSdizs9OXV32Tg', title: 'OSiR Dębno - Dębno', alt: 'Image 2', href: '/realizacje/osir-debno' },
 
         { id: '3', src: 'https://media.graphassets.com/89fKLvxRNeSHV8h5rQWQ', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-malopolska' },
-        { id: '20', src: 'https://media.graphassets.com/0IlxCJGoQvSlovFzofhH', title: 'MentorSport - Toruń', alt: 'Image 2', href: '/' },
+        { id: '20', src: 'https://media.graphassets.com/0IlxCJGoQvSlovFzofhH', title: 'MentorSport - Toruń', alt: 'Image 2', href: '/realizacje/mentorsport-torun' },
 
         { id: '4', src: 'https://media.graphassets.com/MJFer4wtRaGOMmmAhNe3', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-mazowsze' },
         { id: '23', src: 'https://media.graphassets.com/2gYQ1eFTXO5qniZgsTik', title: 'Centrum Kultury - Wola Gołkowska', alt: 'Image 2', href: '/' },
@@ -148,8 +148,8 @@ const Gallery = ({ category }) => {
                     custom={i}
                     whileHover="visible"
                 >
-                    <div
-                        // href={image.href}
+                    <Link
+                        href={image.href}
                         className='aspect-video rounded-2xl block h-full'
                         style={{
                             backgroundImage: `url(${image.src})`,
