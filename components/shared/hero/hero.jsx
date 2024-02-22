@@ -10,6 +10,7 @@ export default function Hero({ backgroundUrl, title, offsetX, offsetY, subtitle 
         style={{
           backgroundImage: `url('${backgroundUrl}')`,
           backgroundPositionY: offsetY,
+          backgroundPositionX: 'center',
           // background: 'linear-gradient(to right, #7ED957, #fff);'
         }}
       >
