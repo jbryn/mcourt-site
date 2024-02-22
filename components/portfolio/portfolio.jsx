@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Link from "next/link";
+import { useMediaQuery } from 'react-responsive';
 import classNames from 'classnames';
 import { motion } from 'framer-motion';
 
@@ -13,9 +14,9 @@ const imagesData = {
         { id: '9', src: 'https://media.graphassets.com/CeGywygMQFG5aAZWjSA9', title: 'Antuka Tenis Klub - Częstochowa', alt: 'Image 2', href: '/realizacje/antuka-tenis-klub-czestochowa', offsetX: '0px', offsetY: '-70px' },
         { id: '14', src: 'https://media.graphassets.com/AdBoETmRQu2S6x4pgNSA', title: 'OSiR Wawer - Warszawa', alt: 'Image 2', href: '/realizacje/osir-wawer-warszawa' },
         { id: '15', src: 'https://media.graphassets.com/87A71ICSdizs9OXV32Tg', title: 'OSiR Dębno - Dębno', alt: 'Image 2', href: '/realizacje/osir-debno', offsetX: '0px', offsetY: '-70px' },
-        { id: '3', src: 'https://media.graphassets.com/89fKLvxRNeSHV8h5rQWQ', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-malopolska', offsetX: '0px', offsetY: '-70px' },
+        { id: '3', src: 'https://media.graphassets.com/89fKLvxRNeSHV8h5rQWQ', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-malopolska', offsetX: '-20px', offsetY: '-120px', size: '115%' },
         { id: '20', src: 'https://media.graphassets.com/0IlxCJGoQvSlovFzofhH', title: 'MentorSport - Toruń', alt: 'Image 2', href: '/realizacje/mentorsport-torun', offsetX: '0px', offsetY: '-70px' },
-        { id: '4', src: 'https://media.graphassets.com/MJFer4wtRaGOMmmAhNe3', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-mazowsze', offsetX: '-40px', offsetY: '0px' },
+        { id: '4', src: 'https://media.graphassets.com/MJFer4wtRaGOMmmAhNe3', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-mazowsze', offsetX: '-50px', offsetY: '0px' },
         { id: '23', src: 'https://media.graphassets.com/2gYQ1eFTXO5qniZgsTik', title: 'Centrum Kultury - Wola Gołkowska', alt: 'Image 2', href: '/', offsetX: '0px', offsetY: '-40px' },
         { id: '5', src: 'https://media.graphassets.com/IEFVsQwqTHO3niZGSIvF', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-warmia', offsetX: '0px', offsetY: '-70px' },
         { id: '25', src: 'https://media.graphassets.com/5zdtLaRRAiYinj5jzoaA', title: 'Gnieźnieński Klub Tenisowy - Gniezno', alt: 'Image 2', href: '/' },
@@ -39,8 +40,8 @@ const imagesData = {
         { id: '29', src: 'https://media.graphassets.com/MfKX9WXrQq257vDpGApk', title: 'Polskie Centrum Szkoleniowe PZT - Kozerki', alt: 'Image 2', href: '/akademia-tenisa-kozerki' },
         { id: '34', src: 'https://media.graphassets.com/C2u5SekYTWq4l3iFcmDI', title: 'Szkoła Podstawowa nr: 72 - Wrocław', alt: 'Image 2', href: '/realizacje/szkola-podstawowa-nr72-wroclaw', offsetX: '0px', offsetY: '-130px', size: '120%' },
         { id: '35', src: 'https://media.graphassets.com/mTGgax3RxCRBbP6NdkOw', title: 'Hala w Szkole Podstawowej nr: 72 - Wrocław', alt: 'Image 2', href: '/', offsetX: '-30px', offsetY: '-120px', size: '115%' },
-        { id: '30', src: 'https://media.graphassets.com/89fKLvxRNeSHV8h5rQWQ', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-malopolska', offsetX: '0px', offsetY: '-70px' },
-        { id: '31', src: 'https://media.graphassets.com/MJFer4wtRaGOMmmAhNe3', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-mazowsze', offsetX: '-40px', offsetY: '0px' },
+        { id: '30', src: 'https://media.graphassets.com/89fKLvxRNeSHV8h5rQWQ', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-malopolska', offsetX: '-20px', offsetY: '-120px', size: '115%' },
+        { id: '31', src: 'https://media.graphassets.com/MJFer4wtRaGOMmmAhNe3', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-mazowsze', offsetX: '-50px', offsetY: '0px' },
         { id: '32', src: 'https://media.graphassets.com/IEFVsQwqTHO3niZGSIvF', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-warmia', offsetX: '0px', offsetY: '-70px' },
         { id: '33', src: 'https://media.graphassets.com/x7yovZqFS6m2vH1UbWuY', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-mazowieckie', offsetX: '-10px', offsetY: '-70px', size: '115%' },
     ],
@@ -106,6 +107,9 @@ const Gallery = ({ category }) => {
     // Fetch or import your images based on the category
     const images = getImagesForCategory(category);
 
+    const isMinMd = useMediaQuery({ minDeviceWidth: 1240 });
+
+
     const variants = {
         hidden: { opacity: 0 },
         visible: (i) => ({
@@ -133,9 +137,9 @@ const Gallery = ({ category }) => {
                         className='aspect-video rounded-2xl block h-full'
                         style={{
                             backgroundImage: `url(${image.src})`,
-                            backgroundPositionX: image.offsetX || 'center',
-                            backgroundPositionY: image.offsetY || 'center',
-                            backgroundSize: image.size || 'cover',
+                            backgroundPositionX: isMinMd ? image.offsetX || 'center' : 'center',
+                            backgroundPositionY: isMinMd ? image.offsetY || 'center' : 'center',
+                            backgroundSize: isMinMd ? image.size || 'cover' : 'cover',
                             backgroundRepeat: 'no-repeat'
                         }}
                     />
