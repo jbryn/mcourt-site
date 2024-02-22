@@ -109,6 +109,25 @@ export default function Projects() {
             />
           </div>
         </SwiperSlide>
+        <SwiperSlide>
+          <div className={styles.card}>
+            <Link
+              href='/realizacje'
+              className='aspect-video rounded-2xl block h-full pt-[140px] mb-[20px]'
+              style={{
+                backgroundImage: `url(./icons/plus.svg)`,
+                backgroundPosition: 'center',
+                backgroundSize: 'contain',
+                backgroundRepeat: 'no-repeat'
+              }}
+            />
+            <h3 className="pt-[60px]">Zobacz wszystkie</h3>
+            <Link href="/realizacje">
+              <span>Dowiedz się więcej</span>
+              <img src="./icons/little-arrow.svg" alt="arrow" />
+            </Link>
+          </div>
+        </SwiperSlide>
       </Swiper>
     </section>
   );
