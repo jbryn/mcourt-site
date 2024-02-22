@@ -7,6 +7,7 @@ export default function Hero({ backgroundUrl, title, subtitle }) {
                 className={styles.wrapper}
                 style={{
                     backgroundImage: `url('${backgroundUrl}')`,
+                    backgroundPositionY: "-10px",
                     // background: 'linear-gradient(to right, #7ED957, #fff);'
                 }}
             >

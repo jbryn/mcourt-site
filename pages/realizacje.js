@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from "next/head";
-import Hero from "@/components/portfolio/hero/hero";
+import Hero from "@/components/shared/hero/hero";
 import Portfolio from '../components/portfolio/portfolio';
 import Contact from "@/components/home/contact/contact";
 
@@ -27,11 +27,12 @@ const PortfolioPage = () => {
                 />
             </Head>
 
-            <div className='pt-[200px] pb-[200px]'>
+            <div className='pb-[200px]'>
                 <Hero
-                    backgroundUrl={"https://media.graphassets.com/jujSnbwbTayd5QhAATWd"}
+                    backgroundUrl={"https://media.graphassets.com/IBxQH33SKCKMbnDHWS8d"}
                     title="Realizacje"
-                    subtitle={`Budujemy korty tenisowe od 2008 roku, naszym klientom proponujemy rozwiązania najlepszych światowych producentów`}
+                    offsetY="0px"
+                    subtitle="Nasze realizacje obejmują nie tylko imponujące ośrodki tenisowe, ale także prywatne inwestycje. Każdy z naszych projektów reprezentuje innowacyjne podejście i dbałość o detale, zapewniając naszym klientom nie tylko funkcjonalne, ale także estetyczne przestrzenie do gry w tenisa."
                 />
                 <Portfolio categories={categories} />
                 <Contact

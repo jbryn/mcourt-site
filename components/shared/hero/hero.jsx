@@ -1,12 +1,17 @@
 import Image from "next/image";
 import styles from "./hero.module.scss";
 
-export default function Hero({ backgroundUrl, title, subtitle }) {
+export default function Hero({ backgroundUrl, title, offsetX, offsetY, subtitle }) {
   return (
     <section className="overflow-hidden pb-[720px] relative">
       <div
         className={styles.wrapper}
-        style={{ backgroundImage: `url('${backgroundUrl}')` }}
+        // style={{ backgroundImage: `url('${backgroundUrl}')`, backgroundPosition: `${offsetX} ${offsetY}`, }}
+        style={{
+          backgroundImage: `url('${backgroundUrl}')`,
+          backgroundPositionY: offsetY,
+          // background: 'linear-gradient(to right, #7ED957, #fff);'
+        }}
       >
         <div className={styles.hero}>
           <h1>{title}</h1>
