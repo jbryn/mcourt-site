@@ -31,7 +31,7 @@ const PortfolioPage = () => {
                 <Hero
                     backgroundUrl={"https://media.graphassets.com/IBxQH33SKCKMbnDHWS8d"}
                     title="Realizacje"
-                    offsetY="0px"
+                    // offsetY="-100px"
                     subtitle="Nasze realizacje obejmują nie tylko imponujące ośrodki tenisowe, ale także prywatne inwestycje. Każdy z naszych projektów reprezentuje innowacyjne podejście i dbałość o detale, zapewniając naszym klientom nie tylko funkcjonalne, ale także estetyczne przestrzenie do gry w tenisa."
                 />
                 <Portfolio categories={categories} />
