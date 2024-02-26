@@ -5,55 +5,50 @@ import Contact from "@/components/home/contact/contact";
 import Article from "@/components/article/article";
 
 const images = [
-    "https://media.graphassets.com/6TZvH9VgRTanFDqCWcS8",
-    "https://media.graphassets.com/hYBY7HUvRteNH13vJwIq",
-    "https://media.graphassets.com/g3adGZp8SsiwLJKI5mqI",
-    "https://media.graphassets.com/g9XMKHWnT7qKbxwZk6pe",
-    "https://media.graphassets.com/D1PSQu2WTgWwCdQCbSck",
-    "https://media.graphassets.com/3v0alKNsRduj8T4004sD",
-    "https://media.graphassets.com/7wlXCbBuROyng5FNpBcj",
-    "https://media.graphassets.com/6xxuVaSGR8ebNoyV7YC9",
+    "https://media.graphassets.com/9p99jn5QfqxQlm6kxgkd",
+    "https://media.graphassets.com/PvEImkW1QbKaP61ndIj9",
+    "https://media.graphassets.com/vBk8NJGmSUGKyzd2Lcua",
+    "https://media.graphassets.com/EddluIVQaSt7NTelpjfQ",
+    "https://media.graphassets.com/w5BQ4rOoS3CVA2QRO7tb",
+    "https://media.graphassets.com/foTp0YvTQriojSQFdLuA",
 ];
 
 export default function PrywatnyWarmiaPage() {
     return (
         <>
             <Head>
-                <title>Realizacje | OSiR Wawer - Warszawa</title>
+                <title>Kort prywatny - Nowy Sącz</title>
                 <meta
                     name="description"
-                    content="Nowe życie dla kortów tenisowych w Warszawie na Wawrze: Profesjonalna nawierzchnia Antuka i nowoczesne udogodnienia"
+                    content="Nowoczesny kort tenisowy w malowniczym miejscu: luksus i wygoda w prywatnej rezydencji"
                     key="desc"
                 />
                 <meta
                     property="og:title"
-                    content="Realizacje | OSiR Wawer - Warszawa"
+                    content="Kort prywatny - Nowy Sącz"
                 />
                 <meta
                     property="og:description"
-                    content="Nowe życie dla kortów tenisowych w Warszawie na Wawrze: Profesjonalna nawierzchnia Antuka i nowoczesne udogodnienia"
+                    content="Nowoczesny kort tenisowy w malowniczym miejscu: luksus i wygoda w prywatnej rezydencji"
                 />
                 <meta
                     property="og:image"
-                    content="https://media.graphassets.com/AdBoETmRQu2S6x4pgNSA"
+                    content="https://media.graphassets.com/sQr7dglMRRG7I9FC5120"
                 />
             </Head>
             <main className="overflow-hidden">
                 <Hero
-                    backgroundUrl={"https://media.graphassets.com/AdBoETmRQu2S6x4pgNSA"}
-                    title="OSiR Wawer - Warszawa"
-                    subtitle="Nowe życie dla kortów tenisowych w Warszawie na Wawrze: Profesjonalna nawierzchnia Antuka i nowoczesne udogodnienia"
+                    backgroundUrl={"https://media.graphassets.com/sQr7dglMRRG7I9FC5120"}
+                    title="Kort prywatny - Nowy Sącz"
+                    subtitle="Nowoczesny kort tenisowy w malowniczym miejscu: luksus i wygoda w prywatnej rezydencji"
                 />
                 <section className="grid place-items-center pb-[100px]">
                     <div className="flex flex-col gap-[60px] px-[40px] max-w-[1000px]">
                         <h1 className="text-[26px] max-[600px]:text-[20px] font-bold">
-                            W 2022 roku zakończyliśmy remont kortów tenisowych przy ul. Lokalnej 33 w Warszawie, nadając im zupełnie nowy wymiar. Nasze prace obejmowały wymianę nawierzchni na profesjonalną Antuka, co gwarantuje nie tylko trwałość, ale także doskonałe warunki do gry.
+                            Budowa nowoczesnego kortu tenisowego ze sztucznej trawy w prywatnej rezydencji w okolicach Nowego Sącza. Nasze prace obejmowały kompleksowy zakres działań, począwszy od profilowania podbudowy, poprzez projekt i montaż estetycznego ogrodzenia, aż po instalację nowoczesnego oświetlenia. Ponadto, ułożyliśmy wysokiej jakości nawierzchnię, zapewniającą idealne warunki do gry w tenisa i nie tylko. Dzięki naszemu doświadczeniu i zaangażowaniu, klient może teraz cieszyć się wyjątkowym kortem tenisowym, który spełnia najwyższe standardy zarówno pod względem funkcjonalności, jak i estetyki.
                         </h1>
                         <h2>
-                            Dodatkowo, zainstalowaliśmy nowe ogrodzenie i oświetlenie, które zapewnią bezpieczeństwo i komfort nawet podczas nocnych rozgrywek. Jako udogodnienie dla zarządcy obiektu, zaprojektowaliśmy także nowy system automatycznego nawodnienia, który pozwoli utrzymać korty w najlepszym stanie przez cały sezon.
-                        </h2>
-                        <h2>
-                            Zapraszamy wszystkich pasjonatów tenisa do korzystania z odnowionych kortów, gdzie czekać będą na nich wyjątkowe doświadczenia sportowe i relaks na najwyższym poziomie.
+                            Luksusowy kort tenisowy ze sztucznej trawy w górskich okolicach - kompleksowa oferta na produkcje i wykonanie kortu tenisowego
                         </h2>
                     </div>
                 </section>
