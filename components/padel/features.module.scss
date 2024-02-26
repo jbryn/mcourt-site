@@ -8,7 +8,7 @@
 
     img {
       @apply rounded-[10px];
-      @apply h-[356px];
+      @apply lg:h-[406px];
     }
 
     .description {
@@ -16,7 +16,7 @@
       @apply max-w-[462px];
 
       h2 {
-        @apply text-[42px] font-semibold;
+        @apply text-[36px] font-semibold;
       }
 
       h3 {
@@ -26,6 +26,14 @@
           @apply pb-[40px];
         }
       }
+    }
+  }
+
+  h3 {
+    @apply text-[26px] text-light-grey;
+
+    ul {
+      @apply list-disc;
     }
   }
 }

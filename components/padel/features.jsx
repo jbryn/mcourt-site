@@ -123,7 +123,7 @@ export default function Features() {
             </h3>
           </div>
         </div>
-        <h2 className="text-[42px] font-bold">SYSTEMY OGRODZEŃ</h2>
+        <h2 className="text-[42px] font-bold pl-6">SYSTEMY OGRODZEŃ</h2>
         <div className={styles.surface}>
           <Image
             className="lg:order-1"
