@@ -26,7 +26,6 @@ const images = [
     "https://media.graphassets.com/FgtEhqbGTem8XwpX1nWt",
 
     "https://media.graphassets.com/j9n2Hf6fRPDTIhn5Tjui",
-    "https://media.graphassets.com/j9n2Hf6fRPDTIhn5Tjui",
 ];
 
 

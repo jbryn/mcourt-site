@@ -19,7 +19,7 @@ const imagesData = {
         { id: '4', src: 'https://media.graphassets.com/MJFer4wtRaGOMmmAhNe3', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-mazowsze', offsetX: '-50px', offsetY: '0px' },
         { id: '23', src: 'https://media.graphassets.com/2gYQ1eFTXO5qniZgsTik', title: 'Centrum Kultury - Wola Gołkowska', alt: 'Image 2', href: '/realizacje/centrum-kultury-wola-golkowska', offsetX: '0px', offsetY: '-40px' },
         { id: '5', src: 'https://media.graphassets.com/IEFVsQwqTHO3niZGSIvF', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-warmia', offsetX: '0px', offsetY: '-70px' },
-        { id: '25', src: 'https://media.graphassets.com/5zdtLaRRAiYinj5jzoaA', title: 'Gnieźnieński Klub Tenisowy - Gniezno', alt: 'Image 2', href: '/' },
+        { id: '25', src: 'https://media.graphassets.com/5zdtLaRRAiYinj5jzoaA', title: 'Gnieźnieński Klub Tenisowy - Gniezno', alt: 'Image 2', href: '/realizacje/hala-tenisowa-gniezno' },
         { id: '18', src: 'https://media.graphassets.com/wpifDb23TiWSSvqEjfgg', title: 'Kort prywatny', alt: 'Image 2', href: '/', offsetX: '0px', offsetY: '-20px' },
         { id: '19', src: 'https://media.graphassets.com/s2rsBfiAQhmPh2OLuvyk', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-mazury', offsetX: '-15px', offsetY: '-70px', size: '110%' },
         { id: '7', src: 'https://media.graphassets.com/C2u5SekYTWq4l3iFcmDI', title: 'Szkoła Podstawowa nr: 72 - Wrocław', alt: 'Image 2', href: '/realizacje/szkola-podstawowa-nr72-wroclaw', offsetX: '0px', offsetY: '-130px', size: '120%' },
@@ -28,7 +28,7 @@ const imagesData = {
         { id: '11', src: 'https://media.graphassets.com/gRsQr6SQy8CaJSZ0oKAV', title: 'Kort prywatny', alt: 'Image 2', href: '/', offsetX: '-50px', offsetY: '-30px', size: '115%' },
         { id: '12', src: 'https://media.graphassets.com/ULNthdorSK15hIpsNOMA', title: 'Ośrodek wypoczynkowy - Świerkocin', alt: 'Image 2', href: '/', offsetX: '-60px', offsetY: '-120px', size: '115%' },
         { id: '13', src: 'https://media.graphassets.com/K6b6golKRMeJOZaG3MjG', title: 'Kort prywatny', alt: 'Image 2', href: '/', offsetX: '0px', offsetY: '-70px' },
-        { id: '24', src: 'https://media.graphassets.com/DtM9zRUuTHaZVFa2vwAk', title: 'Klub Sportowy Czarni - Rzeszów', alt: 'Image 2', href: '/' },
+        { id: '24', src: 'https://media.graphassets.com/DtM9zRUuTHaZVFa2vwAk', title: 'Klub Sportowy Czarni - Rzeszów', alt: 'Image 2', href: '/realizacje/klub-sportowy-czarni-rzeszow' },
         { id: '16', src: 'https://media.graphassets.com/1Vvwps9gTDaWbHp3TLpd', title: 'Kort prywatny', alt: 'Image 2', href: '/', offsetX: '-30px', offsetY: '-110px', size: '115%' },
         { id: '17', src: 'https://media.graphassets.com/HBJvx3IFT22tvWmrZts1', title: 'Kort prywatny', alt: 'Image 2', href: '/', offsetX: '-70px', offsetY: '-130px', size: '120%' },
         { id: '6', src: 'https://media.graphassets.com/x7yovZqFS6m2vH1UbWuY', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-mazowieckie', offsetX: '-10px', offsetY: '-70px', size: '115%' },
@@ -67,8 +67,8 @@ const imagesData = {
     'hale tenisowe': [
         { id: '53', src: 'https://media.graphassets.com/XGvyv53ORjqnVccqdm27', title: 'Akademia Tenisa Kozerki - Filia Grodzisk Mazowiecki', alt: 'Image 2', href: '/hale-tenisowe-grodzisk' },
         { id: '54', src: 'https://media.graphassets.com/MfKX9WXrQq257vDpGApk', title: 'Polskie Centrum Szkoleniowe PZT - Kozerki', alt: 'Image 2', href: '/akademia-tenisa-kozerki' },
-        { id: '52', src: 'https://media.graphassets.com/5zdtLaRRAiYinj5jzoaA', title: 'Gnieźnieński Klub Tenisowy - Gniezno', alt: 'Image 2', href: '/' },
-        { id: '51', src: 'https://media.graphassets.com/DtM9zRUuTHaZVFa2vwAk', title: 'Klub Sportowy Czarni - Rzeszów', alt: 'Image 2', href: '/' },
+        { id: '52', src: 'https://media.graphassets.com/5zdtLaRRAiYinj5jzoaA', title: 'Gnieźnieński Klub Tenisowy - Gniezno', alt: 'Image 2', href: '/realizacje/hala-tenisowa-gniezno' },
+        { id: '51', src: 'https://media.graphassets.com/DtM9zRUuTHaZVFa2vwAk', title: 'Klub Sportowy Czarni - Rzeszów', alt: 'Image 2', href: '/realizacje/klub-sportowy-czarni-rzeszow' },
     ],
 };
 
@@ -132,8 +132,8 @@ const Gallery = ({ category }) => {
                     custom={i}
                     whileHover="visible"
                 >
-                    <div
-                        // href={image.href}
+                    <Link
+                        href={image.href}
                         className='aspect-video rounded-2xl block h-full'
                         style={{
                             backgroundImage: `url(${image.src})`,

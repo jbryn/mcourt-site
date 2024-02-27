@@ -67,16 +67,16 @@ export default function PrywatnyMazowszePage() {
                     </div>
                 </section>
                 <section className="grid place-items-center gap-[60px]">
-                    <div className="grid grid-cols-1 md:grid-cols-2 justify-center justify-items-center gap-[10px] px-[20px]">
+                    <div className="grid grid-cols-1 min-[1100px]:grid-cols-2 justify-center justify-items-center gap-[10px] px-[20px]">
                         {images.map((image, index) => (
-                            <Image
-                                className={`lg:h-[330px] rounded-[15px] aspect-video ${index % 2 == 0 ? "justify-self-end" : "justify-self-start"
-                                    }`}
+                            <div
                                 key={index}
-                                src={image}
-                                width={440}
-                                height={306}
-                                alt={image}
+                                className="h-[300px] rounded-[15px] aspect-video"
+                                style={{
+                                    backgroundImage: `url(${image})`,
+                                    backgroundSize: "cover",
+                                    backgroundPosition: "center",
+                                }}
                             />
                         ))}
                     </div>
