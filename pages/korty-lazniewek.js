@@ -4,6 +4,8 @@ import Image from "next/image";
 import Contact from "@/components/home/contact/contact";
 import Article from "@/components/article/article";
 
+import { useMediaQuery } from 'react-responsive';
+
 const images = [
   "https://media.graphassets.com/gS7Q3W6FS2iw7FO3XId3",
   "https://media.graphassets.com/JBZnV8rTuyKFti26a8vk",
@@ -15,6 +17,13 @@ const images = [
 ];
 
 export default function LazniewekPage() {
+
+  const isMediumScreen = useMediaQuery({ minWidth: 1024 });
+  const isLargeScreen = useMediaQuery({ minWidth: 1600 });
+  const isXLargeScreen = useMediaQuery({ minWidth: 1920 });
+
+  const offsetY = isXLargeScreen ? '-350px' : isLargeScreen ? '-280px' : isMediumScreen ? '0px' : '0px';
+
   return (
     <>
       <Head>
@@ -41,6 +50,7 @@ export default function LazniewekPage() {
         <Hero
           backgroundUrl={"https://media.graphassets.com/yBN8vHdRx2UCRMmu6aBQ"}
           title="Klub Kortmax w Błoniach już otwarty!"
+          offsetY={offsetY}
           subtitle="W maju 2023 roku nasza firma wybudowała nowoczesny obiekt tenisowy w Błoniach, k. Warszawy. Cieszymy się, że mogliśmy przyczynić się do rozwoju tenisa w tej okolicy!"
         />
         <section className="grid place-items-center pb-[100px]">
@@ -78,9 +88,8 @@ export default function LazniewekPage() {
           <div className="grid grid-cols-2 justify-center justify-items-center gap-[10px] px-[20px]">
             {images.map((image, index) => (
               <Image
-                className={`lg:h-[330px] rounded-[15px] ${
-                  index % 2 == 0 ? "justify-self-end" : "justify-self-start"
-                }`}
+                className={`lg:h-[330px] rounded-[15px] ${index % 2 == 0 ? "justify-self-end" : "justify-self-start"
+                  }`}
                 key={index}
                 src={image}
                 width={440}

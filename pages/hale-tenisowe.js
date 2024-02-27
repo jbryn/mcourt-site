@@ -4,7 +4,16 @@ import Hero from "@/components/shared/hero/hero";
 import Features from "@/components/tennis-halls/features/features";
 import Projects from "@/components/tennis-halls/projects";
 
+import { useMediaQuery } from 'react-responsive';
+
 export default function TennisHalls() {
+
+  const isMediumScreen = useMediaQuery({ minWidth: 1024 });
+  const isLargeScreen = useMediaQuery({ minWidth: 1600 });
+  const isXLargeScreen = useMediaQuery({ minWidth: 1920 });
+
+  const offsetY = isXLargeScreen ? '-250px' : isLargeScreen ? '-180px' : isMediumScreen ? '0px' : '0px';
+
   return (
     <>
       <Head>
@@ -33,6 +42,7 @@ estetyką. Zaufaj ekspertom w projektowaniu i budowie hal tenisowych"
         <Hero
           backgroundUrl={"https://media.graphassets.com/KqOodpITDqmSp6Dy1EdC"}
           title="Hale tenisowe"
+          offsetY={offsetY}
           subtitle={`Nasze hale tenisowe to połączenie tradycji drewna z nowoczesnymi osiągnięciami
         technologicznymi. Dzięki naszemu doświadczeniu zapewnimy Ci doskonałe warunki do gry przez cały
         rok.`}

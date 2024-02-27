@@ -4,6 +4,8 @@ import Image from "next/image";
 import Contact from "@/components/home/contact/contact";
 import Article from "@/components/article/article";
 
+import { useMediaQuery } from 'react-responsive';
+
 const images = [
   "https://media.graphassets.com/z8vaQ1owSYGvPVkEJ2dQ",
 
@@ -24,6 +26,13 @@ const images = [
 ];
 
 export default function KozerkiPage() {
+
+  const isMediumScreen = useMediaQuery({ minWidth: 1024 });
+  const isLargeScreen = useMediaQuery({ minWidth: 1600 });
+  const isXLargeScreen = useMediaQuery({ minWidth: 1920 });
+
+  const offsetY = isXLargeScreen ? '-350px' : isLargeScreen ? '-280px' : isMediumScreen ? '0px' : '0px';
+
   return (
     <>
       <Head>
@@ -51,6 +60,7 @@ export default function KozerkiPage() {
           backgroundUrl={"https://media.graphassets.com/bShBpJ9kSDWOJtBLan6W"}
           title="Budowa 11 kortów w Akademii Tenisa Kozerkii"
           subtitle="Rok budowy: 2022"
+          offsetY={offsetY}
         />
         <section className="grid place-items-center pb-[100px]">
           <div className="flex flex-col text-center gap-[60px] px-[40px] max-w-[1000px]">
@@ -85,9 +95,8 @@ export default function KozerkiPage() {
           <div className="grid grid-cols-2 justify-center justify-items-center gap-[10px] px-[20px]">
             {images.map((image, index) => (
               <Image
-                className={`lg:h-[330px] rounded-[15px] ${
-                  index % 2 == 0 ? "justify-self-end" : "justify-self-start"
-                }`}
+                className={`lg:h-[330px] rounded-[15px] ${index % 2 == 0 ? "justify-self-end" : "justify-self-start"
+                  }`}
                 key={index}
                 src={image}
                 width={440}

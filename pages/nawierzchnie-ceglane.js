@@ -4,6 +4,8 @@ import Contact from "@/components/home/contact/contact";
 import Antuka from "@/components/courts/surfaces/antuka/antuka";
 import Projects from "@/components/courts/surfaces/antuka/projects";
 
+import { useMediaQuery } from 'react-responsive';
+
 const projectsData = [
   { url: "https://media.graphassets.com/ONDf21C8TLieaELcrSRC" },
   { url: "https://media.graphassets.com/pPzEbpRzT6KHsbljkPmp" },
@@ -12,6 +14,13 @@ const projectsData = [
 ];
 
 export default function AntukaPage() {
+
+  const isMediumScreen = useMediaQuery({ minWidth: 1024 });
+  const isLargeScreen = useMediaQuery({ minWidth: 1600 });
+  const isXLargeScreen = useMediaQuery({ minWidth: 1920 });
+
+  const offsetY = isXLargeScreen ? '-350px' : isLargeScreen ? '-280px' : isMediumScreen ? '0px' : '0px';
+
   return (
     <>
       <Head>
@@ -35,6 +44,7 @@ export default function AntukaPage() {
         <Hero
           backgroundUrl={"/img/courts/image5.jpg"}
           title="Nawierzchnie ceglane"
+          offsetY={offsetY}
           subtitle={`Jeśli marzysz o unikalnym doświadczeniu podczas gry w tenisa, nawierzchnia ceglana z pewnością spełni Twoje oczekiwania i zapewni niezapomniane chwile na korcie tenisowym.`}
         />
         <Antuka />

@@ -3,7 +3,17 @@ import Features from "@/components/lights/features";
 import Hero from "@/components/shared/hero/hero";
 import Contact from "@/components/home/contact/contact";
 
+import { useMediaQuery } from 'react-responsive';
+
+
 export default function LightsPage() {
+
+  const isMediumScreen = useMediaQuery({ minWidth: 1024 });
+  const isLargeScreen = useMediaQuery({ minWidth: 1600 });
+  const isXLargeScreen = useMediaQuery({ minWidth: 1920 });
+
+  const offsetY = isXLargeScreen ? '-250px' : isLargeScreen ? '-180px' : isMediumScreen ? '0px' : '0px';
+
   return (
     <>
       <Head>
@@ -32,6 +42,7 @@ export default function LightsPage() {
         <Hero
           backgroundUrl={"https://media.graphassets.com/BdbjrYbGTZucYFv2c6TI"}
           title="Oświetlenie kortów"
+          offsetY={offsetY}
           subtitle="Doświetl swój kort tenisowy już dziś i ciesz się możliwością gry po zmroku, sprawdź propozycję naszych rozwiązań!"
         />
         <Features />

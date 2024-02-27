@@ -3,7 +3,16 @@ import Hero from "@/components/shared/hero/hero";
 import Surfaces from "@/components/courts/surfaces/surfaces";
 import Contact from "@/components/home/contact/contact";
 
+import { useMediaQuery } from 'react-responsive';
+
+
 export default function CourtsPage() {
+  const isMediumScreen = useMediaQuery({ minWidth: 1024 });
+  const isLargeScreen = useMediaQuery({ minWidth: 1600 });
+  const isXLargeScreen = useMediaQuery({ minWidth: 1920 });
+
+  const offsetY = isXLargeScreen ? '-350px' : isLargeScreen ? '-280px' : isMediumScreen ? '0px' : '0px';
+
   return (
     <>
       <Head>
@@ -32,6 +41,7 @@ export default function CourtsPage() {
         <Hero
           backgroundUrl={"/img/courts/image5.jpg"}
           title="Korty tenisowe"
+          offsetY={offsetY}
           subtitle={`Budowa kortów tenisowych to nasza specjalność. Oferujemy najlepsze nawierzchnie tenisowe i profesjonalizm w każdym projekcie. Skontaktuj się z nami już dziś i wybuduj swój wymarzony kort.`}
         />
 

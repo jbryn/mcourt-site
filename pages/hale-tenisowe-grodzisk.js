@@ -4,6 +4,8 @@ import Image from "next/image";
 import Contact from "@/components/home/contact/contact";
 import Article from "@/components/article/article";
 
+import { useMediaQuery } from 'react-responsive';
+
 const images = [
   "https://media.graphassets.com/pLk2P1QITDKXuJCVbz0Y",
 
@@ -17,6 +19,13 @@ const images = [
 ];
 
 export default function GrodziskPage() {
+
+  const isMediumScreen = useMediaQuery({ minWidth: 1024 });
+  const isLargeScreen = useMediaQuery({ minWidth: 1600 });
+  const isXLargeScreen = useMediaQuery({ minWidth: 1920 });
+
+  const offsetY = isXLargeScreen ? '-350px' : isLargeScreen ? '-280px' : isMediumScreen ? '0px' : '0px';
+
   return (
     <>
       <Head>
@@ -43,6 +52,7 @@ export default function GrodziskPage() {
         <Hero
           backgroundUrl={"https://media.graphassets.com/XGvyv53ORjqnVccqdm27"}
           title="Hale tenisowe w Grodzisku Mazowieckim"
+          offsetY={offsetY}
           subtitle="Zbudowane we wrześniu 2023 roku hale tenisowe w Grodzisku Mazowieckim, oferują innowacyjną nawierzchnię Laykold Masters 5 dla doskonałych wrażeń z gry. Dołącz do naszej pasji tenisa!"
         />
         <section className="grid place-items-center pb-[100px]">
@@ -79,9 +89,8 @@ export default function GrodziskPage() {
         <section className="grid grid-cols-2 justify-center justify-items-center gap-[10px] px-[20px]">
           {images.map((image, index) => (
             <Image
-              className={`lg:h-[330px] rounded-[15px] ${
-                index % 2 == 0 ? "justify-self-end" : "justify-self-start"
-              }`}
+              className={`lg:h-[330px] rounded-[15px] ${index % 2 == 0 ? "justify-self-end" : "justify-self-start"
+                }`}
               key={index}
               src={image}
               width={440}

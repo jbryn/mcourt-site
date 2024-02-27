@@ -3,6 +3,8 @@ import Hero from "@/components/shared/hero/hero";
 import Image from "next/image";
 import Contact from "@/components/home/contact/contact";
 
+import { useMediaQuery } from 'react-responsive';
+
 const images = [
   "https://media.graphassets.com/dosrCi06TSqRKT7XG80l",
   "https://media.graphassets.com/fppk9kcQMHpZKsidBMJg",
@@ -18,6 +20,13 @@ const images = [
 ];
 
 export default function FalenicaPage() {
+
+  const isMediumScreen = useMediaQuery({ minWidth: 1024 });
+  const isLargeScreen = useMediaQuery({ minWidth: 1600 });
+  const isXLargeScreen = useMediaQuery({ minWidth: 1920 });
+
+  const offsetY = isXLargeScreen ? '-350px' : isLargeScreen ? '-280px' : isMediumScreen ? '0px' : '0px';
+
   return (
     <>
       <Head>
@@ -44,6 +53,7 @@ export default function FalenicaPage() {
         <Hero
           backgroundUrl={"https://media.graphassets.com/R7EYtiNvQENL3Ly3VdqU"}
           title="Korty tenisowe w Falenicy"
+          offsetY={offsetY}
           subtitle=" Firma MCourt wykonała generalny remont trzech kortów tenisowych z mączki ceglanej. Zobacz fotorelację z wykonanego remontu."
         />
         <section className="grid place-items-center">
