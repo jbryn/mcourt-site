@@ -17,7 +17,7 @@ const imagesData = {
         { id: '3', src: 'https://media.graphassets.com/89fKLvxRNeSHV8h5rQWQ', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-malopolska', offsetX: '-20px', offsetY: '-120px', size: '115%' },
         { id: '20', src: 'https://media.graphassets.com/0IlxCJGoQvSlovFzofhH', title: 'MentorSport - Toruń', alt: 'Image 2', href: '/realizacje/mentorsport-torun', offsetX: '0px', offsetY: '-70px' },
         { id: '4', src: 'https://media.graphassets.com/MJFer4wtRaGOMmmAhNe3', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-mazowsze', offsetX: '-50px', offsetY: '0px' },
-        { id: '23', src: 'https://media.graphassets.com/2gYQ1eFTXO5qniZgsTik', title: 'Centrum Kultury - Wola Gołkowska', alt: 'Image 2', href: '/', offsetX: '0px', offsetY: '-40px' },
+        { id: '23', src: 'https://media.graphassets.com/2gYQ1eFTXO5qniZgsTik', title: 'Centrum Kultury - Wola Gołkowska', alt: 'Image 2', href: '/realizacje/centrum-kultury-wola-golkowska', offsetX: '0px', offsetY: '-40px' },
         { id: '5', src: 'https://media.graphassets.com/IEFVsQwqTHO3niZGSIvF', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-warmia', offsetX: '0px', offsetY: '-70px' },
         { id: '25', src: 'https://media.graphassets.com/5zdtLaRRAiYinj5jzoaA', title: 'Gnieźnieński Klub Tenisowy - Gniezno', alt: 'Image 2', href: '/' },
         { id: '18', src: 'https://media.graphassets.com/wpifDb23TiWSSvqEjfgg', title: 'Kort prywatny', alt: 'Image 2', href: '/', offsetX: '0px', offsetY: '-20px' },
@@ -56,7 +56,7 @@ const imagesData = {
     'sztuczna trawa': [
         { id: '42', src: 'https://media.graphassets.com/87A71ICSdizs9OXV32Tg', title: 'OSiR Dębno - Dębno', alt: 'Image 2', href: '/', offsetX: '0px', offsetY: '-70px' },
         { id: '47', src: 'https://media.graphassets.com/0IlxCJGoQvSlovFzofhH', title: 'MentorSport - Toruń', alt: 'Image 2', href: '/realizacje/mentorsport-torun', offsetX: '0px', offsetY: '-70px' },
-        { id: '50', src: 'https://media.graphassets.com/2gYQ1eFTXO5qniZgsTik', title: 'Centrum Kultury - Wola Gołkowska', alt: 'Image 2', href: '/', offsetX: '0px', offsetY: '-40px' },
+        { id: '50', src: 'https://media.graphassets.com/2gYQ1eFTXO5qniZgsTik', title: 'Centrum Kultury - Wola Gołkowska', alt: 'Image 2', href: '/realizacje/centrum-kultury-wola-golkowska', offsetX: '0px', offsetY: '-40px' },
         { id: '43', src: 'https://media.graphassets.com/1Vvwps9gTDaWbHp3TLpd', title: 'Kort prywatny', alt: 'Image 2', href: '/', offsetX: '-30px', offsetY: '-110px', size: '115%' },
         { id: '44', src: 'https://media.graphassets.com/HBJvx3IFT22tvWmrZts1', title: 'Kort prywatny', alt: 'Image 2', href: '/', offsetX: '-70px', offsetY: '-130px', size: '120%' },
         { id: '45', src: 'https://media.graphassets.com/wpifDb23TiWSSvqEjfgg', title: 'Kort prywatny', alt: 'Image 2', href: '/', offsetX: '0px', offsetY: '-20px' },
@@ -132,8 +132,8 @@ const Gallery = ({ category }) => {
                     custom={i}
                     whileHover="visible"
                 >
-                    <Link
-                        href={image.href}
+                    <div
+                        // href={image.href}
                         className='aspect-video rounded-2xl block h-full'
                         style={{
                             backgroundImage: `url(${image.src})`,
