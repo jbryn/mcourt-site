@@ -5,55 +5,49 @@ import Contact from "@/components/home/contact/contact";
 import Article from "@/components/article/article";
 
 const images = [
-    "https://media.graphassets.com/KwX5Uz7ZTqidnStaO6F2",
-    "https://media.graphassets.com/cvfr8VrkQ2mNBqUngyJr",
-    "https://media.graphassets.com/Fid7I9SQmeaUTERzMdXp",
-    "https://media.graphassets.com/2CdPnrDzQuyB87Ok33vb",
-    "https://media.graphassets.com/OsufRGiBRnqKYy0GfSyl",
-    "https://media.graphassets.com/vDjmiYzQSoX2BDReyEWQ",
-    "https://media.graphassets.com/3OUouOvoRjWX4OIRWZGM",
-    "https://media.graphassets.com/QyyFdVlTsG0YaxK7SEDW",
-    "https://media.graphassets.com/X2QJe47uT5qsteVQvFz2",
+    "https://media.graphassets.com/CHrH8rt5SlyqOahEvVzD",
+    "https://media.graphassets.com/HMxuYqQZS7qhVX0BoLWp",
+    "https://media.graphassets.com/fSk7piwSJ6DEg1QVxYRz",
+    "https://media.graphassets.com/YRKdcyj9TOGPNBvh7HfE",
 ];
 
 export default function PrywatnyWarmiaPage() {
     return (
         <>
             <Head>
-                <title>Kort ze sztucznej trawy - Małopolska</title>
+                <title>Kort ceglany - Pruszków</title>
                 <meta
                     name="description"
-                    content="Doskonała jakość gry, trwałość i estetyka - kluczowe cechy innowacyjnej nawierzchni ze sztucznej trawy"
+                    content="Nowe korty tenisowe z mączki ceglanej w Pruszkowie: doskonałe warunki do gry"
                     key="desc"
                 />
                 <meta
                     property="og:title"
-                    content="Kort ze sztucznej trawy - Małopolska"
+                    content="Kort ceglany - Pruszków"
                 />
                 <meta
                     property="og:description"
-                    content="Doskonała jakość gry, trwałość i estetyka - kluczowe cechy innowacyjnej nawierzchni ze sztucznej trawy"
+                    content="Nowe korty tenisowe z mączki ceglanej w Pruszkowie: doskonałe warunki do gry"
                 />
                 <meta
                     property="og:image"
-                    content="https://media.graphassets.com/1Vvwps9gTDaWbHp3TLpd"
+                    content="https://media.graphassets.com/K6b6golKRMeJOZaG3MjG"
                 />
             </Head>
             <main className="overflow-hidden">
                 <Hero
-                    backgroundUrl={"https://media.graphassets.com/1Vvwps9gTDaWbHp3TLpd"}
-                    title="Kort ze sztucznej trawy - Małopolska"
-                    subtitle="Nowa nawierzchnia na prywatnych kortach tenisowych"
+                    backgroundUrl={"https://media.graphassets.com/K6b6golKRMeJOZaG3MjG"}
+                    title="Kort ceglany - Pruszków"
+                    subtitle="Nowe korty tenisowe z mączki ceglanej w Pruszkowie: doskonałe warunki do gry"
                 />
                 <section className="grid place-items-center pb-[100px]">
                     <div className="flex flex-col gap-[60px] px-[40px] max-w-[1000px]">
                         <h1 className="text-[26px] max-[600px]:text-[20px] font-bold">
-                            W 2023 roku właściciele prywatnych kortów tenisowych mogą cieszyć się nową nawierzchnią sztuczną. Juta Fast Track to doskonałe rozwiązanie dla tych, którzy pragną cieszyć się wysoką jakością gry, bez względu na warunki atmosferyczne. Dzięki specjalnej konstrukcji i technologii produkcji, nawierzchnia ta zapewnia doskonałą przyczepność, równomierny odbiór piłki oraz trwałość przez wiele lat.
+                            W Pruszkowie powstały nowe korty tenisowe z mączki ceglanej! Dzięki naszej pracy teren zyskał profesjonalne obiekty, które zachwycą miłośników tenisa. Odkryj idealne warunki do gry i rekreacji, które oferują korty w Pruszkowie.
                         </h1>
                         <h2>
-                            Wybór nawierzchni sztucznej Juta Fast Track to także kwestia estetyki i komfortu użytkowania. Dostępność różnorodnych kolorów pozwala dostosować wygląd kortu do indywidualnych preferencji, tworząc eleganckie i nowoczesne miejsce do gry.
+                            Profesjonalna budowa zapewnia doskonałą jakość i trwałość nawierzchni. Zarezerwuj swój termin budowy kortu już teraz!
                         </h2>
-
                     </div>
                 </section>
                 <section className="grid place-items-center gap-[60px]">

@@ -5,55 +5,53 @@ import Contact from "@/components/home/contact/contact";
 import Article from "@/components/article/article";
 
 const images = [
-    "https://media.graphassets.com/KwX5Uz7ZTqidnStaO6F2",
-    "https://media.graphassets.com/cvfr8VrkQ2mNBqUngyJr",
-    "https://media.graphassets.com/Fid7I9SQmeaUTERzMdXp",
-    "https://media.graphassets.com/2CdPnrDzQuyB87Ok33vb",
-    "https://media.graphassets.com/OsufRGiBRnqKYy0GfSyl",
-    "https://media.graphassets.com/vDjmiYzQSoX2BDReyEWQ",
-    "https://media.graphassets.com/3OUouOvoRjWX4OIRWZGM",
-    "https://media.graphassets.com/QyyFdVlTsG0YaxK7SEDW",
-    "https://media.graphassets.com/X2QJe47uT5qsteVQvFz2",
+    "https://media.graphassets.com/MMV2zmVGQhG0KGlgT3E8",
+    "https://media.graphassets.com/brtBI2zQuJc4VbdoIADQ",
+    "https://media.graphassets.com/NgfZZZAuRHCWOg3bncsW",
+    "https://media.graphassets.com/PYm6PBUZSFWa1tB9myA4",
+    "https://media.graphassets.com/YFt1SwSLOaPixfopWcMQ",
+    "https://media.graphassets.com/mJBAzeuwRCmOyQkFFMQ2",
+    "https://media.graphassets.com/I5EQ8FT3KpInjUo1KxhA",
+    "https://media.graphassets.com/dtdQWuqRC2BGZm6ezt4g",
 ];
 
 export default function PrywatnyWarmiaPage() {
     return (
         <>
             <Head>
-                <title>Kort ze sztucznej trawy - Małopolska</title>
+                <title>Kort ze sztucznej trawy - Mazowsze</title>
                 <meta
                     name="description"
-                    content="Doskonała jakość gry, trwałość i estetyka - kluczowe cechy innowacyjnej nawierzchni ze sztucznej trawy"
+                    content="Prywatny kort tenisowy ze sztuczną nawierzchnią"
                     key="desc"
                 />
                 <meta
                     property="og:title"
-                    content="Kort ze sztucznej trawy - Małopolska"
+                    content="Kort ze sztucznej trawy - Mazowsze"
                 />
                 <meta
                     property="og:description"
-                    content="Doskonała jakość gry, trwałość i estetyka - kluczowe cechy innowacyjnej nawierzchni ze sztucznej trawy"
+                    content="Prywatny kort tenisowy ze sztuczną nawierzchnią"
                 />
                 <meta
                     property="og:image"
-                    content="https://media.graphassets.com/1Vvwps9gTDaWbHp3TLpd"
+                    content="https://media.graphassets.com/HBJvx3IFT22tvWmrZts1"
                 />
             </Head>
             <main className="overflow-hidden">
                 <Hero
-                    backgroundUrl={"https://media.graphassets.com/1Vvwps9gTDaWbHp3TLpd"}
-                    title="Kort ze sztucznej trawy - Małopolska"
-                    subtitle="Nowa nawierzchnia na prywatnych kortach tenisowych"
+                    backgroundUrl={"https://media.graphassets.com/HBJvx3IFT22tvWmrZts1"}
+                    title="Kort ze sztucznej trawy - Mazowsze"
+                    subtitle="Prywatny kort tenisowy ze sztuczną nawierzchnią"
                 />
                 <section className="grid place-items-center pb-[100px]">
                     <div className="flex flex-col gap-[60px] px-[40px] max-w-[1000px]">
                         <h1 className="text-[26px] max-[600px]:text-[20px] font-bold">
-                            W 2023 roku właściciele prywatnych kortów tenisowych mogą cieszyć się nową nawierzchnią sztuczną. Juta Fast Track to doskonałe rozwiązanie dla tych, którzy pragną cieszyć się wysoką jakością gry, bez względu na warunki atmosferyczne. Dzięki specjalnej konstrukcji i technologii produkcji, nawierzchnia ta zapewnia doskonałą przyczepność, równomierny odbiór piłki oraz trwałość przez wiele lat.
+                            Prywatny kort tenisowy koło Warszawy, zastosowano sztuczną trawę Juta Fast Track 15, pole kortu w kolorze ceglanym natomiast wybiegi wykonano w kolorze oliwkowa zieleń.
                         </h1>
                         <h2>
-                            Wybór nawierzchni sztucznej Juta Fast Track to także kwestia estetyki i komfortu użytkowania. Dostępność różnorodnych kolorów pozwala dostosować wygląd kortu do indywidualnych preferencji, tworząc eleganckie i nowoczesne miejsce do gry.
+                            Budujemy nowoczesną nawierzchnię z sztucznej trawy na prywatnych posesjach koło Warszawy. Wyjątkowa jakość dla prawdziwych miłośników tenisa
                         </h2>
-
                     </div>
                 </section>
                 <section className="grid place-items-center gap-[60px]">

@@ -5,53 +5,53 @@ import Contact from "@/components/home/contact/contact";
 import Article from "@/components/article/article";
 
 const images = [
-    "https://media.graphassets.com/KwX5Uz7ZTqidnStaO6F2",
-    "https://media.graphassets.com/cvfr8VrkQ2mNBqUngyJr",
-    "https://media.graphassets.com/Fid7I9SQmeaUTERzMdXp",
-    "https://media.graphassets.com/2CdPnrDzQuyB87Ok33vb",
-    "https://media.graphassets.com/OsufRGiBRnqKYy0GfSyl",
-    "https://media.graphassets.com/vDjmiYzQSoX2BDReyEWQ",
-    "https://media.graphassets.com/3OUouOvoRjWX4OIRWZGM",
-    "https://media.graphassets.com/QyyFdVlTsG0YaxK7SEDW",
-    "https://media.graphassets.com/X2QJe47uT5qsteVQvFz2",
+    "https://media.graphassets.com/iiqVpH4RkaOPHzNCVzNA",
+    "https://media.graphassets.com/jVjiCpSaSwunfHQNUwLV",
+    "https://media.graphassets.com/Foo4JRmTrizYrcIwF3yw",
+    "https://media.graphassets.com/0jRUOEMSk8LuLXGX7Heg",
+    "https://media.graphassets.com/T4ES4bhEQNWVgTC6DJsX",
+    "https://media.graphassets.com/QnE5XrBwTyeAYHwizSlR",
+    "https://media.graphassets.com/9TP1eURFSVWL8ozDFTee",
+    "https://media.graphassets.com/ZWglAJuRTFCz7cNfUX9t",
+    "https://media.graphassets.com/jkpnCZTteHmYyeU6cdwg",
 ];
 
 export default function PrywatnyWarmiaPage() {
     return (
         <>
             <Head>
-                <title>Kort ze sztucznej trawy - Małopolska</title>
+                <title>Kort ceglany - Myślenice</title>
                 <meta
                     name="description"
-                    content="Doskonała jakość gry, trwałość i estetyka - kluczowe cechy innowacyjnej nawierzchni ze sztucznej trawy"
+                    content="Nowy kort tenisowy z nawierzchnią ceglaną Antuka: Profesjonalne doznania na korcie"
                     key="desc"
                 />
                 <meta
                     property="og:title"
-                    content="Kort ze sztucznej trawy - Małopolska"
+                    content="Kort ceglany - Myślenice"
                 />
                 <meta
                     property="og:description"
-                    content="Doskonała jakość gry, trwałość i estetyka - kluczowe cechy innowacyjnej nawierzchni ze sztucznej trawy"
+                    content="Nowy kort tenisowy z nawierzchnią ceglaną Antuka: Profesjonalne doznania na korcie"
                 />
                 <meta
                     property="og:image"
-                    content="https://media.graphassets.com/1Vvwps9gTDaWbHp3TLpd"
+                    content="https://media.graphassets.com/gRsQr6SQy8CaJSZ0oKAV"
                 />
             </Head>
             <main className="overflow-hidden">
                 <Hero
-                    backgroundUrl={"https://media.graphassets.com/1Vvwps9gTDaWbHp3TLpd"}
-                    title="Kort ze sztucznej trawy - Małopolska"
-                    subtitle="Nowa nawierzchnia na prywatnych kortach tenisowych"
+                    backgroundUrl={"https://media.graphassets.com/gRsQr6SQy8CaJSZ0oKAV"}
+                    title="Kort ceglany - Myślenice"
+                    subtitle="Nowy kort tenisowy z nawierzchnią ceglaną Antuka: Profesjonalne doznania na korcie"
                 />
                 <section className="grid place-items-center pb-[100px]">
                     <div className="flex flex-col gap-[60px] px-[40px] max-w-[1000px]">
                         <h1 className="text-[26px] max-[600px]:text-[20px] font-bold">
-                            W 2023 roku właściciele prywatnych kortów tenisowych mogą cieszyć się nową nawierzchnią sztuczną. Juta Fast Track to doskonałe rozwiązanie dla tych, którzy pragną cieszyć się wysoką jakością gry, bez względu na warunki atmosferyczne. Dzięki specjalnej konstrukcji i technologii produkcji, nawierzchnia ta zapewnia doskonałą przyczepność, równomierny odbiór piłki oraz trwałość przez wiele lat.
+                            Kort tenisowy z najwyższej jakości nawierzchnią ceglaną Antuka w malowniczych Myślenicach. Profesjonalna budowa, trwałość i doskonałe warunki do gry
                         </h1>
                         <h2>
-                            Wybór nawierzchni sztucznej Juta Fast Track to także kwestia estetyki i komfortu użytkowania. Dostępność różnorodnych kolorów pozwala dostosować wygląd kortu do indywidualnych preferencji, tworząc eleganckie i nowoczesne miejsce do gry.
+                            W malowniczych Myślenicach wybudowaliśmy nowy – prywatny kort tenisowy z nawierzchnią ceglaną Antuka. W ramach naszych prac, kompleksowo zadbaliśmy o każdy detal, rozpoczynając od precyzyjnego wykonania i wyprofilowania solidnej podbudowy, poprzez montaż estetycznego ogrodzenia, aż po ułożenie doskonałej nawierzchni z najwyższej jakości Antuki. Nasza nawierzchnia ceglana Antuka zapewnia nie tylko wyjątkowe doznania podczas gry, ale także trwałość i odporność na warunki atmosferyczne.
                         </h2>
 
                     </div>
