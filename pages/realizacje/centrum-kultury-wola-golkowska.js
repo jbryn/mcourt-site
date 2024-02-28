@@ -17,10 +17,10 @@ export default function PrywatnyWarmiaPage() {
     return (
         <>
             <Head>
-                <title>Centrum Kultury w Woli Gołkowskiej</title>
+                <title>Centrum Kultury - Woli Gołkowskiej</title>
                 <meta
                     name="description"
-                    content=""
+                    content="Nowoczesna Rewitalizacja: Kort Tenisowy Ze Sztucznej Trawy"
                     key="desc"
                 />
                 <meta
@@ -29,7 +29,7 @@ export default function PrywatnyWarmiaPage() {
                 />
                 <meta
                     property="og:description"
-                    content=""
+                    content="Nowoczesna Rewitalizacja: Kort Tenisowy Ze Sztucznej Trawy"
                 />
                 <meta
                     property="og:image"
@@ -40,7 +40,7 @@ export default function PrywatnyWarmiaPage() {
                 <Hero
                     backgroundUrl={"https://media.graphassets.com/2gYQ1eFTXO5qniZgsTik"}
                     title="Centrum Kultury w Woli Gołkowskiej"
-                    subtitle=""
+                    subtitle="Odkryj nasze profesjonalne podejście do modernizacji kortów tenisowych!"
                 />
                 <section className="grid place-items-center pb-[100px]">
                     <div className="flex flex-col gap-[60px] px-[40px] max-w-[1000px]">

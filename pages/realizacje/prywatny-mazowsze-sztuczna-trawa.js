@@ -2,7 +2,8 @@ import Head from "next/head";
 import Hero from "@/components/shared/hero/hero";
 import Image from "next/image";
 import Contact from "@/components/home/contact/contact";
-import Article from "@/components/article/article";
+
+import { useMediaQuery } from 'react-responsive';
 
 const images = [
     "https://media.graphassets.com/MMV2zmVGQhG0KGlgT3E8",
@@ -16,6 +17,13 @@ const images = [
 ];
 
 export default function PrywatnyWarmiaPage() {
+
+    const isMediumScreen = useMediaQuery({ minWidth: 1300 });
+    const isLargeScreen = useMediaQuery({ minWidth: 1600 });
+    const isXLargeScreen = useMediaQuery({ minWidth: 1920 });
+
+    const offsetY = isXLargeScreen ? '-550px' : isLargeScreen ? '-480px' : isMediumScreen ? '-350px' : '0px';
+
     return (
         <>
             <Head>
@@ -42,6 +50,7 @@ export default function PrywatnyWarmiaPage() {
                 <Hero
                     backgroundUrl={"https://media.graphassets.com/HBJvx3IFT22tvWmrZts1"}
                     title="Kort ze sztucznej trawy - Mazowsze"
+                    offsetY={offsetY}
                     subtitle="Prywatny kort tenisowy ze sztuczną nawierzchnią"
                 />
                 <section className="grid place-items-center pb-[100px]">

@@ -23,7 +23,7 @@ export default function PrywatnyWarmiaPage() {
                 <title>Klub Sportowy Czarni - Rzeszów</title>
                 <meta
                     name="description"
-                    content="Klub Sportowy Czarni - Rzeszów"
+                    content="Innowacyjna termoizolacja hal tenisowych"
                     key="desc"
                 />
                 <meta
@@ -32,7 +32,7 @@ export default function PrywatnyWarmiaPage() {
                 />
                 <meta
                     property="og:description"
-                    content="Klub Sportowy Czarni - Rzeszów"
+                    content="Innowacyjna termoizolacja hal tenisowych"
                 />
                 <meta
                     property="og:image"
@@ -43,18 +43,27 @@ export default function PrywatnyWarmiaPage() {
                 <Hero
                     backgroundUrl={"https://media.graphassets.com/DtM9zRUuTHaZVFa2vwAk"}
                     title="Klub Sportowy Czarni - Rzeszów"
-                    subtitle="Klub Sportowy Czarni - Rzeszów"
+                    subtitle="Wykorzystując zaawansowane wtłaczanie granulatu pomiędzy plandeki, obiekty
+sportowe zyskują doskonałą ochronę termiczną, umożliwiając grę przez cały rok.
+Zwiększona wydajność energetyczna przy minimalnych kosztach eksploatacyjnych!"
                 />
                 <section className="grid place-items-center pb-[100px]">
                     <div className="flex flex-col gap-[60px] px-[40px] max-w-[1000px]">
                         <h1 className="text-[26px] max-[600px]:text-[20px] font-bold">
-                            Klub Sportowy Czarni - Rzeszów
+                            W roku 2023 przeprowadziliśmy innowacyjną modernizację hal tenisowych w klubie Czarni
+                            Rzeszów poprzez zastosowanie zaawansowanej metody termoizolacji. Zamiast tradycyjnych
+                            metod, zdecydowaliśmy się na nowatorskie rozwiązanie polegające na wtłoczeniu wysokiej
+                            jakości granulatu styropianowego pomiędzy plandeki hali.
                         </h1>
                         <h2>
-
+                            Dzięki temu procesowi, obiekty uzyskały doskonałą ochronę termiczną, zapewniając
+                            optymalne warunki do uprawiania tenisa przez cały rok. Ta nowoczesna technologia nie tylko
+                            zwiększyła wydajność energetyczną obiektów, ale także przyczyniła się do redukcji kosztów
+                            eksploatacyjnych, umożliwiając dalszy rozwój infrastruktury sportowej z myślą o komforcie i
+                            satysfakcji naszych klientów.
                         </h2>
                         <h2>
-
+                            Jeżeli jesteś zainteresowany termoizolacją, skontaktuj się z nami już dzisiaj!
                         </h2>
                     </div>
                 </section>
@@ -72,7 +81,6 @@ export default function PrywatnyWarmiaPage() {
                             />
                         ))}
                     </div>
-
                 </section>
 
                 <Contact

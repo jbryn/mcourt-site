@@ -2,7 +2,8 @@ import Head from "next/head";
 import Hero from "@/components/shared/hero/hero";
 import Image from "next/image";
 import Contact from "@/components/home/contact/contact";
-import Article from "@/components/article/article";
+
+import { useMediaQuery } from 'react-responsive';
 
 const images = [
     "https://media.graphassets.com/3Scx6sqOTn2twRhnYvp4",
@@ -20,7 +21,14 @@ const images = [
     "https://media.graphassets.com/PXXogQ7mT3alVKiC1Cr9",
 ];
 
-export default function PrywatnyWarmiaPage() {
+export default function MentorSportPage() {
+
+    const isMediumScreen = useMediaQuery({ minWidth: 1124 });
+    const isLargeScreen = useMediaQuery({ minWidth: 1600 });
+    const isXLargeScreen = useMediaQuery({ minWidth: 1920 });
+
+    const offsetY = isXLargeScreen ? '-250px' : isLargeScreen ? '-280px' : isMediumScreen ? '0px' : '0px';
+
     return (
         <>
             <Head>
@@ -47,6 +55,7 @@ export default function PrywatnyWarmiaPage() {
                 <Hero
                     backgroundUrl={"https://media.graphassets.com/KOAkek7BQvaB8lYN2DHR"}
                     title="MentorSport - Toruń"
+                    offsetY={offsetY}
                     subtitle="W 2022 roku Toruński Klub Mentor przeszedł przełomową modernizację, zastępując dotychczasową nawierzchnię na swoich kortach nową sztuczną trawą Juta Fast Track 15."
                 />
                 <section className="grid place-items-center pb-[100px]">

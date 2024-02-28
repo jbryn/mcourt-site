@@ -21,7 +21,7 @@ export default function PrywatnyMazowszePage() {
     return (
         <>
             <Head>
-                <title>Realizacje | Retopping przydomowego kortu</title>
+                <title>Kort akrylowy - Mazowsze</title>
                 <meta
                     name="description"
                     content="Nowoczesna renowacja kortów akrylowych na prywatnych posesjach. Metoda retoppingu, włączająca naprawę podbudowy oraz ułożenie nowej warstwy akrylu przynosi nowe życie dla kortów"
@@ -29,7 +29,7 @@ export default function PrywatnyMazowszePage() {
                 />
                 <meta
                     property="og:title"
-                    content="Realizacje | Retopping przydomowego kortu"
+                    content="Kort akrylowy - Mazowsze"
                 />
                 <meta
                     property="og:description"
@@ -37,13 +37,13 @@ export default function PrywatnyMazowszePage() {
                 />
                 <meta
                     property="og:image"
-                    content="https://media.graphassets.com/MJFer4wtRaGOMmmAhNe3"
+                    content="https://media.graphassets.com/6MsEWoprRA6UWJ9UYLHx"
                 />
             </Head>
             <main className="overflow-hidden">
                 <Hero
-                    backgroundUrl={"https://media.graphassets.com/MJFer4wtRaGOMmmAhNe3"}
-                    title="Retopping przydomowego kortu"
+                    backgroundUrl={"https://media.graphassets.com/6MsEWoprRA6UWJ9UYLHx"}
+                    title="Kort akrylowy - Mazowsze"
                     subtitle="Nowoczesna renowacja kortów akrylowych na prywatnych posesjach. Metoda retoppingu, włączająca naprawę podbudowy oraz ułożenie nowej warstwy akrylu przynosi nowe życie dla kortów"
                 />
                 <section className="grid place-items-center pb-[100px]">

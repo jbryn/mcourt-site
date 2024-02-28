@@ -2,7 +2,8 @@ import Head from "next/head";
 import Hero from "@/components/shared/hero/hero";
 import Image from "next/image";
 import Contact from "@/components/home/contact/contact";
-import Article from "@/components/article/article";
+
+import { useMediaQuery } from 'react-responsive';
 
 const images = [
     "https://media.graphassets.com/KwX5Uz7ZTqidnStaO6F2",
@@ -17,6 +18,13 @@ const images = [
 ];
 
 export default function PrywatnyWarmiaPage() {
+
+    const isMediumScreen = useMediaQuery({ minWidth: 1124 });
+    const isLargeScreen = useMediaQuery({ minWidth: 1500 });
+    const isXLargeScreen = useMediaQuery({ minWidth: 1920 });
+
+    const offsetY = isXLargeScreen ? '-600px' : isLargeScreen ? '-500px' : isMediumScreen ? '-170px' : '0px';
+
     return (
         <>
             <Head>
@@ -43,6 +51,7 @@ export default function PrywatnyWarmiaPage() {
                 <Hero
                     backgroundUrl={"https://media.graphassets.com/1Vvwps9gTDaWbHp3TLpd"}
                     title="Kort ze sztucznej trawy - Małopolska"
+                    offsetY={offsetY}
                     subtitle="Nowa nawierzchnia na prywatnych kortach tenisowych"
                 />
                 <section className="grid place-items-center pb-[100px]">

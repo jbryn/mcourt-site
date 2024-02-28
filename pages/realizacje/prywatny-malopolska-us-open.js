@@ -2,7 +2,9 @@ import Head from "next/head";
 import Hero from "@/components/shared/hero/hero";
 import Image from "next/image";
 import Contact from "@/components/home/contact/contact";
-import Article from "@/components/article/article";
+
+import { useMediaQuery } from 'react-responsive';
+
 
 const images = [
     "https://media.graphassets.com/t1CFjP7xQGWIgSCNVqDY",
@@ -27,6 +29,13 @@ const images = [
 ];
 
 export default function PrywatnyMalopolskaPage() {
+
+    const isMediumScreen = useMediaQuery({ minWidth: 1124 });
+    const isLargeScreen = useMediaQuery({ minWidth: 1600 });
+    const isXLargeScreen = useMediaQuery({ minWidth: 1920 });
+
+    const offsetY = isXLargeScreen ? '-450px' : isLargeScreen ? '-480px' : isMediumScreen ? '-170px' : '0px';
+
     return (
         <>
             <Head>
@@ -53,6 +62,7 @@ export default function PrywatnyMalopolskaPage() {
                 <Hero
                     backgroundUrl={"https://media.graphassets.com/pO5ECj4bRIKq8bKy073i"}
                     title="Kort akrylowy - Małopolska"
+                    offsetY={offsetY}
                     subtitle="Nasza firma z dumą ogłasza ukończenie budowy pierwszego w Polsce kortu tenisowego z nawierzchnią, która równa się tej z prestiżowego turnieju US Open. "
                 />
                 <section className="grid place-items-center pb-[100px]">
@@ -72,16 +82,16 @@ export default function PrywatnyMalopolskaPage() {
                     </div>
                 </section>
                 <section className="grid place-items-center gap-[60px]">
-                    <div className="grid grid-cols-1 md:grid-cols-2 justify-center justify-items-center gap-[10px] px-[20px]">
+                    <div className="grid grid-cols-1 min-[1100px]:grid-cols-2 justify-center justify-items-center gap-[10px] px-[20px]">
                         {images.map((image, index) => (
-                            <Image
-                                className={`lg:h-[330px] rounded-[15px] aspect-video ${index % 2 == 0 ? "justify-self-end" : "justify-self-start"
-                                    }`}
+                            <div
                                 key={index}
-                                src={image}
-                                width={440}
-                                height={306}
-                                alt={image}
+                                className="h-[300px] rounded-[15px] aspect-video"
+                                style={{
+                                    backgroundImage: `url(${image})`,
+                                    backgroundSize: "cover",
+                                    backgroundPosition: "center",
+                                }}
                             />
                         ))}
                     </div>

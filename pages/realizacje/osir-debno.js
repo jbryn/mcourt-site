@@ -2,7 +2,8 @@ import Head from "next/head";
 import Hero from "@/components/shared/hero/hero";
 import Image from "next/image";
 import Contact from "@/components/home/contact/contact";
-import Article from "@/components/article/article";
+
+import { useMediaQuery } from 'react-responsive';
 
 const images = [
     "https://media.graphassets.com/ttwdKa4Tcut2OEGWYqtg",
@@ -18,7 +19,14 @@ const images = [
     "https://media.graphassets.com/TsGs9OvxSOi3yE0JC5Tw",
 ];
 
-export default function PrywatnyWarmiaPage() {
+export default function OsirDebnoPage() {
+
+    const isMediumScreen = useMediaQuery({ minWidth: 1124 });
+    const isLargeScreen = useMediaQuery({ minWidth: 1600 });
+    const isXLargeScreen = useMediaQuery({ minWidth: 1920 });
+
+    const offsetY = isXLargeScreen ? '-450px' : isLargeScreen ? '-480px' : isMediumScreen ? '-170px' : '0px';
+
     return (
         <>
             <Head>
@@ -45,6 +53,7 @@ export default function PrywatnyWarmiaPage() {
                 <Hero
                     backgroundUrl={"https://media.graphassets.com/87A71ICSdizs9OXV32Tg"}
                     title="OSiR Dębno"
+                    offsetY={offsetY}
                     subtitle="Korty w Dębnie otrzymują nową sztuczną trawę"
                 />
                 <section className="grid place-items-center pb-[100px]">

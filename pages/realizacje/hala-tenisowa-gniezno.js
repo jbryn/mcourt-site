@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Hero from "@/components/shared/hero/hero";
-import Image from "next/image";
 import Contact from "@/components/home/contact/contact";
-import Article from "@/components/article/article";
+
+import { useMediaQuery } from 'react-responsive';
 
 const images = [
     "https://media.graphassets.com/PXH09ymFRt6Ob53sYWrN",
@@ -16,14 +16,23 @@ const images = [
     "https://media.graphassets.com/tPRlgkfjQ72rEPWxaY5n",
 ];
 
-export default function PrywatnyWarmiaPage() {
+const reversedImages = images.reverse();
+
+export default function HalaGnieznoPage() {
+
+    const isMediumScreen = useMediaQuery({ minWidth: 1124 });
+    const isLargeScreen = useMediaQuery({ minWidth: 1600 });
+    const isXLargeScreen = useMediaQuery({ minWidth: 1920 });
+
+    const offsetY = isXLargeScreen ? '-50px' : isLargeScreen ? '0px' : isMediumScreen ? '0px' : '0px';
+
     return (
         <>
             <Head>
                 <title>Hala tenisowa - Gniezno</title>
                 <meta
                     name="description"
-                    content="Hala tenisowa - Gniezno"
+                    content="Nowoczesne oświetlenie i renowacja nawierzchni - odmieniamy halę tenisową w Gnieźnie."
                     key="desc"
                 />
                 <meta
@@ -32,7 +41,7 @@ export default function PrywatnyWarmiaPage() {
                 />
                 <meta
                     property="og:description"
-                    content="Hala tenisowa - Gniezno"
+                    content="Nowoczesne oświetlenie i renowacja nawierzchni - odmieniamy halę tenisową w Gnieźnie."
                 />
                 <meta
                     property="og:image"
@@ -43,24 +52,29 @@ export default function PrywatnyWarmiaPage() {
                 <Hero
                     backgroundUrl={"https://media.graphassets.com/5zdtLaRRAiYinj5jzoaA"}
                     title="Hala tenisowa - Gniezno"
-                    subtitle="Hala tenisowa - Gniezno"
+                    offsetY={offsetY}
+                    subtitle="Nowoczesne oświetlenie i renowacja nawierzchni - odmieniamy halę tenisową w Gnieźnie."
                 />
                 <section className="grid place-items-center pb-[100px]">
                     <div className="flex flex-col gap-[60px] px-[40px] max-w-[1000px]">
                         <h1 className="text-[26px] max-[600px]:text-[20px] font-bold">
-                            Hala tenisowa - Gniezno
+                            W 2020 roku przeprowadziliśmy kompleksowy remont hali tenisowej w Gnieźnie, podnosząc
+                            jej standardy i komfort użytkowania. Nasze prace objęły wymianę powłok, nagrzewnic oraz
+                            oświetlenia, co przyczyniło się do poprawy warunków gry oraz zapewniło lepsze oświetlenie
+                            nawet podczas wieczornych meczów. Ponadto, przeprowadziliśmy renowację nawierzchni
+                            ceglanej, co dodatkowo podniosło jakość i estetykę obiektu. Dzięki temu remontowi, hala
+                            tenisowa stała się bardziej atrakcyjnym miejscem dla wszystkich tenisistów.
                         </h1>
                         <h2>
-
-                        </h2>
-                        <h2>
-
+                            Oferujemy kompleksowe usługi modernizacyjne, obejmujące wymianę powłok, nagrzewnic,
+                            oświetlenia oraz renowację nawierzchni ceglanej. Popraw swoje doświadczenie gry i komfort
+                            podczas treningów i meczów.
                         </h2>
                     </div>
                 </section>
                 <section className="grid place-items-center gap-[60px]">
                     <div className="grid grid-cols-1 min-[1100px]:grid-cols-2 justify-center justify-items-center gap-[10px] px-[20px]">
-                        {images.map((image, index) => (
+                        {reversedImages.map((image, index) => (
                             <div
                                 key={index}
                                 className="h-[300px] rounded-[15px] aspect-video"

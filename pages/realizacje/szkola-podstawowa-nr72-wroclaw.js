@@ -2,7 +2,8 @@ import Head from "next/head";
 import Hero from "@/components/shared/hero/hero";
 import Image from "next/image";
 import Contact from "@/components/home/contact/contact";
-import Article from "@/components/article/article";
+
+import { useMediaQuery } from 'react-responsive';
 
 const images = [
     "https://media.graphassets.com/eemT9Zl1R5SjpDUKBO5v",
@@ -25,10 +26,17 @@ const images = [
 ];
 
 export default function PrywatnyWarmiaPage() {
+
+    const isMediumScreen = useMediaQuery({ minWidth: 1224 });
+    const isLargeScreen = useMediaQuery({ minWidth: 1700 });
+    const isXLargeScreen = useMediaQuery({ minWidth: 1920 });
+
+    const offsetY = isXLargeScreen ? '-650px' : isLargeScreen ? '-580px' : isMediumScreen ? '-270px' : '0px';
+
     return (
         <>
             <Head>
-                <title>Realizacje | Nowe korty tenisowe we Wrocławiu przy ulicy Trwałej</title>
+                <title>Korty akrylowe - Wrocław</title>
                 <meta
                     name="description"
                     content="Prace nad dwoma kortami tenisowymi z nawierzchnią Laykold Master Color we Wrocławiu nabierają tempa, obiecując dostarczyć wysoką jakość gry i integrację społeczności poprzez sport."
@@ -36,7 +44,7 @@ export default function PrywatnyWarmiaPage() {
                 />
                 <meta
                     property="og:title"
-                    content="Realizacje | Nowe korty tenisowe we Wrocławiu przy ulicy Trwałej"
+                    content="Korty akrylowe - Wrocław"
                 />
                 <meta
                     property="og:description"
@@ -50,7 +58,8 @@ export default function PrywatnyWarmiaPage() {
             <main className="overflow-hidden">
                 <Hero
                     backgroundUrl={"https://media.graphassets.com/C2u5SekYTWq4l3iFcmDI"}
-                    title="Nowe korty tenisowe we Wrocławiu przy ulicy Trwałej"
+                    title="Korty akrylowe - Wrocław"
+                    offsetY={offsetY}
                     subtitle="Prace nad dwoma kortami tenisowymi z nawierzchnią Laykold Master Color we Wrocławiu nabierają tempa, obiecując dostarczyć wysoką jakość gry i integrację społeczności poprzez sport."
                 />
                 <section className="grid place-items-center pb-[100px]">

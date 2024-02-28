@@ -33,12 +33,12 @@ export default function PrywatnyWarmiaPage() {
                 />
                 <meta
                     property="og:image"
-                    content="https://media.graphassets.com/wpifDb23TiWSSvqEjfgg"
+                    content="https://media.graphassets.com/XBA8r4MRcSnHlyj9Sz6N"
                 />
             </Head>
             <main className="overflow-hidden">
                 <Hero
-                    backgroundUrl={"https://media.graphassets.com/wpifDb23TiWSSvqEjfgg"}
+                    backgroundUrl={"https://media.graphassets.com/XBA8r4MRcSnHlyj9Sz6N"}
                     title="Kort ze sztucznej trawy - Mazowsze"
                     subtitle="Nasza kompleksowa obsługa obejmuje projektowanie, budowę, oraz
                         regularne konserwacje i serwisowanie kortów. To idealne rozwiązanie dla miłośników

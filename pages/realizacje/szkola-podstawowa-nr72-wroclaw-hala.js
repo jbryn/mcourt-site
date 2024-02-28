@@ -2,7 +2,8 @@ import Head from "next/head";
 import Hero from "@/components/shared/hero/hero";
 import Image from "next/image";
 import Contact from "@/components/home/contact/contact";
-import Article from "@/components/article/article";
+
+import { useMediaQuery } from 'react-responsive';
 
 const images = [
     "https://media.graphassets.com/Fg3A8V7aSmKMBG3Hw6zh",
@@ -18,10 +19,17 @@ const images = [
 ];
 
 export default function PrywatnyWarmiaPage() {
+
+    const isMediumScreen = useMediaQuery({ minWidth: 1224 });
+    const isLargeScreen = useMediaQuery({ minWidth: 1700 });
+    const isXLargeScreen = useMediaQuery({ minWidth: 1920 });
+
+    const offsetY = isXLargeScreen ? '-650px' : isLargeScreen ? '-580px' : isMediumScreen ? '-270px' : '0px';
+
     return (
         <>
             <Head>
-                <title>Nowoczesna Hala Sportowa z Nawierzchnią Laykold Master Color</title>
+                <title>Hala tenisowa - Wrocław</title>
                 <meta
                     name="description"
                     content="Nawierzchnia Laykold Master Color zapewnia idealne warunki dla graczy tenisowych."
@@ -29,7 +37,7 @@ export default function PrywatnyWarmiaPage() {
                 />
                 <meta
                     property="og:title"
-                    content="Nowoczesna Hala Sportowa z Nawierzchnią Laykold Master Color"
+                    content="Hala tenisowa - Wrocław"
                 />
                 <meta
                     property="og:description"
@@ -43,7 +51,8 @@ export default function PrywatnyWarmiaPage() {
             <main className="overflow-hidden">
                 <Hero
                     backgroundUrl={"https://media.graphassets.com/mTGgax3RxCRBbP6NdkOw"}
-                    title="Nowoczesna Hala Sportowa z Nawierzchnią Laykold Master Color"
+                    title="Hala tenisowa - Wrocław"
+                    offsetY={offsetY}
                     subtitle="Nawierzchnia Laykold Master Color zapewnia idealne warunki dla graczy tenisowych."
                 />
                 <section className="grid place-items-center pb-[100px]">

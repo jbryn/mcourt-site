@@ -1,23 +1,22 @@
 import Image from "next/image";
 import styles from "./hero.module.scss";
 
-export default function Hero({ backgroundUrl, title, offsetX, offsetY, subtitle }) {
+export default function Hero({ backgroundUrl, title, offsetX, offsetY, size, subtitle }) {
   return (
     <section className="overflow-hidden pb-[720px] relative">
       <div
         className={styles.wrapper}
-        // style={{ backgroundImage: `url('${backgroundUrl}')`, backgroundPosition: `${offsetX} ${offsetY}`, }}
         style={{
           backgroundImage: `url('${backgroundUrl}')`,
-          backgroundPositionY: offsetY,
-          backgroundPositionX: 'center',
-          // background: 'linear-gradient(to right, #7ED957, #fff);'
+          backgroundPositionY: offsetY || "center",
+          backgroundPositionX: offsetX || "center",
+          backgroundSize: size || "cover",
         }}
       >
         <div className={styles.hero}>
           <h1>{title}</h1>
           <h2>{subtitle}</h2>
-          <div className="absolute top-[570px] left-[calc(50%-25px)] z-10">
+          <div className="absolute top-[500px] left-[calc(50%-25px)] z-10">
             <svg
               width="49"
               height="76"

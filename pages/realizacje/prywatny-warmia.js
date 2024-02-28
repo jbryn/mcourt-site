@@ -34,7 +34,7 @@ export default function PrywatnyWarmiaPage() {
     return (
         <>
             <Head>
-                <title>Realizacje | Kort Tenisowy na Mazurach z Nawierzchnią Laykold Masters 5</title>
+                <title>Kort akrylowy - Warmia</title>
                 <meta
                     name="description"
                     content="Marzysz o prywatnym korcie z nawierzchnią Laykold? Odezwij się do nas już dziś."
@@ -42,7 +42,7 @@ export default function PrywatnyWarmiaPage() {
                 />
                 <meta
                     property="og:title"
-                    content="Realizacje | Kort Tenisowy na Mazurach z Nawierzchnią Laykold Masters 5"
+                    content="Kort akrylowy - Warmia"
                 />
                 <meta
                     property="og:description"
@@ -56,7 +56,7 @@ export default function PrywatnyWarmiaPage() {
             <main className="overflow-hidden">
                 <Hero
                     backgroundUrl={"https://media.graphassets.com/IEFVsQwqTHO3niZGSIvF"}
-                    title="Kort Tenisowy na Mazurach z Nawierzchnią Laykold Masters 5"
+                    title="Kort akrylowy - Warmia"
                     subtitle="Marzysz o prywatnym korcie z nawierzchnią Laykold? Odezwij się do nas już dziś."
                 />
                 <section className="grid place-items-center pb-[100px]">
