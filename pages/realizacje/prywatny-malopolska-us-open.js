@@ -30,11 +30,12 @@ const images = [
 
 export default function PrywatnyMalopolskaPage() {
 
-    const isMediumScreen = useMediaQuery({ minWidth: 1124 });
-    const isLargeScreen = useMediaQuery({ minWidth: 1600 });
-    const isXLargeScreen = useMediaQuery({ minWidth: 1920 });
+    const isMediumScreen = useMediaQuery({ minWidth: 1024 });
+    const isLargeScreen = useMediaQuery({ minWidth: 1300 });
+    const isXLargeScreen = useMediaQuery({ minWidth: 1600 });
+    const isXXLargeScreen = useMediaQuery({ minWidth: 1900 });
 
-    const offsetY = isXLargeScreen ? '-450px' : isLargeScreen ? '-480px' : isMediumScreen ? '-170px' : '0px';
+    const offsetY = isXXLargeScreen ? '-650px' : isXLargeScreen ? '-550px' : isLargeScreen ? '-380px' : isMediumScreen ? '-170px' : '0px';
 
     return (
         <>
@@ -55,12 +56,12 @@ export default function PrywatnyMalopolskaPage() {
                 />
                 <meta
                     property="og:image"
-                    content="https://media.graphassets.com/pO5ECj4bRIKq8bKy073i"
+                    content="https://media.graphassets.com/QbpW5NUQumdXLvVaZasW"
                 />
             </Head>
             <main className="overflow-hidden">
                 <Hero
-                    backgroundUrl={"https://media.graphassets.com/pO5ECj4bRIKq8bKy073i"}
+                    backgroundUrl={"https://media.graphassets.com/QbpW5NUQumdXLvVaZasW"}
                     title="Kort akrylowy - Małopolska"
                     offsetY={offsetY}
                     subtitle="Nasza firma z dumą ogłasza ukończenie budowy pierwszego w Polsce kortu tenisowego z nawierzchnią, która równa się tej z prestiżowego turnieju US Open. "
