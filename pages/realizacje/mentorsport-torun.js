@@ -27,7 +27,7 @@ export default function PrywatnyWarmiaPage() {
                 <title>Realizacje | MentorSport - Toruń</title>
                 <meta
                     name="description"
-                    content="W 2022 roku Toruński Klub Mentor przeszedł przełomową modernizację, wymieniając dotychczasową nawierzchnię na nową"
+                    content="Przełomowa Modernizacja: Toruński Klub Mentor Wprowadza Nową Nawierzchnię na Korty Tenisowe"
                     key="desc"
                 />
                 <meta
@@ -36,7 +36,7 @@ export default function PrywatnyWarmiaPage() {
                 />
                 <meta
                     property="og:description"
-                    content="W 2022 roku Toruński Klub Mentor przeszedł przełomową modernizację, wymieniając dotychczasową nawierzchnię na nową"
+                    content="Przełomowa Modernizacja: Toruński Klub Mentor Wprowadza Nową Nawierzchnię na Korty Tenisowe"
                 />
                 <meta
                     property="og:image"
@@ -47,15 +47,22 @@ export default function PrywatnyWarmiaPage() {
                 <Hero
                     backgroundUrl={"https://media.graphassets.com/KOAkek7BQvaB8lYN2DHR"}
                     title="MentorSport - Toruń"
-                    subtitle="W 2022 roku Toruński Klub Mentor przeszedł przełomową modernizację, wymieniając dotychczasową nawierzchnię na nową"
+                    subtitle="W 2022 roku Toruński Klub Mentor przeszedł przełomową modernizację, zastępując dotychczasową nawierzchnię na swoich kortach nową sztuczną trawą Juta Fast Track 15."
                 />
                 <section className="grid place-items-center pb-[100px]">
                     <div className="flex flex-col gap-[60px] px-[40px] max-w-[1000px]">
                         <h1 className="text-[26px] max-[600px]:text-[20px] font-bold">
-                            Nawierzchnia ze sztucznej trawy Juta Fast Track 15 nie tylko zapewnia lepsze wrażenia podczas gry, ale także wymaga mniej konserwacji, co oznacza mniej czasu spędzanego na konserwacji kortów i więcej czasu na samą grę. To istotne udogodnienie dla członków klubu, które podnosi jakość doświadczenia tenisowego.
+                            W 2022 roku Toruński Klub Mentor przeszedł przełomową modernizację, wymieniając
+                            dotychczasową nawierzchnię na nową. Nawierzchnia ze sztucznej trawy Juta Fast Track 15
+                            nie tylko zapewnia lepsze wrażenia podczas gry, ale także wymaga mniej konserwacji, co
+                            oznacza mniej czasu spędzanego na konserwacji kortów i więcej czasu na samą grę. To
+                            istotne udogodnienie dla członków klubu, które podnosi jakość doświadczenia tenisowego.
                         </h1>
                         <h2>
-                            Wprowadzenie nowej nawierzchni to dowód zaangażowania Toruńskiego Klubu Mentor w ciągłe doskonalenie swojej oferty i zapewnienie najlepszych warunków dla swoich członków. Ta inwestycja nie tylko poprawia jakość kortów, ale także podkreśla pozycję klubu jako lidera w lokalnej społeczności
+                            Wprowadzenie nowej nawierzchni to dowód zaangażowania Toruńskiego Klubu Mentor w
+                            ciągłe doskonalenie swojej oferty i zapewnienie najlepszych warunków dla swoich członków.
+                            Ta inwestycja nie tylko poprawia jakość kortów, ale także podkreśla pozycję klubu jako lidera
+                            w lokalnej społeczności
                         </h2>
 
                     </div>
