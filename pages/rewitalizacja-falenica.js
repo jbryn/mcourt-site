@@ -59,7 +59,7 @@ export default function FalenicaPage() {
         />
         <section className="grid place-items-center">
           <div className="flex flex-col text-center gap-[60px] px-[40px] max-w-[1000px]">
-            <Link href='/realizacje' className="flex items-center gap-5 text-light-grey text-[18px]">
+            <Link href='/realizacje' className="flex items-center gap-5 text-light-grey text-[18px] pt-[20px]">
               <div className="rotate-180 scale-[200%]">
                 <svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" fill="none"><path d="M11.354 4.354a.5.5 0 0 0 0-.708L8.172.464a.5.5 0 1 0-.708.708L10.293 4 7.464 6.828a.5.5 0 1 0 .708.708l3.182-3.182ZM0 4.5h11v-1H0v1Z" fill="#7ED957" /></svg>
               </div>
