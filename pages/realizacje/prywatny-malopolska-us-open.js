@@ -2,6 +2,8 @@ import Head from "next/head";
 import Hero from "@/components/shared/hero/hero";
 import Image from "next/image";
 import Contact from "@/components/home/contact/contact";
+import Link from "next/link";
+
 
 import { useMediaQuery } from 'react-responsive';
 
@@ -67,18 +69,24 @@ export default function PrywatnyMalopolskaPage() {
                     subtitle="Nasza firma z dumą ogłasza ukończenie budowy pierwszego w Polsce kortu tenisowego z nawierzchnią, która równa się tej z prestiżowego turnieju US Open. "
                 />
                 <section className="grid place-items-center pb-[100px]">
-                    <div className="flex flex-col gap-[60px] px-[40px] max-w-[1000px]">
+                    <div className="flex flex-col gap-[30px] px-[40px] max-w-[1000px]">
+                        <Link href='/realizacje' className="flex items-center gap-5 text-light-grey text-[18px] pb-[30px]">
+                            <div className="rotate-180 scale-[200%]">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" fill="none"><path d="M11.354 4.354a.5.5 0 0 0 0-.708L8.172.464a.5.5 0 1 0-.708.708L10.293 4 7.464 6.828a.5.5 0 1 0 .708.708l3.182-3.182ZM0 4.5h11v-1H0v1Z" fill="#7ED957" /></svg>
+                            </div>
+                            Powrót
+                        </Link>
                         <h1 className="text-[26px] max-[600px]:text-[20px] font-bold">
-                            Nasza firma zrealizowała tę innowacyjną inwestycję prywatną, starannie wykonując każdy etap procesu. Nasz zakres prac obejmował kompleksowe przygotowanie podbudowy, profesjonalne ułożenie płyty betonowej, montaż solidnego ogrodzenia oraz, co najważniejsze, zastosowanie najwyższej jakości nawierzchni kortu tenisowego.
+                            Nasza firma zrealizowała tę innowacyjną inwestycję prywatną, starannie wykonując każdy etap procesu. Nasz zakres prac obejmował kompleksowe <strong>przygotowanie podbudowy</strong>, profesjonalne ułożenie płyty betonowej, montaż solidnego ogrodzenia oraz, co najważniejsze, zastosowanie najwyższej jakości nawierzchni <strong>kortu tenisowego</strong>.
                         </h1>
                         <h2>
-                            Nawierzchnia Laykold Masters 5, znana z prestiżowego turnieju US Open, to gwarancja doskonałych warunków do gry. Dzięki niej możesz doświadczyć niepowtarzalnego komfortu i precyzji podczas każdego uderzenia. Jest to doskonały wybór dla wszystkich miłośników tenisa, którzy pragną doskonalić swoje umiejętności na profesjonalnym poziomie.
+                            Nawierzchnia <strong>Laykold Masters 5</strong>, znana z prestiżowego turnieju <strong>US Open</strong>, to gwarancja doskonałych warunków do gry. Dzięki niej możesz doświadczyć niepowtarzalnego komfortu i precyzji podczas każdego uderzenia. Jest to doskonały wybór dla wszystkich miłośników tenisa, którzy pragną doskonalić swoje umiejętności na profesjonalnym poziomie.
                         </h2>
                         <h2>
-                            Oferując kompleksowe usługi, zapewniamy nie tylko wysoką jakość nawierzchni, ale także pełne wsparcie w realizacji Twoich potrzeb. Nasz zespół doświadczonych specjalistów zadbał o każdy detal, abyś mógł cieszyć się kompletnym i funkcjonalnym kortem tenisowym.
+                            Oferując kompleksowe usługi, zapewniamy nie tylko <strong>wysoką jakość nawierzchni</strong>, ale także pełne wsparcie w realizacji Twoich potrzeb. Nasz zespół doświadczonych specjalistów zadbał o każdy detal, abyś mógł cieszyć się kompletnym i funkcjonalnym <strong>kortem tenisowym</strong>.
                         </h2>
                         <h2>
-                            Skontaktuj się z nami już dziś, aby dowiedzieć się więcej o oferowanych przez nas nawierzchniach tenisowych.
+                            Skontaktuj się z nami już dziś, aby dowiedzieć się więcej o oferowanych przez nas <strong>nawierzchniach tenisowych</strong>.
                         </h2>
                     </div>
                 </section>

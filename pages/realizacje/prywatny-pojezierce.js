@@ -2,7 +2,7 @@ import Head from "next/head";
 import Hero from "@/components/shared/hero/hero";
 import Image from "next/image";
 import Contact from "@/components/home/contact/contact";
-import Article from "@/components/article/article";
+import Link from "next/link";
 
 const images = [
     "https://media.graphassets.com/pgMHOAoRhOGJZFbPVRJi",
@@ -58,15 +58,21 @@ export default function PrywatnyWarmiaPage() {
                     subtitle="Nowoczesny kort tenisowy ze sztucznej trawy z zielonym piaskiem kwarcowym. Nasz kompleksowy projekt obejmował wszystko, od podbudowy po oświetlenie"
                 />
                 <section className="grid place-items-center pb-[100px]">
-                    <div className="flex flex-col gap-[60px] px-[40px] max-w-[1000px]">
+                    <div className="flex flex-col gap-[30px] px-[40px] max-w-[1000px]">
+                        <Link href='/realizacje' className="flex items-center gap-5 text-light-grey text-[18px] pb-[30px]">
+                            <div className="rotate-180 scale-[200%]">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" fill="none"><path d="M11.354 4.354a.5.5 0 0 0 0-.708L8.172.464a.5.5 0 1 0-.708.708L10.293 4 7.464 6.828a.5.5 0 1 0 .708.708l3.182-3.182ZM0 4.5h11v-1H0v1Z" fill="#7ED957" /></svg>
+                            </div>
+                            Powrót
+                        </Link>
                         <h1 className="text-[26px] max-[600px]:text-[20px] font-bold">
-                            W roku 2021 na przepięknych Mazurach wybudowaliśmy nowoczesny kort tenisowy. Został on wyposażony w innowacyjną nawierzchnię ze sztucznej trawy, zasypanej zielonym piaskiem kwarcowym, co zapewnia nie tylko doskonałe warunki do gry, ale także elegancki wygląd idealnie komponujący się z naturalnym otoczeniem.
+                            W roku 2021 na przepięknych Mazurach wybudowaliśmy <strong>nowoczesny kort tenisowy</strong>. Został on wyposażony w <strong>innowacyjną nawierzchnię</strong> ze <strong>sztucznej trawy</strong>, zasypanej zielonym<strong> piaskiem kwarcowym</strong>, co zapewnia nie tylko doskonałe warunki do gry, ale także elegancki wygląd idealnie komponujący się z naturalnym otoczeniem.
                         </h1>
                         <h2>
-                            Projekt tego kortu został przemyślany w najdrobniejszych detalach. Oprócz samej nawierzchni, która gwarantuje wysoką jakość i trwałość, kompleksowo zajęliśmy się również wszystkimi innymi elementami. Od podstawowej budowy, poprzez drenaż, ogrodzenie, oświetlenie, aż po wyposażenie w drewniane słupki tenisowe, które stanowią niezwykłą replikę tych, które możemy zobaczyć na prestiżowym turnieju Wimbledon.
+                            Projekt tego kortu został przemyślany w najdrobniejszych detalach. Oprócz samej nawierzchni, która gwarantuje wysoką jakość i trwałość, kompleksowo zajęliśmy się również wszystkimi innymi elementami. Od podstawowej budowy, poprzez drenaż, ogrodzenie, oświetlenie, aż po wyposażenie w <strong>drewniane słupki tenisowe</strong>, które stanowią niezwykłą replikę tych, które możemy zobaczyć na prestiżowym turnieju <strong>Wimbledon</strong>.
                         </h2>
                         <h2>
-                            Naszym celem było stworzenie kortu, który nie tylko zapewni niezapomniane doświadczenia podczas gry, ale także będzie stanowił harmonijne połączenie luksusu, elegancji i natury.
+                            Naszym celem było stworzenie kortu, który nie tylko zapewni niezapomniane doświadczenia podczas gry, ale także będzie stanowił harmonijne połączenie <strong>luksusu</strong>, <strong>elegancji</strong> i <strong>natury</strong>.
                         </h2>
                     </div>
                 </section>

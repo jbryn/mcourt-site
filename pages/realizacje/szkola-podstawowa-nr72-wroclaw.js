@@ -2,6 +2,8 @@ import Head from "next/head";
 import Hero from "@/components/shared/hero/hero";
 import Image from "next/image";
 import Contact from "@/components/home/contact/contact";
+import Link from "next/link";
+
 
 import { useMediaQuery } from 'react-responsive';
 
@@ -63,14 +65,19 @@ export default function PrywatnyWarmiaPage() {
                     subtitle="Prace nad dwoma kortami tenisowymi z nawierzchnią Laykold Master Color we Wrocławiu nabierają tempa, obiecując dostarczyć wysoką jakość gry i integrację społeczności poprzez sport."
                 />
                 <section className="grid place-items-center pb-[100px]">
-                    <div className="flex flex-col gap-[60px] px-[40px] max-w-[1000px]">
+                    <div className="flex flex-col gap-[30px] px-[40px] max-w-[1000px]">
+                        <Link href='/realizacje' className="flex items-center gap-5 text-light-grey text-[18px] pb-[30px]">
+                            <div className="rotate-180 scale-[200%]">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" fill="none"><path d="M11.354 4.354a.5.5 0 0 0 0-.708L8.172.464a.5.5 0 1 0-.708.708L10.293 4 7.464 6.828a.5.5 0 1 0 .708.708l3.182-3.182ZM0 4.5h11v-1H0v1Z" fill="#7ED957" /></svg>
+                            </div>
+                            Powrót
+                        </Link>
                         <h1 className="text-[26px] max-[600px]:text-[20px] font-bold">
-                            W Wrocławiu przy ulicy Trwałej zakończyliśmy prace nad budową dwóch nowoczesnych kortów zewnętrznych z nawierzchnią Laykold Master Color. Ta inwestycja obiecuje dostarczyć zarówno profesjonalistom, jak i amatorom wysoką jakość gry przez cały rok dzięki trwałej i estetycznej nawierzchni.
+                            W Wrocławiu przy ulicy <strong>Trwałej</strong> zakończyliśmy prace nad budową dwóch nowoczesnych <strong>kortów zewnętrznych</strong> z nawierzchnią <strong>Laykold Master Color</strong>. Ta inwestycja obiecuje dostarczyć zarówno profesjonalistom, jak i amatorom wysoką jakość gry przez cały rok dzięki trwałej i estetycznej nawierzchni.
                         </h1>
                         <h2>
-                            Nowe korty tenisowe stanowią istotny krok w rozwoju infrastruktury sportowej szkoły Podstawowej nr 72, promując aktywny tryb życia i integrując społeczność poprzez wspólną pasję do sportu. Niżej zamieszczamy postępy prac.
+                            Nowe korty tenisowe stanowią istotny krok w rozwoju infrastruktury sportowej <strong>szkoły Podstawowej nr 72</strong>, promując aktywny tryb życia i integrując społeczność poprzez wspólną pasję do sportu. Niżej zamieszczamy postępy prac.
                         </h2>
-
                     </div>
                 </section>
                 <section className="grid place-items-center gap-[60px]">

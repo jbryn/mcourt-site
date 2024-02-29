@@ -2,7 +2,7 @@ import Head from "next/head";
 import Hero from "@/components/shared/hero/hero";
 import Image from "next/image";
 import Contact from "@/components/home/contact/contact";
-import Article from "@/components/article/article";
+import Link from "next/link";
 
 const images = [
     "https://media.graphassets.com/iRtrbuQlQ7KelOzSkvJU",
@@ -48,22 +48,30 @@ sportowe zyskują doskonałą ochronę termiczną, umożliwiając grę przez ca�
 Zwiększona wydajność energetyczna przy minimalnych kosztach eksploatacyjnych!"
                 />
                 <section className="grid place-items-center pb-[100px]">
-                    <div className="flex flex-col gap-[60px] px-[40px] max-w-[1000px]">
+                    <div className="flex flex-col gap-[30px] px-[40px] max-w-[1000px]">
+                        <Link href='/realizacje' className="flex items-center gap-5 text-light-grey text-[18px] pb-[30px]">
+                            <div className="rotate-180 scale-[200%]">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" fill="none"><path d="M11.354 4.354a.5.5 0 0 0 0-.708L8.172.464a.5.5 0 1 0-.708.708L10.293 4 7.464 6.828a.5.5 0 1 0 .708.708l3.182-3.182ZM0 4.5h11v-1H0v1Z" fill="#7ED957" /></svg>
+                            </div>
+                            Powrót
+                        </Link>
                         <h1 className="text-[26px] max-[600px]:text-[20px] font-bold">
-                            W roku 2023 przeprowadziliśmy innowacyjną modernizację hal tenisowych w klubie Czarni
-                            Rzeszów poprzez zastosowanie zaawansowanej metody termoizolacji. Zamiast tradycyjnych
-                            metod, zdecydowaliśmy się na nowatorskie rozwiązanie polegające na wtłoczeniu wysokiej
-                            jakości granulatu styropianowego pomiędzy plandeki hali.
+                            W roku 2023 przeprowadziliśmy <strong>innowacyjną modernizację hal tenisowych</strong> w klubie Czarni
+                            Rzeszów poprzez zastosowanie <strong>zaawansowanej metody termoizolacji</strong>. Zamiast tradycyjnych
+                            metod, zdecydowaliśmy się na nowatorskie rozwiązanie polegające na <strong>
+                                wtłoczeniu wysokiej
+                                jakości granulatu
+                            </strong> styropianowego pomiędzy plandeki hali.
                         </h1>
                         <h2>
-                            Dzięki temu procesowi, obiekty uzyskały doskonałą ochronę termiczną, zapewniając
+                            Dzięki temu procesowi, obiekty uzyskały doskonałą <strong>ochronę termiczną</strong>, zapewniając
                             optymalne warunki do uprawiania tenisa przez cały rok. Ta nowoczesna technologia nie tylko
-                            zwiększyła wydajność energetyczną obiektów, ale także przyczyniła się do redukcji kosztów
+                            zwiększyła <strong>wydajność energetyczną obiektów</strong>, ale także przyczyniła się do redukcji kosztów
                             eksploatacyjnych, umożliwiając dalszy rozwój infrastruktury sportowej z myślą o komforcie i
                             satysfakcji naszych klientów.
                         </h2>
                         <h2>
-                            Jeżeli jesteś zainteresowany termoizolacją, skontaktuj się z nami już dzisiaj!
+                            Jeżeli jesteś zainteresowany <strong>termoizolacją</strong>, skontaktuj się z nami już dzisiaj!
                         </h2>
                     </div>
                 </section>

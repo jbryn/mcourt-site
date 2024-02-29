@@ -2,7 +2,7 @@ import Head from "next/head";
 import Hero from "@/components/shared/hero/hero";
 import Image from "next/image";
 import Contact from "@/components/home/contact/contact";
-import Article from "@/components/article/article";
+import Link from "next/link";
 
 const images = [
     "https://media.graphassets.com/T5jJTvJyQ6ZdcRTcb2lv",
@@ -59,15 +59,21 @@ export default function PrywatnyWarmiaPage() {
                     subtitle="Nasz kompleksowy projekt obejmuje podbudowę betonową, ogrodzenie, oświetlenie oraz elegancką nawierzchnię Laykold, zapewniającą niezapomniane doznania podczas gry"
                 />
                 <section className="grid place-items-center pb-[100px]">
-                    <div className="flex flex-col gap-[60px] px-[40px] max-w-[1000px]">
+                    <div className="flex flex-col gap-[30px] px-[40px] max-w-[1000px]">
+                        <Link href='/realizacje' className="flex items-center gap-5 text-light-grey text-[18px] pb-[30px]">
+                            <div className="rotate-180 scale-[200%]">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" fill="none"><path d="M11.354 4.354a.5.5 0 0 0 0-.708L8.172.464a.5.5 0 1 0-.708.708L10.293 4 7.464 6.828a.5.5 0 1 0 .708.708l3.182-3.182ZM0 4.5h11v-1H0v1Z" fill="#7ED957" /></svg>
+                            </div>
+                            Powrót
+                        </Link>
                         <h1 className="text-[26px] max-[600px]:text-[20px] font-bold">
-                            Rok 2023 przyniósł nam wyjątkową inwestycję - prywatny kort tenisowy z najwyższej jakości nawierzchnią Laykold Masters 5. Nasz kompleksowy projekt obejmuje nie tylko nawierzchnie, ale również podbudowę betonową, solidne ogrodzenie, oświetlenie zapewniające doskonałe warunki do gry o każdej porze dnia i nocy.
+                            Rok 2023 przyniósł nam wyjątkową inwestycję - <strong>prywatny kort tenisowy</strong> z najwyższej jakości nawierzchnią <strong>Laykold Masters 5</strong>. Nasz kompleksowy projekt obejmuje nie tylko <strong>nawierzchnie</strong>, ale również <strong>podbudowę betonową</strong>, solidne ogrodzenie, <strong>oświetlenie</strong> zapewniające doskonałe warunki do gry o każdej porze dnia i nocy.
                         </h1>
                         <h2>
-                            Nawierzchnia Laykold Masters 5 słynie z niezawodności i trwałości, zapewniając graczom wysoki komfort podczas gry. Dzięki jej doskonałym właściwościom antypoślizgowym i elastyczności, nasz kort gwarantuje wysoką amortyzację i ochronę stawów.
+                            Nawierzchnia <strong>Laykold Masters 5</strong> słynie z niezawodności i trwałości, zapewniając graczom wysoki komfort podczas gry. Dzięki jej doskonałym właściwościom antypoślizgowym i elastyczności, nasz kort gwarantuje wysoką amortyzację i ochronę stawów.
                         </h2>
                         <h2>
-                            Gotowi na nowe wyzwania, zapraszamy do wspólnej realizacji Waszych wymarzonych projektów tenisowych! Skontaktuj się już dzisiaj i poznaj ofertę na nawierzchnie Laykold!
+                            Gotowi na nowe wyzwania, zapraszamy do wspólnej realizacji Waszych wymarzonych projektów tenisowych! Skontaktuj się już dzisiaj i poznaj ofertę na nawierzchnie <strong>Laykold</strong>!
                         </h2>
                     </div>
                 </section>
@@ -85,9 +91,7 @@ export default function PrywatnyWarmiaPage() {
                             />
                         ))}
                     </div>
-
                 </section>
-
                 <Contact
                     imageUrl={"https://media.graphassets.com/fDKZW0brSNSOAvU4u0tv"}
                 />

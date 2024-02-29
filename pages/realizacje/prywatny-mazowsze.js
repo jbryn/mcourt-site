@@ -2,7 +2,7 @@ import Head from "next/head";
 import Hero from "@/components/shared/hero/hero";
 import Image from "next/image";
 import Contact from "@/components/home/contact/contact";
-import Article from "@/components/article/article";
+import Link from "next/link";
 
 const images = [
     "https://media.graphassets.com/Pp3bwuO6T8GYKdwWsIPD",
@@ -47,18 +47,24 @@ export default function PrywatnyMazowszePage() {
                     subtitle="Nowoczesna renowacja kortów akrylowych na prywatnych posesjach. Metoda retoppingu, włączająca naprawę podbudowy oraz ułożenie nowej warstwy akrylu przynosi nowe życie dla kortów"
                 />
                 <section className="grid place-items-center pb-[100px]">
-                    <div className="flex flex-col gap-[60px] px-[40px] max-w-[1000px]">
+                    <div className="flex flex-col gap-[30px] px-[40px] max-w-[1000px]">
+                        <Link href='/realizacje' className="flex items-center gap-5 text-light-grey text-[18px] pb-[30px]">
+                            <div className="rotate-180 scale-[200%]">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" fill="none"><path d="M11.354 4.354a.5.5 0 0 0 0-.708L8.172.464a.5.5 0 1 0-.708.708L10.293 4 7.464 6.828a.5.5 0 1 0 .708.708l3.182-3.182ZM0 4.5h11v-1H0v1Z" fill="#7ED957" /></svg>
+                            </div>
+                            Powrót
+                        </Link>
                         <h1 className="text-[26px] max-[600px]:text-[20px] font-bold">
-                            W dzisiejszych czasach, dbanie o wysoką jakość infrastruktury sportowej na prywatnych posesjach staje się coraz bardziej istotne. W województwie mazowieckim, właściciele prywatnych kortów tenisowych wybierają nowoczesne podejście do renowacji - metoda retoppingu.
+                            W dzisiejszych czasach, dbanie o wysoką jakość infrastruktury sportowej na <strong>prywatnych posesjach</strong> staje się coraz bardziej istotne. W województwie mazowieckim, właściciele <strong>prywatnych kortów tenisowych</strong> wybierają nowoczesne podejście do renowacji - metoda <strong>retoppingu</strong>.
                         </h1>
                         <h2>
-                            Metoda retoppingu to innowacyjna technika, która pozwala na efektywne odnowienie nawierzchni kortu, przy minimalnym zakłóceniu codziennej aktywności. Polega ona na punktowej naprawie spęknięć podbudowy oraz ułożeniu nowych warstw akrylu, takich jak popularny Laykold Master Color.
+                            Metoda retoppingu to innowacyjna technika, która pozwala na efektywne odnowienie nawierzchni kortu, przy minimalnym zakłóceniu codziennej aktywności. Polega ona na punktowej naprawie spęknięć podbudowy oraz ułożeniu nowych warstw akrylu, takich jak popularny <strong>Laykold Master Color</strong>.
                         </h2>
                         <h2>
-                            Wybór akrylowej nawierzchni Laykold Master Color to gwarancja wysokiej jakości oraz estetycznego wyglądu kortu. Dostępność różnorodnych kolorów pozwala dostosować wygląd kortu do indywidualnych preferencji, tworząc elegancki i nowoczesny wystrój.
+                            Wybór <strong>akrylowej nawierzchni Laykold Master Color</strong> to gwarancja wysokiej jakości oraz estetycznego wyglądu kortu. Dostępność różnorodnych kolorów pozwala dostosować wygląd kortu do indywidualnych preferencji, tworząc elegancki i nowoczesny wystrój.
                         </h2>
                         <h2>
-                            Odnawianie kortów tenisowych to nie tylko kwestia utrzymania ich w dobrym stanie technicznym, ale także inwestycja w przyjemność i komfort użytkowników.
+                            <strong>Odnawianie kortów tenisowych</strong> to nie tylko kwestia utrzymania ich w dobrym stanie technicznym, ale także inwestycja w przyjemność i komfort użytkowników.
                         </h2>
                         <h2>
                             Jeżeli chciałbyś odnowić swój przydomowy kort, skontaktuj się z nami już dziś!

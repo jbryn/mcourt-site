@@ -2,7 +2,7 @@ import Head from "next/head";
 import Hero from "@/components/shared/hero/hero";
 import Image from "next/image";
 import Contact from "@/components/home/contact/contact";
-import Article from "@/components/article/article";
+import Link from "next/link";
 
 const images = [
     "https://media.graphassets.com/6TZvH9VgRTanFDqCWcS8",
@@ -45,12 +45,18 @@ export default function PrywatnyWarmiaPage() {
                     subtitle="Nowe życie dla kortów tenisowych w Warszawie na Wawrze: Profesjonalna nawierzchnia Antuka i nowoczesne udogodnienia"
                 />
                 <section className="grid place-items-center pb-[100px]">
-                    <div className="flex flex-col gap-[60px] px-[40px] max-w-[1000px]">
+                    <div className="flex flex-col gap-[30px] px-[40px] max-w-[1000px]">
+                        <Link href='/realizacje' className="flex items-center gap-5 text-light-grey text-[18px] pb-[30px]">
+                            <div className="rotate-180 scale-[200%]">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" fill="none"><path d="M11.354 4.354a.5.5 0 0 0 0-.708L8.172.464a.5.5 0 1 0-.708.708L10.293 4 7.464 6.828a.5.5 0 1 0 .708.708l3.182-3.182ZM0 4.5h11v-1H0v1Z" fill="#7ED957" /></svg>
+                            </div>
+                            Powrót
+                        </Link>
                         <h1 className="text-[26px] max-[600px]:text-[20px] font-bold">
-                            W 2022 roku zakończyliśmy remont kortów tenisowych przy ul. Lokalnej 33 w Warszawie, nadając im zupełnie nowy wymiar. Nasze prace obejmowały wymianę nawierzchni na profesjonalną Antuka, co gwarantuje nie tylko trwałość, ale także doskonałe warunki do gry.
+                            W 2022 roku zakończyliśmy remont <strong>kortów tenisowych przy ul. Lokalnej 33 w Warszawie</strong>, nadając im zupełnie nowy wymiar. Nasze prace obejmowały wymianę nawierzchni na <strong>profesjonalną Antuka</strong>, co gwarantuje nie tylko <strong>trwałość</strong>, ale także doskonałe warunki do gry.
                         </h1>
                         <h2>
-                            Dodatkowo, zainstalowaliśmy nowe ogrodzenie i oświetlenie, które zapewnią bezpieczeństwo i komfort nawet podczas nocnych rozgrywek. Jako udogodnienie dla zarządcy obiektu, zaprojektowaliśmy także nowy system automatycznego nawodnienia, który pozwoli utrzymać korty w najlepszym stanie przez cały sezon.
+                            Dodatkowo, zainstalowaliśmy <strong>nowe ogrodzenie i oświetlenie</strong>, które zapewnią bezpieczeństwo i komfort nawet podczas nocnych rozgrywek. Jako udogodnienie dla zarządcy obiektu, zaprojektowaliśmy także nowy system <strong>automatycznego nawodnienia</strong>, który pozwoli utrzymać korty w najlepszym stanie przez cały sezon.
                         </h2>
                         <h2>
                             Zapraszamy wszystkich pasjonatów tenisa do korzystania z odnowionych kortów, gdzie czekać będą na nich wyjątkowe doświadczenia sportowe i relaks na najwyższym poziomie.

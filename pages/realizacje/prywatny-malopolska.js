@@ -2,6 +2,8 @@ import Head from "next/head";
 import Hero from "@/components/shared/hero/hero";
 import Image from "next/image";
 import Contact from "@/components/home/contact/contact";
+import Link from "next/link";
+
 
 import { useMediaQuery } from 'react-responsive';
 
@@ -55,12 +57,18 @@ export default function PrywatnyWarmiaPage() {
                     subtitle="Nowa nawierzchnia na prywatnych kortach tenisowych"
                 />
                 <section className="grid place-items-center pb-[100px]">
-                    <div className="flex flex-col gap-[60px] px-[40px] max-w-[1000px]">
+                    <div className="flex flex-col gap-[30px] px-[40px] max-w-[1000px]">
+                        <Link href='/realizacje' className="flex items-center gap-5 text-light-grey text-[18px] pb-[30px]">
+                            <div className="rotate-180 scale-[200%]">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" fill="none"><path d="M11.354 4.354a.5.5 0 0 0 0-.708L8.172.464a.5.5 0 1 0-.708.708L10.293 4 7.464 6.828a.5.5 0 1 0 .708.708l3.182-3.182ZM0 4.5h11v-1H0v1Z" fill="#7ED957" /></svg>
+                            </div>
+                            Powrót
+                        </Link>
                         <h1 className="text-[26px] max-[600px]:text-[20px] font-bold">
-                            W 2023 roku właściciele prywatnych kortów tenisowych mogą cieszyć się nową nawierzchnią sztuczną. Juta Fast Track to doskonałe rozwiązanie dla tych, którzy pragną cieszyć się wysoką jakością gry, bez względu na warunki atmosferyczne. Dzięki specjalnej konstrukcji i technologii produkcji, nawierzchnia ta zapewnia doskonałą przyczepność, równomierny odbiór piłki oraz trwałość przez wiele lat.
+                            W 2023 roku właściciele <strong>prywatnych kortów tenisowych</strong> mogą cieszyć się nową <strong>nawierzchnią sztuczną</strong>. <strong>Juta Fast Track</strong> to doskonałe rozwiązanie dla tych, którzy pragną cieszyć się wysoką jakością gry, bez względu na warunki atmosferyczne. Dzięki specjalnej konstrukcji i technologii produkcji, nawierzchnia ta zapewnia doskonałą przyczepność, równomierny odbiór piłki oraz trwałość przez wiele lat.
                         </h1>
                         <h2>
-                            Wybór nawierzchni sztucznej Juta Fast Track to także kwestia estetyki i komfortu użytkowania. Dostępność różnorodnych kolorów pozwala dostosować wygląd kortu do indywidualnych preferencji, tworząc eleganckie i nowoczesne miejsce do gry.
+                            Wybór nawierzchni sztucznej <strong>Juta Fast Track</strong> to także kwestia estetyki i <strong>komfortu użytkowania</strong>. Dostępność różnorodnych kolorów pozwala dostosować wygląd kortu do indywidualnych preferencji, tworząc eleganckie i nowoczesne miejsce do gry.
                         </h2>
 
                     </div>

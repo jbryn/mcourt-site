@@ -2,7 +2,7 @@ import Head from "next/head";
 import Hero from "@/components/shared/hero/hero";
 import Image from "next/image";
 import Contact from "@/components/home/contact/contact";
-import Article from "@/components/article/article";
+import Link from "next/link";
 
 const images = [
     "https://media.graphassets.com/ViXzsPDZQ229jPI4qPBm",
@@ -60,15 +60,21 @@ export default function PrywatnyWarmiaPage() {
                     subtitle="Marzysz o prywatnym korcie z nawierzchnią Laykold? Odezwij się do nas już dziś."
                 />
                 <section className="grid place-items-center pb-[100px]">
-                    <div className="flex flex-col gap-[60px] px-[40px] max-w-[1000px]">
+                    <div className="flex flex-col gap-[30px] px-[40px] max-w-[1000px]">
+                        <Link href='/realizacje' className="flex items-center gap-5 text-light-grey text-[18px] pb-[30px]">
+                            <div className="rotate-180 scale-[200%]">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" fill="none"><path d="M11.354 4.354a.5.5 0 0 0 0-.708L8.172.464a.5.5 0 1 0-.708.708L10.293 4 7.464 6.828a.5.5 0 1 0 .708.708l3.182-3.182ZM0 4.5h11v-1H0v1Z" fill="#7ED957" /></svg>
+                            </div>
+                            Powrót
+                        </Link>
                         <h1 className="text-[26px] max-[600px]:text-[20px] font-bold">
-                            W roku 2023 mieliśmy przyjemność zaprojektować i wykonać kort tenisowy na malowniczych Mazurach. Nasz kort tenisowy z najwyższej jakości nawierzchnią Laykold Masters 5 to doskonałe miejsce do gry. Dzięki starannie wykonanej nawierzchni zapewniającej doskonałe właściwości antypoślizgowe i trwałość, tenis staje się prawdziwą przyjemnością w otoczeniu pięknej natury Mazur.
+                            W roku 2023 mieliśmy przyjemność zaprojektować i wykonać <strong>kort tenisowy</strong> na malowniczych Mazurach. Nasz <strong>kort tenisowy</strong> z najwyższej jakości nawierzchnią <strong>Laykold Masters 5</strong> to doskonałe miejsce do gry. Dzięki starannie wykonanej nawierzchni zapewniającej doskonałe właściwości antypoślizgowe i trwałość, tenis staje się prawdziwą przyjemnością w otoczeniu pięknej natury Mazur.
                         </h1>
                         <h2>
-                            Oprócz wykonania nawierzchni nasza firma zajęła się przygotowaniem terenu pod budowę, wykonaniem płyty betonowej, ogrodzenia oraz wyposażenia kortu.
+                            Oprócz wykonania nawierzchni nasza firma zajęła się przygotowaniem terenu pod budowę, wykonaniem <strong>płyty betonowej</strong>, ogrodzenia oraz <strong>wyposażenia kortu</strong>.
                         </h2>
                         <h2>
-                            Nasz kort tenisowy z najwyższej jakości nawierzchnią Laykold Masters 5 to doskonałe miejsce do gry. Dzięki starannie wykonanej nawierzchni zapewniającej doskonałe właściwości antypoślizgowe i trwałość, tenis staje się prawdziwą przyjemnością w otoczeniu pięknej natury Mazur.
+                            Nasz <strong>kort tenisowy</strong> z <strong>najwyższej jakości</strong> nawierzchnią <strong>Laykold Masters 5</strong> to doskonałe miejsce do gry. Dzięki starannie wykonanej nawierzchni zapewniającej doskonałe właściwości antypoślizgowe i trwałość, tenis staje się prawdziwą przyjemnością w otoczeniu pięknej natury Mazur.
                         </h2>
                     </div>
                 </section>

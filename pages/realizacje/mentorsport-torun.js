@@ -2,6 +2,8 @@ import Head from "next/head";
 import Hero from "@/components/shared/hero/hero";
 import Image from "next/image";
 import Contact from "@/components/home/contact/contact";
+import Link from "next/link";
+
 
 import { useMediaQuery } from 'react-responsive';
 
@@ -59,21 +61,26 @@ export default function MentorSportPage() {
                     subtitle="W 2022 roku Toruński Klub Mentor przeszedł przełomową modernizację, zastępując dotychczasową nawierzchnię na swoich kortach nową sztuczną trawą Juta Fast Track 15."
                 />
                 <section className="grid place-items-center pb-[100px]">
-                    <div className="flex flex-col gap-[60px] px-[40px] max-w-[1000px]">
+                    <div className="flex flex-col gap-[30px] px-[40px] max-w-[1000px]">
+                        <Link href='/realizacje' className="flex items-center gap-5 text-light-grey text-[18px] pb-[30px]">
+                            <div className="rotate-180 scale-[200%]">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" fill="none"><path d="M11.354 4.354a.5.5 0 0 0 0-.708L8.172.464a.5.5 0 1 0-.708.708L10.293 4 7.464 6.828a.5.5 0 1 0 .708.708l3.182-3.182ZM0 4.5h11v-1H0v1Z" fill="#7ED957" /></svg>
+                            </div>
+                            Powrót
+                        </Link>
                         <h1 className="text-[26px] max-[600px]:text-[20px] font-bold">
-                            W 2022 roku Toruński Klub Mentor przeszedł przełomową modernizację, wymieniając
-                            dotychczasową nawierzchnię na nową. Nawierzchnia ze sztucznej trawy Juta Fast Track 15
+                            W 2022 roku <strong>Toruński Klub Mentor</strong> przeszedł przełomową modernizację, wymieniając
+                            dotychczasową nawierzchnię na nową. Nawierzchnia ze <strong>sztucznej trawy</strong> Juta Fast Track 15
                             nie tylko zapewnia lepsze wrażenia podczas gry, ale także wymaga mniej konserwacji, co
                             oznacza mniej czasu spędzanego na konserwacji kortów i więcej czasu na samą grę. To
                             istotne udogodnienie dla członków klubu, które podnosi jakość doświadczenia tenisowego.
                         </h1>
                         <h2>
-                            Wprowadzenie nowej nawierzchni to dowód zaangażowania Toruńskiego Klubu Mentor w
+                            Wprowadzenie nowej nawierzchni to dowód zaangażowania <strong>Toruńskiego Klubu Mentor</strong> w
                             ciągłe doskonalenie swojej oferty i zapewnienie najlepszych warunków dla swoich członków.
                             Ta inwestycja nie tylko poprawia jakość kortów, ale także podkreśla pozycję klubu jako lidera
                             w lokalnej społeczności
                         </h2>
-
                     </div>
                 </section>
                 <section className="grid place-items-center gap-[60px]">

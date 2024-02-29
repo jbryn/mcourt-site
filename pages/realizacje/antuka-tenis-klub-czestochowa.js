@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import Hero from "@/components/shared/hero/hero";
 import Image from "next/image";
 import Contact from "@/components/home/contact/contact";
@@ -68,18 +69,24 @@ export default function AntukaTenisClubPage() {
                     subtitle="Wymiana podbudowy, nowa nawierzchnia, wyposażenie i ogrodzenie - kluczowe elementy modernizacji kortów tenisowych w Częstochowie"
                 />
                 <section className="grid place-items-center pb-[100px]">
-                    <div className="flex flex-col gap-[60px] px-[40px] max-w-[1000px]">
+                    <div className="flex flex-col gap-[30px] px-[40px] max-w-[1000px]">
+                        <Link href='/realizacje' className="flex items-center gap-5 text-light-grey text-[18px] pb-[30px]">
+                            <div className="rotate-180 scale-[200%]">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" fill="none"><path d="M11.354 4.354a.5.5 0 0 0 0-.708L8.172.464a.5.5 0 1 0-.708.708L10.293 4 7.464 6.828a.5.5 0 1 0 .708.708l3.182-3.182ZM0 4.5h11v-1H0v1Z" fill="#7ED957" /></svg>
+                            </div>
+                            Powrót
+                        </Link>
                         <h1 className="text-[26px] max-[600px]:text-[20px] font-bold">
-                            W roku 2023 mieliśmy przyjemność wykonać modernizację 5-ciu kortów tenisowych w Częstochowie przy ul. Pużaka, która przyniosła nowe życie temu miejscu.
+                            W roku 2023 mieliśmy przyjemność wykonać modernizację 5-ciu kortów tenisowych w <strong>Częstochowie przy ul. Pużaka</strong>, która przyniosła nowe życie temu miejscu.
                         </h1>
                         <h2>
-                            Generalny remont zakładał kompleksową przebudowę infrastruktury kortów. Najważniejszymi elementami modernizacji była wymiana podbudowy, wykonanie murów oporowych na skarpach oraz ułożenie nowej nawierzchni ceglanej Antuka, zapewniającej optymalne warunki gry i komfort dla zawodników.
+                            Generalny <strong>remont</strong> zakładał kompleksową przebudowę infrastruktury kortów. Najważniejszymi elementami <strong>modernizacji</strong> była wymiana podbudowy, wykonanie murów oporowych na skarpach oraz ułożenie nowej nawierzchni ceglanej Antuka, zapewniającej optymalne warunki gry i komfort dla zawodników.
                         </h2>
                         <h2>
-                            Dzięki starannemu wykonaniu i wysokiej jakości nawierzchni Antuka, korty tenisowe przy ul. Pużaka stały się nowoczesnym i funkcjonalnym obiektem, gotowym sprostać wymaganiom nawet najbardziej wymagających zawodników.
+                            Dzięki starannemu wykonaniu i <strong>wysokiej jakości nawierzchni Antuka</strong>, korty tenisowe przy ul. Pużaka stały się nowoczesnym i funkcjonalnym obiektem, gotowym sprostać wymaganiom nawet najbardziej wymagających zawodników.
                         </h2>
                         <h2>
-                            Remont ten to kolejny krok w kierunku poprawy infrastruktury sportowej w Częstochowie, który przyczynia się do rozwoju i promocji tenisa w mieście oraz zachęca nowych graczy do aktywności fizycznej na świeżym powietrzu.
+                            Remont ten to kolejny krok w kierunku poprawy <strong>infrastruktury sportowej w Częstochowie</strong>, który przyczynia się do rozwoju i promocji tenisa w mieście oraz zachęca nowych graczy do aktywności fizycznej na świeżym powietrzu.
                         </h2>
                     </div>
                 </section>
