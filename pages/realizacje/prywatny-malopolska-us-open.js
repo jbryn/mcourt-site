@@ -9,25 +9,21 @@ import { useMediaQuery } from 'react-responsive';
 
 
 const images = [
-    "https://media.graphassets.com/t1CFjP7xQGWIgSCNVqDY",
-    "https://media.graphassets.com/4DGL69FATxGAc9Z0PJZU",
-    "https://media.graphassets.com/DahJ0Y7MTNaOJgjbesO8",
-
-    "https://media.graphassets.com/bV2qcjPLRUanvNuiQFig",
-    "https://media.graphassets.com/dDbKWlXnSOmMkWKcY7mr",
-    "https://media.graphassets.com/KxqchgJ3TnKUdhTC4P8f",
-
-    "https://media.graphassets.com/5Nhs5uAsQriH2HpFYsoX",
-    "https://media.graphassets.com/nyElvVD5TfGOy7ywWLjF",
-    "https://media.graphassets.com/fDXzklVhQEqxbVmpLDAF",
-
-    "https://media.graphassets.com/MztdQs5wTeSlsGzMrcLi",
-    "https://media.graphassets.com/JEDvZulURburS1bxMgUL",
-    "https://media.graphassets.com/EpPjB2rWRiiN5iEEkz9U",
-
-    "https://media.graphassets.com/cVboTgzIT8GmR1AEeTQA",
     "https://media.graphassets.com/R34CBlCnSEiTCRHv3Tr5",
+    "https://media.graphassets.com/4DGL69FATxGAc9Z0PJZU",
+    "https://media.graphassets.com/KxqchgJ3TnKUdhTC4P8f",
+    "https://media.graphassets.com/t1CFjP7xQGWIgSCNVqDY",
+    "https://media.graphassets.com/cVboTgzIT8GmR1AEeTQA",
+    "https://media.graphassets.com/EpPjB2rWRiiN5iEEkz9U",
+    "https://media.graphassets.com/nyElvVD5TfGOy7ywWLjF",
     "https://media.graphassets.com/zIQb2jfLQ7OIUGecj4Al",
+    "https://media.graphassets.com/5Nhs5uAsQriH2HpFYsoX",
+    "https://media.graphassets.com/dDbKWlXnSOmMkWKcY7mr",
+    "https://media.graphassets.com/DahJ0Y7MTNaOJgjbesO8",
+    "https://media.graphassets.com/MztdQs5wTeSlsGzMrcLi",
+    "https://media.graphassets.com/bV2qcjPLRUanvNuiQFig",
+    "https://media.graphassets.com/fDXzklVhQEqxbVmpLDAF",
+    "https://media.graphassets.com/JEDvZulURburS1bxMgUL",
 ];
 
 export default function PrywatnyMalopolskaPage() {

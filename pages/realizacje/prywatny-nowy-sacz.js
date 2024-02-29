@@ -5,12 +5,13 @@ import Contact from "@/components/home/contact/contact";
 import Link from "next/link";
 
 const images = [
-    "https://media.graphassets.com/9p99jn5QfqxQlm6kxgkd",
-    "https://media.graphassets.com/PvEImkW1QbKaP61ndIj9",
+
     "https://media.graphassets.com/vBk8NJGmSUGKyzd2Lcua",
-    "https://media.graphassets.com/EddluIVQaSt7NTelpjfQ",
-    "https://media.graphassets.com/w5BQ4rOoS3CVA2QRO7tb",
+    "https://media.graphassets.com/9p99jn5QfqxQlm6kxgkd",
     "https://media.graphassets.com/foTp0YvTQriojSQFdLuA",
+    "https://media.graphassets.com/EddluIVQaSt7NTelpjfQ",
+    "https://media.graphassets.com/PvEImkW1QbKaP61ndIj9",
+    "https://media.graphassets.com/w5BQ4rOoS3CVA2QRO7tb",
 ];
 
 export default function PrywatnyWarmiaPage() {

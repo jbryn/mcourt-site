@@ -5,27 +5,24 @@ import Contact from "@/components/home/contact/contact";
 import Link from "next/link";
 
 const images = [
-    "https://media.graphassets.com/pgMHOAoRhOGJZFbPVRJi",
-    "https://media.graphassets.com/FUw9tF42SOmyZ9LyOuj1",
-    "https://media.graphassets.com/wL4Hg1soRHuCySwEKF2R",
-    "https://media.graphassets.com/VAVp5Pn9QG6BOmO1K8Bw",
-
-    "https://media.graphassets.com/xVnZAZ8fR4iz8DloR4iu",
-    "https://media.graphassets.com/z7Uu1QdLQAym0QgoJBPY",
-    "https://media.graphassets.com/7wDTzMnRYyOxC8nyrkbQ",
-    "https://media.graphassets.com/j47BPNlqQq6PQRW24baQ",
-
-    "https://media.graphassets.com/YYQdjq49SSqfqP1ofehY",
-    "https://media.graphassets.com/oIbMywPzRWCSIPgpqGmI",
-    "https://media.graphassets.com/yvYV3rVVSQ2tQFtDY0yi",
-    "https://media.graphassets.com/rJ3c3KMpQnGEjx4Vl9W6",
-
-    "https://media.graphassets.com/iOejWaVbRtKGbJE2ZnWP",
-    "https://media.graphassets.com/dx8FlE2oTkiT6wA9v0gM",
-    "https://media.graphassets.com/DMEbjrzCTDaqf1PtViDs",
-    "https://media.graphassets.com/qIWG6JRIRTONEuLfu1Gu",
 
     "https://media.graphassets.com/FQA9xEbTcGwDAW6kllJg",
+    "https://media.graphassets.com/wL4Hg1soRHuCySwEKF2R",
+    "https://media.graphassets.com/qIWG6JRIRTONEuLfu1Gu",
+    "https://media.graphassets.com/7wDTzMnRYyOxC8nyrkbQ",
+
+    "https://media.graphassets.com/rJ3c3KMpQnGEjx4Vl9W6",
+    "https://media.graphassets.com/yvYV3rVVSQ2tQFtDY0yi",
+    "https://media.graphassets.com/pgMHOAoRhOGJZFbPVRJi",
+    "https://media.graphassets.com/FUw9tF42SOmyZ9LyOuj1",
+
+    "https://media.graphassets.com/dx8FlE2oTkiT6wA9v0gM",
+    "https://media.graphassets.com/iOejWaVbRtKGbJE2ZnWP",
+    "https://media.graphassets.com/VAVp5Pn9QG6BOmO1K8Bw",
+    "https://media.graphassets.com/xVnZAZ8fR4iz8DloR4iu",
+
+    "https://media.graphassets.com/DMEbjrzCTDaqf1PtViDs",
+
 ];
 
 export default function PrywatnyWarmiaPage() {
@@ -77,16 +74,16 @@ export default function PrywatnyWarmiaPage() {
                     </div>
                 </section>
                 <section className="grid place-items-center gap-[60px]">
-                    <div className="grid grid-cols-1 md:grid-cols-2 justify-center justify-items-center gap-[10px] px-[20px]">
+                    <div className="grid grid-cols-1 min-[1100px]:grid-cols-2 justify-center justify-items-center gap-[10px] px-[20px]">
                         {images.map((image, index) => (
-                            <Image
-                                className={`lg:h-[330px] rounded-[15px] aspect-video ${index % 2 == 0 ? "justify-self-end" : "justify-self-start"
-                                    }`}
+                            <div
                                 key={index}
-                                src={image}
-                                width={440}
-                                height={306}
-                                alt={image}
+                                className="h-[300px] rounded-[15px] aspect-video"
+                                style={{
+                                    backgroundImage: `url(${image})`,
+                                    backgroundSize: "cover",
+                                    backgroundPosition: "center",
+                                }}
                             />
                         ))}
                     </div>

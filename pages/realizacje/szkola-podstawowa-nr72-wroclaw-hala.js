@@ -9,15 +9,15 @@ import { useMediaQuery } from 'react-responsive';
 
 const images = [
     "https://media.graphassets.com/Fg3A8V7aSmKMBG3Hw6zh",
-    "https://media.graphassets.com/x6AYkwkzQryrxT7pRUcd",
-    "https://media.graphassets.com/bWiBRQVbRVO1AOlj9MG2",
     "https://media.graphassets.com/ieRaYuLhQvWUAwOFdQ2C",
+    "https://media.graphassets.com/bWiBRQVbRVO1AOlj9MG2",
+    "https://media.graphassets.com/Tk1RSeGSnia5RCrlhyVe",
+    "https://media.graphassets.com/x6AYkwkzQryrxT7pRUcd",
+    "https://media.graphassets.com/uIC1ntLBTyeOwxpE7Aky",
+    "https://media.graphassets.com/XLFNOGXRSpefuGzjooq9",
+    "https://media.graphassets.com/G7FX1KkcRW21n6OgFuhh",
     "https://media.graphassets.com/zrXivawyS26DlHMxsf8n",
     "https://media.graphassets.com/mVUjeobqQHYTDHiMi1wf",
-    "https://media.graphassets.com/uIC1ntLBTyeOwxpE7Aky",
-    "https://media.graphassets.com/Tk1RSeGSnia5RCrlhyVe",
-    "https://media.graphassets.com/G7FX1KkcRW21n6OgFuhh",
-    "https://media.graphassets.com/XLFNOGXRSpefuGzjooq9",
 ];
 
 export default function PrywatnyWarmiaPage() {

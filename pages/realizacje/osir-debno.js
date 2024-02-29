@@ -8,6 +8,7 @@ import Link from "next/link";
 import { useMediaQuery } from 'react-responsive';
 
 const images = [
+    "https://media.graphassets.com/TsGs9OvxSOi3yE0JC5Tw",
     "https://media.graphassets.com/ttwdKa4Tcut2OEGWYqtg",
     "https://media.graphassets.com/X78IhBBlROWF3av1nL1v",
     "https://media.graphassets.com/LbYDVGGuT4W5DHSdad8x",
@@ -17,8 +18,6 @@ const images = [
     "https://media.graphassets.com/3l1Uv1sXSs2RJc3eQmii",
     "https://media.graphassets.com/xvHth1LTMqAbko1Ww1Tg",
     "https://media.graphassets.com/jYKayYR56BL7w6Y0sqKA",
-
-    "https://media.graphassets.com/TsGs9OvxSOi3yE0JC5Tw",
 ];
 
 export default function OsirDebnoPage() {

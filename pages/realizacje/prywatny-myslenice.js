@@ -5,15 +5,16 @@ import Contact from "@/components/home/contact/contact";
 import Link from "next/link";
 
 const images = [
-    "https://media.graphassets.com/iiqVpH4RkaOPHzNCVzNA",
+
     "https://media.graphassets.com/jVjiCpSaSwunfHQNUwLV",
-    "https://media.graphassets.com/Foo4JRmTrizYrcIwF3yw",
-    "https://media.graphassets.com/0jRUOEMSk8LuLXGX7Heg",
-    "https://media.graphassets.com/T4ES4bhEQNWVgTC6DJsX",
-    "https://media.graphassets.com/QnE5XrBwTyeAYHwizSlR",
-    "https://media.graphassets.com/9TP1eURFSVWL8ozDFTee",
-    "https://media.graphassets.com/ZWglAJuRTFCz7cNfUX9t",
+    "https://media.graphassets.com/iiqVpH4RkaOPHzNCVzNA",
     "https://media.graphassets.com/jkpnCZTteHmYyeU6cdwg",
+    "https://media.graphassets.com/QnE5XrBwTyeAYHwizSlR",
+    "https://media.graphassets.com/T4ES4bhEQNWVgTC6DJsX",
+    "https://media.graphassets.com/9TP1eURFSVWL8ozDFTee",
+    "https://media.graphassets.com/Foo4JRmTrizYrcIwF3yw",
+    "https://media.graphassets.com/ZWglAJuRTFCz7cNfUX9t",
+    "https://media.graphassets.com/0jRUOEMSk8LuLXGX7Heg",
 ];
 
 export default function PrywatnyWarmiaPage() {

@@ -8,23 +8,18 @@ import Link from "next/link";
 import { useMediaQuery } from 'react-responsive';
 
 const images = [
-    "https://media.graphassets.com/eemT9Zl1R5SjpDUKBO5v",
-    "https://media.graphassets.com/nLxKifB8S22uMhSAXBcw",
-    "https://media.graphassets.com/CDlFMhTsRZKiI2y2ACak",
-    "https://media.graphassets.com/R1O0ZbhlQzWIMieaDrGn",
-
-    "https://media.graphassets.com/8y1E0xqJQN2vQ3VGEiBo",
-    "https://media.graphassets.com/Fp2NrYdrQnOB0eTUe8u0",
-    "https://media.graphassets.com/sCHJpQrASwK7CiXAmsBN",
     "https://media.graphassets.com/gOMmsf1UTjytdL1MezGV",
-
+    "https://media.graphassets.com/R1O0ZbhlQzWIMieaDrGn",
     "https://media.graphassets.com/JhWPbTnmRmO6SUziqLki",
-    "https://media.graphassets.com/95NdHC1RqKRy34Mq8ouw",
+    "https://media.graphassets.com/UaOWydv5QnuL8rbjJnUK",
+    "https://media.graphassets.com/8y1E0xqJQN2vQ3VGEiBo",
+    "https://media.graphassets.com/sCHJpQrASwK7CiXAmsBN",
     "https://media.graphassets.com/N8509uaXQSYhQlGy9pbq",
     "https://media.graphassets.com/vw5OaY7YS0iTz5eWcSUg",
-
+    "https://media.graphassets.com/95NdHC1RqKRy34Mq8ouw",
+    "https://media.graphassets.com/Fp2NrYdrQnOB0eTUe8u0",
+    "https://media.graphassets.com/CDlFMhTsRZKiI2y2ACak",
     "https://media.graphassets.com/IU9retotQZ2tetptQ5h2",
-    "https://media.graphassets.com/UaOWydv5QnuL8rbjJnUK",
 ];
 
 export default function PrywatnyWarmiaPage() {

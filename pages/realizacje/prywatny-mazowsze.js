@@ -5,16 +5,14 @@ import Contact from "@/components/home/contact/contact";
 import Link from "next/link";
 
 const images = [
-    "https://media.graphassets.com/Pp3bwuO6T8GYKdwWsIPD",
-    "https://media.graphassets.com/3ec8pF5TTFiw9wOOkLju",
-    "https://media.graphassets.com/OvHVLPKrSt2fWKqEUfXg",
-
-    "https://media.graphassets.com/1pc2FneNQkSaeCpuwuyB",
     "https://media.graphassets.com/Qs8ga3SuQfGd0GRuwPqh",
-    "https://media.graphassets.com/yuJ7ygx2SDiVdUWjhk4x",
-
+    "https://media.graphassets.com/1pc2FneNQkSaeCpuwuyB",
     "https://media.graphassets.com/fTZr2fV8QnyKyHeDy1O4",
     "https://media.graphassets.com/QrhA0026QBm74ylRqguR",
+    "https://media.graphassets.com/OvHVLPKrSt2fWKqEUfXg",
+    "https://media.graphassets.com/3ec8pF5TTFiw9wOOkLju",
+    "https://media.graphassets.com/Pp3bwuO6T8GYKdwWsIPD",
+    "https://media.graphassets.com/yuJ7ygx2SDiVdUWjhk4x",
 ];
 
 export default function PrywatnyMazowszePage() {

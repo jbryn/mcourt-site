@@ -5,27 +5,21 @@ import Contact from "@/components/home/contact/contact";
 import Link from "next/link";
 
 const images = [
-    "https://media.graphassets.com/ViXzsPDZQ229jPI4qPBm",
-    "https://media.graphassets.com/SXbsehViTtansc0AMZq2",
-    "https://media.graphassets.com/QzhvO5eQqqxHcC3EfIXX",
-    "https://media.graphassets.com/TMQUek9eTkqW3dcPzkE5",
-
-    "https://media.graphassets.com/2Bm7I3cLRrSqvpg6pBnq",
-    "https://media.graphassets.com/q1bulyQTUG2qRJQ9VWiO",
-    "https://media.graphassets.com/PjrbnpPRVKLmBirVQqMg",
-    "https://media.graphassets.com/1abhrEnLQeylXDQtKsME",
-
-    "https://media.graphassets.com/dhejaMcQBuepcBUCp9QT",
+    "https://media.graphassets.com/XxDywWpSVm3jgDeU5Wg7",
+    "https://media.graphassets.com/wdivUK7JRXWhkmLyPRBG",
+    "https://media.graphassets.com/FFjnAAt2Seyw1LxvXlG7",
+    "https://media.graphassets.com/snoRwEogSFK8gvJgevx6",
     "https://media.graphassets.com/haiaISXPRZCn9R0613y2",
-    "https://media.graphassets.com/9Nrr3cBxRFqKGOPZpwlN",
-    "https://media.graphassets.com/r11kimNR7iGDP8PogT9g",
-
-    "https://media.graphassets.com/Rxbi5SEtTUSPRViLDDVP",
-    "https://media.graphassets.com/v0SOrqlpSrKSFSy08tHm",
+    "https://media.graphassets.com/Fs1xCD8SaKjUdMj2jHwt",
+    "https://media.graphassets.com/HwCU2TDtTZeCvGLgpHUF",
+    "https://media.graphassets.com/m9RueCioQy2Sdq977TSf",
+    "https://media.graphassets.com/xIdeytk1QnSAWEdlDZrE",
+    "https://media.graphassets.com/7uvG8CLT8aCiQYm6pVHn",
+    "https://media.graphassets.com/wAKRPYHSymQsXWGf7IDn",
+    "https://media.graphassets.com/oIFirg5fQBWdVK34FwjU",
+    "https://media.graphassets.com/8ey8fxkXQwlXOErBtRsx",
+    "https://media.graphassets.com/4U5anlw2QwaSGub6KWJW",
     "https://media.graphassets.com/WH1Syu8lSAy7XWAnOMzF",
-    "https://media.graphassets.com/FgtEhqbGTem8XwpX1nWt",
-
-    "https://media.graphassets.com/j9n2Hf6fRPDTIhn5Tjui",
 ];
 
 
