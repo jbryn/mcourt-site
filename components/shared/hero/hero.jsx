@@ -3,7 +3,7 @@ import styles from "./hero.module.scss";
 
 export default function Hero({ backgroundUrl, title, offsetX, offsetY, size, subtitle }) {
   return (
-    <section className="overflow-hidden pb-[760px] relative">
+    <section className="overflow-hidden pb-[720px] relative">
       <div
         className={styles.wrapper}
         style={{
