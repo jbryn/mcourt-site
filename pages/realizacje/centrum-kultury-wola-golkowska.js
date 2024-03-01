@@ -33,12 +33,12 @@ export default function PrywatnyWarmiaPage() {
                 />
                 <meta
                     property="og:image"
-                    content="https://media.graphassets.com/2gYQ1eFTXO5qniZgsTik"
+                    content="https://media.graphassets.com/oQL8Jr5LQ92NsXC4a9nL"
                 />
             </Head>
             <main className="overflow-hidden">
                 <Hero
-                    backgroundUrl={"https://media.graphassets.com/2gYQ1eFTXO5qniZgsTik"}
+                    backgroundUrl={"https://media.graphassets.com/oQL8Jr5LQ92NsXC4a9nL"}
                     title="Centrum Kultury w Woli Gołkowskiej"
                     subtitle="Odkryj nasze profesjonalne podejście do modernizacji kortów tenisowych!"
                 />

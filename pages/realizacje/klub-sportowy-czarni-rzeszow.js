@@ -36,12 +36,12 @@ export default function PrywatnyWarmiaPage() {
                 />
                 <meta
                     property="og:image"
-                    content="https://media.graphassets.com/DtM9zRUuTHaZVFa2vwAk"
+                    content="https://media.graphassets.com/isNirYkSJ2tjGXIBkuvP"
                 />
             </Head>
             <main className="overflow-hidden">
                 <Hero
-                    backgroundUrl={"https://media.graphassets.com/DtM9zRUuTHaZVFa2vwAk"}
+                    backgroundUrl={"https://media.graphassets.com/isNirYkSJ2tjGXIBkuvP"}
                     title="Klub Sportowy Czarni - Rzeszów"
                     subtitle="Wykorzystując zaawansowane wtłaczanie granulatu pomiędzy plandeki, obiekty
 sportowe zyskują doskonałą ochronę termiczną, umożliwiając grę przez cały rok.
