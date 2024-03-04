@@ -45,12 +45,7 @@ export default function PrywatnyWarmiaPage() {
                 />
                 <section className="grid place-items-center pb-[60px]">
                     <div className="flex flex-col gap-[30px] px-[40px] max-w-[1000px]">
-                        <Link href='/realizacje' className="flex items-center gap-5 text-light-grey text-[18px]">
-                            <div className="rotate-180 scale-[200%]">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" fill="none"><path d="M11.354 4.354a.5.5 0 0 0 0-.708L8.172.464a.5.5 0 1 0-.708.708L10.293 4 7.464 6.828a.5.5 0 1 0 .708.708l3.182-3.182ZM0 4.5h11v-1H0v1Z" fill="#7ED957" /></svg>
-                            </div>
-                            Powrót
-                        </Link>
+
                         <h1 className="text-[26px] max-[600px]:text-[20px] font-bold">
                             Budowa <strong>nowoczesnego kortu tenisowego</strong> ze <strong>sztucznej trawy</strong> w <strong>prywatnej rezydencji</strong> w okolicach Nowego Sącza. Nasze prace obejmowały kompleksowy zakres działań, począwszy od profilowania podbudowy, poprzez projekt i montaż estetycznego ogrodzenia, aż po instalację nowoczesnego <strong>oświetlenia</strong>. Ponadto, ułożyliśmy wysokiej jakości nawierzchnię, zapewniającą idealne warunki do gry w <strong>tenisa</strong> i nie tylko. Dzięki naszemu doświadczeniu i zaangażowaniu, klient może teraz cieszyć się wyjątkowym <strong>kortem tenisowym</strong>, który spełnia najwyższe standardy zarówno pod względem funkcjonalności, jak i estetyki.
                         </h1>
@@ -73,7 +68,12 @@ export default function PrywatnyWarmiaPage() {
                             />
                         ))}
                     </div>
-
+                    <Link href='/realizacje' className="flex items-center gap-5 text-light-grey text-[18px]">
+                        <div className="rotate-180 scale-[200%]">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" fill="none"><path d="M11.354 4.354a.5.5 0 0 0 0-.708L8.172.464a.5.5 0 1 0-.708.708L10.293 4 7.464 6.828a.5.5 0 1 0 .708.708l3.182-3.182ZM0 4.5h11v-1H0v1Z" fill="#7ED957" /></svg>
+                        </div>
+                        Powrót
+                    </Link>
                 </section>
 
                 <Contact

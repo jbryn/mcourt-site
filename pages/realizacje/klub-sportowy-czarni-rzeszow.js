@@ -49,12 +49,7 @@ Zwiększona wydajność energetyczna przy minimalnych kosztach eksploatacyjnych!
                 />
                 <section className="grid place-items-center pb-[60px]">
                     <div className="flex flex-col gap-[30px] px-[40px] max-w-[1000px]">
-                        <Link href='/realizacje' className="flex items-center gap-5 text-light-grey text-[18px]">
-                            <div className="rotate-180 scale-[200%]">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" fill="none"><path d="M11.354 4.354a.5.5 0 0 0 0-.708L8.172.464a.5.5 0 1 0-.708.708L10.293 4 7.464 6.828a.5.5 0 1 0 .708.708l3.182-3.182ZM0 4.5h11v-1H0v1Z" fill="#7ED957" /></svg>
-                            </div>
-                            Powrót
-                        </Link>
+
                         <h1 className="text-[26px] max-[600px]:text-[20px] font-bold">
                             W roku 2023 przeprowadziliśmy <strong>innowacyjną modernizację hal tenisowych</strong> w klubie Czarni
                             Rzeszów poprzez zastosowanie <strong>zaawansowanej metody termoizolacji</strong>. Zamiast tradycyjnych
@@ -89,6 +84,12 @@ Zwiększona wydajność energetyczna przy minimalnych kosztach eksploatacyjnych!
                             />
                         ))}
                     </div>
+                    <Link href='/realizacje' className="flex items-center gap-5 text-light-grey text-[18px]">
+                        <div className="rotate-180 scale-[200%]">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" fill="none"><path d="M11.354 4.354a.5.5 0 0 0 0-.708L8.172.464a.5.5 0 1 0-.708.708L10.293 4 7.464 6.828a.5.5 0 1 0 .708.708l3.182-3.182ZM0 4.5h11v-1H0v1Z" fill="#7ED957" /></svg>
+                        </div>
+                        Powrót
+                    </Link>
                 </section>
 
                 <Contact
