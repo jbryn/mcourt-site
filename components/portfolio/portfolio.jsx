@@ -34,6 +34,8 @@ const imagesData = {
         { id: '6', src: 'https://media.graphassets.com/x7yovZqFS6m2vH1UbWuY', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-mazowieckie', offsetX: '-10px', offsetY: '-70px', size: '115%' },
         { id: '21', src: 'https://media.graphassets.com/sQr7dglMRRG7I9FC5120', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-nowy-sacz', offsetX: '0px', offsetY: '-110px', size: '115%' },
         { id: '22', src: 'https://media.graphassets.com/haQeipTzTfyoYPasozX8', title: 'Korty prywatny', alt: 'Image 2', href: '/realizacje/prywatny-pojezierce', offsetX: '0px', offsetY: '-40px', size: '120%' },
+        { id: '101', src: 'https://media.graphassets.com/i9A5NuhKTpacPtoTCFnz', title: 'Kort tenisowy Hotel Sokół Łańcut', alt: 'Kort tenisowy Hotel Sokół Łańcut', href: '/realizacje/lancut', offsetX: '-10px', offsetY: '-70px', size: '115%' },
+        { id: '102', src: 'https://media.graphassets.com/4g14dmRHSjSX00IE1JOT', title: 'Nawierzchnie tenisowe Opole', alt: 'Nawierzchnie tenisowe Opole', href: '/realizacje/opole', offsetX: '-10px', offsetY: '-70px', size: '115%' },
     ],
     'korty akrylowe': [
         { id: '28', src: 'https://media.graphassets.com/XGvyv53ORjqnVccqdm27', title: 'Akademia Tenisa Kozerki - Filia Grodzisk Mazowiecki', alt: 'Image 2', href: '/hale-tenisowe-grodzisk' },
@@ -44,6 +46,8 @@ const imagesData = {
         { id: '31', src: 'https://media.graphassets.com/MJFer4wtRaGOMmmAhNe3', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-mazowsze', offsetX: '-50px', offsetY: '0px' },
         { id: '32', src: 'https://media.graphassets.com/IEFVsQwqTHO3niZGSIvF', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-warmia', offsetX: '0px', offsetY: '-70px' },
         { id: '33', src: 'https://media.graphassets.com/x7yovZqFS6m2vH1UbWuY', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-mazowieckie', offsetX: '-10px', offsetY: '-70px', size: '115%' },
+        { id: '101', src: 'https://media.graphassets.com/i9A5NuhKTpacPtoTCFnz', title: 'Kort tenisowy Hotel Sokół Łańcut', alt: 'Kort tenisowy Hotel Sokół Łańcut', href: '/realizacje/lancut', offsetX: '-10px', offsetY: '-70px', size: '115%' },
+        { id: '102', src: 'https://media.graphassets.com/4g14dmRHSjSX00IE1JOT', title: 'Nawierzchnie tenisowe Opole', alt: 'Nawierzchnie tenisowe Opole', href: '/realizacje/opole', offsetX: '-10px', offsetY: '-70px', size: '115%' },
     ],
     'korty ceglane': [
         { id: '36', src: 'https://media.graphassets.com/CeGywygMQFG5aAZWjSA9', title: 'Antuka Tenis Klub - Częstochowa', alt: 'Image 2', href: '/realizacje/antuka-tenis-klub-czestochowa', offsetX: '0px', offsetY: '-70px' },
