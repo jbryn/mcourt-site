@@ -4,69 +4,64 @@ import Image from "next/image";
 import Contact from "@/components/home/contact/contact";
 import Link from "next/link";
 
-
 import { useMediaQuery } from 'react-responsive';
 
 const images = [
-    "https://media.graphassets.com/7ODCftrT8mdSjNx5zNNg",
-    "https://media.graphassets.com/omuMxHx9RKKESnbg2z8G",
-    "https://media.graphassets.com/eXrbTbg2RCCEmwykVhdd",
-    "https://media.graphassets.com/5f9nzSWSlySD1b8dg8dh",
-    "https://media.graphassets.com/TEHrYFQRCWiGXGxwpINh",
-    "https://media.graphassets.com/oqUdarJDTa66TMrFTxAu",
-    "https://media.graphassets.com/88ijNGvSQqalnQxtawTc",
-    "https://media.graphassets.com/n0LvvagMSCe1HYpR3ego",
-    "https://media.graphassets.com/0mpF31GjTNKbAc9ZSlgn",
-    "https://media.graphassets.com/CAaFn2rOSVGb951yIr31",
+    "https://media.graphassets.com/dhzXqpYLQJC33ToCsteR",
+    "https://media.graphassets.com/6jUq9iDMTYKgEKAKoGCR",
+    "https://media.graphassets.com/x0erhEaORRqA0nJ0lwZU",
+    "https://media.graphassets.com/L5MxPn5fRCjdnPNEq55A",
+    "https://media.graphassets.com/Ey4tMqXQeuFrddK0kbjg",
+    "https://media.graphassets.com/qt0GoO5MTF6U3K6sOf8e",
+    "https://media.graphassets.com/G9J8F7gRiOAxMFTT0c8g",
+    "https://media.graphassets.com/NNkFwVQ7TUmKZvrGboaw"
 ];
 
-export default function Opole() {
+export default function PrywatnyDolnoslaskiePrzedmosc() {
 
-    const isMediumScreen = useMediaQuery({ minWidth: 1424 });
+    const isMediumScreen = useMediaQuery({ minWidth: 1224 });
     const isLargeScreen = useMediaQuery({ minWidth: 1700 });
     const isXLargeScreen = useMediaQuery({ minWidth: 1920 });
 
-    const offsetY = isXLargeScreen ? '-400px' : isLargeScreen ? '-400px' : isMediumScreen ? '-270px' : '0px';
-
+    const offsetY = isXLargeScreen ? '-600px' : isLargeScreen ? '-300px' : isMediumScreen ? '-200px' : '0px';
     return (
         <>
             <Head>
-                <title>Centrum Tenisowe AcePark Opole</title>
+                <title>Kort akrylowy - Przedmość - woj. Dolnośląskie</title>
                 <meta
                     name="description"
-                    content="Profesjonalna wymiana nawierzchni kortów"
+                    content="Prywatny Kort Laykold Masters 5 z Inspiracją US Open"
                     key="desc"
                 />
                 <meta
                     property="og:title"
-                    content="Centrum Tenisowe AcePark Opole"
+                    content="Kort akrylowy - Przedmość - woj. Dolnośląskie"
                 />
                 <meta
                     property="og:description"
-                    content="Profesjonalna wymiana nawierzchni kortów"
+                    content="Prywatny Kort Laykold Masters 5 z Inspiracją US Open"
                 />
                 <meta
                     property="og:image"
-                    content="https://media.graphassets.com/cm02cqlbq9r6a07un6isun29v"
+                    content="https://media.graphassets.com/PkjAnUuMQkObWM1KcKcX"
                 />
             </Head>
             <main className="overflow-hidden">
                 <Hero
-                    backgroundUrl={"https://media.graphassets.com/4g14dmRHSjSX00IE1JOT"}
-                    title="Centrum Tenisowe AcePark Opole"
+                    backgroundUrl={"https://media.graphassets.com/PkjAnUuMQkObWM1KcKcX"}
+                    title="Kort akrylowy - Przedmość - woj. Dolnośląskie"
+                    subtitle="Prywatny Kort Laykold Masters 5 z Inspiracją US Open"
                     offsetY={offsetY}
-                    subtitle="W 2024 roku nasza firma z sukcesem przeprowadziła wymianę nawierzchni na trzech kortach tenisowych, zastępując tradycyjną mączkę ceglaną nowoczesną nawierzchnią akrylową Laykold Masters 5. To rozwiązanie nie tylko podnosi estetykę kortów, ale także znacząco poprawia jakość gry, zapewniając doskonałe właściwości odbicia piłki oraz komfort zawodników."
                 />
                 <section className="grid place-items-center pb-[60px]">
                     <div className="flex flex-col gap-[30px] px-[40px] max-w-[1000px]">
 
                         <h1 className="text-[26px] max-[600px]:text-[20px] font-bold">
-                            Kolorystyka wybrana do tej realizacji to elegancka kombinacja <strong>Dark Blue</strong> na powierzchni kortu oraz <strong>Light Blue</strong> na wybiegach, co nie tylko podkreśla nowoczesny charakter obiektów, ale również zapewnia optymalny kontrast dla piłki, ułatwiając grę.
+                            Zrealizowaliśmy prywatny kort tenisowy z nawierzchnią Laykold Masters 5, opartą na podkładzie gumowym.
                         </h1>
                         <h2>
-                            <strong>Nawierzchnia Laykold Masters 5</strong> to jeden z najlepszych <strong>systemów akrylowych</strong> dostępnych na rynku, ceniony przez profesjonalnych tenisistów na całym świecie. Dzięki naszej pracy, korty zyskały nowe życie i są gotowe na intensywną eksploatację przez wiele sezonów.
+                            Kort wyróżnia się kolorystyką zbliżoną do tej, którą można zobaczyć na prestiżowych kortach US Open, co nadaje mu profesjonalny i elegancki wygląd. Dzięki zastosowaniu wysokiej jakości materiałów, zapewniliśmy doskonałe właściwości gry, komfort oraz trwałość nawierzchni. Ten prywatny kort tenisowy jest idealnym miejscem do treningu i rekreacji, czerpiąc inspirację z największych turniejów na świecie.
                         </h2>
-                        <h2>Zapraszamy do kontaktu, jeśli są Państwo zainteresowani <strong>modernizacją swoich obiektów sportowych</strong>. Z przyjemnością doradzimy i zaproponujemy najlepsze rozwiązania dla Państwa potrzeb.</h2>
                     </div>
                 </section>
                 <section className="grid place-items-center gap-[60px]">
