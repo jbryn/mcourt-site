@@ -38,6 +38,8 @@ const imagesData = {
         { id: '102', src: 'https://media.graphassets.com/4g14dmRHSjSX00IE1JOT', title: 'Centrum Tenisowe AcePark Opole', alt: 'Centrum Tenisowe AcePark Opole', href: '/realizacje/opole', offsetX: '-10px', offsetY: '-70px', size: '115%' },
         { id: '103', src: 'https://media.graphassets.com/TnXmtDuRMquQyW2uzB0w', title: 'Kort prywatny', alt: 'Kort prywatny', href: '/realizacje/prywatny-dolnoslaskie', offsetX: '-10px', offsetY: '-70px', size: '115%' },
         { id: '104', src: 'https://media.graphassets.com/PkjAnUuMQkObWM1KcKcX', title: 'Kort prywatny', alt: 'Kort prywatny', href: '/realizacje/prywatny-dolnoslaskie-przedmosc', offsetX: '-10px', offsetY: '-70px', size: '115%' },
+        { id: '105', src: 'https://media.graphassets.com/XQJQls51RHCkcPOUepB3', title: 'Warszawianka', alt: 'Warszawianka', href: '/realizacje/warszawianka', offsetX: '-10px', offsetY: '-70px', size: '115%' },
+        { id: '106', src: 'https://media.graphassets.com/8AeawKfwQdyWAR7Pv902', title: 'Klub Czarni Rzeszów', alt: 'Czarni Rzeszów', href: '/realizacje/czarni-rzeszow-ceglane', offsetX: '-10px', offsetY: '-70px', size: '115%' },
     ],
     'korty akrylowe': [
         { id: '28', src: 'https://media.graphassets.com/XGvyv53ORjqnVccqdm27', title: 'Akademia Tenisa Kozerki - Filia Grodzisk Mazowiecki', alt: 'Image 2', href: '/hale-tenisowe-grodzisk' },
@@ -52,6 +54,7 @@ const imagesData = {
         { id: '102', src: 'https://media.graphassets.com/4g14dmRHSjSX00IE1JOT', title: 'Centrum Tenisowe AcePark Opole', alt: 'Centrum Tenisowe AcePark Opole', href: '/realizacje/opole', offsetX: '-10px', offsetY: '-70px', size: '115%' },
         { id: '103', src: 'https://media.graphassets.com/TnXmtDuRMquQyW2uzB0w', title: 'Kort prywatny', alt: 'Kort prywatny', href: '/realizacje/prywatny-dolnoslaskie', offsetX: '-10px', offsetY: '-70px', size: '115%' },
         { id: '104', src: 'https://media.graphassets.com/PkjAnUuMQkObWM1KcKcX', title: 'Kort prywatny', alt: 'Kort prywatny', href: '/realizacje/prywatny-dolnoslaskie-przedmosc', offsetX: '-10px', offsetY: '-70px', size: '115%' },
+        { id: '105', src: 'https://media.graphassets.com/XQJQls51RHCkcPOUepB3', title: 'Warszawianka', alt: 'Warszawianka', href: '/realizacje/warszawianka', offsetX: '-10px', offsetY: '-70px', size: '115%' },
 
     ],
     'korty ceglane': [
@@ -61,6 +64,7 @@ const imagesData = {
         { id: '40', src: 'https://media.graphassets.com/K6b6golKRMeJOZaG3MjG', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-pruszkow', offsetX: '0px', offsetY: '-70px' },
         { id: '37', src: 'https://media.graphassets.com/9qdgihK1SkGgUVtVlsRw', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-lodzkie', offsetX: '0px', offsetY: '-70px' },
         { id: '38', src: 'https://media.graphassets.com/gRsQr6SQy8CaJSZ0oKAV', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-myslenice', offsetY: '-30px', size: '115%' },
+        { id: '106', src: 'https://media.graphassets.com/8AeawKfwQdyWAR7Pv902', title: 'Klub Czarni Rzeszów', alt: 'Czarni Rzeszów', href: '/realizacje/czarni-rzeszow-ceglane', offsetX: '-10px', offsetY: '-70px', size: '115%' },
     ],
     'sztuczna trawa': [
         { id: '42', src: 'https://media.graphassets.com/87A71ICSdizs9OXV32Tg', title: 'OSiR Dębno - Dębno', alt: 'Image 2', href: '/realizacje/osir-debno', offsetX: '0px', offsetY: '-70px' },
