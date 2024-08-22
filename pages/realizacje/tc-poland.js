@@ -23,7 +23,7 @@ export default function TcPoland() {
     return (
         <>
             <Head>
-                <title>Klub TC Poland - Mysiadło</title>
+                <title>TC Poland - Mysiadło</title>
                 <meta
                     name="description"
                     content="Modernizacja Kortów Ceglanych w Mysiadle"
@@ -45,7 +45,7 @@ export default function TcPoland() {
             <main className="overflow-hidden">
                 <Hero
                     backgroundUrl={"https://media.graphassets.com/1yGpqBIEQniUmn7VwVKG"}
-                    title="Klub TC Poland - Mysiadło"
+                    title="TC Poland - Mysiadło"
                     subtitle="Modernizacja Kortów Ceglanych w Mysiadle"
                     offsetY={offsetY}
                 />
