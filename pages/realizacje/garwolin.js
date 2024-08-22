@@ -7,60 +7,60 @@ import Link from "next/link";
 import { useMediaQuery } from 'react-responsive';
 
 const images = [
-    "https://media.graphassets.com/dhzXqpYLQJC33ToCsteR",
-    "https://media.graphassets.com/6jUq9iDMTYKgEKAKoGCR",
-    "https://media.graphassets.com/x0erhEaORRqA0nJ0lwZU",
-    "https://media.graphassets.com/L5MxPn5fRCjdnPNEq55A",
-    "https://media.graphassets.com/Ey4tMqXQeuFrddK0kbjg",
-    "https://media.graphassets.com/qt0GoO5MTF6U3K6sOf8e",
-    "https://media.graphassets.com/G9J8F7gRiOAxMFTT0c8g",
-    "https://media.graphassets.com/NNkFwVQ7TUmKZvrGboaw"
+    "https://media.graphassets.com/gdoDi7JRyyitGv0aUltC",
+    "https://media.graphassets.com/Ce2qqwDJQVKas3nNfSRU",
+    "https://media.graphassets.com/XhMFwl9fQb6zCXsADLTm",
+    "https://media.graphassets.com/GA59nnhS6GkWO09ENGjH",
+    "https://media.graphassets.com/GA59nnhS6GkWO09ENGjH",
+    "https://media.graphassets.com/udZBO1KeRpCgWmArZbcA",
+    "https://media.graphassets.com/ojqZXg90TkEfi3zo51VW",
+    "https://media.graphassets.com/jtRjEU6jRtCVJCBsEmUy",
 ];
 
-export default function PrywatnyDolnoslaskiePrzedmosc() {
+export default function Garwolin() {
 
     const isMediumScreen = useMediaQuery({ minWidth: 1224 });
     const isLargeScreen = useMediaQuery({ minWidth: 1700 });
     const isXLargeScreen = useMediaQuery({ minWidth: 1920 });
 
-    const offsetY = isXLargeScreen ? '-600px' : isLargeScreen ? '-300px' : isMediumScreen ? '-200px' : '0px';
+    const offsetY = isXLargeScreen ? '-300px' : isLargeScreen ? '-100px' : isMediumScreen ? '-100px' : '0px';
     return (
         <>
             <Head>
-                <title>Kort prywatny - woj. Dolnośląskie</title>
+                <title>Garwolińska Akademia Tenisowa - Garwolin</title>
                 <meta
                     name="description"
-                    content="Prywatny Kort Laykold Masters 5 z Inspiracją US Open"
+                    content="Antuka Premium na Kortach Garwolińskiej Akademii Tenisa"
                     key="desc"
                 />
                 <meta
                     property="og:title"
-                    content="Kort prywatny - woj. Dolnośląskie"
+                    content="Garwolińska Akademia Tenisowa - Garwolin"
                 />
                 <meta
                     property="og:description"
-                    content="Prywatny Kort Laykold Masters 5 z Inspiracją US Open"
+                    content="Antuka Premium na Kortach Garwolińskiej Akademii Tenisa"
                 />
                 <meta
                     property="og:image"
-                    content="https://media.graphassets.com/PkjAnUuMQkObWM1KcKcX"
+                    content="https://media.graphassets.com/sBnFomB8SS6P9aB4D74A"
                 />
             </Head>
             <main className="overflow-hidden">
                 <Hero
-                    backgroundUrl={"https://media.graphassets.com/PkjAnUuMQkObWM1KcKcX"}
-                    title="Kort prywatny - woj. Dolnośląskie"
-                    subtitle="Prywatny Kort Laykold Masters 5 z Inspiracją US Open"
+                    backgroundUrl={"https://media.graphassets.com/sBnFomB8SS6P9aB4D74A"}
+                    title="Garwolińska Akademia Tenisowa - Garwolin"
+                    subtitle="Antuka Premium na Kortach Garwolińskiej Akademii Tenisa"
                     offsetY={offsetY}
                 />
                 <section className="grid place-items-center pb-[60px]">
                     <div className="flex flex-col gap-[30px] px-[40px] max-w-[1000px]">
 
                         <h1 className="text-[26px] max-[600px]:text-[20px] font-bold">
-                            Zrealizowaliśmy prywatny kort tenisowy z nawierzchnią Laykold Masters 5, opartą na podkładzie gumowym.
+                            W Garwolińskiej Akademii Tenisa zrealizowaliśmy projekt modernizacji dwóch kortów, wyposażając je w nowoczesną nawierzchnię Antuka premium.
                         </h1>
                         <h2>
-                            Kort wyróżnia się kolorystyką zbliżoną do tej, którą można zobaczyć na prestiżowych kortach US Open, co nadaje mu profesjonalny i elegancki wygląd. Dzięki zastosowaniu wysokiej jakości materiałów, zapewniliśmy doskonałe właściwości gry, komfort oraz trwałość nawierzchni. Ten prywatny kort tenisowy jest idealnym miejscem do treningu i rekreacji, czerpiąc inspirację z największych turniejów na świecie.
+                            Dzięki tej inwestycji korty zyskały na <strong>jakości</strong>, zapewniając graczom doskonałe warunki do treningu i rozgrywek. <strong>Antuka premium</strong> wyróżnia się wyjątkową <strong>wodoprzepuszczalnością</strong> oraz komfortem gry, co sprawia, że jest idealnym wyborem zarówno dla zawodowców, jak i amatorów. Cieszymy się, że mogliśmy przyczynić się do podniesienia standardów w Garwolińskiej Akademii Tenisa.
                         </h2>
                     </div>
                 </section>

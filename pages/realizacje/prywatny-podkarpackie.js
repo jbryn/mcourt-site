@@ -7,17 +7,17 @@ import Link from "next/link";
 import { useMediaQuery } from 'react-responsive';
 
 const images = [
-    "https://media.graphassets.com/dhzXqpYLQJC33ToCsteR",
-    "https://media.graphassets.com/6jUq9iDMTYKgEKAKoGCR",
-    "https://media.graphassets.com/x0erhEaORRqA0nJ0lwZU",
-    "https://media.graphassets.com/L5MxPn5fRCjdnPNEq55A",
-    "https://media.graphassets.com/Ey4tMqXQeuFrddK0kbjg",
-    "https://media.graphassets.com/qt0GoO5MTF6U3K6sOf8e",
-    "https://media.graphassets.com/G9J8F7gRiOAxMFTT0c8g",
-    "https://media.graphassets.com/NNkFwVQ7TUmKZvrGboaw"
+    "https://media.graphassets.com/6efHwN3fRpyvuEaYzGLD",
+    "https://media.graphassets.com/bfC3WwLrTvOm70cPi0c1",
+    "https://media.graphassets.com/WuTAP9mSgSofHEHmTuUA",
+    "https://media.graphassets.com/5W5cgQPZSb2S26eJi6wU",
+    "https://media.graphassets.com/nbyTcZt5QVgDDW9G3Dng",
+    "https://media.graphassets.com/zhzfDnqAShSBCdTALuY1",
+    "https://media.graphassets.com/RaOnHXUrSkmvBnTXUeis",
+    "https://media.graphassets.com/rl8UOyRJQJmFO7UXp1Bj"
 ];
 
-export default function PrywatnyDolnoslaskiePrzedmosc() {
+export default function PrywatnyPodkarpackie() {
 
     const isMediumScreen = useMediaQuery({ minWidth: 1224 });
     const isLargeScreen = useMediaQuery({ minWidth: 1700 });
@@ -27,40 +27,40 @@ export default function PrywatnyDolnoslaskiePrzedmosc() {
     return (
         <>
             <Head>
-                <title>Kort prywatny - woj. Dolnośląskie</title>
+                <title>Kort prywatny - woj. Podkarpackie</title>
                 <meta
                     name="description"
-                    content="Prywatny Kort Laykold Masters 5 z Inspiracją US Open"
+                    content="Kort Tenisowy z Sztucznej Trawy Juta Fast Track 15 w Bieszczadach"
                     key="desc"
                 />
                 <meta
                     property="og:title"
-                    content="Kort prywatny - woj. Dolnośląskie"
+                    content="Kort prywatny - woj. Podkarpackie"
                 />
                 <meta
                     property="og:description"
-                    content="Prywatny Kort Laykold Masters 5 z Inspiracją US Open"
+                    content="Kort Tenisowy z Sztucznej Trawy Juta Fast Track 15 w Bieszczadach"
                 />
                 <meta
                     property="og:image"
-                    content="https://media.graphassets.com/PkjAnUuMQkObWM1KcKcX"
+                    content="https://media.graphassets.com/VsHvi9iToaLaouaQvbsC"
                 />
             </Head>
             <main className="overflow-hidden">
                 <Hero
-                    backgroundUrl={"https://media.graphassets.com/PkjAnUuMQkObWM1KcKcX"}
-                    title="Kort prywatny - woj. Dolnośląskie"
-                    subtitle="Prywatny Kort Laykold Masters 5 z Inspiracją US Open"
+                    backgroundUrl={"https://media.graphassets.com/VsHvi9iToaLaouaQvbsC"}
+                    title="Kort prywatny - woj. Podkarpackie"
+                    subtitle="Kort Tenisowy z Sztucznej Trawy Juta Fast Track 15 w Bieszczadach"
                     offsetY={offsetY}
                 />
                 <section className="grid place-items-center pb-[60px]">
                     <div className="flex flex-col gap-[30px] px-[40px] max-w-[1000px]">
 
                         <h1 className="text-[26px] max-[600px]:text-[20px] font-bold">
-                            Zrealizowaliśmy prywatny kort tenisowy z nawierzchnią Laykold Masters 5, opartą na podkładzie gumowym.
+                            W malowniczych Bieszczadach zrealizowaliśmy budowę prywatnego kortu tenisowego, wykorzystując sztuczną trawę Juta Fast Track 15.
                         </h1>
                         <h2>
-                            Kort wyróżnia się kolorystyką zbliżoną do tej, którą można zobaczyć na prestiżowych kortach US Open, co nadaje mu profesjonalny i elegancki wygląd. Dzięki zastosowaniu wysokiej jakości materiałów, zapewniliśmy doskonałe właściwości gry, komfort oraz trwałość nawierzchni. Ten prywatny kort tenisowy jest idealnym miejscem do treningu i rekreacji, czerpiąc inspirację z największych turniejów na świecie.
+                            Ta <strong>wysokiej jakości</strong> nawierzchnia, znana ze swojej <strong>trwałości</strong> i doskonałych właściwości użytkowych, zapewnia komfort i bezpieczeństwo podczas gry. Kort, otoczony pięknem bieszczadzkiej przyrody, stał się wyjątkowym miejscem do uprawiania tenisa, łącząc nowoczesną technologię z naturalnym krajobrazem. Juta <strong>Fast Track 15</strong> to idealny wybór dla tych, którzy cenią sobie najwyższe standardy oraz estetykę swojego kortu.
                         </h2>
                     </div>
                 </section>

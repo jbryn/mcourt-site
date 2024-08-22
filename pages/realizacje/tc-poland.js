@@ -7,60 +7,56 @@ import Link from "next/link";
 import { useMediaQuery } from 'react-responsive';
 
 const images = [
-    "https://media.graphassets.com/dhzXqpYLQJC33ToCsteR",
-    "https://media.graphassets.com/6jUq9iDMTYKgEKAKoGCR",
-    "https://media.graphassets.com/x0erhEaORRqA0nJ0lwZU",
-    "https://media.graphassets.com/L5MxPn5fRCjdnPNEq55A",
-    "https://media.graphassets.com/Ey4tMqXQeuFrddK0kbjg",
-    "https://media.graphassets.com/qt0GoO5MTF6U3K6sOf8e",
-    "https://media.graphassets.com/G9J8F7gRiOAxMFTT0c8g",
-    "https://media.graphassets.com/NNkFwVQ7TUmKZvrGboaw"
+    "https://media.graphassets.com/oovzIcUSd2lp6ykTzEcQ",
+    "https://media.graphassets.com/Ea4ZtftxTza4cxq4EbAB",
+    "https://media.graphassets.com/z4bMDX7QDqVtYjmgQbJy",
+    "https://media.graphassets.com/bo4jAqsnRgVET2Fa1Htl",
 ];
 
-export default function PrywatnyDolnoslaskiePrzedmosc() {
+export default function TcPoland() {
 
     const isMediumScreen = useMediaQuery({ minWidth: 1224 });
     const isLargeScreen = useMediaQuery({ minWidth: 1700 });
     const isXLargeScreen = useMediaQuery({ minWidth: 1920 });
 
-    const offsetY = isXLargeScreen ? '-600px' : isLargeScreen ? '-300px' : isMediumScreen ? '-200px' : '0px';
+    const offsetY = isXLargeScreen ? '-300px' : isLargeScreen ? '-100px' : isMediumScreen ? '-100px' : '0px';
     return (
         <>
             <Head>
-                <title>Kort prywatny - woj. Dolnośląskie</title>
+                <title>Klub TC Poland - Mysiadło</title>
                 <meta
                     name="description"
-                    content="Prywatny Kort Laykold Masters 5 z Inspiracją US Open"
+                    content="Modernizacja Kortów Ceglanych w Mysiadle"
                     key="desc"
                 />
                 <meta
                     property="og:title"
-                    content="Kort prywatny - woj. Dolnośląskie"
+                    content="Klub TC Poland - Mysiadło"
                 />
                 <meta
                     property="og:description"
-                    content="Prywatny Kort Laykold Masters 5 z Inspiracją US Open"
+                    content="Modernizacja Kortów Ceglanych w Mysiadle"
                 />
                 <meta
                     property="og:image"
-                    content="https://media.graphassets.com/PkjAnUuMQkObWM1KcKcX"
+                    content="https://media.graphassets.com/1yGpqBIEQniUmn7VwVKG"
                 />
             </Head>
             <main className="overflow-hidden">
                 <Hero
-                    backgroundUrl={"https://media.graphassets.com/PkjAnUuMQkObWM1KcKcX"}
-                    title="Kort prywatny - woj. Dolnośląskie"
-                    subtitle="Prywatny Kort Laykold Masters 5 z Inspiracją US Open"
+                    backgroundUrl={"https://media.graphassets.com/1yGpqBIEQniUmn7VwVKG"}
+                    title="Klub TC Poland - Mysiadło"
+                    subtitle="Modernizacja Kortów Ceglanych w Mysiadle"
                     offsetY={offsetY}
                 />
                 <section className="grid place-items-center pb-[60px]">
                     <div className="flex flex-col gap-[30px] px-[40px] max-w-[1000px]">
 
                         <h1 className="text-[26px] max-[600px]:text-[20px] font-bold">
-                            Zrealizowaliśmy prywatny kort tenisowy z nawierzchnią Laykold Masters 5, opartą na podkładzie gumowym.
+                            W Klubie TC Poland w Mysiadle przeprowadziliśmy retopping dwóch kortów, zamieniając starą nawierzchnię z mączki ceglanej na nowoczesną Antuka premium.
                         </h1>
                         <h2>
-                            Kort wyróżnia się kolorystyką zbliżoną do tej, którą można zobaczyć na prestiżowych kortach US Open, co nadaje mu profesjonalny i elegancki wygląd. Dzięki zastosowaniu wysokiej jakości materiałów, zapewniliśmy doskonałe właściwości gry, komfort oraz trwałość nawierzchni. Ten prywatny kort tenisowy jest idealnym miejscem do treningu i rekreacji, czerpiąc inspirację z największych turniejów na świecie.
+                            Nowa nawierzchnia zapewnia nie tylko doskonałą <strong>wodoprzepuszczalność</strong>, ale także zwiększony komfort gry, co czyni ją idealnym wyborem dla intensywnie eksploatowanych kortów. Modernizacja kortów w Klubie TC Poland to kolejny krok w podnoszeniu standardów sportowych w Mysiadle, zapewniając graczom najwyższą <strong>jakość i komfort</strong> podczas każdej rozgrywki.
                         </h2>
                     </div>
                 </section>

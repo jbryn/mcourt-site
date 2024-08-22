@@ -40,6 +40,10 @@ const imagesData = {
         { id: '104', src: 'https://media.graphassets.com/PkjAnUuMQkObWM1KcKcX', title: 'Kort prywatny', alt: 'Kort prywatny', href: '/realizacje/prywatny-dolnoslaskie-przedmosc', offsetX: '-10px', offsetY: '-70px', size: '115%' },
         { id: '105', src: 'https://media.graphassets.com/XQJQls51RHCkcPOUepB3', title: 'Warszawianka', alt: 'Warszawianka', href: '/realizacje/warszawianka', offsetX: '-10px', offsetY: '-70px', size: '115%' },
         { id: '106', src: 'https://media.graphassets.com/8AeawKfwQdyWAR7Pv902', title: 'Klub Czarni Rzeszów', alt: 'Czarni Rzeszów', href: '/realizacje/czarni-rzeszow-ceglane', offsetX: '-10px', offsetY: '-70px', size: '115%' },
+        { id: '107', src: 'https://media.graphassets.com/sBnFomB8SS6P9aB4D74A', title: 'Garwolińska Akademia Tenisa', alt: 'Garwolińska Akademia Tenisa', href: '/realizacje/garwolin', offsetX: '-10px', offsetY: '-70px', size: '115%' },
+        { id: '108', src: 'https://media.graphassets.com/1yGpqBIEQniUmn7VwVKG', title: 'Klub TC Poland - Mysiadło', alt: 'Klub TC Poland - Mysiadło', href: '/realizacje/tc-poland', offsetX: '-10px', offsetY: '-70px', size: '115%' },
+        { id: '109', src: 'https://media.graphassets.com/PfztPXkrRTOFiQnvJKEG', title: 'Kort prywatny', alt: 'Grudziadz', href: '/realizacje/prywatny-grudziadz', offsetX: '-10px', offsetY: '-70px', size: '115%' },
+        { id: '110', src: 'https://media.graphassets.com/VsHvi9iToaLaouaQvbsC', title: 'Kort prywatny', alt: 'Bieszczady', href: '/realizacje/prywatny-podkarpackie', offsetX: '-10px', offsetY: '-70px', size: '115%' },
     ],
     'korty akrylowe': [
         { id: '28', src: 'https://media.graphassets.com/XGvyv53ORjqnVccqdm27', title: 'Akademia Tenisa Kozerki - Filia Grodzisk Mazowiecki', alt: 'Image 2', href: '/hale-tenisowe-grodzisk' },
@@ -65,6 +69,8 @@ const imagesData = {
         { id: '37', src: 'https://media.graphassets.com/9qdgihK1SkGgUVtVlsRw', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-lodzkie', offsetX: '0px', offsetY: '-70px' },
         { id: '38', src: 'https://media.graphassets.com/gRsQr6SQy8CaJSZ0oKAV', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-myslenice', offsetY: '-30px', size: '115%' },
         { id: '106', src: 'https://media.graphassets.com/8AeawKfwQdyWAR7Pv902', title: 'Klub Czarni Rzeszów', alt: 'Czarni Rzeszów', href: '/realizacje/czarni-rzeszow-ceglane', offsetX: '-10px', offsetY: '-70px', size: '115%' },
+        { id: '107', src: 'https://media.graphassets.com/sBnFomB8SS6P9aB4D74A', title: 'Garwolińska Akademia Tenisa', alt: 'Garwolińska Akademia Tenisa', href: '/realizacje/garwolin', offsetX: '-10px', offsetY: '-70px', size: '115%' },
+        { id: '108', src: 'https://media.graphassets.com/1yGpqBIEQniUmn7VwVKG', title: 'Klub TC Poland - Mysiadło', alt: 'Klub TC Poland - Mysiadło', href: '/realizacje/tc-poland', offsetX: '-10px', offsetY: '-70px', size: '115%' },
     ],
     'sztuczna trawa': [
         { id: '42', src: 'https://media.graphassets.com/87A71ICSdizs9OXV32Tg', title: 'OSiR Dębno - Dębno', alt: 'Image 2', href: '/realizacje/osir-debno', offsetX: '0px', offsetY: '-70px' },
@@ -76,6 +82,8 @@ const imagesData = {
         { id: '46', src: 'https://media.graphassets.com/s2rsBfiAQhmPh2OLuvyk', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-mazury', offsetX: '-15px', offsetY: '-70px', size: '110%' },
         { id: '48', src: 'https://media.graphassets.com/sQr7dglMRRG7I9FC5120', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-nowy-sacz', offsetX: '0px', offsetY: '-110px', size: '115%' },
         { id: '49', src: 'https://media.graphassets.com/haQeipTzTfyoYPasozX8', title: 'Kort prywatny', alt: 'Image 2', href: '/realizacje/prywatny-pojezierce', offsetX: '0px', offsetY: '-40px', size: '120%' },
+        { id: '109', src: 'https://media.graphassets.com/PfztPXkrRTOFiQnvJKEG', title: 'Kort prywatny', alt: 'Grudziadz', href: '/realizacje/prywatny-grudziadz', offsetX: '-10px', offsetY: '-70px', size: '115%' },
+        { id: '110', src: 'https://media.graphassets.com/VsHvi9iToaLaouaQvbsC', title: 'Kort prywatny', alt: 'Bieszczady', href: '/realizacje/prywatny-podkarpackie', offsetX: '-10px', offsetY: '-70px', size: '115%' },
     ],
     'hale tenisowe': [
         { id: '53', src: 'https://media.graphassets.com/XGvyv53ORjqnVccqdm27', title: 'Akademia Tenisa Kozerki - Filia Grodzisk Mazowiecki', alt: 'Image 2', href: '/hale-tenisowe-grodzisk' },

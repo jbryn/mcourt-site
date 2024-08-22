@@ -7,60 +7,58 @@ import Link from "next/link";
 import { useMediaQuery } from 'react-responsive';
 
 const images = [
-    "https://media.graphassets.com/dhzXqpYLQJC33ToCsteR",
-    "https://media.graphassets.com/6jUq9iDMTYKgEKAKoGCR",
-    "https://media.graphassets.com/x0erhEaORRqA0nJ0lwZU",
-    "https://media.graphassets.com/L5MxPn5fRCjdnPNEq55A",
-    "https://media.graphassets.com/Ey4tMqXQeuFrddK0kbjg",
-    "https://media.graphassets.com/qt0GoO5MTF6U3K6sOf8e",
-    "https://media.graphassets.com/G9J8F7gRiOAxMFTT0c8g",
-    "https://media.graphassets.com/NNkFwVQ7TUmKZvrGboaw"
+    "https://media.graphassets.com/bavkcyZFTfCFtfBQwqfP",
+    "https://media.graphassets.com/PDPgIwYpR12uLtxm2zcF",
+    "https://media.graphassets.com/LiQQz0WRNalvI8F1AEC4",
+    "https://media.graphassets.com/PJ7OAhcoRK6QiuQ5K1fl",
+    "https://media.graphassets.com/XXed1E9cRqOcM6B9gHLj",
+    "https://media.graphassets.com/BHlmekrbRyaCmwe3iqSn",
 ];
 
-export default function PrywatnyDolnoslaskiePrzedmosc() {
+export default function Grudziadz() {
 
     const isMediumScreen = useMediaQuery({ minWidth: 1224 });
     const isLargeScreen = useMediaQuery({ minWidth: 1700 });
     const isXLargeScreen = useMediaQuery({ minWidth: 1920 });
 
-    const offsetY = isXLargeScreen ? '-600px' : isLargeScreen ? '-300px' : isMediumScreen ? '-200px' : '0px';
+    const offsetY = isXLargeScreen ? '-300px' : isLargeScreen ? '-100px' : isMediumScreen ? '-100px' : '0px';
     return (
         <>
             <Head>
-                <title>Kort prywatny - woj. Dolnośląskie</title>
+                <title>Kort prywatny - woj. Kujawsko-Pomorskie</title>
                 <meta
                     name="description"
-                    content="Prywatny Kort Laykold Masters 5 z Inspiracją US Open"
+                    content="Nowoczesna Nawierzchnia Fast Track 15 na Prywatnym Korcie"
                     key="desc"
                 />
                 <meta
                     property="og:title"
-                    content="Kort prywatny - woj. Dolnośląskie"
+                    content="Kort prywatny - woj. Kujawsko-Pomorskie"
                 />
                 <meta
                     property="og:description"
-                    content="Prywatny Kort Laykold Masters 5 z Inspiracją US Open"
+                    content="Nowoczesna Nawierzchnia Fast Track 15 na Prywatnym Korcie"
                 />
                 <meta
                     property="og:image"
-                    content="https://media.graphassets.com/PkjAnUuMQkObWM1KcKcX"
+                    content="https://media.graphassets.com/PfztPXkrRTOFiQnvJKEG"
                 />
             </Head>
             <main className="overflow-hidden">
                 <Hero
-                    backgroundUrl={"https://media.graphassets.com/PkjAnUuMQkObWM1KcKcX"}
-                    title="Kort prywatny - woj. Dolnośląskie"
-                    subtitle="Prywatny Kort Laykold Masters 5 z Inspiracją US Open"
+                    backgroundUrl={"https://media.graphassets.com/PfztPXkrRTOFiQnvJKEG"}
+                    title="Kort prywatny - Grudziądz"
+                    subtitle="Nowoczesna Nawierzchnia Fast Track 15 na Prywatnym Korcie"
                     offsetY={offsetY}
                 />
                 <section className="grid place-items-center pb-[60px]">
                     <div className="flex flex-col gap-[30px] px-[40px] max-w-[1000px]">
 
                         <h1 className="text-[26px] max-[600px]:text-[20px] font-bold">
-                            Zrealizowaliśmy prywatny kort tenisowy z nawierzchnią Laykold Masters 5, opartą na podkładzie gumowym.
+                            Zrealizowaliśmy projekt budowy prywatnego kortu tenisowego, wyposażając go w nowoczesną nawierzchnię ze sztucznej trawy Fast Track 15.
                         </h1>
                         <h2>
-                            Kort wyróżnia się kolorystyką zbliżoną do tej, którą można zobaczyć na prestiżowych kortach US Open, co nadaje mu profesjonalny i elegancki wygląd. Dzięki zastosowaniu wysokiej jakości materiałów, zapewniliśmy doskonałe właściwości gry, komfort oraz trwałość nawierzchni. Ten prywatny kort tenisowy jest idealnym miejscem do treningu i rekreacji, czerpiąc inspirację z największych turniejów na świecie.
+                            Ta <strong>wysokiej jakości powierzchnia</strong> zapewnia doskonałe warunki do gry, łącząc trwałość z komfortem użytkowania. <strong>Fast Track 15</strong> cechuje się szybkim odprowadzaniem wody oraz optymalnym poziomem amortyzacji, co czyni ją idealnym wyborem na korty tenisowe. Dzięki tej realizacji, <strong>prywatny kort</strong> stał się miejscem, które gwarantuje pełnię satysfakcji z każdej rozgrywki.
                         </h2>
                     </div>
                 </section>
