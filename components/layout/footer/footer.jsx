@@ -27,6 +27,9 @@ export default function Footer() {
             <Link href="/pickelball">
               <li>Pickelball</li>
             </Link>
+            <Link href="/rodo">
+              <li>Polityka prywatności</li>
+            </Link>
           </ul>
           <div className={styles.socials}>
             <Link href="https://www.facebook.com/mcourt.eu" target="_blank">
