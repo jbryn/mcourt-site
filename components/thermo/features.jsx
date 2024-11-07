@@ -17,13 +17,7 @@ export default function Features() {
           <div className={styles.description}>
             <h2>Ocieplenie obiektu</h2>
             <h3>
-              Dlaczego warto skorzystać z naszych usług? Odpowiedź jest prosta:
-              nasze doświadczenie i zaangażowanie w dostarczanie najwyższej
-              jakości rozwiązań termoizolacyjnych dla hal tenisowych.
-              Niezależnie od tego, czy prowadzisz profesjonalny obiekt sportowy,
-              czy też prywatną halę do tenisa, nasza firma ma odpowiednie
-              narzędzia i ekspertyzę, aby zoptymalizować termoizolację i
-              stworzyć optymalne warunki dla gry.
+              Dlaczego warto skorzystać z naszych usług? Odpowiedź jest prosta: nasze doświadczenie i zaangażowanie w dostarczaniu najwyższej jakości rozwiązań termoizolacyjnych dla hal tenisowych. Niezależnie od tego, czy prowadzisz profesjonalny obiekt sportowy, czy masz prywatną halę do tenisa, nasza firma ma odpowiednie narzędzia i doświadczenie, aby zoptymalizować warunki termiczne na Twojej hali.
             </h3>
           </div>
         </div>
@@ -36,13 +30,9 @@ export default function Features() {
             alt="antuka"
           />
           <div className={styles.description}>
-            <h2>Na czym to polega?</h2>
+            <h2>Opis procesu termoizolacji</h2>
             <h3>
-              Proces ten polega na wprowadzaniu styropianu pomiędzy dwie warstwy
-              powłok, co tworzy efektywną warstwę izolacyjną o grubości zależnej
-              od stopnia naciągnięcia powłok. W miejscach, gdzie jest to
-              konieczne, stosowane są specjalne dystansery wzmacniające, aby
-              zapewnić dodatkową trwałość i wytrzymałość konstrukcji.
+              Proces polega na wprowadzaniu styropianu pomiędzy dwie warstwy powłok, co tworzy efektywną warstwę izolacyjną o grubości, zależnej od stopnia naciągnięcia powłok. W miejscach, gdzie jest to konieczne, stosowane są specjalne dystansery wzmacniające, aby zapewnić dodatkową trwałość i wytrzymałość konstrukcji.
             </h3>
           </div>
         </div>
@@ -58,12 +48,7 @@ export default function Features() {
           <div className={styles.description}>
             <h2>Redukcja strat ciepła</h2>
             <h3>
-              Ocieplenie hali tenisowej to kluczowy element utrzymania
-              optymalnych warunków zarówno podczas zimy, jak i latem. Poprawa
-              termoizolacji przyczynia się do redukcji strat ciepła, co nie
-              tylko obniża koszty ogrzewania, ale również wpływa pozytywnie na
-              komfort korzystających z obiektu. Dla zawodników oznacza to
-              stabilne warunki gry, bez względu na panującą pogodę na zewnątrz.
+              Termoizolacja hali tenisowej to kluczowy element utrzymania optymalnych warunków o każdej porze roku. Odpowiednia termoizolacja przyczynia się do redukcji strat ciepła, co nie tylko obniża koszty ogrzewania, ale również wpływa pozytywnie na komfort osób korzystających z obiektu. Dla zawodników oznacza to stabilne warunki gry, bez względu na panującą pogodę na zewnątrz.
             </h3>
           </div>
         </div>
@@ -76,18 +61,9 @@ export default function Features() {
             alt="antuka"
           />
           <div className={styles.description}>
-            <h2>Termoizolacja = Oszczędność</h2>
+            <h2>Termoizolacja=niższe rachunki za ogrzewanie</h2>
             <h3>
-              Przede wszystkim dobrze wykonana termoizolacja hal pozwoli{" "}
-              <strong>znacząco obniżyć koszty ogrzewania</strong> a same{" "}
-              <strong>oszczędności</strong> mogą sięgać nawet do{" "}
-              <strong>80%</strong>. Po zaizolowaniu hal mamy dużo lepsze warunki do
-              treningu. Przykładowo latem temperatura jest o
-              około <strong>15°C niższa</strong> niż na zewnątrz, co sprawia, że
-              hala jest przyjemnie chłodniejsza. Zimą natomiast{" "}
-              <strong>utrzymuje się ciepło</strong>, a temperatura w hali rano
-              może być o <strong>11-18°C wyższa niż na zewnątrz</strong>,
-              zwłaszcza w przypadku niskich temperatur.
+              Dobrze wykonana termoizolacja hal pozwoli znacząco obniżyć koszty ogrzewania, a oszczędności mogą sięgać nawet do 80%. Latem temperatura w zaizolowanej hali jest niższa o około 15°C niż na zewnątrz, natomiast zimą jest wyższa o około 10 °C. Dlatego po zaizolowaniu hal, nasze rachunki za ogrzewanie hali będą dużo mniejsze.
             </h3>
           </div>
         </div>
@@ -138,30 +114,16 @@ export default function Features() {
           />
           <div className={styles.description}>
             <h2>Pozostałe korzyści</h2>
-            <h3>
-              <p>
-                Dzięki izolacji termicznej możemy dobrać optymalną jednostkę
-                grzewczą do danej hali, co przekłada się na dodatkowe
-                oszczędności eksploatacyjne. Problem skraplającej się pary
-                wodnej na ścianach i spływającej po plandekach jest
-                natychmiastowo wyeliminowany.
-              </p>
-              <p>
-                Dodatkową korzyścią jest znaczne wzmocnienie mechaniczne ścian
-                hali, co sprawia, że jest ona bardziej odporna na wiatr.
-                Izolacja akustyczna, uzyskiwana dzięki średnio 30-centymetrowej
-                warstwie styropianu w ścianach, redukuje hałas wydostający się
-                na zewnątrz o imponujące 29-32 dB.
-              </p>
-            </h3>
+            <ul className="list-disc pl-10">
+              <li>Decydując się na izolację, możemy dobrać optymalną jednostkę grzewczą do danej hali, co przekłada się na dodatkowe oszczędności eksploatacyjne.</li>
+              <li>Dzięki izolacji znika problem skraplającej się pary wodnej na ścianach i na plandekach.</li>
+              <li>Kolejną korzyścią jest znaczne wzmocnienie mechaniczne ścian hali, co sprawia, że jest ona bardziej odporna na wiatr.</li>
+              <li>Uzyskujemy izolację akustyczną dzięki średnio 30-centymetrowej warstwie styropianu w ścianach, redukuje ona hałas wydostający się na zewnątrz o imponujące 29-32 dB.</li>
+            </ul>
           </div>
         </div>
         <h2 className="text-center text-[26px] font-bold px-[60px] max-[600px]:text-[18px]">
-          Jesteśmy przekonani, że nasza oferta zapewni Państwu kompleksowe i
-          skuteczne ocieplenie hal, co przyczyni się do poprawy warunków
-          wewnątrz obiektu, obniżenia kosztów ogrzewania oraz zwiększenia
-          trwałości konstrukcji. Chętnie odpowiemy na wszelkie pytania i
-          dostosujemy naszą ofertę do Państwa indywidualnych potrzeb.
+          Jesteśmy przekonani, że nasza oferta zapewni Państwu kompleksowe i skuteczne ocieplenie hal, co przyczyni się do poprawy warunków wewnątrz obiektu, obniżenia kosztów ogrzewania oraz zwiększenia trwałości konstrukcji. Chętnie odpowiemy na wszelkie pytania i dostosujemy naszą ofertę do Państwa indywidualnych potrzeb.
         </h2>
       </div>
     </section>

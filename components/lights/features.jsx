@@ -17,13 +17,7 @@ export default function Features() {
           <div className={styles.description}>
             <h2>Jak ważne jest odpowiednie oświetlenie kortu?</h2>
             <h3>
-              <strong>Jakość oświetlenia kortów tenisowych</strong> ma kluczowe
-              znaczenie dla komfortu i{" "}
-              <strong>bezpieczeństwa podczas rozgrywek i treningów</strong>. To
-              <strong> innowacyjne oświetlenie</strong> generuje wystarczające
-              światło, aby kort był odpowiednio doświetlony, jednocześnie
-              eliminując efekt oślepiania zarówno zawodników, jak i
-              obserwatorów, w tym sędziów i kibiców.
+              Prawidłowe oświetlenie kortów tenisowych ma kluczowe znaczenie dla komfortu i bezpieczeństwa zawodników podczas meczów i treningów. Nasze systemy oświetlenia zapewniają doskonałą widoczność na korcie, bez efektu oślepiania graczy i obserwatorów.
             </h3>
           </div>
         </div>
@@ -38,12 +32,7 @@ export default function Features() {
           <div className={styles.description}>
             <h2>Proponowane oprawy</h2>
             <h3>
-              Nasze lampy{" "}<strong>Ledcourt</strong> są dziełem niemieckiego
-              producenta o wieloletnim doświadczeniu w branży oświetleniowej.
-              Projektowane z myślą o kortach tenisowych, te{" "}
-              <strong>profesjonalne lampy LED</strong> są znane ze swojej
-              bezkonkurencyjnej jakości świetlnej, łącząc w sobie nie tylko
-              funkcjonalność, ale także trwałość.
+              Lampy Ledcourt są dziełem niemieckiego producenta o wieloletnim doświadczeniu w branży oświetleniowej. Zaprojektowane z myślą o kortach tenisowych, te profesjonalne lampy są znane ze swojej bezkonkurencyjnej jakości, łącząc w sobie funkcjonalność i trwałość.
             </h3>
           </div>
         </div>
@@ -106,13 +95,7 @@ export default function Features() {
           <div className={styles.description}>
             <h2>Zgłoś się do nas!</h2>
             <h3>
-              Nasi doświadczeni technicy są gotowi dostosować projekt
-              oświetlenia do Twoich indywidualnych potrzeb. Zapraszamy do
-              kontaktu, abyśmy mogli przygotować dla Ciebie indywidualną
-              propozycję, dostosowaną do specyfiki{" "}
-              <strong>Twojego kortu tenisowego</strong>. Wierzymy, że nasza
-              ekspertyza pomoże stworzyć optymalne warunki dla Twojej{" "}
-              <strong>pasji tenisowej</strong>.
+              Nasi doświadczeni technicy przygotują projekt oświetlenia dopasowany do Twoich indywidualnych potrzeb. Zapraszamy do kontaktu, abyśmy mogli przygotować dla Ciebie propozycję, dostosowaną do specyfiki Twojego obiektu. Z naszym oświetleniem, Twój kort będzie gotowy do grania o każdej porze dnia i nocy.
             </h3>
           </div>
         </div>

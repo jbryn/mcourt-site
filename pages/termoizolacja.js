@@ -45,7 +45,7 @@ export default function ThermoPage() {
           backgroundUrl={"https://media.graphassets.com/ZOaQEAONR563pZsgV6dx"}
           title="Termoizolacja hal tenisowych"
           offsetY={offsetY}
-          subtitle="Jesteśmy firmą, która specjalizuje się w profesjonalnym ocieplaniu hal tenisowych, zapewniając efektywne rozwiązania termiczne, które przyczyniają się do lepszej jakości gry oraz komfortu zarówno dla graczy, jak i widzów."
+          subtitle="Jesteśmy firmą, która specjalizuje się w profesjonalnym ocieplaniu hal tenisowych, zapewniając efektywne rozwiązania termiczne, które w realny sposób poprawiają komfort użytkowania hali tenisowej."
         />
         <Features />
         <Contact

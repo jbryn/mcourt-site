@@ -29,7 +29,7 @@ export default function Home() {
         <Hero
           backgroundUrl={"https://media.graphassets.com/jujSnbwbTayd5QhAATWd"}
           title="Jakość, doświadczenie i precyzja"
-          subtitle={`Budujemy korty tenisowe od 2008 roku, naszym klientom proponujemy rozwiązania najlepszych światowych producentów`}
+          subtitle={`Tenis jest naszą pasją,  dlatego od 2008 roku budujemy dla Was najlepsze korty tenisowe i oferujemy najlepsze rozwiązania światowych producentów w tej dziedzinie.`}
         />
         <Surfaces />
         <About />

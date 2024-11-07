@@ -18,17 +18,14 @@ export default function Grass() {
             <h2>Uniwersalna nawierzchnia</h2>
             <h3>
               <p>
-                <strong>Sztuczna trawa</strong> bardzo często jest postrzegana
-                jako uniwersalna i wielofunkcyjna <strong>nawierzchnia</strong>.
-                Nic nie stoi na przeszkodzie, aby użyć jej do budowy
-                przydomowego <strong>kortu tenisowego</strong>.
+                Sztuczna trawa to idealna nawierzchnia dla prywatnego kortu tenisowego. Doskonale sprawdza się
+                jako kort przydomowy, bo wymaga bardzo mało czasu na bieżącą konserwację.
               </p>
               <p>
                 {" "}
-                <strong>Nawierzchnie ze sztucznej trawy</strong> z naszej
-                oferty są trwałe i odporne na ścieranie. Doskonale sprawdzą się
-                jako korty przydomowe, bo wymagają bardzo mało czasu na
-                bieżącą konserwację.
+                Nawierzchnie ze sztucznej trawy, z naszej oferty, są trwałe i odporne na ścieranie. Równomierna
+                struktura zapewnia solidne, stabilne odbicie piłki tenisowej, a jakość użytych materiałów do budowy
+                kortu gwarantuje wiele lat korzystania z tego obiektu.
               </p>{" "}
             </h3>
           </div>
@@ -45,13 +42,7 @@ export default function Grass() {
             <h2>Charakterystyka kortów sztucznych</h2>
             <h3>
               <p>
-                Gra na <strong>sztucznej trawie</strong> charakteryzuje się
-                szybką grą oraz niskim odbiciem piłki. Efektem tego są krótsze
-                wymiany niż na innych typach{" "}
-                <strong>nawierzchni tenisowych</strong>. Dużą zaletą{" "}
-                <strong>kortów tenisowych ze sztucznej trawy</strong> jest
-                możliwość regulowania poślizgu poprzez ilość piasku wczesanego w
-                kort. Co ważne, pielęgnacja sztucznej trawy jest łatwa i szybka.
+                Gra na sztucznej trawie to szybka gra, wynikająca z niskiego odbicia piłki. Efektem są krótsze wymiany, niż na innych rodzajach nawierzchni tenisowych. Dużą zaletą kortów tenisowych ze sztucznej trawy jest możliwość regulowania poślizgu poprzez ilość piasku wczesanego w kort.
               </p>
             </h3>
           </div>
@@ -69,12 +60,7 @@ export default function Grass() {
             <h2>Wypełnienie kortów</h2>
             <h3>
               <p>
-                <strong>Piasek na nawierzchni kortu</strong> pomaga w utrzymaniu
-                równomiernej wysokości trawy, co zapewnia idealne warunki gry.
-                Dodatkowo, <strong>kort zasypany piaskiem</strong> powoduje, że{" "}
-                <strong>nawierzchnia tenisowa</strong> jest bardziej stabilna,
-                co minimalizuje ryzyko poślizgnięcia się i zapewnia większe
-                bezpieczeństwo dla graczy.
+                Piasek na nawierzchni kortu pomaga w utrzymaniu równomiernej wysokości trawy, co oferuje idealne warunki gry. Kort z sztucznej trawy, zasypany prawidłowo piaskiem jest stabilny, co minimalizuje ryzyko poślizgnięcia się i doznania kontuzji.
               </p>
             </h3>
           </div>
@@ -91,16 +77,7 @@ export default function Grass() {
             <h2>Kort dla każdego</h2>
             <h3>
               <p>
-                <strong>Korty ze sztucznej trawy z piaskiem</strong> są idealne
-                zarówno dla zawodowców, jak i amatorów, którzy szukają
-                doskonałego miejsca do gry. Nasze{" "}
-                <strong>korty tenisowe</strong> zapewniają doskonałe warunki dla
-                Twojej gry, niezależnie od poziomu umiejętności. W swojej
-                ofercie posiadamy <strong>nawierzchnie</strong> od{" "}
-                <strong>
-                  czeskich, włoskich oraz polskich producentów sztucznej trawy
-                </strong>
-                .
+                Nasze korty tenisowe zapewniają doskonałe warunki gry w tenisa, niezależnie od poziomu umiejętności. W swojej ofercie posiadamy nawierzchnie od najlepszych czeskich, włoskich oraz polskich producentów sztucznej trawy.
               </p>
             </h3>
           </div>

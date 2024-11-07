@@ -17,12 +17,7 @@ export default function Features() {
           <div className={styles.description}>
             <h2>Czym jest pickleball?</h2>
             <h3>
-              Pickleball to dynamiczna gra ruchowa, będąca połączeniem tenisa,
-              tenisa stołowego i badmintona. Została stworzona w 1965 roku w
-              Stanach Zjednoczonych i szybko zyskała popularność, zarówno wśród
-              młodszych, jak i starszych graczy. Gra jest zazwyczaj rozgrywana
-              na specjalnych kortach o wymiarach zbliżonych do tych używanych do
-              badmintona.
+              Pickleball to sport rakietowy, będąca połączeniem tenisa, tenisa stołowego i badmintona. Został stworzony w 1965 roku w Stanach Zjednoczonych i szybko zyskał popularność, zarówno wśród młodszych, jak i starszych graczy.
             </h3>
           </div>
         </div>
@@ -40,15 +35,10 @@ export default function Features() {
             <h3>
               <ul className="pl-[20px]">
                 <li>
-                  Rakiety: Podobnie jak w tenisie, używa się specjalnych rakiet,
-                  jednak kształt i waga mogą się różnić. Rakiety do pickleballa
-                  są lżejsze i mają krótsze rączki niż te do tenisa.
+                  Rakiety: Do gry używa się specjalnych rakiet. Rakiety do pickleballa są lżejsze i mają krótsze rączki niż przeznaczone do tenisa.
                 </li>
                 <li>
-                  Piłeczka: Pickleball jest rozgrywany piłeczką z dziurkami,
-                  podobną do tej używanej w tenisie stołowym. Piłeczki
-                  pickleballa są lekkie, co sprawia, że gra jest bardziej
-                  dostępna dla różnych grup wiekowych.
+                  Piłeczki: Pickleball jest rozgrywany piłeczkami z dziurkami, podobnymi do używanych w tenisie stołowym. Piłeczki do pickleballa są lekkie, co sprawia, że gra jest łatwa i dostępna dla każdego.
                 </li>
               </ul>
             </h3>
@@ -67,17 +57,10 @@ export default function Features() {
             <h3>
               <ul className="flex flex-col gap-[40px] pl-[20px] ">
                 <li>
-                  Kort: Kort do pickleballa ma wymiary 13,41 na 6,09 m, co
-                  sprawia, że jest mniejszy niż kort tenisowy. Linie na korcie
-                  obejmują obszar gry dla singla i podwójnego.
+                  Kort: Kort do pickleballa ma wymiary 13,41 na 6,09 m. Linie na korcie wyznaczają obszary gry singlowej i deblowej.
                 </li>
                 <li>
-                  Zasady Gry: Pickleball jest zazwyczaj rozgrywany jako gra
-                  podwójna, ale można też grać w singla. Podstawowym celem gry
-                  jest zdobycie punktu poprzez umiejętne odbijanie piłeczki
-                  między drużynami, a punkt zdobywany jest, gdy przeciwnicy
-                  popełniają błąd lub nie są w stanie skutecznie odpowiedzieć na
-                  zagranie.
+                  Pickleball jest zazwyczaj rozgrywany jako gra podwójna, ale można też grać w singla.
                 </li>
               </ul>
             </h3>

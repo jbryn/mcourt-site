@@ -8,17 +8,8 @@ export default function About() {
         <div className={styles.card}>
           <h2>O nas</h2>
           <p>
-            Od 2008 roku z dumą dostarczamy najwyższej jakości{" "}
-            <strong>
-              korty tenisowe, korty do padla i korty do pickleballa
-            </strong>
-            . Nasi wysoko wykwalifikowani specjaliści zawsze służą fachowym
-            doradztwem i wsparciem technicznym, aby dostosować rozwiązania do
-            indywidualnych potrzeb i wymagań klienta. Niezależnie od tego, czy
-            planujesz budowę nowego <strong>kortu tenisowego</strong>,{" "}
-            <strong>modernizację istniejącego obiektu</strong> czy{" "}
-            <strong>konserwację nawierzchni tenisowej</strong>, jesteśmy gotowi
-            zapewnić Ci kompleksową obsługę na najwyższym poziomie.
+            Od 2008 roku specjalizujemy się w najwyższej jakości kortach i halach tenisowych, a w ostatnich latach dodaliśmy do naszej oferty korty do padla i pickeleballa. Wszyscy klienci mogą liczyć w naszej firmie na fachowe doradztwo oraz wsparcie techniczne.  Dlatego niezależnie od tego, czy planujesz budowę nowego kortu czy modernizację istniejącego obiektu, zapewnimy Ci kompleksową obsługę na najwyższym poziomie.
+
           </p>
           <div className={styles.bottom}>
             <button

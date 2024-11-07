@@ -16,7 +16,7 @@ export default function AcrylPage() {
         </title>
         <meta
           name="description"
-          content="Zaawansowane nawierzchnie tenisowe akrylowe to doskonały wybór zarówno dla graczy, jak i klubów tenisowych. Oferujemy trwałe i wydajne rozwiązania, które spełnią Twoje oczekiwania."
+          content="Profesjonalna, akrylowa nawierzchnia tenisowa to najlepsze rozwiązanie dla tych, którzy szukają trwałego i wymagającego minimalnej konserwacji kortu na wiele lat."
           key="desc"
         />
         <meta
@@ -25,7 +25,7 @@ export default function AcrylPage() {
         />
         <meta
           property="og:description"
-          content="Zaawansowane nawierzchnie tenisowe akrylowe to doskonały wybór zarówno dla graczy, jak i klubów tenisowych. Oferujemy trwałe i wydajne rozwiązania, które spełnią Twoje oczekiwania."
+          content="Profesjonalna, akrylowa nawierzchnia tenisowa to najlepsze rozwiązanie dla tych, którzy szukają trwałego i wymagającego minimalnej konserwacji kortu na wiele lat."
         />
         <meta
           property="og:image"
@@ -36,7 +36,7 @@ export default function AcrylPage() {
         <Hero
           backgroundUrl={"https://media.graphassets.com/TWccffsSSnqbssKirR3g"}
           title="Nawierzchnie akrylowe"
-          subtitle={`Zaawansowane nawierzchnie tenisowe akrylowe to doskonały wybór zarówno dla graczy, jak i klubów tenisowych. Oferujemy trwałe i wydajne rozwiązania, które spełnią Twoje oczekiwania.`}
+          subtitle={`Profesjonalna, akrylowa nawierzchnia tenisowa to najlepsze rozwiązanie dla tych, którzy szukają trwałego i wymagającego minimalnej konserwacji kortu na wiele lat.`}
         />
         <Acryl />
         <Colors />

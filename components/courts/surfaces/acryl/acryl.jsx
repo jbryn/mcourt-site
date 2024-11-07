@@ -18,22 +18,16 @@ export default function Acryl() {
             <h2>Czym są akryle?</h2>
             <h3>
               <p>
-                <strong>Nawierzchnia akrylowa</strong> jest jednym z
-                najpopularniejszych rodzajów{" "}
-                <strong>nawierzchni kortów tenisowych</strong>.{" "}
-                <strong>Akrylowe korty tenisowe</strong> są wykorzystywane na
-                największych i najbardziej prestiżowych turniejach, takich jak{" "}
-                <strong>Australian Open, US Open, Miami Open</strong> czy{" "}
-                <strong>turnieje tenisowe serii Masters</strong> oraz wiele
-                innych. <strong>Nawierzchnia akrylowa</strong> zapewnia
-                niezrównaną jakość gry i dynamiczne doświadczenie tenisowe,
-                zarówno dla profesjonalistów, jak i amatorów.
+                Nawierzchnia akrylowa jest jedną z najpopularniejszych nawierzchni kortów tenisowych na całym
+                świecie. Akrylowe korty tenisowe są wykorzystywane na największych i najbardziej prestiżowych
+                turniejach, takich jak Australian Open, US Open, Miami Open czy turnieje tenisowe serii Masters oraz
+                wielu innych. Nawierzchnia akrylowa zapewnia zarówno profesjonalistom, jak i amatorom,
+                dynamiczną grę, ponieważ gwarantuje szybkie i równe odbicie piłki.
               </p>
-              <p>
+              <p className="pt-[10px]">
                 {" "}
-                Dołącz do grona tych, którzy wybierają jakość i doświadczenie{" "}
-                <strong>Laykold</strong> i przekształć swój kort tenisowy w
-                arenę mistrzów.
+                Dołącz do grona tych, którzy wybierają jakość i doświadczenie Laykold i przekształć swój kort
+                tenisowy w arenę mistrzów.
               </p>{" "}
             </h3>
           </div>
@@ -50,23 +44,18 @@ export default function Acryl() {
           <div className={styles.description}>
             <h2>Zalety nawierzchni tenisowych Laykold:</h2>
             <h3>
-              <ul className="px-[10px]">
+              <ul className="px-[10px] flex flex-col gap-[10px]">
                 <li>
-                  większa ochrona stawów - kort pokryty wysokiej jakości akrylem{" "}
-                  <strong>Laykold®</strong> zapewnia równomierne odbicie, tempo
-                  i niezawodne trzymanie stopy,
+                  Większa ochrona stawów - kort pokryty wysokiej jakości akrylem <strong>Laykold®</strong> zapewnia równomierne
+                  odbicie, tempo i trzymanie stopy,
                 </li>
                 <li>
-                  nawierzchnia <strong>Laykold®</strong> jest oficjalną
-                  nawierzchnią turniejową – trenując na tej nawierzchni zawodnik
-                  znacznie lepiej przygotowuje się do gry na turniejach na
-                  najwyższym poziomie,
+                  Nawierzchnia <strong>Laykold®</strong> jest oficjalną nawierzchnią turniejową – trenując na tej nawierzchni, zawodnik
+                  przygotowuje się do gry na turniejach na najwyższym poziomie,
                 </li>
                 <li>
-                  system <strong>Laykold®</strong> w porównaniu do
-                  konkurencyjnych nawierzchni o podobnych parametrach, wyróżniają
-                  się 14% lepszym efektem amortyzacji, zmniejszając ryzyko
-                  powstawania kontuzji.
+                  System <strong>Laykold®</strong> w porównaniu do konkurencyjnych nawierzchni o podobnych parametrach,
+                  wyróżnia się znacznie lepszym efektem amortyzacji,
                 </li>
               </ul>
             </h3>
@@ -87,13 +76,10 @@ export default function Acryl() {
             <h2>Zaufanie US Open</h2>
             <h3>
               <p>
-                Nawierzchnia <strong>Laykold</strong> to innowacyjne
-                rozwiązanie, które zdobyło uznanie w świecie tenisa. Jest to
-                syntetyczna nawierzchnia tenisowa, która oferuje wiele korzyści,
-                takie jak trwałość, odporność na warunki atmosferyczne oraz
-                doskonałe właściwości gry. Nawierzchnia Laykold stała się
-                oficjalną nawierzchnią turnieju US Open od 2020 roku, co
-                świadczy o wysokim standardzie tej nawierzchni.
+                Nawierzchnia Laykold to rozwiązanie, które zdobyło uznanie w świecie tenisa. Jest to syntetyczna
+                nawierzchnia tenisowa, która oferuje wiele korzyści, takich jak trwałość, odporność na warunki
+                atmosferyczne oraz doskonałe właściwości gry. Od 2020 roku nawierzchnia Laykold jest oficjalną
+                nawierzchnią turnieju US Open, co świadczy o najwyższej jakości tego produktu.
               </p>
             </h3>
           </div>
@@ -111,15 +97,10 @@ export default function Acryl() {
             <h2>Nawierzchnia turniejowa</h2>
             <h3>
               <p>
-                Ponadto, nawierzchnia <strong>Laykold</strong> używana jest
-                także na innych znaczących turniejach, takich jak{" "}
-                <strong>
-                  Miami Open, New York Open, Winston Salem Open, San Diego Open
-                </strong>
-                , itp. co potwierdza jej popularność i zaufanie wśród
-                organizatorów ogromnych imprez tenisowych. Gracze często chwalą
-                tę nawierzchnię za jej równomierne odbicie piłki, elastyczność
-                oraz przyjemność z gry.
+                Nawierzchnia Laykold jest używana także na innych prestiżowych turniejach, takich jak Miami Open,
+                New York Open, Winston Salem Open, San Diego Open, itp., co potwierdza jej popularność i zaufanie
+                do niej organizatorów ogromnych imprez tenisowych. Zawodnicy chwalą tę nawierzchnię za
+                równomierne odbicie piłki, elastyczność oraz przyjemność z gry.
               </p>
             </h3>
           </div>
@@ -138,14 +119,11 @@ export default function Acryl() {
             <h2>Żywotność</h2>
             <h3>
               <p>
-                Czy ma sens coroczne zmienianie nawierzchni kortów tenisowych?
-                Tradycyjne rozwiązania sprawiają, że korty tracą swoją
-                amortyzację wraz z upływem lat, a ich właściwości stopniowo
-                spadają do zera w ciągu 3 lat od zainstalowania. Jednak dzięki
-                rewolucyjnej technologii Laykold Masters®, ta sytuacja ulega
-                zmianie! Nasze korty amortyzujące Laykold Masters® utrzymują
-                imponujące 95%-98% elastyczności nawet po 10 latach od
-                instalacji, co oznacza przełom w trwałości i wydajności kortów
+                Czy ma sens coroczne zmienianie nawierzchni kortów tenisowych? Tradycyjne rozwiązania sprawiają,
+                że korty tracą swoją amortyzację wraz z upływem lat, a ich właściwości stopniowo spadają do zera w
+                ciągu 3 lat od zainstalowania. Jednak dzięki rewolucyjnej technologii Laykold Masters®, ta sytuacja
+                ulega zmianie! Nasze korty amortyzujące Laykold Masters® utrzymują imponujące 95%-98%
+                elastyczności nawet po 10 latach od instalacji, co oznacza przełom w trwałości i wydajności kortów
                 tenisowych.
               </p>
             </h3>

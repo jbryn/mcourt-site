@@ -45,7 +45,7 @@ export default function AntukaPage() {
           backgroundUrl={"/img/courts/image5.jpg"}
           title="Nawierzchnie ceglane"
           offsetY={offsetY}
-          subtitle={`Jeśli marzysz o unikalnym doświadczeniu podczas gry w tenisa, nawierzchnia ceglana z pewnością spełni Twoje oczekiwania i zapewni niezapomniane chwile na korcie tenisowym.`}
+          subtitle={`Korty ceglane to najbardziej popularne nawierzchnie tenisowe w Europie i jednocześnie uważane przez wielu za stworzone do gry w tenisa.`}
         />
         <Antuka />
         <Projects />

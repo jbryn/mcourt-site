@@ -31,7 +31,9 @@ export default function GrassPage() {
         </title>
         <meta
           name="description"
-          content="Nawierzchnie z sztucznej trawy do kortów tenisowych to rozwiązania przyjazne środowisku i wydajne. Dzięki nam możesz cieszyć się nowoczesnością i minimalną konserwacją na swoim korcie. Dowiedz się więcej!"
+          content="Korty tenisowe ze sztucznej trawy to praktyczne rozwiązania, jednocześnie przyjazne środowisku.
+Dzięki nam możesz cieszyć się komfortową grą w tenisa, przy minimalnej pracy wkładanej w
+pielęgnację kortu. Dowiedz się więcej!"
           key="desc"
         />
         <meta
@@ -41,7 +43,9 @@ export default function GrassPage() {
         />
         <meta
           property="og:description"
-          content="Nawierzchnie z sztucznej trawy do kortów tenisowych to rozwiązania przyjazne środowisku i wydajne. Dzięki nam możesz cieszyć się nowoczesnością i minimalną konserwacją na swoim korcie. Dowiedz się więcej!"
+          content="Korty tenisowe ze sztucznej trawy to praktyczne rozwiązania, jednocześnie przyjazne środowisku.
+Dzięki nam możesz cieszyć się komfortową grą w tenisa, przy minimalnej pracy wkładanej w
+pielęgnację kortu. Dowiedz się więcej!"
         />
         <meta
           property="og:image"
@@ -53,7 +57,9 @@ export default function GrassPage() {
           backgroundUrl={"https://media.graphassets.com/lzIgAVGTdq9GhkwCY46e"}
           title="Sztuczna trawa"
           offsetY={offsetY}
-          subtitle={`Nawierzchnie z sztucznej trawy do kortów tenisowych to rozwiązania przyjazne środowisku i wydajne. Dzięki nam możesz cieszyć się nowoczesnością i minimalną konserwacją na swoim korcie. Dowiedz się więcej!`}
+          subtitle={`Korty tenisowe ze sztucznej trawy to praktyczne rozwiązania, jednocześnie przyjazne środowisku.
+Dzięki nam możesz cieszyć się komfortową grą w tenisa, przy minimalnej pracy wkładanej w
+pielęgnację kortu. Dowiedz się więcej!`}
         />
         <Grass />
         <Projects />

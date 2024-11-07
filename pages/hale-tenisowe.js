@@ -43,9 +43,7 @@ estetyką. Zaufaj ekspertom w projektowaniu i budowie hal tenisowych"
           backgroundUrl={"https://media.graphassets.com/KqOodpITDqmSp6Dy1EdC"}
           title="Hale tenisowe"
           offsetY={offsetY}
-          subtitle={`Nasze hale tenisowe to połączenie tradycji drewna z nowoczesnymi osiągnięciami
-        technologicznymi. Dzięki naszemu doświadczeniu zapewnimy Ci doskonałe warunki do gry przez cały
-        rok.`}
+          subtitle={`Nasze hale tenisowe to połączenie tradycji z nowoczesnymi osiągnięciami technologicznymi. Dzięki wieloletniemu doświadczeniu zapewnimy Ci doskonałe warunki do gry przez cały rok.`}
         />
 
         <Features />
